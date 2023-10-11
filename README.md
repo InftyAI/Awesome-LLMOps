@@ -20,6 +20,7 @@
 | **[LangChain](https://github.com/langchain-ai/langchain)** | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain.svg) | ![Release](https://img.shields.io/github/release/langchain-ai/langchain) | ![Contributors](https://img.shields.io/github/contributors/langchain-ai/langchain) | ⚡ Building applications with LLMs through composability ⚡ |
 | **[LiteLLM](https://github.com/BerriAI/litellm)** | ![Stars](https://img.shields.io/github/stars/berriai/litellm.svg) | ![Release](https://img.shields.io/github/release/berriai/litellm) | ![Contributors](https://img.shields.io/github/contributors/berriai/litellm) | lightweight package to simplify LLM API calls - Azure, OpenAI, Cohere, Anthropic, Replicate. Manages input/output translation |
 | **[LlamaIndex](https://github.com/jerryjliu/llama_index)** | ![Stars](https://img.shields.io/github/stars/jerryjliu/llama_index.svg) | ![Release](https://img.shields.io/github/release/jerryjliu/llama_index) | ![Contributors](https://img.shields.io/github/contributors/jerryjliu/llama_index) | LlamaIndex (GPT Index) is a data framework for your LLM applications |
+| **[SkyPilot](https://github.com/skypilot-org/skypilot)** | ![Stars](https://img.shields.io/github/stars/skypilot-org/skypilot.svg) | ![Release](https://img.shields.io/github/release/skypilot-org/skypilot) | ![Contributors](https://img.shields.io/github/contributors/skypilot-org/skypilot) | SkyPilot: Run LLMs, AI, and Batch jobs on any cloud. Get maximum savings, highest GPU availability, and managed execution—all with a simple interface. |
 
 ## MLOps
 
@@ -30,6 +31,13 @@
 | **[Metaflow](https://github.com/Netflix/metaflow)** | ![Stars](https://img.shields.io/github/stars/netflix/metaflow.svg) | ![Release](https://img.shields.io/github/release/netflix/metaflow) | ![Contributors](https://img.shields.io/github/contributors/netflix/metaflow) | 🚀 Build and manage real-life data science projects with ease! |
 | **[MLflow](https://github.com/mlflow/mlflow)** | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow.svg) | ![Release](https://img.shields.io/github/release/mlflow/mlflow) | ![Contributors](https://img.shields.io/github/contributors/mlflow/mlflow) | Open source platform for the machine learning lifecycle |
 | **[ZenML](https://github.com/zenml-io/zenml)** | ![Stars](https://img.shields.io/github/stars/zenml-io/zenml.svg) | ![Release](https://img.shields.io/github/release/zenml-io/zenml) | ![Contributors](https://img.shields.io/github/contributors/zenml-io/zenml) | ZenML 🙏: Build portable, production-ready MLOps pipelines. <https://zenml.io>. |
+
+## Agent
+
+| Name | Stars | Release | Contributors | About |
+| ---- | ----- | ------- | ------------ | -------- |
+| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | ![Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT.svg) | ![Release](https://img.shields.io/github/release/Significant-Gravitas/AutoGPT) | ![Contributors](https://img.shields.io/github/contributors/Significant-Gravitas/AutoGPT) | An experimental open-source attempt to make GPT-4 fully autonomous. |
+| **[MetaGPT](https://github.com/geekan/MetaGPT)** | ![Stars](https://img.shields.io/github/stars/geekan/metagpt.svg) | ![Release](https://img.shields.io/github/release/geekan/MetaGPT) | ![Contributors](https://img.shields.io/github/contributors/geekan/MetaGPT) | 🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo |
 
 ## Inference
 
