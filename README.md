@@ -7,6 +7,7 @@
 - [LLMOps](#llmops)
 - [MLOps](#mlops)
 - [Inference](#inference)
+- [Evaluation](#evaluation)
 - [Database](#database)
 - [Observation](#observation)
 
@@ -73,6 +74,5 @@
 
 | Name | Stars | Release | Contributors | About |
 | ---- | ----- | ------- | ------------ | -------- |
+| **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg) | ![Release](https://img.shields.io/github/release/traceloop/openllmetry) | ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry) | Open-source observability for your LLM application, based on OpenTelemetry |
 | **[phoenix](https://github.com/arize-ai/phoenix)** | ![Stars](https://img.shields.io/github/stars/arize-ai/phoenix.svg) | ![Release](https://img.shields.io/github/release/arize-ai/phoenix) | ![Contributors](https://img.shields.io/github/contributors/arize-ai/phoenix) | ML Observability in a Notebook - Uncover Insights, Surface Problems, Monitor, and Fine Tune your Generative LLM, CV and Tabular Models |
-
-<!-- | **[langchain](https://github.com/<org>/<proj>)** | ![Stars](https://img.shields.io/github/stars/<org>/<proj>.svg) | ![Release](https://img.shields.io/github/release/<org>/<proj>) | ![Contributors](https://img.shields.io/github/contributors/<org>/<proj>) | <about> | -->
