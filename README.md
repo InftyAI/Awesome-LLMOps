@@ -10,6 +10,7 @@
 - [Evaluation](#evaluation)
 - [Database](#database)
 - [Observation](#observation)
+- [Outputs](#outputs)
 
 ## LLMOps
 
@@ -57,6 +58,7 @@
 | **[DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)** | ![Stars](https://img.shields.io/github/stars/microsoft/deepspeed-mii.svg) | ![Release](https://img.shields.io/github/release/microsoft/deepspeed-mii) | ![Contributors](https://img.shields.io/github/contributors/microsoft/deepspeed-mii) | MII makes low-latency and high-throughput inference possible, powered by DeepSpeed. |
 | **[OpenLLM](https://github.com/bentoml/OpenLLM)** | ![Stars](https://img.shields.io/github/stars/bentoml/openllm.svg) | ![Release](https://img.shields.io/github/release/bentoml/openllm) | ![Contributors](https://img.shields.io/github/contributors/bentoml/openllm) | Operating LLMs in production |
 | **[RayServe](https://github.com/ray-project/ray)** | ![Stars](https://img.shields.io/github/stars/ray-project/ray.svg) | ![Release](https://img.shields.io/github/release/ray-project/ray) | ![Contributors](https://img.shields.io/github/contributors/ray-project/ray) | Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
+| **[SGLang](https://github.com/sgl-project/sglang)** | ![Stars](https://img.shields.io/github/stars/sgl-project/sglang.svg) | ![Release](https://img.shields.io/github/release/sgl-project/sglang) | ![Contributors](https://img.shields.io/github/contributors/sgl-project/sglang) | SGLang is a structured generation language designed for large language models (LLMs). It makes your interaction with models faster and more controllable. |
 | **[Triton Inference Server](https://github.com/triton-inference-server/server)** | ![Stars](https://img.shields.io/github/stars/triton-interface-server/server.svg) | ![Release](https://img.shields.io/github/release/triton-inference-server/server) | ![Contributors](https://img.shields.io/github/contributors/triton-inference-server/server) | The Triton Inference Server provides an optimized cloud and edge inferencing solution. |
 | **[Text Generation Inference](https://github.com/huggingface/text-generation-inference)** | ![Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) | ![Release](https://img.shields.io/github/release/huggingface/text-generation-inference) | ![Contributors](https://img.shields.io/github/contributors/huggingface/text-generation-inference) | Large Language Model Text Generation Inference |
 | **[vLLM](https://github.com/vllm-project/vllm)** | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) | ![Release](https://img.shields.io/github/release/vllm-project/vllm) | ![Contributors](https://img.shields.io/github/contributors/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs |
@@ -79,3 +81,10 @@
 | ---- | ----- | ------- | ------------ | -------- |
 | **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg) | ![Release](https://img.shields.io/github/release/traceloop/openllmetry) | ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry) | Open-source observability for your LLM application, based on OpenTelemetry |
 | **[phoenix](https://github.com/arize-ai/phoenix)** | ![Stars](https://img.shields.io/github/stars/arize-ai/phoenix.svg) | ![Release](https://img.shields.io/github/release/arize-ai/phoenix) | ![Contributors](https://img.shields.io/github/contributors/arize-ai/phoenix) | ML Observability in a Notebook - Uncover Insights, Surface Problems, Monitor, and Fine Tune your Generative LLM, CV and Tabular Models |
+
+## Outputs
+
+| Name | Stars | Release | Contributors | About |
+| ---- | ----- | ------- | ------------ | -------- |
+| **[Instructor](https://github.com/jxnl/instructor)** | ![Stars](https://img.shields.io/github/stars/jxnl/instructor.svg) | ![Release](https://img.shields.io/github/release/jxnl/instructor) | ![Contributors](https://img.shields.io/github/contributors/jxnl/instructor) | structured outputs for llms |
+| **[Outlines](https://github.com/outlines-dev/outlines)** | ![Stars](https://img.shields.io/github/stars/outlines-dev/outlines.svg) | ![Release](https://img.shields.io/github/release/outlines-dev/outlines) | ![Contributors](https://img.shields.io/github/contributors/outlines-dev/outlines) | Structured Text Generation |
