@@ -23,6 +23,8 @@ jobs:
       run: pip install yq
 
     - name: Handle PR Comments
+      env:
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       id: handle_comments
       run: |
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
@@ -54,7 +56,7 @@ jobs:
 
     - name: Merge PR if lgtmed and approved
       env:
-        GITHUB_TOKEN: ${{ secrets.AGENT_TOKEN }}
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
         PR_NUMBER=$(jq -r '.pull_request.number' $GITHUB_EVENT_PATH)
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
