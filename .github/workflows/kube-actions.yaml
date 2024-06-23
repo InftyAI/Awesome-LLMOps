@@ -31,9 +31,13 @@ jobs:
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
 
+        echo $COMMENT_BODY
+
         while IFS= read -r COMMENT_LINE; do
           COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
           COMMENT_LINE=$(echo "$COMMENT_LINE" | tr -d '\n')
+
+          echo $COMMENT_LINE
 
           if [[ "$COMMENT_LINE" == "/lgtm" ]]; then
             gh pr edit $PR_NUMBER --add-label lgtm
