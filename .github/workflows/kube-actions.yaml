@@ -5,6 +5,9 @@ on:
     types: [created]
   pull_request:
     types: [labeled]
+  push:
+    branches:
+      - '**'
 
 env:
   GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
@@ -16,6 +19,22 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
+    - name: Remove lgtm label on new push
+      if: github.event_name == 'push'
+      run: |
+        PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
+
+        if [ -z "$PR_NUMBER" ]; then
+          echo "No PR number found in push event context."
+          exit 0
+        fi
+
+        if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
+          gh pr edit $pr --remove-label lgtm
+          echo "Removed 'lgtm' label due to new push."
+        fi
+        exit 0
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -116,6 +135,7 @@ jobs:
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
+          echo "Merge!"
         else
           echo "Not ready to merge"
         fi
