@@ -41,28 +41,24 @@ jobs:
               gh pr edit $PR_NUMBER --add-label approved
             else
               echo "User $COMMENT_USER is not authorized to approve"
-              exit 0
             fi
           elif [[ "$COMMENT_LINE" == "/lgtm cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
               gh pr edit $PR_NUMBER --remove-label lgtm
             else
               echo "Label 'lgtm' does not exist"
-              exit 0
             fi
           elif [[ "$COMMENT_LINE" == "/approve cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
               gh pr edit $PR_NUMBER --remove-label approved
             else
               echo "Label 'approved' does not exist"
-              exit 0
             fi
           elif [[ "$COMMENT_LINE" =~ ^/kind ]]; then
             LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be added using /kind."
-              exit 0
             else
               gh pr edit $PR_NUMBER --add-label $LABEL
             fi
@@ -71,7 +67,6 @@ jobs:
 
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be removed using /remove-kind."
-              exit 0
             else
               if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q $LABEL; then
                 gh pr edit $PR_NUMBER --remove-label $LABEL
@@ -79,7 +74,6 @@ jobs:
             fi
           else
               echo "$COMMENT_LINE is not supported"
-              exit 0
           fi
         done <<< "$COMMENT_BODY"
 
@@ -90,4 +84,6 @@ jobs:
 
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* ]]; then
           gh pr merge $PR_NUMBER --merge
+        else
+          echo "Not ready to merge"
         fi
