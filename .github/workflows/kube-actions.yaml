@@ -6,6 +6,9 @@ on:
   pull_request:
     types: [labeled]
 
+env:
+  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
+
 jobs:
   handle-comments:
     runs-on: ubuntu-latest
@@ -23,13 +26,18 @@ jobs:
       run: pip install yq
 
     - name: Handle PR Comments
-      env:
-        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       id: handle_comments
       run: |
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
         PR_NUMBER=$(jq -r '.pull_request.number' $GITHUB_EVENT_PATH)
+        ISSUE_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
+
+        echo $GITHUB_EVENT_PATH
+        echo $COMMENT_BODY
+        echo $PR_NUMBER
+        echo $ISSUE_NUMBER
+        echo $COMMENT_USER
 
         OWNER_FILE=$(cat OWNERS)
 
@@ -55,8 +63,6 @@ jobs:
         fi
 
     - name: Merge PR if lgtmed and approved
-      env:
-        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
         PR_NUMBER=$(jq -r '.pull_request.number' $GITHUB_EVENT_PATH)
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
