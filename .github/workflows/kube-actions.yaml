@@ -97,6 +97,8 @@ jobs:
         done <<< "$COMMENT_BODY"
 
     - name: Merge PR if LGTMed and approved
+      env:
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
