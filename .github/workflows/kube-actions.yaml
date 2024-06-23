@@ -34,31 +34,31 @@ jobs:
         while IFS= read -r COMMENT_LINE; do
           COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
 
-          if [[ "$COMMENT_BODY" == "/lgtm" ]]; then
+          if [[ "$COMMENT_LINE" == "/lgtm" ]]; then
             gh pr edit $PR_NUMBER --add-label lgtm
-          elif [[ "$COMMENT_BODY" == "/approve" ]]; then
+          elif [[ "$COMMENT_LINE" == "/approve" ]]; then
             if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
               gh pr edit $PR_NUMBER --add-label approved
             else
               echo "User $COMMENT_USER is not authorized to approve"
               exit 0
             fi
-          elif [[ "$COMMENT_BODY" == "/lgtm cancel" ]]; then
+          elif [[ "$COMMENT_LINE" == "/lgtm cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
               gh pr edit $PR_NUMBER --remove-label lgtm
             else
               echo "Label 'lgtm' does not exist"
               exit 0
             fi
-          elif [[ "$COMMENT_BODY" == "/approve cancel" ]]; then
+          elif [[ "$COMMENT_LINE" == "/approve cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
               gh pr edit $PR_NUMBER --remove-label approved
             else
               echo "Label 'approved' does not exist"
               exit 0
             fi
-          elif [[ "$COMMENT_BODY" =~ ^/kind ]]; then
-            LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+          elif [[ "$COMMENT_LINE" =~ ^/kind ]]; then
+            LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be added using /kind."
@@ -66,8 +66,8 @@ jobs:
             else
               gh pr edit $PR_NUMBER --add-label $LABEL
             fi
-          elif [[ "$COMMENT_BODY" =~ ^/remove-kind ]]; then
-            LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+          elif [[ "$COMMENT_LINE" =~ ^/remove-kind ]]; then
+            LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be removed using /remove-kind."
@@ -78,7 +78,7 @@ jobs:
               fi
             fi
           else
-              echo "$COMMENT_BODY is not supported"
+              echo "$COMMENT_LINE is not supported"
               exit 0
           fi
         done <<< "$COMMENT_BODY"
