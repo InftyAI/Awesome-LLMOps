@@ -20,11 +20,12 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Remove lgtm label on new push
+      if: github.event_name == 'pull_request' && github.event.action == 'synchronize'
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
 
         if [ -z "$PR_NUMBER" ]; then
-          echo "No PR number found in push event context."
+         echo "No PR number found in push event context."
           exit 0
         fi
 
@@ -32,7 +33,6 @@ jobs:
           gh pr edit $pr --remove-label lgtm
           echo "Removed 'lgtm' label due to new push."
         fi
-        exit 0
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -43,6 +43,7 @@ jobs:
       run: pip install yq
 
     - name: Handle PR Comments
+      if: github.event_name == 'issue_comment' && github.event.action == 'created'
       run: |
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
@@ -130,8 +131,7 @@ jobs:
         done <<< "$COMMENT_BODY"
 
     - name: Merge PR if approved and lgtm
-      env:
-        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
+      if: github.event_name == 'pull_request' && github.event.action == 'labeled'
       run: |
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
