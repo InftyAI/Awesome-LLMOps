@@ -1,0 +1,64 @@
+name: PR Actions
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request:
+    types: [labeled]
+
+jobs:
+  handle-comments:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install yq
+      run: pip install yq
+
+    - name: Handle PR Comments
+      id: handle_comments
+      run: |
+        COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
+        PR_NUMBER=$(jq -r '.pull_request.number' $GITHUB_EVENT_PATH)
+        COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
+
+        OWNER_FILE=$(cat OWNER)
+
+        if [[ "$COMMENT_BODY" == "/lgtm" ]]; then
+          gh pr edit $PR_NUMBER --add-label lgtm
+        elif [[ "$COMMENT_BODY" == "/approve" ]]; then
+          APPROVERS=$(echo "$OWNER_FILE" | yq e '.approvers[]' -)
+          if echo "$APPROVERS" | grep -q "$COMMENT_USER"; then
+            gh pr edit $PR_NUMBER --add-label approved
+          else
+            echo "User $COMMENT_USER is not authorized to approve"
+            exit 1
+          fi
+        elif [[ "$COMMENT_BODY" == "/kind feature" ]]; then
+            gh pr edit $PR_NUMBER --add-label feature
+        elif [[ "$COMMENT_BODY" == "/kind bug" ]]; then
+            gh pr edit $PR_NUMBER --add-label bug
+        elif [[ "$COMMENT_BODY" == "/kind cleanup" ]]; then
+            gh pr edit $PR_NUMBER --add-label cleanup
+        else
+            echo "$COMMENT_BODY is not supported"
+            exit 1
+        fi
+
+    - name: Merge PR if lgtmed and approved
+      env:
+        GITHUB_TOKEN: ${{ secrets.AGENT_TOKEN }}
+      run: |
+        PR_NUMBER=$(jq -r '.pull_request.number' $GITHUB_EVENT_PATH)
+        LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
+
+        if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* ]]; then
+          gh pr merge $PR_NUMBER --merge
+        fi
