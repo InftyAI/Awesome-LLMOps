@@ -25,7 +25,7 @@ jobs:
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
 
         if [ -z "$PR_NUMBER" ]; then
-         echo "No PR number found in push event context."
+          echo "No PR number found in push event context."
           exit 0
         fi
 
