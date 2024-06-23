@@ -32,25 +32,33 @@ jobs:
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
 
         while IFS= read -r COMMENT_LINE; do
-          COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
+          COMMENT_LINE=$(echo "$COMMENT_LINE" | sed ':a;N;$!ba;s/\n//g' | awk '{$1=$1};1')
 
           if [[ "$COMMENT_LINE" == "/lgtm" ]]; then
             gh pr edit $PR_NUMBER --add-label lgtm
+            echo "Add label: lgtm"
           elif [[ "$COMMENT_LINE" == "/approve" ]]; then
             if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
               gh pr edit $PR_NUMBER --add-label approved
+              echo "Add label: approved"
             else
               echo "User $COMMENT_USER is not authorized to approve"
             fi
           elif [[ "$COMMENT_LINE" == "/lgtm cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
               gh pr edit $PR_NUMBER --remove-label lgtm
+              echo "Remove label: lgtm"
             else
               echo "Label 'lgtm' does not exist"
             fi
           elif [[ "$COMMENT_LINE" == "/approve cancel" ]]; then
             if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
-              gh pr edit $PR_NUMBER --remove-label approved
+                if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
+                  gh pr edit $PR_NUMBER --remove-label approved
+                  echo "Remove label: approved"
+                else
+                  echo "User $COMMENT_USER is not authorized to cancel the approved label"
+                fi
             else
               echo "Label 'approved' does not exist"
             fi
@@ -61,6 +69,7 @@ jobs:
               echo "The label '$LABEL' cannot be added using /kind."
             else
               gh pr edit $PR_NUMBER --add-label $LABEL
+              echo "Add label: '$LABEL'"
             fi
           elif [[ "$COMMENT_LINE" =~ ^/remove-kind ]]; then
             LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
@@ -70,6 +79,7 @@ jobs:
             else
               if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q $LABEL; then
                 gh pr edit $PR_NUMBER --remove-label $LABEL
+                echo "Remove label: '$LABEL'"
               fi
             fi
           else
