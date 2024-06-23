@@ -38,12 +38,9 @@ jobs:
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
           LABEL=$(echo "$LABEL" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
 
-          echo $COMMENT_LINE
-          echo $LABEL
-
           # Handle lgtm command
           if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
-            if [[ "$LABEL" == "cancel" ]]; then
+            if [[ "$LABEL" =~ ^cancel ]]; then
               gh pr edit $PR_NUMBER --remove-label lgtm
               echo "Remove label: lgtm"
             else
@@ -55,7 +52,7 @@ jobs:
           # Handle approved command
           if [[ "$COMMENT_LINE" =~ ^/approve ]]; then
             if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
-              if [[ "$LABEL" == "cancel" ]]; then
+              if [[ "$LABEL" =~ ^cancel ]]; then
                 gh pr edit $PR_NUMBER --remove-label approved
                 echo "Remove label: approved"
               else
@@ -70,7 +67,7 @@ jobs:
 
           # Handle hold command
           if [[ "$COMMENT_LINE" =~ ^/hold ]]; then
-            if [[ "$LABEL" == "cancel" ]]; then
+            if [[ "$LABEL" =~ ^cancel ]]; then
               gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
               echo "Remove label: do-not-merge/hold"
             else
@@ -80,14 +77,14 @@ jobs:
 
           # Handle kind command
           elif [[ "$COMMENT_LINE" =~ ^/kind ]]; then
-            if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+            if [[ "$LABEL" =~ ^lgtm || "$LABEL" =~ ^approve ]]; then
               echo "The label '$LABEL' cannot be added using /kind."
             else
               gh pr edit $PR_NUMBER --add-label $LABEL
               echo "Add label: '$LABEL'"
             fi
           elif [[ "$COMMENT_LINE" =~ ^/remove-kind ]]; then
-            if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+            if [[ "$LABEL" =~ ^lgtm || "$LABEL" =~ ^approve ]]; then
               echo "The label '$LABEL' cannot be removed using /remove-kind."
             else
               gh pr edit $PR_NUMBER --remove-label $LABEL
