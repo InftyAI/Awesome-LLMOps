@@ -49,17 +49,43 @@ jobs:
             gh pr edit $PR_NUMBER --add-label approved
           else
             echo "User $COMMENT_USER is not authorized to approve"
-            exit 1
+            exit 0
           fi
-        elif [[ "$COMMENT_BODY" == "/kind feature" ]]; then
-            gh pr edit $PR_NUMBER --add-label feature
-        elif [[ "$COMMENT_BODY" == "/kind bug" ]]; then
-            gh pr edit $PR_NUMBER --add-label bug
-        elif [[ "$COMMENT_BODY" == "/kind cleanup" ]]; then
-            gh pr edit $PR_NUMBER --add-label cleanup
+        elif [[ "$COMMENT_BODY" == "/lgtm cancel" ]]; then
+          if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
+            gh pr edit $PR_NUMBER --remove-label lgtm
+          else
+            echo "Label 'lgtm' does not exist"
+            exit 0
+          fi
+        elif [[ "$COMMENT_BODY" == "/approve cancel" ]]; then
+          if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
+            gh pr edit $PR_NUMBER --remove-label approved
+          else
+            echo "Label 'approved' does not exist"
+            exit 0
+          fi
+        elif [[ "$COMMENT_BODY" =~ ^/kind ]]; then
+          LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+
+          if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+            echo "The label '$LABEL' cannot be added using /kind."
+            exit 0
+          else
+            gh pr edit $PR_NUMBER --add-label $LABEL
+          fi
+        elif [[ "$COMMENT_BODY" =~ ^/remove-kind ]]; then
+          LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+
+          if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+            echo "The label '$LABEL' cannot be removed using /remove-kind."
+            exit 0
+          else
+            gh pr edit $PR_NUMBER --remove-label $LABEL
+          fi
         else
             echo "$COMMENT_BODY is not supported"
-            exit 1
+            exit 0
         fi
 
     - name: Merge PR if lgtmed and approved
