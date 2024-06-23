@@ -34,6 +34,8 @@ jobs:
           echo "Removed 'lgtm' label due to new push."
         fi
 
+        exit 0
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -130,6 +132,8 @@ jobs:
           fi
         done <<< "$COMMENT_BODY"
 
+        exit 0
+
     - name: Merge PR if approved and lgtm
       if: github.event_name == 'pull_request' && github.event.action == 'labeled'
       run: |
@@ -140,3 +144,5 @@ jobs:
         else
           echo "Not ready to merge"
         fi
+
+        exit 0
