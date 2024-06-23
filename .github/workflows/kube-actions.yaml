@@ -89,12 +89,31 @@ jobs:
               echo "Remove label: '$LABEL'"
             fi
 
+          # Handle assignment
+          elif [[ "$COMMENT_LINE" =~ ^/assign ]]; then
+            USERNAME=$(echo "$LABEL" | sed 's/@//')
+            if [[ -n "$USERNAME" ]]; then
+              gh pr edit $PR_NUMBER --add-assignee "$USERNAME"
+              echo "Assign to $USERNAME"
+            else
+              echo "No username provided for assignment."
+            fi
+          elif [[ "$COMMENT_LINE" =~ ^/unassign ]]; then
+            USERNAME=$(echo "$LABEL" | sed 's/@//')
+            if [[ -n "$USERNAME" ]]; then
+              gh pr edit $PR_NUMBER --remove-assignee "$USERNAME"
+              echo "Unassign to $USERNAME"
+            else
+              echo "No username provided for unassignment."
+            fi
+
           else
               echo "$COMMENT_LINE is not supported"
           fi
         done <<< "$COMMENT_BODY"
 
         # Merge PR if LGTMed and approved and do not hold.
+        LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
         else
