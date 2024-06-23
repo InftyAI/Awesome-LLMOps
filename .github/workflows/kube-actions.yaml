@@ -34,8 +34,7 @@ jobs:
         echo $COMMENT_BODY
 
         while IFS= read -r COMMENT_LINE; do
-          COMMENT_LINE=$(echo "$COMMENT_LINE" | tr -d '\n')
-          COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
+          COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
 
           echo $COMMENT_LINE
 
@@ -47,7 +46,7 @@ jobs:
               gh pr edit $PR_NUMBER --add-label approved
               echo "Add label: approved"
             else
-              gh pr comment $PR_NUMBER --body "User @$COMMENT_USER is not authorized to approve this PR."
+              gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to approve this PR."
               echo "User $COMMENT_USER is not authorized to approve"
             fi
           elif [[ "$COMMENT_LINE" == "/lgtm cancel" ]]; then
@@ -63,7 +62,7 @@ jobs:
                   gh pr edit $PR_NUMBER --remove-label approved
                   echo "Remove label: approved"
                 else
-                  gh pr comment $PR_NUMBER --body "User @$COMMENT_USER is not authorized to cancel the approval."
+                  gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to cancel the approval."
                   echo "User $COMMENT_USER is not authorized to cancel the approval"
                 fi
             else
@@ -87,8 +86,14 @@ jobs:
               if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q $LABEL; then
                 gh pr edit $PR_NUMBER --remove-label $LABEL
                 echo "Remove label: '$LABEL'"
+              else
+                echo "'$LABEL' doesn't exist"
               fi
             fi
+          elif [[ "$COMMENT_LINE" == "/hold" ]]; then
+            gh pr edit $PR_NUMBER --add-label do-not-merge/hold
+          elif [[ "$COMMENT_LINE" == "/hold cancel" ]]; then
+            gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
           else
               echo "$COMMENT_LINE is not supported"
           fi
@@ -99,7 +104,7 @@ jobs:
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
 
-        if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* ]]; then
+        if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
         else
           echo "Not ready to merge"
