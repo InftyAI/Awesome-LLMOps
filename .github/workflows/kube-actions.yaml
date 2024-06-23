@@ -34,8 +34,8 @@ jobs:
         echo $COMMENT_BODY
 
         while IFS= read -r COMMENT_LINE; do
-          COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
           COMMENT_LINE=$(echo "$COMMENT_LINE" | tr -d '\n')
+          COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
 
           echo $COMMENT_LINE
 
