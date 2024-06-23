@@ -35,42 +35,51 @@ jobs:
 
         while IFS= read -r COMMENT_LINE; do
           COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
+          LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
+          LABEL=$(echo "$LABEL" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
 
           echo $COMMENT_LINE
+          echo $LABEL
 
-          if [[ "$COMMENT_LINE" == "/lgtm" ]]; then
-            gh pr edit $PR_NUMBER --add-label lgtm
-            echo "Add label: lgtm"
-          elif [[ "$COMMENT_LINE" == "/approve" ]]; then
-            if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
-              gh pr edit $PR_NUMBER --add-label approved
-              echo "Add label: approved"
-            else
-              gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to approve this PR."
-              echo "User $COMMENT_USER is not authorized to approve"
-            fi
-          elif [[ "$COMMENT_LINE" == "/lgtm cancel" ]]; then
-            if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
+          # Handle lgtm command
+          if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
+            if [[ "$LABEL" == "cancel" ]]; then
               gh pr edit $PR_NUMBER --remove-label lgtm
               echo "Remove label: lgtm"
             else
-              echo "Label 'lgtm' does not exist"
+              gh pr edit $PR_NUMBER --add-label lgtm
+              echo "Add label: lgtm"
             fi
-          elif [[ "$COMMENT_LINE" == "/approve cancel" ]]; then
-            if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
-                if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
-                  gh pr edit $PR_NUMBER --remove-label approved
-                  echo "Remove label: approved"
-                else
-                  gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to cancel the approval."
-                  echo "User $COMMENT_USER is not authorized to cancel the approval"
-                fi
-            else
-              echo "Label 'approved' does not exist"
-            fi
-          elif [[ "$COMMENT_LINE" =~ ^/kind ]]; then
-            LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
+          fi
 
+          # Handle approved command
+          if [[ "$COMMENT_LINE" =~ ^/approve ]]; then
+            if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
+              if [[ "$LABEL" == "cancel" ]]; then
+                gh pr edit $PR_NUMBER --remove-label approved
+                echo "Remove label: approved"
+              else
+                gh pr edit $PR_NUMBER --add-label approved
+                echo "Add label: approved"
+              fi
+            else
+              gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to approve/unapprove this PR."
+              echo "User $COMMENT_USER is not authorized to approve/unapprove this PR"
+            fi
+          fi
+
+          # Handle hold command
+          if [[ "$COMMENT_LINE" =~ ^/hold ]]; then
+            if [[ "$LABEL" == "cancel" ]]; then
+              gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
+              echo "Remove label: do-not-merge/hold"
+            else
+              gh pr edit $PR_NUMBER --add-label do-not-merge/hold
+              echo "Add label: do-not-merge/hold"
+            fi
+
+          # Handle kind command
+          elif [[ "$COMMENT_LINE" =~ ^/kind ]]; then
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be added using /kind."
             else
@@ -78,22 +87,13 @@ jobs:
               echo "Add label: '$LABEL'"
             fi
           elif [[ "$COMMENT_LINE" =~ ^/remove-kind ]]; then
-            LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
-
             if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
               echo "The label '$LABEL' cannot be removed using /remove-kind."
             else
-              if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q $LABEL; then
-                gh pr edit $PR_NUMBER --remove-label $LABEL
-                echo "Remove label: '$LABEL'"
-              else
-                echo "'$LABEL' doesn't exist"
-              fi
+              gh pr edit $PR_NUMBER --remove-label $LABEL
+              echo "Remove label: '$LABEL'"
             fi
-          elif [[ "$COMMENT_LINE" == "/hold" ]]; then
-            gh pr edit $PR_NUMBER --add-label do-not-merge/hold
-          elif [[ "$COMMENT_LINE" == "/hold cancel" ]]; then
-            gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
+
           else
               echo "$COMMENT_LINE is not supported"
           fi
