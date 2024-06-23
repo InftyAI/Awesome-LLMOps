@@ -26,67 +26,64 @@ jobs:
       run: pip install yq
 
     - name: Handle PR Comments
-      id: handle_comments
       run: |
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
 
-        echo $GITHUB_EVENT_PATH
-        echo $COMMENT_BODY
-        echo $PR_NUMBER
-        echo $COMMENT_USER
+        while IFS= read -r COMMENT_LINE; do
+          COMMENT_LINE=$(echo "$COMMENT_LINE" | awk '{$1=$1};1')
 
-        OWNER_FILE=$(cat OWNERS)
+          if [[ "$COMMENT_BODY" == "/lgtm" ]]; then
+            gh pr edit $PR_NUMBER --add-label lgtm
+          elif [[ "$COMMENT_BODY" == "/approve" ]]; then
+            if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
+              gh pr edit $PR_NUMBER --add-label approved
+            else
+              echo "User $COMMENT_USER is not authorized to approve"
+              exit 0
+            fi
+          elif [[ "$COMMENT_BODY" == "/lgtm cancel" ]]; then
+            if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
+              gh pr edit $PR_NUMBER --remove-label lgtm
+            else
+              echo "Label 'lgtm' does not exist"
+              exit 0
+            fi
+          elif [[ "$COMMENT_BODY" == "/approve cancel" ]]; then
+            if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
+              gh pr edit $PR_NUMBER --remove-label approved
+            else
+              echo "Label 'approved' does not exist"
+              exit 0
+            fi
+          elif [[ "$COMMENT_BODY" =~ ^/kind ]]; then
+            LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
 
-        if [[ "$COMMENT_BODY" == "/lgtm" ]]; then
-          gh pr edit $PR_NUMBER --add-label lgtm
-        elif [[ "$COMMENT_BODY" == "/approve" ]]; then
-          APPROVERS=$(echo "$OWNER_FILE" | yq e '.approvers[]' -)
-          if echo "$APPROVERS" | grep -q "$COMMENT_USER"; then
-            gh pr edit $PR_NUMBER --add-label approved
-          else
-            echo "User $COMMENT_USER is not authorized to approve"
-            exit 0
-          fi
-        elif [[ "$COMMENT_BODY" == "/lgtm cancel" ]]; then
-          if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
-            gh pr edit $PR_NUMBER --remove-label lgtm
-          else
-            echo "Label 'lgtm' does not exist"
-            exit 0
-          fi
-        elif [[ "$COMMENT_BODY" == "/approve cancel" ]]; then
-          if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "approved"; then
-            gh pr edit $PR_NUMBER --remove-label approved
-          else
-            echo "Label 'approved' does not exist"
-            exit 0
-          fi
-        elif [[ "$COMMENT_BODY" =~ ^/kind ]]; then
-          LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+            if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+              echo "The label '$LABEL' cannot be added using /kind."
+              exit 0
+            else
+              gh pr edit $PR_NUMBER --add-label $LABEL
+            fi
+          elif [[ "$COMMENT_BODY" =~ ^/remove-kind ]]; then
+            LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
 
-          if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
-            echo "The label '$LABEL' cannot be added using /kind."
-            exit 0
+            if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
+              echo "The label '$LABEL' cannot be removed using /remove-kind."
+              exit 0
+            else
+              if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q $LABEL; then
+                gh pr edit $PR_NUMBER --remove-label $LABEL
+              fi
+            fi
           else
-            gh pr edit $PR_NUMBER --add-label $LABEL
+              echo "$COMMENT_BODY is not supported"
+              exit 0
           fi
-        elif [[ "$COMMENT_BODY" =~ ^/remove-kind ]]; then
-          LABEL=$(echo "$COMMENT_BODY" | awk '{print $2}')
+        done <<< "$COMMENT_BODY"
 
-          if [[ "$LABEL" == "lgtm" || "$LABEL" == "approve" ]]; then
-            echo "The label '$LABEL' cannot be removed using /remove-kind."
-            exit 0
-          else
-            gh pr edit $PR_NUMBER --remove-label $LABEL
-          fi
-        else
-            echo "$COMMENT_BODY is not supported"
-            exit 0
-        fi
-
-    - name: Merge PR if lgtmed and approved
+    - name: Merge PR if LGTMed and approved
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
