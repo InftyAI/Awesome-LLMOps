@@ -61,40 +61,13 @@ jobs:
         LABELS_TO_REMOVE=()
 
         while IFS= read -r COMMENT_LINE; do
-          COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
-
-          X="  Hello,
-          this is a   test.
-          "
-          X=$(echo "$X" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
-          echo "x is '$X'"
+          COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\r\n' | awk '{$1=$1};1')
+          LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
           if [[ ! "$COMMENT_LINE" =~ ^/ ]]; then
             echo "comment not related"
             continue
           fi
-
-          LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
-
-          echo "Comment Line: '$COMMENT_LINE'"
-          echo "Label: '$LABEL'"
-
-          if echo "$LABEL" | grep -q $'\n'; then
-            echo "字符串包含换行符"
-          else
-            echo "字符串不包含换行符"
-          fi
-
-          echo "TR the label"
-
-          LABEL=$(echo -e "$LABEL" | tr -d '\n')
-
-          if echo "$LABEL" | grep -q $'\n'; then
-            echo "字符串包含换行符"
-          else
-            echo "字符串不包含换行符"
-          fi
-
 
           # Handle lgtm command
           if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
