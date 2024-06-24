@@ -175,6 +175,7 @@ jobs:
           else
             echo "Event $EVENT not support"
             exit 0
+          fi
         fi
 
   # Only work for PR.
