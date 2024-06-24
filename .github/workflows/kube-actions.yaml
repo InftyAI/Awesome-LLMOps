@@ -216,6 +216,7 @@ jobs:
 
     - name: Merge PR if approved and lgtm
       run: |
+        PR_NUMBER=${{ github.event.pull_request.number }}
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
