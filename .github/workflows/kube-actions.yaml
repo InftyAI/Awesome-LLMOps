@@ -13,7 +13,7 @@ on:
       - synchronize
 
 env:
-  GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
   # Only work for PR.
@@ -132,7 +132,12 @@ jobs:
           elif [[ "$COMMENT_LINE" =~ ^/assign ]]; then
             USERNAME=$(echo "$LABEL" | sed 's/@//')
             if [[ -n "$USERNAME" ]]; then
-              gh pr edit $PR_NUMBER --add-assignee "$USERNAME"
+              if [ -n "${{ github.event.issue }}" ]; then
+                gh issue edit $PR_NUMBER --add-assignee "$USERNAME"
+              elif [ -n "${{ github.event.pull_request }}" ]; then
+                gh pr edit $PR_NUMBER --add-assignee "$USERNAME"
+              else
+              fi
               echo "Assign to $USERNAME"
             else
               echo "No username provided for assignment."
@@ -140,7 +145,12 @@ jobs:
           elif [[ "$COMMENT_LINE" =~ ^/unassign ]]; then
             USERNAME=$(echo "$LABEL" | sed 's/@//')
             if [[ -n "$USERNAME" ]]; then
-              gh pr edit $PR_NUMBER --remove-assignee "$USERNAME"
+              if [ -n "${{ github.event.issue }}" ]; then
+                gh issue edit $PR_NUMBER --remove-assignee "$USERNAME"
+              elif [ -n "${{ github.event.pull_request }}" ]; then
+                gh pr edit $PR_NUMBER --remove-assignee "$USERNAME"
+              else
+              if
               echo "Unassign to $USERNAME"
             else
               echo "No username provided for unassignment."
