@@ -62,8 +62,17 @@ jobs:
 
         while IFS= read -r COMMENT_LINE; do
           COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
-          LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
-          LABEL=$(echo "$LABEL" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
+          RAW_LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
+          LABEL=$(echo "$RAW_LABEL" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
+
+          # Early return for unrelated comments.
+          if [[ ! "$COMMENT_LINE" =~ ^/ ]]; then
+            exit 0
+          fi
+
+          echo "Comment Line: '$COMMENT_LINE'"
+          echo "Raw Label: '$RAW_LABEL'"
+          echo "Label: '$LABEL'"
 
           # Handle lgtm command
           if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
