@@ -68,7 +68,7 @@ jobs:
           fi
 
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
-          LABEL=$(echo "$LABEL" | tr -d '\n')
+          LABEL=$(echo -e "$LABEL")
 
           echo "Comment Line: '$COMMENT_LINE'"
           echo "Label: '$LABEL'"
