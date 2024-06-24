@@ -68,6 +68,9 @@ jobs:
             continue
           fi
 
+          echo "Comment Line: '$COMMENT_LINE'"
+          echo "Label: '$LABEL'"
+
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
           if echo "$LABEL" | grep -q $'\n'; then
@@ -76,8 +79,16 @@ jobs:
             echo "字符串不包含换行符"
           fi
 
-          echo "Comment Line: '$COMMENT_LINE'"
-          echo "Label: '$LABEL'"
+          echo "TR the label"
+
+          LABEL=$(echo -e "$LABEL" | tr -d '\n')
+
+          if echo "$LABEL" | grep -q $'\n'; then
+            echo "字符串包含换行符"
+          else
+            echo "字符串不包含换行符"
+          fi
+
 
           # Handle lgtm command
           if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
