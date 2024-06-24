@@ -2,13 +2,18 @@ name: PR Actions
 
 on:
   issue_comment:
-    types: [created]
+    types:
+      - created
+      # Ignore update for now
+      # - edited
   pull_request:
     types:
       - labeled
+      - unlabeled
       - synchronize
 
 env:
+  TOKEN: "1212"
   GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
@@ -52,6 +57,8 @@ jobs:
 
     - name: Handle Issue Comments
       run: |
+        echo $TOKEN
+
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
@@ -156,7 +163,7 @@ jobs:
         fi
 
   on-label-updates:
-    if: github.event_name == 'pull_request' && github.event.action == 'labeled'
+    if: github.event_name == 'pull_request' && (github.event.action == 'labeled' || github.event.actions=='unlabeled')
     runs-on: ubuntu-latest
 
     steps:
@@ -165,6 +172,8 @@ jobs:
 
     - name: Merge PR if approved and lgtm
       run: |
+        echo $TOKEN
+
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
