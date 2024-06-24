@@ -41,7 +41,7 @@ jobs:
         fi
 
         if gh pr view $PR_NUMBER --json labels --jq '.labels[].name' | grep -q "lgtm"; then
-          gh pr edit $pr --remove-label lgtm
+          gh pr edit $PR_NUMBER --remove-label lgtm
           echo "Removed 'lgtm' label due to new push."
         fi
 
