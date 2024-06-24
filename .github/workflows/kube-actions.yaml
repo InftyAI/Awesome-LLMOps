@@ -12,8 +12,8 @@ on:
       - unlabeled
       - synchronize
 
-
 jobs:
+  # Only work for PR.
   on-new-push:
     if: github.event_name == 'pull_request' && github.event.action == 'synchronize'
     runs-on: ubuntu-latest
@@ -38,7 +38,8 @@ jobs:
           echo "Removed 'lgtm' label due to new push."
         fi
 
-  on-issue-comments:
+  # Work for issue & PR, ignore update for now.
+  on-comments:
     if: github.event_name == 'issue_comment' && github.event.action == 'created'
     runs-on: ubuntu-latest
 
@@ -101,13 +102,14 @@ jobs:
             fi
 
           # Handle hold command
+          # hold/unhold the PR immediately in case of unexpected auto-merge.
           elif [[ "$COMMENT_LINE" =~ ^/hold ]]; then
             if [[ "$LABEL" =~ ^cancel ]]; then
-              LABELS_TO_REMOVE+=("do-not-merge/hold")
-              echo "To remove label: do-not-merge/hold"
+              gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
+              echo "Remove label: do-not-merge/hold"
             else
-              LABELS_TO_ADD+=("do-not-merge/hold")
-              echo "To add label: do-not-merge/hold"
+              gh pr edit $PR_NUMBER --add-label do-not-merge/hold
+              echo "Add label: do-not-merge/hold"
             fi
 
           # Handle kind command
@@ -155,14 +157,29 @@ jobs:
         LABELS_TO_REMOVE_STR=$(IFS=,; echo "${LABELS_TO_REMOVE[*]}")
 
         if [[ -n "$LABELS_TO_ADD_STR" ]]; then
-          gh pr edit $PR_NUMBER --add-label "$LABELS_TO_ADD_STR"
-        fi
-        if [[ -n "$LABELS_TO_REMOVE_STR" ]]; then
-          gh pr edit $PR_NUMBER --remove-label "$LABELS_TO_REMOVE_STR"
+          if [ -n "${{ github.event.issue }}" ]; then
+            gh issue edit $PR_NUMBER --add-label "$LABELS_TO_ADD_STR"
+          elif [ -n "${{ github.event.pull_request }}" ]; then
+            gh pr edit $PR_NUMBER --add-label "$LABELS_TO_ADD_STR"
+          else
+            echo "Event $EVENT not support"
+            exit 0
+          fi
         fi
 
+        if [[ -n "$LABELS_TO_REMOVE_STR" ]]; then
+          if [ -n "${{ github.event.issue }}" ]; then
+            gh issue edit $PR_NUMBER --remove-label "$LABELS_TO_REMOVE_STR"
+          elif [ -n "${{ github.event.pull_request }}" ]; then
+            gh pr edit $PR_NUMBER --remove-label "$LABELS_TO_REMOVE_STR"
+          else
+            echo "Event $EVENT not support"
+            exit 0
+        fi
+
+  # Only work for PR.
   on-label-updates:
-    if: github.event_name == 'pull_request' && (github.event.action == 'labeled' || github.event.actions=='unlabeled')
+    if: github.event_name == 'pull_request' && (github.event.action == 'labeled' || github.event.action == 'unlabeled')
     runs-on: ubuntu-latest
 
     steps:
