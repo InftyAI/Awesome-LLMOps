@@ -12,12 +12,12 @@ on:
       - unlabeled
       - synchronize
 
-permissions:
-  actions: write
-  contents: read
-  issues: write
-  pull-requests: write
-  repository-projects: write
+permissions: write-all
+  # actions: write
+  # contents: read
+  # issues: write
+  # pull-requests: write
+  # repository-projects: write
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
