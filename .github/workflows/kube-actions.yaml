@@ -13,7 +13,7 @@ on:
       - synchronize
 
 env:
-  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   # Only work for PR.
@@ -149,16 +149,26 @@ jobs:
             if [[ -n "$USERNAME" ]]; then
               if [ -n "${{ github.event.issue }}" ]; then
                 gh issue edit $PR_NUMBER --remove-assignee "$USERNAME"
-                echo "Assign to $USERNAME"
+                echo "Unassign to $USERNAME"
               elif [ -n "${{ github.event.pull_request }}" ]; then
                 gh pr edit $PR_NUMBER --remove-assignee "$USERNAME"
-                echo "Assign to $USERNAME"
+                echo "Unassign to $USERNAME"
               else
                 echo "unexpected event type"
               fi
             else
               echo "No username provided for unassignment."
             fi
+
+          # Handle help & good-first-issue
+          elif [[ "$COMMENT_LINE" =~ ^/help ]]; then
+            LABELS_TO_ADD+=("help wanted")
+          elif [[ "$COMMENT_LINE" =~ ^/remove-help ]]; then
+            LABELS_TO_REMOVE+=("help wanted")
+          elif [[ "$COMMENT_LINE" =~ ^/good-first-issue ]]; then
+            LABELS_TO_ADD+=("good first issue")
+          elif [[ "$COMMENT_LINE" =~ ^/remove-good-first-issue ]]; then
+            LABELS_TO_REMOVE+=("good first issue")
 
           else
               echo "$COMMENT_LINE is not supported"
