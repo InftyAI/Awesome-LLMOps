@@ -20,11 +20,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
     - name: Remove lgtm label on new push
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
@@ -87,7 +82,6 @@ jobs:
                 LABELS_TO_REMOVE+=("approved")
                 echo "To remove label: approved"
               else
-                gh pr edit $PR_NUMBER --add-label approved
                 LABELS_TO_ADD+=("approved")
                 echo "To add label: approved"
               fi
@@ -111,7 +105,6 @@ jobs:
             if [[ "$LABEL" =~ ^lgtm || "$LABEL" =~ ^approve ]]; then
               echo "The label '$LABEL' cannot be added using /kind."
             else
-              gh pr edit $PR_NUMBER --add-label $LABEL
               LABELS_TO_ADD+=("$LABEL")
               echo "To add label: '$LABEL'"
             fi
@@ -165,11 +158,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
 
     - name: Merge PR if approved and lgtm
       run: |
