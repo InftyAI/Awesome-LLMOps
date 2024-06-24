@@ -12,15 +12,8 @@ on:
       - unlabeled
       - synchronize
 
-permissions: write-all
-  # actions: write
-  # contents: read
-  # issues: write
-  # pull-requests: write
-  # repository-projects: write
-
 env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
   # Only work for PR.
