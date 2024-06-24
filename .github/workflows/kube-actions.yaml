@@ -20,6 +20,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
     - name: Remove lgtm label on new push
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
@@ -56,6 +61,10 @@ jobs:
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
 
+        # Initialize arrays to store the labels.
+        LABELS_TO_ADD=()
+        LABELS_TO_REMOVE=()
+
         while IFS= read -r COMMENT_LINE; do
           COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
@@ -64,23 +73,24 @@ jobs:
           # Handle lgtm command
           if [[ "$COMMENT_LINE" =~ ^/lgtm ]]; then
             if [[ "$LABEL" =~ ^cancel ]]; then
-              gh pr edit $PR_NUMBER --remove-label lgtm
-              echo "Remove label: lgtm"
+              LABELS_TO_REMOVE+=("lgtm")
+              echo "To remove label: lgtm"
             else
-              gh pr edit $PR_NUMBER --add-label lgtm
-              echo "Add label: lgtm"
+              LABELS_TO_ADD+=("lgtm")
+              echo "To add label: lgtm"
             fi
           fi
 
           # Handle approved command
-          if [[ "$COMMENT_LINE" =~ ^/approve ]]; then
+          elif [[ "$COMMENT_LINE" =~ ^/approve ]]; then
             if yq ".approvers[] | select(. == \"$COMMENT_USER\") " OWNERS | grep -q "$COMMENT_USER"; then
               if [[ "$LABEL" =~ ^cancel ]]; then
-                gh pr edit $PR_NUMBER --remove-label approved
-                echo "Remove label: approved"
+                LABELS_TO_REMOVE+=("approved")
+                echo "To remove label: approved"
               else
                 gh pr edit $PR_NUMBER --add-label approved
-                echo "Add label: approved"
+                LABELS_TO_ADD+=("approved")
+                echo "To add label: approved"
               fi
             else
               gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to approve/unapprove this PR."
@@ -89,13 +99,13 @@ jobs:
           fi
 
           # Handle hold command
-          if [[ "$COMMENT_LINE" =~ ^/hold ]]; then
+          elif [[ "$COMMENT_LINE" =~ ^/hold ]]; then
             if [[ "$LABEL" =~ ^cancel ]]; then
-              gh pr edit $PR_NUMBER --remove-label do-not-merge/hold
-              echo "Remove label: do-not-merge/hold"
+              LABELS_TO_REMOVE+=("do-not-merge/hold")
+              echo "To remove label: do-not-merge/hold"
             else
-              gh pr edit $PR_NUMBER --add-label do-not-merge/hold
-              echo "Add label: do-not-merge/hold"
+              LABELS_TO_ADD+=("do-not-merge/hold")
+              echo "To add label: do-not-merge/hold"
             fi
 
           # Handle kind command
@@ -104,15 +114,17 @@ jobs:
               echo "The label '$LABEL' cannot be added using /kind."
             else
               gh pr edit $PR_NUMBER --add-label $LABEL
-              echo "Add label: '$LABEL'"
+              LABELS_TO_ADD+=("$LABEL")
+              echo "To add label: '$LABEL'"
             fi
           elif [[ "$COMMENT_LINE" =~ ^/remove-kind ]]; then
             if [[ "$LABEL" =~ ^lgtm || "$LABEL" =~ ^approve ]]; then
               echo "The label '$LABEL' cannot be removed using /remove-kind."
             else
-              gh pr edit $PR_NUMBER --remove-label $LABEL
-              echo "Remove label: '$LABEL'"
+              LABELS_TO_REMOVE+=("$LABEL")
+              echo "To remove label: '$LABEL'"
             fi
+
 
           # Handle assignment
           elif [[ "$COMMENT_LINE" =~ ^/assign ]]; then
@@ -137,6 +149,17 @@ jobs:
           fi
         done <<< "$COMMENT_BODY"
 
+        # Convert array to comma-separated strings.
+        LABELS_TO_ADD_STR=$(IFS=,; echo "${LABELS_TO_ADD[*]}")
+        LABELS_TO_REMOVE_STR=$(IFS=,; echo "${LABELS_TO_REMOVE[*]}")
+
+        if [[ -n "$LABELS_TO_ADD_STR" ]]; then
+          gh pr edit $PR_NUMBER --add-label "$LABELS_TO_ADD_STR"
+        fi
+        if [[ -n "$LABELS_TO_REMOVE_STR" ]]; then
+          gh pr edit $PR_NUMBER --remove-label "$LABELS_TO_REMOVE_STR"
+        fi
+
   on-label-updates:
     if: github.event_name == 'pull_request' && github.event.action == 'labeled'
     runs-on: ubuntu-latest
@@ -144,6 +167,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
     - name: Merge PR if approved and lgtm
       run: |
