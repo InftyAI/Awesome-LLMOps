@@ -79,7 +79,6 @@ jobs:
               LABELS_TO_ADD+=("lgtm")
               echo "To add label: lgtm"
             fi
-          fi
 
           # Handle approved command
           elif [[ "$COMMENT_LINE" =~ ^/approve ]]; then
@@ -96,7 +95,6 @@ jobs:
               gh pr comment $PR_NUMBER --body "Sorry, @$COMMENT_USER is not authorized to approve/unapprove this PR."
               echo "User $COMMENT_USER is not authorized to approve/unapprove this PR"
             fi
-          fi
 
           # Handle hold command
           elif [[ "$COMMENT_LINE" =~ ^/hold ]]; then
