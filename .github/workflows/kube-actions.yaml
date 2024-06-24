@@ -12,9 +12,6 @@ on:
       - unlabeled
       - synchronize
 
-env:
-  TOKEN: "1212"
-  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
   on-new-push:
@@ -26,6 +23,8 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Remove lgtm label on new push
+      env:
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
 
@@ -56,9 +55,9 @@ jobs:
       run: pip install yq
 
     - name: Handle Issue Comments
+      env:
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
-        echo $TOKEN
-
         COMMENT_BODY=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
         PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
         COMMENT_USER=$(jq -r '.comment.user.login' $GITHUB_EVENT_PATH)
@@ -171,9 +170,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Merge PR if approved and lgtm
+      env:
+        GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
       run: |
-        echo $TOKEN
-
         LABELS=$(gh pr view $PR_NUMBER --json labels --jq '.labels[].name')
         if [[ "$LABELS" == *"lgtm"* && "$LABELS" == *"approved"* && "$LABELS" != *"do-not-merge/hold"* ]]; then
           gh pr merge $PR_NUMBER --merge
