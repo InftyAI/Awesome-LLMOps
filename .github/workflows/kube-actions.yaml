@@ -64,11 +64,17 @@ jobs:
           COMMENT_LINE=$(echo "$COMMENT_LINE" | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -d '\n' | awk '{$1=$1};1')
 
           if [[ ! "$COMMENT_LINE" =~ ^/ ]]; then
+            echo "comment not related"
             continue
           fi
 
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
-          LABEL=$(echo -e "$LABEL")
+
+          if echo "$LABEL" | grep -q $'\n'; then
+            echo "字符串包含换行符"
+          else
+            echo "字符串不包含换行符"
+          fi
 
           echo "Comment Line: '$COMMENT_LINE'"
           echo "Label: '$LABEL'"
