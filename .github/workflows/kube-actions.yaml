@@ -33,7 +33,7 @@ jobs:
 
     - name: Remove lgtm label on new push
       run: |
-        PR_NUMBER=$(jq -r '.issue.number' $GITHUB_EVENT_PATH)
+        PR_NUMBER=${{ github.event.pull_request.number }}
 
         if [ -z "$PR_NUMBER" ]; then
          echo "No PR number found in push event context."
