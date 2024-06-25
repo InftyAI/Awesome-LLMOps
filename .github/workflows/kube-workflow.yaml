@@ -15,6 +15,6 @@ on:
 
 jobs:
   call-workflow:
-    uses: kerthcet/github-workflow-as-kube/workflows/kube-workflow.yaml@main
+    uses: kerthcet/github-workflow-as-kube/.github/workflows/kube-workflow.yaml@main
     secrets:
       AGENT_TOKEN: ${{ secrets.AGENT_TOKEN }}
