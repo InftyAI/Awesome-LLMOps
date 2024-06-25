@@ -4,8 +4,6 @@ on:
   issue_comment:
     types:
       - created
-      # Ignore update for now
-      # - edited
   pull_request:
     types:
       - labeled
@@ -16,7 +14,6 @@ env:
   GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
-  # Only work for PR.
   on-new-push:
     if: github.event_name == 'pull_request' && github.event.action == 'synchronize'
     runs-on: ubuntu-latest
@@ -40,7 +37,7 @@ jobs:
         fi
 
   # Work for issue & PR, ignore update for now.
-  on-comments:
+  on-new-comment:
     if: github.event_name == 'issue_comment' && github.event.action == 'created'
     runs-on: ubuntu-latest
 
@@ -199,8 +196,7 @@ jobs:
           fi
         fi
 
-  # Only work for PR.
-  on-label-updates:
+  on-pr-merge:
     if: github.event_name == 'pull_request' && (github.event.action == 'labeled' || github.event.action == 'unlabeled') && github.event.pull_request.merged == false
     runs-on: ubuntu-latest
 
