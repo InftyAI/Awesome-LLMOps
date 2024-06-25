@@ -9,13 +9,9 @@ on:
       - labeled
       - unlabeled
       - synchronize
-  pull_request_review_comment:
-    types:
-      - created
-
-env:
-  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
-  call-reusable-workflow:
+  call-workflow:
     uses: kerthcet/github-workflow-as-kube/.github/workflows/kube-workflow.yaml@main
+    secrets:
+      AGENT_TOKEN: ${{ secrets.AGENT_TOKEN }}
