@@ -1,21 +1,24 @@
-name: PR Actions
+name: Workflow As Kubernetes
 
 on:
   issue_comment:
     types:
       - created
-  pull_request:
+  pull_request_target:
     types:
       - labeled
       - unlabeled
       - synchronize
+  pull_request_review_comment:
+    types:
+      - created
 
 env:
   GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
 
 jobs:
   on-new-push:
-    if: github.event_name == 'pull_request' && github.event.action == 'synchronize'
+    if: github.event_name == 'pull_request_target' && github.event.action == 'synchronize'
     runs-on: ubuntu-latest
 
     steps:
@@ -38,7 +41,7 @@ jobs:
 
   # Work for issue & PR, ignore update for now.
   on-new-comment:
-    if: github.event_name == 'issue_comment' && github.event.action == 'created'
+    if: (github.event_name == 'issue_comment' || github.event_name == 'pull_request_review_comment') && github.event.action == 'created'
     runs-on: ubuntu-latest
 
     steps:
@@ -68,7 +71,6 @@ jobs:
           LABEL=$(echo "$COMMENT_LINE" | awk '{print $2}')
 
           if [[ ! "$COMMENT_LINE" =~ ^/ ]]; then
-            echo "comment not related"
             continue
           fi
 
@@ -197,13 +199,14 @@ jobs:
         fi
 
   on-pr-merge:
-    if: github.event_name == 'pull_request' && (github.event.action == 'labeled' || github.event.action == 'unlabeled') && github.event.pull_request.merged == false
+    if: github.event_name == 'pull_request_target' && (github.event.action == 'labeled' || github.event.action == 'unlabeled') && github.event.pull_request.merged == false
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    # TODO: Before merge, better to run the tests again.
     - name: Merge PR if approved and lgtm
       run: |
         PR_NUMBER=${{ github.event.pull_request.number }}
