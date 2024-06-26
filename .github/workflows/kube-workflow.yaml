@@ -9,6 +9,9 @@ on:
       - labeled
       - unlabeled
       - synchronize
+  pull_request_review_comment:
+    types:
+      - created
 
 jobs:
   call-workflow:
