@@ -1,20 +1,22 @@
 name: Workflow As Kubernetes
 
 on:
+  issues:
+    types:
+      - opened
   issue_comment:
     types:
       - created
   pull_request_target:
     types:
+      - opened
       - labeled
       - unlabeled
       - synchronize
-  pull_request_review_comment:
-    types:
-      - created
 
 jobs:
   call-workflow:
-    uses: kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@v0.1.0
+    # Use a released version for stable.
+    uses: kerthcet/github-workflow-as-kube/.github/workflows/workflow-as-kubernetes.yaml@main
     secrets:
       AGENT_TOKEN: ${{ secrets.AGENT_TOKEN }}
