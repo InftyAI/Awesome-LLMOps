@@ -10,6 +10,7 @@
 - [Evaluation](#evaluation)
 - [Database](#database)
 - [Observation](#observation)
+- [Alignment](#alignment)
 - [Outputs](#outputs)
 
 ## LLMOps
@@ -84,6 +85,13 @@
 | ---- | ----- | ------- | ------------ | -------- |
 | **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg) | ![Release](https://img.shields.io/github/release/traceloop/openllmetry) | ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry) | Open-source observability for your LLM application, based on OpenTelemetry |
 | **[phoenix](https://github.com/arize-ai/phoenix)** | ![Stars](https://img.shields.io/github/stars/arize-ai/phoenix.svg) | ![Release](https://img.shields.io/github/release/arize-ai/phoenix) | ![Contributors](https://img.shields.io/github/contributors/arize-ai/phoenix) | ML Observability in a Notebook - Uncover Insights, Surface Problems, Monitor, and Fine Tune your Generative LLM, CV and Tabular Models |
+
+## Alignment
+
+| Name | Stars | Release | Contributors | About |
+| ---- | ----- | ------- | ------------ | -------- |
+| **[OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF)** | ![Stars](https://img.shields.io/github/stars/openllmai/openrlhf.svg) | ![Release](https://img.shields.io/github/release/openllmai/openrlhf) | ![Contributors](https://img.shields.io/github/contributors/openllmai/openrlhf) | An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & Mixtral) |
+| **[Self-RLHF](https://github.com/PKU-Alignment/safe-rlhf)** | ![Stars](https://img.shields.io/github/stars/PKU-Alignment/safe-rlhf.svg) | ![Release](https://img.shields.io/github/release/PKU-Alignment/safe-rlhf) | ![Contributors](https://img.shields.io/github/contributors/PKU-Alignment/safe-rlhf) | Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback |
 
 ## Outputs
 
