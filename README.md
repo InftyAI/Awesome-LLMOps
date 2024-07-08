@@ -18,11 +18,11 @@
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/bentoml/BentoML">BentoML</a></b></td>
@@ -103,11 +103,11 @@
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/flyteorg/flyte">Flyte</a></b></td>
@@ -153,43 +153,21 @@
 
 ## Training
 
-<table>
-  <tr>
-    <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
-  </tr>
-  <tr>
-    <td><b><a href="https://github.com/hpcaitech/ColossalAI">ColossalAI</a></b></td>
-    <td><img src="https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/release/hpcaitech/ColossalAI" alt="Release"></td>
-    <td><img src="https://img.shields.io/github/contributors/hpcaitech/ColossalAI" alt="Contributors"></td>
-    <td>Making large AI models cheaper, faster and more accessible</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b><a href="https://github.com/ludwig-ai/ludwig">Ludwig</a></b></td>
-    <td><img src="https://img.shields.io/github/stars/ludwig-ai/ludwig.svg" alt="Stars"></td>
-    <td><img src="https://img.shields.io/github/release/ludwig-ai/ludwig" alt="Release"></td>
-    <td><img src="https://img.shields.io/github/contributors/ludwig-ai/ludwig" alt="Contributors"></td>
-    <td>Low-code framework for building custom LLMs, neural networks, and other AI models</td>
-    <td></td>
-  </tr>
-</table>
+| Name | Stars | Release | Contributors | About | Tag |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| **[ColossalAI](https://github.com/hpcaitech/ColossalAI)** | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg) | ![Release](https://img.shields.io/github/release/hpcaitech/ColossalAI) | ![Contributors](https://img.shields.io/github/contributors/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | |
+| **[Ludwig](https://github.com/ludwig-ai/ludwig)** | ![Stars](https://img.shields.io/github/stars/ludwig-ai/ludwig.svg) | ![Release](https://img.shields.io/github/release/ludwig-ai/ludwig) | ![Contributors](https://img.shields.io/github/contributors/ludwig-ai/ludwig) | Low-code framework for building custom LLMs, neural networks, and other AI models | |
 
 ## Agent
 
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></b></td>
@@ -222,11 +200,11 @@
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/microsoft/DeepSpeed-MII">DeepSpeed-MII</a></b></td>
@@ -315,11 +293,11 @@
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/THUDM/AgentBench">AgentBench</a></b></td>
@@ -343,12 +321,12 @@
 
 <table>
   <tr>
-    <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
+    <th style="width: 20%;">Name</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
     <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Tag</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/chroma-core/chroma">chroma</a></b></td>
@@ -397,11 +375,10 @@
 <table>
   <tr>
     <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/traceloop/openllmetry">OpenLLMetry</a></b></td>
@@ -409,7 +386,6 @@
     <td><img src="https://img.shields.io/github/release/traceloop/openllmetry" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/traceloop/openllmetry" alt="Contributors"></td>
     <td>Open-source observability for your LLM application, based on OpenTelemetry</td>
-    <td></td>
   </tr>
   <tr>
     <td><b><a href="https://github.com/arize-ai/phoenix">phoenix</a></b></td>
@@ -417,7 +393,6 @@
     <td><img src="https://img.shields.io/github/release/arize-ai/phoenix" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/arize-ai/phoenix" alt="Contributors"></td>
     <td>ML Observability in a Notebook - Uncover Insights, Surface Problems, Monitor, and Fine Tune your Generative LLM, CV and Tabular Models</td>
-    <td></td>
   </tr>
 </table>
 
@@ -425,12 +400,11 @@
 
 <table>
   <tr>
-    <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 20%;">Name</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/OpenLLMAI/OpenRLHF">OpenRLHF</a></b></td>
@@ -438,7 +412,6 @@
     <td><img src="https://img.shields.io/github/release/openllmai/openrlhf" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/openllmai/openrlhf" alt="Contributors"></td>
     <td>An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & Mixtral)</td>
-    <td></td>
   </tr>
   <tr>
     <td><b><a href="https://github.com/PKU-Alignment/safe-rlhf">Self-RLHF</a></b></td>
@@ -446,7 +419,6 @@
     <td><img src="https://img.shields.io/github/release/PKU-Alignment/safe-rlhf" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/PKU-Alignment/safe-rlhf" alt="Contributors"></td>
     <td>Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback</td>
-    <td></td>
   </tr>
 </table>
 
@@ -454,12 +426,11 @@
 
 <table>
   <tr>
-    <th style="width: 10%;">Name</th>
-    <th style="width: 15%;">Stars</th>
-    <th style="width: 15%;">Release</th>
-    <th style="width: 15%;">Contributors</th>
-    <th style="width: 40%;">About</th>
-    <th style="width: 5%;">Tag</th>
+    <th style="width: 20%;">Name</th>
+    <th style="width: 10%;">Stars</th>
+    <th style="width: 10%;">Release</th>
+    <th style="width: 10%;">Contributors</th>
+    <th style="width: 50%;">About</th>
   </tr>
   <tr>
     <td><b><a href="https://github.com/jxnl/instructor">Instructor</a></b></td>
@@ -467,7 +438,6 @@
     <td><img src="https://img.shields.io/github/release/jxnl/instructor" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/jxnl/instructor" alt="Contributors"></td>
     <td>Structured outputs for LLMs</td>
-    <td></td>
   </tr>
   <tr>
     <td><b><a href="https://github.com/outlines-dev/outlines">Outlines</a></b></td>
@@ -475,6 +445,5 @@
     <td><img src="https://img.shields.io/github/release/outlines-dev/outlines" alt="Release"></td>
     <td><img src="https://img.shields.io/github/contributors/outlines-dev/outlines" alt="Contributors"></td>
     <td>Structured Text Generation</td>
-    <td></td>
   </tr>
 </table>
