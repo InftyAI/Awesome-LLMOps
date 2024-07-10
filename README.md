@@ -73,6 +73,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | **[AgentBench](https://github.com/THUDM/AgentBench)** | ![Stars](https://img.shields.io/github/stars/thudm/agentbench.svg) | ![Release](https://img.shields.io/github/release/thudm/agentbench) | ![Contributors](https://img.shields.io/github/contributors/thudm/agentbench) | A Comprehensive Benchmark to Evaluate LLMs as Agents | |
 | **[lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)** | ![Stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness.svg) | ![Release](https://img.shields.io/github/release/EleutherAI/lm-evaluation-harness) | ![Contributors](https://img.shields.io/github/contributors/EleutherAI/lm-evaluation-harness) | A framework for few-shot evaluation of language models. | |
+| **[LongBench](https://github.com/THUDM/LongBench)** | ![Stars](https://img.shields.io/github/stars/thudm/longbench.svg) | ![Release](https://img.shields.io/github/release/thudm/longbench) | ![Contributors](https://img.shields.io/github/contributors/thudm/longbench) | LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding | long-context |
 
 ## DB Store
 
