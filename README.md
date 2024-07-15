@@ -7,6 +7,8 @@
 - [LLMOps](#llmops)
 - [MLOps](#mlops)
 - [Inference](#inference)
+- [Training](#training)
+- [Agent](#agent)
 - [Evaluation](#evaluation)
 - [DB Store](#db-store)
 - [Observation](#observation)
@@ -25,7 +27,8 @@
 | **[LangChain](https://github.com/langchain-ai/langchain)** | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain.svg) | ![Release](https://img.shields.io/github/release/langchain-ai/langchain) | ![Contributors](https://img.shields.io/github/contributors/langchain-ai/langchain) | ⚡ Building applications with LLMs through composability ⚡ | |
 | **[LiteLLM](https://github.com/BerriAI/litellm)** | ![Stars](https://img.shields.io/github/stars/berriai/litellm.svg) | ![Release](https://img.shields.io/github/release/berriai/litellm) | ![Contributors](https://img.shields.io/github/contributors/berriai/litellm) | lightweight package to simplify LLM API calls - Azure, OpenAI, Cohere, Anthropic, Replicate. Manages input/output translation | |
 | **[LLaMa-Factory](https://github.com/hiyouga/LLaMA-Factory)** | ![Stars](https://img.shields.io/github/stars/hiyouga/llama-factory.svg) | ![Release](https://img.shields.io/github/release/hiyouga/llama-factory) | ![Contributors](https://img.shields.io/github/contributors/hiyouga/llama-factory) | Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) | |
-| **[LlamaIndex](https://github.com/jerryjliu/llama_index)** | ![Stars](https://img.shields.io/github/stars/jerryjliu/llama_index.svg) | ![Release](https://img.shields.io/github/release/jerryjliu/llama_index) | ![Contributors](https://img.shields.io/github/contributors/jerryjliu/llama_index) | LlamaIndex (GPT Index) is a data framework for your LLM applications | |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | ![Stars](https://img.shields.io/github/stars/run-llama/llama_index.svg) | ![Release](https://img.shields.io/github/release/run-llama/llama_index) | ![Contributors](https://img.shields.io/github/contributors/run-llama/llama_index) | LlamaIndex is a data framework for your LLM applications | |
+| **[Ollama](https://github.com/ollama/ollama)** | ![Stars](https://img.shields.io/github/stars/ollama/ollama.svg) | ![Release](https://img.shields.io/github/release/ollama/ollama) | ![Contributors](https://img.shields.io/github/contributors/ollama/ollama) | Get up and running with Llama 3, Mistral, Gemma 2, and other large language models. | |
 
 ## MLOps
 
@@ -36,21 +39,6 @@
 | **[Metaflow](https://github.com/Netflix/metaflow)** | ![Stars](https://img.shields.io/github/stars/netflix/metaflow.svg) | ![Release](https://img.shields.io/github/release/netflix/metaflow) | ![Contributors](https://img.shields.io/github/contributors/netflix/metaflow) | 🚀 Build and manage real-life data science projects with ease! | |
 | **[MLflow](https://github.com/mlflow/mlflow)** | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow.svg) | ![Release](https://img.shields.io/github/release/mlflow/mlflow) | ![Contributors](https://img.shields.io/github/contributors/mlflow/mlflow) | Open source platform for the machine learning lifecycle | |
 | **[ZenML](https://github.com/zenml-io/zenml)** | ![Stars](https://img.shields.io/github/stars/zenml-io/zenml.svg) | ![Release](https://img.shields.io/github/release/zenml-io/zenml) | ![Contributors](https://img.shields.io/github/contributors/zenml-io/zenml) | ZenML 🙏: Build portable, production-ready MLOps pipelines. <https://zenml.io>. | |
-
-## Training
-
-| Name | Stars | Release | Contributors | About | Tag |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| **[ColossalAI](https://github.com/hpcaitech/ColossalAI)** | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg) | ![Release](https://img.shields.io/github/release/hpcaitech/ColossalAI) | ![Contributors](https://img.shields.io/github/contributors/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | |
-| **[Ludwig](https://github.com/ludwig-ai/ludwig)** | ![Stars](https://img.shields.io/github/stars/ludwig-ai/ludwig.svg) | ![Release](https://img.shields.io/github/release/ludwig-ai/ludwig) | ![Contributors](https://img.shields.io/github/contributors/ludwig-ai/ludwig) | Low-code framework for building custom LLMs, neural networks, and other AI models | |
-
-## Agent
-
-| Name | Stars | Release | Contributors | About | Tag |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | ![Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT.svg) | ![Release](https://img.shields.io/github/release/Significant-Gravitas/AutoGPT) | ![Contributors](https://img.shields.io/github/contributors/Significant-Gravitas/AutoGPT) | An experimental open-source attempt to make GPT-4 fully autonomous. | |
-| **[MetaGPT](https://github.com/geekan/MetaGPT)** | ![Stars](https://img.shields.io/github/stars/geekan/metagpt.svg) | ![Release](https://img.shields.io/github/release/geekan/MetaGPT) | ![Contributors](https://img.shields.io/github/contributors/geekan/MetaGPT) | 🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo | |
-| **[XAgent](https://github.com/OpenBMB/XAgent)** | ![Stars](https://img.shields.io/github/stars/openbmb/xagent.svg) | ![Release](https://img.shields.io/github/release/openbmb/xagent) | ![Contributors](https://img.shields.io/github/contributors/openbmb/xagent) | An Autonomous LLM Agent for Complex Task Solving | |
 
 ## Inference
 
@@ -66,6 +54,21 @@
 | **[Triton Inference Server](https://github.com/triton-inference-server/server)** | ![Stars](https://img.shields.io/github/stars/triton-inference-server/server.svg) | ![Release](https://img.shields.io/github/release/triton-inference-server/server) | ![Contributors](https://img.shields.io/github/contributors/triton-inference-server/server) | The Triton Inference Server provides an optimized cloud and edge inferencing solution. | |
 | **[Text Generation Inference](https://github.com/huggingface/text-generation-inference)** | ![Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference.svg) | ![Release](https://img.shields.io/github/release/huggingface/text-generation-inference) | ![Contributors](https://img.shields.io/github/contributors/huggingface/text-generation-inference) | Large Language Model Text Generation Inference | |
 | **[vLLM](https://github.com/vllm-project/vllm)** | ![Stars](https://img.shields.io/github/stars/vllm-project/vllm.svg) | ![Release](https://img.shields.io/github/release/vllm-project/vllm) | ![Contributors](https://img.shields.io/github/contributors/vllm-project/vllm) | A high-throughput and memory-efficient inference and serving engine for LLMs | |
+
+## Training
+
+| Name | Stars | Release | Contributors | About | Tag |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| **[ColossalAI](https://github.com/hpcaitech/ColossalAI)** | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg) | ![Release](https://img.shields.io/github/release/hpcaitech/ColossalAI) | ![Contributors](https://img.shields.io/github/contributors/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | |
+| **[Ludwig](https://github.com/ludwig-ai/ludwig)** | ![Stars](https://img.shields.io/github/stars/ludwig-ai/ludwig.svg) | ![Release](https://img.shields.io/github/release/ludwig-ai/ludwig) | ![Contributors](https://img.shields.io/github/contributors/ludwig-ai/ludwig) | Low-code framework for building custom LLMs, neural networks, and other AI models | |
+
+## Agent
+
+| Name | Stars | Release | Contributors | About | Tag |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** | ![Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT.svg) | ![Release](https://img.shields.io/github/release/Significant-Gravitas/AutoGPT) | ![Contributors](https://img.shields.io/github/contributors/Significant-Gravitas/AutoGPT) | An experimental open-source attempt to make GPT-4 fully autonomous. | |
+| **[MetaGPT](https://github.com/geekan/MetaGPT)** | ![Stars](https://img.shields.io/github/stars/geekan/metagpt.svg) | ![Release](https://img.shields.io/github/release/geekan/MetaGPT) | ![Contributors](https://img.shields.io/github/contributors/geekan/MetaGPT) | 🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo | |
+| **[XAgent](https://github.com/OpenBMB/XAgent)** | ![Stars](https://img.shields.io/github/stars/openbmb/xagent.svg) | ![Release](https://img.shields.io/github/release/openbmb/xagent) | ![Contributors](https://img.shields.io/github/contributors/openbmb/xagent) | An Autonomous LLM Agent for Complex Task Solving | |
 
 ## Evaluation
 
