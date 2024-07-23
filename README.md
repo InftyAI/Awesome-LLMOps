@@ -8,6 +8,7 @@
 - [MLOps](#mlops)
 - [Inference](#inference)
 - [Training](#training)
+- [FineTune](#finetune)
 - [Agent](#agent)
 - [Evaluation](#evaluation)
 - [DB Store](#db-store)
@@ -29,6 +30,7 @@
 | **[LLaMa-Factory](https://github.com/hiyouga/LLaMA-Factory)** | ![Stars](https://img.shields.io/github/stars/hiyouga/llama-factory.svg) | ![Release](https://img.shields.io/github/release/hiyouga/llama-factory) | ![Contributors](https://img.shields.io/github/contributors/hiyouga/llama-factory) | Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) | |
 | **[LlamaIndex](https://github.com/run-llama/llama_index)** | ![Stars](https://img.shields.io/github/stars/run-llama/llama_index.svg) | ![Release](https://img.shields.io/github/release/run-llama/llama_index) | ![Contributors](https://img.shields.io/github/contributors/run-llama/llama_index) | LlamaIndex is a data framework for your LLM applications | |
 | **[Mem0](https://github.com/mem0ai/mem0)** | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg) | ![Release](https://img.shields.io/github/release/mem0ai/mem0) | ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0) | The memory layer for Personalized AI | |
+| **[PrivateGPUT](https://github.com/zylon-ai/private-gpt)** | ![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt.svg) | ![Release](https://img.shields.io/github/release/zylon-ai/private-gpt) | ![Contributors](https://img.shields.io/github/contributors/zylon-ai/private-gpt) | Interact with your documents using the power of GPT, 100% privately, no data leaks | |
 
 ## MLOps
 
@@ -47,6 +49,7 @@
 | **[DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)** | ![Stars](https://img.shields.io/github/stars/microsoft/deepspeed-mii.svg) | ![Release](https://img.shields.io/github/release/microsoft/deepspeed-mii) | ![Contributors](https://img.shields.io/github/contributors/microsoft/deepspeed-mii) | MII makes low-latency and high-throughput inference possible, powered by DeepSpeed. | |
 | **[LMDeploy](https://github.com/InternLM/lmdeploy)** | ![Stars](https://img.shields.io/github/stars/internlm/lmdeploy.svg) | ![Release](https://img.shields.io/github/release/internlm/lmdeploy) | ![Contributors](https://img.shields.io/github/contributors/internlm/lmdeploy) | LMDeploy is a toolkit for compressing, deploying, and serving LLMs. | |
 | **[MInference](https://github.com/microsoft/minference)** | ![Stars](https://img.shields.io/github/stars/microsoft/minference.svg) | ![Release](https://img.shields.io/github/release/microsoft/minference) | ![Contributors](https://img.shields.io/github/contributors/microsoft/minference) | To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy. | |
+| **[MLC LLM](https://github.com/mlc-ai/mlc-llm)** | ![Stars](https://img.shields.io/github/stars/mlc-ai/mlc-llm.svg) | ![Release](https://img.shields.io/github/release/mlc-ai/mlc-llm) | ![Contributors](https://img.shields.io/github/contributors/mlc-ai/mlc-llm) | Universal LLM Deployment Engine with ML Compilation | |
 | **[Ollama](https://github.com/ollama/ollama)** | ![Stars](https://img.shields.io/github/stars/ollama/ollama.svg) | ![Release](https://img.shields.io/github/release/ollama/ollama) | ![Contributors](https://img.shields.io/github/contributors/ollama/ollama) | Get up and running with Llama 3, Mistral, Gemma 2, and other large language models. | |
 | **[OpenLLM](https://github.com/bentoml/OpenLLM)** | ![Stars](https://img.shields.io/github/stars/bentoml/openllm.svg) | ![Release](https://img.shields.io/github/release/bentoml/openllm) | ![Contributors](https://img.shields.io/github/contributors/bentoml/openllm) | Operating LLMs in production | |
 | **[RayServe](https://github.com/ray-project/ray)** | ![Stars](https://img.shields.io/github/stars/ray-project/ray.svg) | ![Release](https://img.shields.io/github/release/ray-project/ray) | ![Contributors](https://img.shields.io/github/contributors/ray-project/ray) | Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. | |
@@ -62,6 +65,15 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | **[ColossalAI](https://github.com/hpcaitech/ColossalAI)** | ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg) | ![Release](https://img.shields.io/github/release/hpcaitech/ColossalAI) | ![Contributors](https://img.shields.io/github/contributors/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | |
 | **[Ludwig](https://github.com/ludwig-ai/ludwig)** | ![Stars](https://img.shields.io/github/stars/ludwig-ai/ludwig.svg) | ![Release](https://img.shields.io/github/release/ludwig-ai/ludwig) | ![Contributors](https://img.shields.io/github/contributors/ludwig-ai/ludwig) | Low-code framework for building custom LLMs, neural networks, and other AI models | |
+| **[MLX](https://github.com/ml-explore/mlx)** | ![Stars](https://img.shields.io/github/stars/ml-explore/mlx.svg) | ![Release](https://img.shields.io/github/release/ml-explore/mlx) | ![Contributors](https://img.shields.io/github/contributors/ml-explore/mlx) | MLX: An array framework for Apple silicon | |
+
+## FineTune
+
+| Name | Stars | Release | Contributors | About | Tag |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| **[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)** | ![Stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl.svg) | ![Release](https://img.shields.io/github/release/axolotl-ai-cloud/axolotl) | ![Contributors](https://img.shields.io/github/contributors/axolotl-ai-cloud/axolotl) | Go ahead and axolotl questions | |
+| **[torchtune](https://github.com/pytorch/torchtune)** | ![Stars](https://img.shields.io/github/stars/pytorch/torchtune.svg) | ![Release](https://img.shields.io/github/release/pytorch/torchtune) | ![Contributors](https://img.shields.io/github/contributors/pytorch/torchtune) | A Native-PyTorch Library for LLM Fine-tuning | |
+| **[unsloth](https://github.com/unslothai/unsloth)** | ![Stars](https://img.shields.io/github/stars/unslothai/unsloth.svg) | ![Release](https://img.shields.io/github/release/unslothai/unsloth) | ![Contributors](https://img.shields.io/github/contributors/unslothai/unsloth) | Finetune Llama 3, Mistral, Phi & Gemma LLMs 2-5x faster with 80% less memory | |
 
 ## Agent
 
@@ -95,6 +107,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg) | ![Release](https://img.shields.io/github/release/traceloop/openllmetry) | ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry) | Open-source observability for your LLM application, based on OpenTelemetry | |
 | **[phoenix](https://github.com/arize-ai/phoenix)** | ![Stars](https://img.shields.io/github/stars/arize-ai/phoenix.svg) | ![Release](https://img.shields.io/github/release/arize-ai/phoenix) | ![Contributors](https://img.shields.io/github/contributors/arize-ai/phoenix) | ML Observability in a Notebook - Uncover Insights, Surface Problems, Monitor, and Fine Tune your Generative LLM, CV and Tabular Models | |
+| **[wandb](https://github.com/wandb/wandb)** | ![Stars](https://img.shields.io/github/stars/wandb/wandb.svg) | ![Release](https://img.shields.io/github/release/wandb/wandb) | ![Contributors](https://img.shields.io/github/contributors/wandb/wandb) | 🔥 A tool for visualizing and tracking your machine learning experiments. This repo contains the CLI and Python API. | |
 
 ## Alignment
 
