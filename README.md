@@ -29,6 +29,7 @@
 | **[LLaMa-Factory](https://github.com/hiyouga/LLaMA-Factory)** | ![Stars](https://img.shields.io/github/stars/hiyouga/llama-factory.svg) | ![Release](https://img.shields.io/github/release/hiyouga/llama-factory) | ![Contributors](https://img.shields.io/github/contributors/hiyouga/llama-factory) | Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) | |
 | **[LlamaIndex](https://github.com/run-llama/llama_index)** | ![Stars](https://img.shields.io/github/stars/run-llama/llama_index.svg) | ![Release](https://img.shields.io/github/release/run-llama/llama_index) | ![Contributors](https://img.shields.io/github/contributors/run-llama/llama_index) | LlamaIndex is a data framework for your LLM applications | |
 | **[Mem0](https://github.com/mem0ai/mem0)** | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg) | ![Release](https://img.shields.io/github/release/mem0ai/mem0) | ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0) | The memory layer for Personalized AI | |
+| **[PrivateGPUT](https://github.com/zylon-ai/private-gpt)** | ![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt.svg) | ![Release](https://img.shields.io/github/release/zylon-ai/private-gpt) | ![Contributors](https://img.shields.io/github/contributors/zylon-ai/private-gpt) | Interact with your documents using the power of GPT, 100% privately, no data leaks | |
 
 ## MLOps
 
