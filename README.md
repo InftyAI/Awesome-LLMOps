@@ -32,6 +32,7 @@
 | **[Mem0](https://github.com/mem0ai/mem0)** | ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg) | ![Release](https://img.shields.io/github/release/mem0ai/mem0) | ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0) | The memory layer for Personalized AI | |
 | **[Open WebUI](https://github.com/open-webui/open-webui)** | ![Stars](https://img.shields.io/github/stars/open-webui/open-webui.svg) | ![Release](https://img.shields.io/github/release/open-webui/open-webui) | ![Contributors](https://img.shields.io/github/contributors/open-webui/open-webui) | User-friendly WebUI for LLMs (Formerly Ollama WebUI) | |
 | **[PrivateGPUT](https://github.com/zylon-ai/private-gpt)** | ![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt.svg) | ![Release](https://img.shields.io/github/release/zylon-ai/private-gpt) | ![Contributors](https://img.shields.io/github/contributors/zylon-ai/private-gpt) | Interact with your documents using the power of GPT, 100% privately, no data leaks | |
+| **[Swift](https://github.com/modelscope/ms-swift)** | ![GitHub Repo stars](https://img.shields.io/github/stars/modelscope/ms-swift) | ![GitHub Release](https://img.shields.io/github/v/release/modelscope/ms-swift) | ![GitHub contributors](https://img.shields.io/github/contributors/modelscope/ms-swift) | SWIFT supports training(PreTraining/Fine-tuning/RLHF), inference, evaluation and deployment of 350+ LLMs and 90+ MLLMs (multimodal large models). | |
 
 ## MLOps
 
