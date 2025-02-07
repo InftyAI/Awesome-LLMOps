@@ -134,7 +134,7 @@
 
 | Name  | Stats | About |
 | ---- | ---- | ---- |
-| **[OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF)** | ![Stars](https://img.shields.io/github/stars/openllmai/openrlhf.svg) </br> ![Release](https://img.shields.io/github/release/openllmai/openrlhf) </br> ![Contributors](https://img.shields.io/github/contributors/openllmai/openrlhf) | An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Fulll Tuning & Iterative DPO & LoRA & Mixtralll Tuning & Iterative DPO & LoRA & Mixtralll Tuning & Iterative DPO & LoRA & Mixtralll Tuning & Iterative DPO & LoRA & Mixtralll Tuning & Iterative DPO & LoRA & Mixtralll Tuning & Iterative DPO & LoRA & Mixtrall Tuning & Iterative DPO & LoRA & Mixtral) |
+| **[OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF)** | ![Stars](https://img.shields.io/github/stars/openllmai/openrlhf.svg) </br> ![Release](https://img.shields.io/github/release/openllmai/openrlhf) </br> ![Contributors](https://img.shields.io/github/contributors/openllmai/openrlhf) | An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & RingAttention & RFT) |
 | **[Self-RLHF](https://github.com/PKU-Alignment/safe-rlhf)** | ![Stars](https://img.shields.io/github/stars/PKU-Alignment/safe-rlhf.svg) </br> ![Release](https://img.shields.io/github/release/PKU-Alignment/safe-rlhf) </br> ![Contributors](https://img.shields.io/github/contributors/PKU-Alignment/safe-rlhf) | Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback |
 
 ## Outputs
