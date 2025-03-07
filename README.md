@@ -8,6 +8,7 @@
 - [Training](#training)
 - [FineTune](#finetune)
 - [Inference](#inference)
+- [Inference Platform](#inference-platform)
 - [Agent](#agent)
 - [ChatUI](#chatui)
 - [MLOps](#mlops)
@@ -80,6 +81,15 @@
 | **[web-llm](https://github.com/mlc-ai/web-llm)** | ![Stars](https://img.shields.io/github/stars/mlc-ai/web-llm.svg) </br> ![Release](https://img.shields.io/github/release/mlc-ai/web-llm) </br> ![Contributors](https://img.shields.io/github/contributors/mlc-ai/web-llm) | A high-throughput and memory-efficient inference and serving engine for LLMs |
 | **[zml](https://github.com/zml/zml)** | ![Stars](https://img.shields.io/github/stars/zml/zml.svg) </br> ![Release](https://img.shields.io/github/release/zml/zml) </br> ![Contributors](https://img.shields.io/github/contributors/zml/zml) | High performance AI inference stack. Built for production. |
 
+## Inference Platform
+
+| Name | Stats | About |
+| ---- | ---- | ---- |
+| **[AIBrix](https://github.com/vllm-project/aibrix)** | ![Stars](https://img.shields.io/github/stars/vllm-project/aibrix.svg) </br> ![Release](https://img.shields.io/github/release/vllm-project/aibrix) </br> ![Contributors](https://img.shields.io/github/contributors/vllm-project/aibrix) | Cost-efficient and pluggable Infrastructure components for GenAI inference |
+| **[Kserve](https://github.com/kserve/kserve)** | ![Stars](https://img.shields.io/github/stars/kserve/kserve.svg) </br> ![Release](https://img.shields.io/github/release/kserve/kserve) </br> ![Contributors](https://img.shields.io/github/contributors/kserve/kserve) | Standardized Serverless ML Inference Platform on Kubernetes |
+| **[KubeAI](https://github.com/substratusai/kubeai)** | ![Stars](https://img.shields.io/github/stars/substratusai/kubeai.svg) </br> ![Release](https://img.shields.io/github/release/substratusai/kubeai) </br> ![Contributors](https://img.shields.io/github/contributors/substratusai/kubeai) | AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text. |
+| **[llmaz](https://github.com/InftyAI/llmaz)** | ![Stars](https://img.shields.io/github/stars/inftyai/llmaz.svg) </br> ![Release](https://img.shields.io/github/release/inftyai/llmaz) </br> ![Contributors](https://img.shields.io/github/contributors/inftyai/llmaz) | ☸️ Easy, advanced inference platform for large language models on Kubernetes. |
+
 ## Agent
 
 | Name | Stats | About |
@@ -104,8 +114,6 @@
 | **[BentoML](https://github.com/bentoml/BentoML)** | ![Stars](https://img.shields.io/github/stars/bentoml/bentoml.svg) </br> ![Release](https://img.shields.io/github/release/bentoml/bentoml) </br> ![Contributors](https://img.shields.io/github/contributors/bentoml/bentoml) | Build Production-Grade AI Applications |
 | **[Flyte](https://github.com/flyteorg/flyte)** | ![Stars](https://img.shields.io/github/stars/flyteorg/flyte.svg) </br> ![Release](https://img.shields.io/github/release/flyteorg/flyte) </br> ![Contributors](https://img.shields.io/github/contributors/flyteorg/flyte) | Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks. |
 | **[Kubeflow](https://github.com/kubeflow/kubeflow)** | ![Stars](https://img.shields.io/github/stars/kubeflow/kubeflow.svg) </br> ![Release](https://img.shields.io/github/release/kubeflow/kubeflow) </br> ![Contributors](https://img.shields.io/github/contributors/kubeflow/kubeflow) | Machine Learning Toolkit for Kubernetes |
-| **[Kserve](https://github.com/kserve/kserve)** | ![Stars](https://img.shields.io/github/stars/kserve/kserve.svg) </br> ![Release](https://img.shields.io/github/release/kserve/kserve) </br> ![Contributors](https://img.shields.io/github/contributors/kserve/kserve) | Standardized Serverless ML Inference Platform on Kubernetes |
-| **[llmaz](https://github.com/InftyAI/llmaz)** | ![Stars](https://img.shields.io/github/stars/inftyai/llmaz.svg) </br> ![Release](https://img.shields.io/github/release/inftyai/llmaz) </br> ![Contributors](https://img.shields.io/github/contributors/inftyai/llmaz) | ☸️ Easy, advanced inference platform for large language models on Kubernetes. |
 | **[Metaflow](https://github.com/Netflix/metaflow)** | ![Stars](https://img.shields.io/github/stars/netflix/metaflow.svg) </br> ![Release](https://img.shields.io/github/release/netflix/metaflow) </br> ![Contributors](https://img.shields.io/github/contributors/netflix/metaflow) | 🚀 Build and manage real-life data science projects with ease! |
 | **[MLflow](https://github.com/mlflow/mlflow)** | ![Stars](https://img.shields.io/github/stars/mlflow/mlflow.svg) </br> ![Release](https://img.shields.io/github/release/mlflow/mlflow) </br> ![Contributors](https://img.shields.io/github/contributors/mlflow/mlflow) | Open source platform for the machine learning lifecycle |
 | **[RayServe](https://github.com/ray-project/ray)** | ![Stars](https://img.shields.io/github/stars/ray-project/ray.svg) </br> ![Release](https://img.shields.io/github/release/ray-project/ray) </br> ![Contributors](https://img.shields.io/github/contributors/ray-project/ray) | Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
