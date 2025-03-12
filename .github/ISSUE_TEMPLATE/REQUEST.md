@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-<!-- Please only use this template for submitting enhancement requests -->
+<!-- Please only use this template for submitting project requests -->
 
 **What project you would like to add**:
 
