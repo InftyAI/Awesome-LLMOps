@@ -5,6 +5,8 @@
 ## Table of Contents
 
 - [Agent](#agent)
+    - [Framework](#framework)
+    - [Tools](#tools)
 - [Alignment](#alignment)
 - [Application Orchestration Framework](#application-orchestration-framework)
 - [Chat Framework](#chat-framework)
@@ -25,12 +27,20 @@
 
 ## Agent
 
+### Framework
+
 * **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)**: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. ![Stars](https://img.shields.io/github/stars/significant-gravitas/autogpt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/significant-gravitas/autogpt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/significant-gravitas/autogpt?color=green)
-* **[Mem0](https://github.com/mem0ai/mem0)**: The Memory layer for AI Agents. ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mem0ai/mem0?color=green)
 * **[MetaGPT](https://github.com/geekan/MetaGPT)**: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming. ![Stars](https://img.shields.io/github/stars/geekan/metagpt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/geekan/metagpt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/geekan/metagpt?color=green)
+* **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)**: A lightweight, powerful framework for multi-agent workflows. ![Stars](https://img.shields.io/github/stars/openai/openai-agents-python.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/openai-agents-python?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/openai-agents-python?color=green)
 * **[OpenManus](https://github.com/mannaandpoem/OpenManus)**: No fortress, purely open ground. OpenManus is Coming. ![Stars](https://img.shields.io/github/stars/mannaandpoem/openmanus.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mannaandpoem/openmanus?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mannaandpoem/openmanus?color=green)
 * **[PydanticAI](https://github.com/pydantic/pydantic-ai)**: Agent Framework / shim to use Pydantic with LLMs. ![Stars](https://img.shields.io/github/stars/pydantic/pydantic-ai.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/pydantic/pydantic-ai?color=green) ![LastCommit](https://img.shields.io/github/last-commit/pydantic/pydantic-ai?color=green)
-* **[Swarm](https://github.com/openai/swarm)**: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team. ![Stars](https://img.shields.io/github/stars/openai/swarm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/swarm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/swarm?color=green)
+* **[Swarm](https://github.com/openai/swarm)**: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team. ![Stars](https://img.shields.io/github/stars/openai/swarm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/swarm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/swarm?color=green) ![Tag](https://img.shields.io/badge/experimental-slategray)
+
+### Tools
+
+* **[Browser Use](https://github.com/browser-use/browser-use)**: Make websites accessible for AI agents. ![Stars](https://img.shields.io/github/stars/browser-use/browser-use.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/browser-use/browser-use?color=green) ![LastCommit](https://img.shields.io/github/last-commit/browser-use/browser-use?color=green)
+* **[Mem0](https://github.com/mem0ai/mem0)**: The Memory layer for AI Agents. ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mem0ai/mem0?color=green)
+* **[OpenAI CUA](https://github.com/openai/openai-cua-sample-app)**: Computer Using Agent Sample App. ![Stars](https://img.shields.io/github/stars/openai/openai-cua-sample-app.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/openai-cua-sample-app?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/openai-cua-sample-app?color=green)
 
 
 ## Alignment
