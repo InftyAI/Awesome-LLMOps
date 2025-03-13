@@ -12,8 +12,11 @@
 - [Evaluation](#evaluation)
 - [FineTune](#finetune)
 - [Gateway](#gateway)
+    - [Host Gateway](#host-gateway)
+    - [Cloud Gateway](#cloud-gateway)
 - [Inference](#inference)
-- [Inference Platform](#inference-platform)
+    - [Host Inference](#host-inference)
+    - [Cloud Inference](#cloud-inference)
 - [MLOps](#mlops)
 - [Observation](#observation)
 - [Output](#output)
@@ -85,12 +88,21 @@
 
 ## Gateway
 
+### Host Gateway
+
 * **[AI Gateway](https://github.com/Portkey-AI/gateway)**: A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API. ![Stars](https://img.shields.io/github/stars/portkey-ai/gateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/portkey-ai/gateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/portkey-ai/gateway?color=green)
 * **[LiteLLM](https://github.com/BerriAI/litellm)**: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]. ![Stars](https://img.shields.io/github/stars/berriai/litellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/berriai/litellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/berriai/litellm?color=green)
 * **[RouteLLM](https://github.com/lm-sys/routellm)**: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality. ![Stars](https://img.shields.io/github/stars/lm-sys/routellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lm-sys/routellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lm-sys/routellm?color=green)
 
+### Cloud Gateway
+
+* **[Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)**: Envoy AI Gateway is an open source project for using Envoy Gateway to handle request traffic from application clients to Generative AI services. ![Stars](https://img.shields.io/github/stars/envoyproxy/ai-gateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/envoyproxy/ai-gateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/envoyproxy/ai-gateway?color=green)
+* **[Higress](https://github.com/alibaba/higress)**: 🤖 AI Gateway | AI Native API Gateway. ![Stars](https://img.shields.io/github/stars/alibaba/higress.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/alibaba/higress?color=green) ![LastCommit](https://img.shields.io/github/last-commit/alibaba/higress?color=green)
+* **[kgateway](https://github.com/kgateway-dev/kgateway)**: The Cloud-Native API Gateway and AI Gateway. ![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kgateway-dev/kgateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kgateway-dev/kgateway?color=green)
 
 ## Inference
+
+### Host Inference
 
 * **[Cortex.cpp](https://github.com/janhq/cortex.cpp)**: Local AI API Platform. ![Stars](https://img.shields.io/github/stars/janhq/cortex.cpp.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/janhq/cortex.cpp?color=green) ![LastCommit](https://img.shields.io/github/last-commit/janhq/cortex.cpp?color=green)
 * **[DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)**: MII makes low-latency and high-throughput inference possible, powered by DeepSpeed. ![Stars](https://img.shields.io/github/stars/microsoft/deepspeed-mii.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/deepspeed-mii?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/deepspeed-mii?color=green)
@@ -114,7 +126,7 @@
 * **[zml](https://github.com/zml/zml)**: Any model. Any hardware. Zero compromise. Built with @ziglang / @openxla / MLIR / @bazelbuild. ![Stars](https://img.shields.io/github/stars/zml/zml.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/zml/zml?color=green) ![LastCommit](https://img.shields.io/github/last-commit/zml/zml?color=green)
 
 
-## Inference Platform
+### Cloud Inference
 
 * **[AIBrix](https://github.com/vllm-project/aibrix)**: Cost-efficient and pluggable Infrastructure components for GenAI inference. ![Stars](https://img.shields.io/github/stars/vllm-project/aibrix.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/vllm-project/aibrix?color=green) ![LastCommit](https://img.shields.io/github/last-commit/vllm-project/aibrix?color=green)
 * **[Kserve](https://github.com/kserve/kserve)**: Standardized Serverless ML Inference Platform on Kubernetes. ![Stars](https://img.shields.io/github/stars/kserve/kserve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kserve/kserve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kserve/kserve?color=green)
