@@ -14,7 +14,7 @@
 - [Evaluation](#evaluation)
 - [FineTune](#finetune)
 - [Gateway](#gateway)
-    - [LLM Proxy](#llm-proxy)
+    - [LLM Router](#llm-router)
     - [API Gateway](#api-gateway)
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
@@ -101,7 +101,7 @@
 
 ## Gateway
 
-### LLM Proxy
+### LLM Router
 
 * **[AI Gateway](https://github.com/Portkey-AI/gateway)**: A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API. ![Stars](https://img.shields.io/github/stars/portkey-ai/gateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/portkey-ai/gateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/portkey-ai/gateway?color=green)
 * **[LiteLLM](https://github.com/BerriAI/litellm)**: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]. ![Stars](https://img.shields.io/github/stars/berriai/litellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/berriai/litellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/berriai/litellm?color=green)
