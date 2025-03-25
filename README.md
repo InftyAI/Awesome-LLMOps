@@ -20,6 +20,9 @@
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
     - [Inference Platform](#inference-platform)
+- [MCP](#mcp)
+    - [MCP Server](#mcp-server)
+    - [MCP Client](#mcp-client)
 - [MLOps](#mlops)
 - [Observation](#observation)
 - [Output](#output)
@@ -169,6 +172,17 @@
 * **[Mooncake](https://github.com/kvcache-ai/Mooncake)**: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. ![Stars](https://img.shields.io/github/stars/kvcache-ai/mooncake.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kvcache-ai/mooncake?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kvcache-ai/mooncake?color=green)
 * **[OpenLLM](https://github.com/bentoml/OpenLLM)**: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. ![Stars](https://img.shields.io/github/stars/bentoml/openllm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/bentoml/openllm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/bentoml/openllm?color=green)
 
+## MCP
+
+### MCP Server
+
+* **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)**: A curated list of awesome Model Context Protocol (MCP) servers. ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/punkpeye/awesome-mcp-servers?color=green) ![LastCommit](https://img.shields.io/github/last-commit/punkpeye/awesome-mcp-servers?color=green)
+* **[mcp-directory](https://github.com/chatmcp/mcp-directory)**: A directory for Awesome MCP Servers. ![Stars](https://img.shields.io/github/stars/chatmcp/mcp-directory.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/chatmcp/mcp-directory?color=green) ![LastCommit](https://img.shields.io/github/last-commit/chatmcp/mcp-directory?color=green)
+* **[Smithery](https://smithery.ai/)**: Smithery is a platform to help developers find and ship language model extensions compatible with the Model Context Protocol Specification.
+  
+### MCP Client
+
+* **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)**: A curated list of awesome Model Context Protocol (MCP) clients. ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-clients.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/punkpeye/awesome-mcp-clients?color=green) ![LastCommit](https://img.shields.io/github/last-commit/punkpeye/awesome-mcp-clients?color=green)
 
 ## MLOps
 
