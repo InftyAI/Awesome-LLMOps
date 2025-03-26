@@ -2,6 +2,8 @@
 
 🎉 An awesome &amp; curated list of best LLMOps tools.
 
+> More than welcomed to add new projects in **alphabetical** order.
+
 ## Table of Contents
 
 - [Agent](#agent)
@@ -180,7 +182,7 @@
 * **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)**: A curated list of awesome Model Context Protocol (MCP) servers. ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/punkpeye/awesome-mcp-servers?color=green) ![LastCommit](https://img.shields.io/github/last-commit/punkpeye/awesome-mcp-servers?color=green)
 * **[mcp-directory](https://github.com/chatmcp/mcp-directory)**: A directory for Awesome MCP Servers. ![Stars](https://img.shields.io/github/stars/chatmcp/mcp-directory.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/chatmcp/mcp-directory?color=green) ![LastCommit](https://img.shields.io/github/last-commit/chatmcp/mcp-directory?color=green)
 * **[Smithery](https://smithery.ai)**: Smithery is a platform to help developers find and ship language model extensions compatible with the Model Context Protocol Specification.
-  
+
 ### MCP Client
 
 * **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)**: A curated list of awesome Model Context Protocol (MCP) clients. ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-clients.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/punkpeye/awesome-mcp-clients?color=green) ![LastCommit](https://img.shields.io/github/last-commit/punkpeye/awesome-mcp-clients?color=green)
