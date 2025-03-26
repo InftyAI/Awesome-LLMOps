@@ -9,8 +9,8 @@
     - [Tools](#tools)
 - [Alignment](#alignment)
 - [Application Orchestration Framework](#application-orchestration-framework)
-- [Code Assistant](#code-assistant)
 - [Chat Framework](#chat-framework)
+- [Code Assistant](#code-assistant)
 - [Database](#database)
 - [Evaluation](#evaluation)
 - [FineTune](#finetune)
@@ -28,14 +28,6 @@
 - [Output](#output)
 - [Training](#training)
 
-## Code Assistant
-
-* **[Auto-dev](https://github.com/unit-mesh/auto-dev)**: 🧙‍AutoDev: The AI-powered coding wizard（AI 驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent feature 🧪 included! 🚀. ![Stars](https://img.shields.io/github/stars/unit-mesh/auto-dev.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/unit-mesh/auto-dev?color=green) ![LastCommit](https://img.shields.io/github/last-commit/unit-mesh/auto-dev?color=green)
-* **[Codefuse-chatbot](https://github.com/codefuse-ai/codefuse-chatbot)**: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG, etc. ![Stars](https://img.shields.io/github/stars/codefuse-ai/codefuse-chatbot.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codefuse-ai/codefuse-chatbot?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codefuse-ai/codefuse-chatbot?color=green)
-* **[Cody](https://github.com/sourcegraph/cody)**: Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code. ![Stars](https://img.shields.io/github/stars/sourcegraph/cody.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sourcegraph/cody?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sourcegraph/cody?color=green)
-* **[Continue](https://github.com/continuedev/continue)**: ⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks. ![Stars](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/continuedev/continue?color=green) ![LastCommit](https://img.shields.io/github/last-commit/continuedev/continue?color=green)
-* **[Sweep](https://github.com/sweepai/sweep)**: JSweep: AI coding assistant for JetBrains. ![Stars](https://img.shields.io/github/stars/sweepai/sweep.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sweepai/sweep?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sweepai/sweep?color=green)
-* **[Tabby](https://github.com/TabbyML/tabby)**: Self-hosted AI coding assistant. ![Stars](https://img.shields.io/github/stars/tabbyml/tabby.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/tabbyml/tabby?color=green) ![LastCommit](https://img.shields.io/github/last-commit/tabbyml/tabby?color=green)
 
 ## Agent
 
@@ -87,6 +79,15 @@
 * **[NextChat](https://github.com/ChatGPTNextWeb/NextChat)**: ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows. ![Stars](https://img.shields.io/github/stars/chatgptnextweb/nextchat.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/chatgptnextweb/nextchat?color=green) ![LastCommit](https://img.shields.io/github/last-commit/chatgptnextweb/nextchat?color=green)
 * **[Open WebUI](https://github.com/open-webui/open-webui)**: User-friendly AI Interface (Supports Ollama, OpenAI API, ...). ![Stars](https://img.shields.io/github/stars/open-webui/open-webui.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/open-webui/open-webui?color=green) ![LastCommit](https://img.shields.io/github/last-commit/open-webui/open-webui?color=green)
 * **[PrivateGPT](https://github.com/zylon-ai/private-gpt)**: Interact with your documents using the power of GPT, 100% privately, no data leaks. ![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/zylon-ai/private-gpt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/zylon-ai/private-gpt?color=green)
+
+## Code Assistant
+
+* **[Auto-dev](https://github.com/unit-mesh/auto-dev)**: 🧙‍AutoDev: The AI-powered coding wizard（AI 驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent feature 🧪 included! 🚀. ![Stars](https://img.shields.io/github/stars/unit-mesh/auto-dev.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/unit-mesh/auto-dev?color=green) ![LastCommit](https://img.shields.io/github/last-commit/unit-mesh/auto-dev?color=green)
+* **[Codefuse-chatbot](https://github.com/codefuse-ai/codefuse-chatbot)**: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG, etc. ![Stars](https://img.shields.io/github/stars/codefuse-ai/codefuse-chatbot.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codefuse-ai/codefuse-chatbot?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codefuse-ai/codefuse-chatbot?color=green)
+* **[Cody](https://github.com/sourcegraph/cody)**: Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code. ![Stars](https://img.shields.io/github/stars/sourcegraph/cody.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sourcegraph/cody?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sourcegraph/cody?color=green)
+* **[Continue](https://github.com/continuedev/continue)**: ⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks. ![Stars](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/continuedev/continue?color=green) ![LastCommit](https://img.shields.io/github/last-commit/continuedev/continue?color=green)
+* **[Sweep](https://github.com/sweepai/sweep)**: JSweep: AI coding assistant for JetBrains. ![Stars](https://img.shields.io/github/stars/sweepai/sweep.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sweepai/sweep?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sweepai/sweep?color=green)
+* **[Tabby](https://github.com/TabbyML/tabby)**: Self-hosted AI coding assistant. ![Stars](https://img.shields.io/github/stars/tabbyml/tabby.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/tabbyml/tabby?color=green) ![LastCommit](https://img.shields.io/github/last-commit/tabbyml/tabby?color=green)
 
 
 ## Database
