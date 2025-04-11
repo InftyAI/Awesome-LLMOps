@@ -11,6 +11,7 @@
     - [Tools](#tools)
 - [Alignment](#alignment)
 - [Application Orchestration Framework](#application-orchestration-framework)
+- [Benchmark](#benchmark)
 - [Chat Framework](#chat-framework)
 - [Code Assistant](#code-assistant)
 - [Database](#database)
@@ -69,6 +70,11 @@
 * **[LightRAG](https://github.com/HKUDS/LightRAG)**: "LightRAG: Simple and Fast Retrieval-Augmented Generation" ![Stars](https://img.shields.io/github/stars/HKUDS/LightRAG.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/HKUDS/LightRAG?color=green)  ![LastCommit](https://img.shields.io/github/last-commit/HKUDS/LightRAG?color=green)
 * **[LlamaIndex](https://github.com/run-llama/llama_index)**: LlamaIndex is the leading framework for building LLM-powered agents over your data. ![Stars](https://img.shields.io/github/stars/run-llama/llama_index.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/run-llama/llama_index?color=green) ![LastCommit](https://img.shields.io/github/last-commit/run-llama/llama_index?color=green)
 * **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)**: An open-source integration framework for integrating LLMs into your applications, featuring plugin integration, memory management, planners, and multi-modal capabilities. ![Stars](https://img.shields.io/github/stars/microsoft/semantic-kernel.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/semantic-kernel?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/semantic-kernel?color=green)
+
+
+## Benchmark
+
+* **[LiveBench](https://github.com/livebench/livebench)**: LiveBench: A Challenging, Contamination-Free LLM Benchmark ![Stars](https://img.shields.io/github/stars/livebench/livebench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/livebench/livebench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/livebench/livebench?color=green)
 
 
 ## Chat Framework
