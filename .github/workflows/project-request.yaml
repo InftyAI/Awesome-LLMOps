@@ -118,7 +118,7 @@ jobs:
             const repoName = repoUrl.split('/').pop();
 
             // Create the PR
-            const pr = await github.reset.pulls.create({
+            const pr = await github.rest.pulls.create({
               owner,
               repo,
               title: `Add ${repoName} to ${section}`,
@@ -128,7 +128,7 @@ jobs:
             });
 
             // Add comment to the issue
-            await github.reset.issues.createComment({
+            await github.rest.issues.createComment({
               issue_number: issueNumber,
               owner,
               repo,
