@@ -131,10 +131,11 @@ jobs:
               owner,
               repo,
               title: `Add ${repoName} to ${section}`,
-              body: `fixes #${issueNumber}`,
+              body: `fixes #${issueNumber},
+              
+Co-authored-by: @${issueAuthor}`,
               head: branchName,
-              base: 'main',
-              Co-authored-by: @${issueAuthor}`,
+              base: 'main'
             });
 
             // Add comment to the issue
