@@ -86,7 +86,7 @@ jobs:
         run: |
           git config --global user.name "InftyAI-Agent"
           git config --global user.email "143625840+InftyAI-Agent@users.noreply.github.com"
-          
+
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
           git checkout -b $BRANCH_NAME
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
@@ -118,6 +118,14 @@ jobs:
             // Get the repository name from the URL
             const repoName = repoUrl.split('/').pop();
 
+            // Get the user who created the issue
+            const issue = await github.rest.issues.get({
+              owner,
+              repo,
+              issue_number: issueNumber
+            });
+            const issueAuthor = issue.data.user.login;
+
             // Create the PR
             const pr = await github.rest.pulls.create({
               owner,
@@ -125,7 +133,8 @@ jobs:
               title: `Add ${repoName} to ${section}`,
               body: `fixes #${issueNumber}`,
               head: branchName,
-              base: 'main'
+              base: 'main',
+              Co-authored-by: @${issueAuthor}`,
             });
 
             // Add comment to the issue
