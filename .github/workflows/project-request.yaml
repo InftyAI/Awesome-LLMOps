@@ -85,7 +85,7 @@ jobs:
         if: steps.parse-issue.outputs.result == 'true'
         run: |
           git config --global user.name "InftyAI-Agent"
-          git config --global user.email "superadmin@inftyai.com"
+          git config --global user.email "143625840+InftyAI-Agent@users.noreply.github.com"
           
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
           git checkout -b $BRANCH_NAME
