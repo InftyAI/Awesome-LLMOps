@@ -26,7 +26,6 @@ jobs:
       - name: Parse issue body
         id: parse-issue
         uses: actions/github-script@v6
-        github-token: ${{ secrets.AGENT_TOKEN }}
         with:
           script: |
             const issueBody = context.payload.issue.body;
@@ -83,7 +82,6 @@ jobs:
             return true;
 
       - name: Create branch
-        github-token: ${{ secrets.AGENT_TOKEN }}
         if: steps.parse-issue.outputs.result == 'true'
         run: |
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
@@ -106,7 +104,6 @@ jobs:
 
       - name: Create Pull Request
         uses: actions/github-script@v6
-        github-token: ${{ secrets.AGENT_TOKEN }}
         with:
           script: |
             const { owner, repo } = context.repo;
@@ -119,8 +116,11 @@ jobs:
             // Get the repository name from the URL
             const repoName = repoUrl.split('/').pop();
 
+            const { Octokit } = require("@octokit/rest");
+            const octokit = new Octokit({ auth: process.env.GH_TOKEN });
+
             // Create the PR
-            const pr = await github.rest.pulls.create({
+            const pr = await octokit.pulls.create({
               owner,
               repo,
               title: `Add ${repoName} to ${section}`,
@@ -130,7 +130,7 @@ jobs:
             });
 
             // Add comment to the issue
-            await github.rest.issues.createComment({
+            await octokit.issues.createComment({
               issue_number: issueNumber,
               owner,
               repo,
