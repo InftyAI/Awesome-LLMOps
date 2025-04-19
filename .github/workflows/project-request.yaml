@@ -85,8 +85,6 @@ jobs:
         if: steps.parse-issue.outputs.result == 'true'
         run: |
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
-          git config --global user.name "InftyAI-Agent"
-          git config --global user.email "143625840+InftyAI-Agent@users.noreply.github.com"
           git checkout -b $BRANCH_NAME
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
