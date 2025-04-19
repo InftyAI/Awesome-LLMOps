@@ -105,7 +105,7 @@ jobs:
           git add README.md
           git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.section }} section
 
-        Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
+          Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
           git push --set-upstream origin $BRANCH_NAME
