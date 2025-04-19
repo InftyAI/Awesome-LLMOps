@@ -29,7 +29,7 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
-            const issueAuthorId = context.payload.issue.user.id;
+            const issueAuthorId = context.payload.issue.user.login;
 
             function extractInfoFromPattern(body, pattern) {
               const match = body.match(pattern);
