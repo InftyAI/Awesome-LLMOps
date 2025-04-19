@@ -29,6 +29,7 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
+            const issueAuthorId = context.payload.issue.user.id;
 
             function extractInfoFromPattern(body, pattern) {
               const match = body.match(pattern);
@@ -61,11 +62,13 @@ jobs:
             core.setOutput('repo-url', repoUrl);
             core.setOutput('project-name', projectName);
             core.setOutput('section', section);
+            core.setOutput("author-id", issueAuthorId);
 
             // Log the extracted information
             console.log(`Repository URL: ${repoUrl}`);
             console.log(`Project Name: ${projectName}`);
             console.log(`Section: ${section}`);
+            console.log(`Author ID: ${issueAuthorId}`);
 
             // Check if we have all required information
             if (!repoUrl || !projectName || !section) {
@@ -96,9 +99,13 @@ jobs:
           python project_request.py --section "${{ steps.parse-issue.outputs.section }}" --repo_url "${{ steps.parse-issue.outputs.repo-url }}" --name "${{ steps.parse-issue.outputs.project-name }}"
 
       - name: Commit changes
+        env:
+          ISSUE_AUTHOR: ${{ steps.parse-issue.outputs.author-id }}
         run: |
           git add README.md
-          git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.section }} section"
+          git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.section }} section
+
+        Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
           git push --set-upstream origin $BRANCH_NAME
