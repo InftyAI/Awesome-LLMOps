@@ -133,7 +133,7 @@ jobs:
               title: `Add ${repoName} to ${section}`,
               body: `fixes #${issueNumber},
               
-Co-authored-by: @${issueAuthor}`,
+            Co-authored-by: @${issueAuthor}`,
               head: branchName,
               base: 'main'
             });
