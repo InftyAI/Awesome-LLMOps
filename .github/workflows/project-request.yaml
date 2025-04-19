@@ -84,6 +84,9 @@ jobs:
       - name: Create branch
         if: steps.parse-issue.outputs.result == 'true'
         run: |
+          git config --global user.name "InftyAI-Agent"
+          git config --global user.email "superadmin@inftyai.com"
+          
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
           git checkout -b $BRANCH_NAME
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
