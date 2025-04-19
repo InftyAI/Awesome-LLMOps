@@ -2,7 +2,7 @@
 
 🎉 An awesome &amp; curated list of best LLMOps tools.
 
-> More than welcome to add new projects in **alphabetical** order.
+> More than welcome to add a new project by simply opening an issue.
 
 ## Table of Contents
 
