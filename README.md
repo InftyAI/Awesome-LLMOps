@@ -78,6 +78,7 @@
 
 ## Benchmark
 
+* **[Inference Perf](https://github.com/kubernetes-sigs/inference-perf)**: GenAI inference performance benchmarking tool ![Stars](https://img.shields.io/github/stars/kubernetes-sigs/inference-perf.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kubernetes-sigs/inference-perf?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kubernetes-sigs/inference-perf?color=green)
 * **[LiveBench](https://github.com/livebench/livebench)**: LiveBench: A Challenging, Contamination-Free LLM Benchmark ![Stars](https://img.shields.io/github/stars/livebench/livebench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/livebench/livebench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/livebench/livebench?color=green)
 
 
