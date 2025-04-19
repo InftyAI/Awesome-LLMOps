@@ -3,6 +3,9 @@ on:
   issues:
     types: [opened, edited]
 
+env:
+  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
+
 jobs:
   process-project-request:
     if: contains(github.event.issue.title, 'Project Request:')
@@ -26,44 +29,44 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
-            
+
             function extractInfoFromPattern(body, pattern) {
               const match = body.match(pattern);
               return match ? match[1].trim() : null;
             }
-            
+
             // First remove HTML comments from the issue body
             const bodyWithoutComments = issueBody.replace(/<!--[\s\S]*?-->/g, '');
-            
+
             // Extract GitHub Repository URL
             const repoUrlPattern = /## GitHub Repository URL\s*\n(?:\s*\n)*(.*\S.*)/;
             const repoUrl = extractInfoFromPattern(bodyWithoutComments, repoUrlPattern);
-            
+
             // Extract Project Name
             const projectNamePattern = /## Project Name\s*\n(?:\s*\n)*(.*\S.*)/;
             const projectName = extractInfoFromPattern(bodyWithoutComments, projectNamePattern);
-            
+
             // Extract Section
             let section = null;
-            
+
             // Find the first checked box with [x]
             const checkboxMatch = issueBody.match(/- \[x\] (.+)/);
-            
+
             if (checkboxMatch) {
               section = checkboxMatch[1].trim();
               console.log('Selected section:', section);
             }
-            
+
             // Set outputs
             core.setOutput('repo-url', repoUrl);
             core.setOutput('project-name', projectName);
             core.setOutput('section', section);
-            
+
             // Log the extracted information
             console.log(`Repository URL: ${repoUrl}`);
             console.log(`Project Name: ${projectName}`);
             console.log(`Section: ${section}`);
-            
+
             // Check if we have all required information
             if (!repoUrl || !projectName || !section) {
               core.setFailed('Missing required information in the issue');
@@ -75,15 +78,15 @@ jobs:
               });
               return false;
             }
-            
+
             return true;
 
       - name: Create branch
         if: steps.parse-issue.outputs.result == 'true'
         run: |
           BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "InftyAI-Agent"
+          git config --global user.email "143625840+InftyAI-Agent@users.noreply.github.com"
           git checkout -b $BRANCH_NAME
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
@@ -95,6 +98,8 @@ jobs:
         run: |
           git add README.md
           git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.section }} section"
+
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
           git push --set-upstream origin $BRANCH_NAME
 
       - name: Create Pull Request
@@ -104,13 +109,13 @@ jobs:
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
             const branchName = process.env.BRANCH_NAME;
-            
+
             const repoUrl = '${{ steps.parse-issue.outputs.repo-url }}';
             const section = '${{ steps.parse-issue.outputs.section }}';
-            
+
             // Get the repository name from the URL
             const repoName = repoUrl.split('/').pop();
-            
+
             // Create the PR
             const pr = await github.rest.pulls.create({
               owner,
@@ -120,7 +125,7 @@ jobs:
               head: branchName,
               base: 'main'
             });
-            
+
             // Add comment to the issue
             await github.rest.issues.createComment({
               issue_number: issueNumber,
