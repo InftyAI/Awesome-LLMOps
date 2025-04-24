@@ -28,7 +28,7 @@ footer:
   links:
     github: "https://github.com/InftyAI/Awesome-LLMOps"
     homepage: "https://github.com/InftyAI/Awesome-LLMOps"
-  logo: "https://raw.githubusercontent.com/samzong/samzong/6bd8d13df04950788605e34acf8fb7805d122a38/logos/awesome-llmops-dark.svg"
+  logo: "https://raw.githubusercontent.com/InftyAI/Awesome-LLMOps/refs/heads/main/website/logos/awesome-llmops-dark.svg"
 
 grid_items_size: large
 
@@ -44,6 +44,6 @@ groups:
 header:
   links:
     github: "https://github.com/InftyAI/Awesome-LLMOps"
-  logo: "https://raw.githubusercontent.com/samzong/samzong/6bd8d13df04950788605e34acf8fb7805d122a38/logos/awesome-llmops-light.svg"
+  logo: "https://raw.githubusercontent.com/InftyAI/Awesome-LLMOps/refs/heads/main/website/logos/awesome-llmops-light.svg"
 
 screenshot_width: 1500
