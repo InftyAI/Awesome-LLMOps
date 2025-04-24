@@ -1,0 +1,68 @@
+name: Build and Deploy Landscape
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        if: github.ref == 'refs/heads/main'
+
+      - name: Install landscape2
+        run: |
+          curl --proto '=https' --tlsv1.2 -LsSf \
+            https://github.com/cncf/landscape2/releases/download/v0.13.0/landscape2-installer.sh | sh
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Cache landscape data
+        uses: actions/cache@v3
+        with:
+          path: .cache
+          key: ${{ runner.os }}-landscape-cache-${{ hashFiles('website/data.yml', 'website/settings.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-landscape-cache-
+
+      - name: Validate landscape files
+        run: make validate
+
+      - name: Build landscape
+        run: make build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: build
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 

@@ -1,0 +1,28 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
+
+categories:
+  - category: "Agents"
+    content: |
+      An Agent is an autonomous or semi-autonomous system powered by large language models, integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
+
+    subcategories:
+      - subcategory: "Framework"
+        content: |
+          A Framework is a structured software architecture designed to support Agent development and operation, integrating RAG, Function Calling, and MCP, offering modular tools, API interfaces, and data flow management to streamline task scheduling, knowledge retrieval, and multimodal interactions.
+
+      - subcategory: "Tools"
+        content: |
+          Tools are external functional modules or APIs invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
+
+  - category: "Alignment"
+    content: |
+      Alignment in large-scale Agent development adjusts model behavior to align with human values, preferences, and safety constraints using techniques like RLHF and DPO. OpenRLHF leverages PPO, iterative DPO, and LoRA for efficient 70B+ model alignment, ensuring precise and stable outputs. Self-RLHF enhances safety through Constrained Value Alignment and Safe RLHF, minimizing harmful outputs. Integrated with RAG and Function Calling, Alignment ensures Agents remain consistent, reliable, and ethical in complex tasks.
+
+    subcategories:
+      - subcategory: "Alignment"
+        content: |
+          Alignment in large-scale Agent development adjusts model behavior to align with human values, preferences, and safety constraints using techniques like RLHF and DPO. OpenRLHF leverages PPO, iterative DPO, and LoRA for efficient 70B+ model alignment, ensuring precise and stable outputs. Self-RLHF enhances safety through Constrained Value Alignment and Safe RLHF, minimizing harmful outputs. Integrated with RAG and Function Calling, Alignment ensures Agents remain consistent, reliable, and ethical in complex tasks.
