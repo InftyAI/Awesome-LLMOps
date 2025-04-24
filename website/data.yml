@@ -1,0 +1,37 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Agents
+    subcategories:
+      - name: Framework
+        items:
+          - name: Agent Development Kit (ADK)
+            description: An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. 
+            homepage_url: https://github.com/google/adk-python
+            logo: agent-development-kit.png
+            repo_url: https://github.com/google/adk-python
+          - name: Agno
+            description: Build Multimodal AI Agents with memory, knowledge and tools. Simple, fast and model-agnostic.
+            homepage_url: https://github.com/agno-agi/agno
+            logo: agno.svg
+            repo_url: https://github.com/agno-agi/agno
+      - name: Tools
+        items:
+          - name: Browser Use
+            description: Make websites accessible for AI agents.
+            homepage_url: https://github.com/browser-use/browser-use
+            logo: browser-use.png
+            repo_url: https://github.com/browser-use/browser-use
+  - name: Alignment
+    subcategories:
+      - name: Alignment
+        items:
+          - name: OpenRLHF
+            description: An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & RingAttention & RFT).
+            homepage_url: https://github.com/OpenRLHF/OpenRLHF
+            logo: openRLHF.png
+            repo_url: https://github.com/OpenRLHF/OpenRLHF

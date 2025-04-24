@@ -1,0 +1,49 @@
+# Landscape2 settings
+#
+# This settings file allows customizing some aspects of the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
+
+foundation: Awesome-LLMOps
+
+url: http://127.0.0.1:8000
+
+colors:
+  color1: "rgba(0, 107, 204, 1)"
+  color2: "rgba(255, 0, 170, 1)"
+  color3: "rgba(96, 149, 214, 1)"
+  color4: "rgba(0, 42, 81, 0.7)"
+  color5: "rgba(1, 107, 204, 0.7)"
+  color6: "rgba(0, 42, 81, 0.7)"
+  color7: "rgba(180, 219, 255, 1)"
+
+# featured_items:
+#   - field: maturity
+#     options:
+#       - value: graduated
+#         order: 1
+#         label: Graduated
+
+footer:
+  links:
+    github: "https://github.com/InftyAI/Awesome-LLMOps"
+    homepage: "https://github.com/InftyAI/Awesome-LLMOps"
+  logo: "https://raw.githubusercontent.com/samzong/samzong/6bd8d13df04950788605e34acf8fb7805d122a38/logos/awesome-llmops-dark.svg"
+
+grid_items_size: large
+
+groups:
+  - name: ALL PROJECTS
+    categories:
+      - Agents
+      - Alignment
+  - name: Agents
+    categories:
+      - Agents
+
+header:
+  links:
+    github: "https://github.com/InftyAI/Awesome-LLMOps"
+  logo: "https://raw.githubusercontent.com/samzong/samzong/6bd8d13df04950788605e34acf8fb7805d122a38/logos/awesome-llmops-light.svg"
+
+screenshot_width: 1500
