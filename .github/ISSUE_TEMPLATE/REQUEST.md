@@ -23,6 +23,7 @@ assignees: ''
 - [ ] Chat Framework
 - [ ] Code Assistant
 - [ ] Database
+- [ ] Development Environment
 - [ ] Evaluation
 - [ ] FineTune
 - Gateway
