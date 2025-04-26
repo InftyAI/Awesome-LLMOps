@@ -14,6 +14,7 @@
 - [Benchmark](#benchmark)
 - [Chat Framework](#chat-framework)
 - [Code Assistant](#code-assistant)
+- [Development Environment](#development-environment)
 - [Database](#database)
 - [Evaluation](#evaluation)
 - [FineTune](#finetune)
@@ -29,7 +30,6 @@
 - [MLOps](#mlops)
 - [Observation](#observation)
 - [Output](#output)
-- [Runtime](#runtime)
 - [Training](#training)
 
 
@@ -115,6 +115,10 @@
 * **[milvus](https://github.com/milvus-io/milvus)**: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search. ![Stars](https://img.shields.io/github/stars/milvus-io/milvus.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/milvus-io/milvus?color=green) ![LastCommit](https://img.shields.io/github/last-commit/milvus-io/milvus?color=green)
 * **[weaviate](https://github.com/weaviate/weaviate)**: Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​. ![Stars](https://img.shields.io/github/stars/weaviate/weaviate.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/weaviate/weaviate?color=green) ![LastCommit](https://img.shields.io/github/last-commit/weaviate/weaviate?color=green)
 
+## Development Environment
+
+* **[Daytona](https://github.com/daytonaio/daytona)**: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. ![Stars](https://img.shields.io/github/stars/daytonaio/daytona.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/daytonaio/daytona?color=green) ![LastCommit](https://img.shields.io/github/last-commit/daytonaio/daytona?color=green)
+* **[E2B](https://github.com/e2b-dev/E2B)**: Secure open source cloud runtime for AI apps & AI agents. ![Stars](https://img.shields.io/github/stars/e2b-dev/E2B.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/e2b-dev/E2B?color=green) ![LastCommit](https://img.shields.io/github/last-commit/e2b-dev/E2B?color=green)
 
 ## Evaluation
 
@@ -234,11 +238,6 @@
 
 * **[Instructor](https://github.com/instructor-ai/instructor)**: structured outputs for llms. ![Stars](https://img.shields.io/github/stars/instructor-ai/instructor.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/instructor-ai/instructor?color=green) ![LastCommit](https://img.shields.io/github/last-commit/instructor-ai/instructor?color=green)
 * **[Outlines](https://github.com/dottxt-ai/outlines)**: Structured Text Generation. ![Stars](https://img.shields.io/github/stars/dottxt-ai/outlines.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/dottxt-ai/outlines?color=green) ![LastCommit](https://img.shields.io/github/last-commit/dottxt-ai/outlines?color=green)
-
-## Runtime
-
-* **[Daytona](https://github.com/daytonaio/daytona)**: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. ![Stars](https://img.shields.io/github/stars/daytonaio/daytona.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/daytonaio/daytona?color=green) ![LastCommit](https://img.shields.io/github/last-commit/daytonaio/daytona?color=green)
-* **[E2B](https://github.com/e2b-dev/E2B)**: Secure open source cloud runtime for AI apps & AI agents. ![Stars](https://img.shields.io/github/stars/e2b-dev/E2B.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/e2b-dev/E2B?color=green) ![LastCommit](https://img.shields.io/github/last-commit/e2b-dev/E2B?color=green)
 
 ## Training
 
