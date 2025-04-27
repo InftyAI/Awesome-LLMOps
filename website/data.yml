@@ -5,12 +5,28 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: Agents
+  - name: Inference
     subcategories:
-      - name: Framework
+      - name: Inference Engine
+        items: []
+      - name: Inference Platform
+        items: []
+      - name: AI Gateway
+        items: []
+      - name: LLM Router
+        items: []
+      - name: Benchmark
+        items: []
+      - name: Output
+        items: []
+  - name: Orchestration
+    subcategories:
+      - name: Workflow
+        items: []
+      - name: Agent
         items:
           - name: Agent Development Kit (ADK)
-            description: An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. 
+            description: An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
             homepage_url: https://github.com/google/adk-python
             logo: agent-development-kit.png
             repo_url: https://github.com/google/adk-python
@@ -26,8 +42,24 @@ categories:
             homepage_url: https://github.com/browser-use/browser-use
             logo: browser-use.png
             repo_url: https://github.com/browser-use/browser-use
-  - name: Alignment
+  - name: Runtime
     subcategories:
+      - name: Chatbot
+        items: []
+      - name: Code Assistant
+        items: []
+      - name: Database
+        items: []
+      - name: Development Environment
+        items: []
+      - name: Observation
+        items: []
+  - name: Training
+    subcategories:
+      - name: Framework
+        items: []
+      - name: FineTune
+        items: []
       - name: Alignment
         items:
           - name: OpenRLHF
@@ -35,3 +67,7 @@ categories:
             homepage_url: https://github.com/OpenRLHF/OpenRLHF
             logo: openRLHF.png
             repo_url: https://github.com/OpenRLHF/OpenRLHF
+      - name: Evaluation
+        items: []
+      - name: Workflow
+        items: []
