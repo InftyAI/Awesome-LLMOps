@@ -11,14 +11,6 @@ categories:
       It covers all aspects of efficiently serving, routing, executing, and managing models in real-time or batch settings, focusing on scalability, low latency, reliability, and adaptability across different environments and hardware.
 
     subcategories:
-      - subcategory: "API Gateway"
-        content: |
-          API Gateways serve as the central entry point for managing and routing requests to various backend services, including LLMs and AI models. These gateways are designed to handle high traffic volumes, manage APIs, and often provide additional features like rate limiting, security, monitoring, and AI-specific capabilities. They act as intermediaries between clients and services, enabling efficient communication, management, and scalability for AI-driven applications.
-
-      - subcategory: "Benchmark"
-        content: |
-          Benchmark provide standardized methods for evaluating and comparing the performance, quality, and capabilities of LLMs (Large Language Models) and AI systems. They focus on areas such as inference speed, latency, model accuracy, contamination-free testing, and real-world scenario simulation, helping developers and researchers make informed decisions about model and system selection.
-
       - subcategory: "Inference Engine"
         content: |
           Inference Engines are optimized frameworks or platforms designed to execute machine learning models, particularly large language models (LLMs), with an emphasis on high performance, low latency, and scalability. These engines allow users to run inferences across various hardware platforms and deploy models efficiently. They handle tasks such as model loading, serving, optimization, and high-throughput execution, making them essential in AI and machine learning applications.
@@ -27,9 +19,17 @@ categories:
         content: |
           Inference Platforms are specialized environments or infrastructures designed for deploying and managing large-scale AI inference tasks, particularly for Generative AI (GenAI) models and large language models (LLMs). These platforms focus on providing efficient resource management, scaling capabilities, and ease of use when serving models in production environments, often integrating Kubernetes for orchestration, auto-provisioning, and container-based deployments.
 
+      - subcategory: "AI Gateway"
+        content: |
+          AI Gateways serve as the central entry point for managing and routing requests to various backend services, including LLMs and AI models. These gateways are designed to handle high traffic volumes, manage APIs, and often provide additional features like rate limiting, security, monitoring, and AI-specific capabilities. They act as intermediaries between clients and services, enabling efficient communication, management, and scalability for AI-driven applications.
+
       - subcategory: "LLM Router"
         content: |
           LLM routers are specialized systems designed to intelligently route, proxy, or switch between multiple large language model (LLM) providers based on factors like cost, latency, quality, or model capabilities. They help developers and organizations optimize API usage across different backends while maintaining a unified, often OpenAI-compatible, interface. Some also integrate guardrails and evaluation mechanisms to ensure safe and efficient AI interactions.
+
+      - subcategory: "Benchmark"
+        content: |
+          Benchmark provide standardized methods for evaluating and comparing the performance, quality, and capabilities of LLMs (Large Language Models) and AI systems. They focus on areas such as inference speed, latency, model accuracy, contamination-free testing, and real-world scenario simulation, helping developers and researchers make informed decisions about model and system selection.
 
       - subcategory: "Output"
         content: |
@@ -42,17 +42,17 @@ categories:
       It ensures that models, tools, APIs, agents, and data sources work seamlessly together, supporting scalability, automation, modularity, and efficient deployment from development to production environments.
 
     subcategories:
+      - subcategory: "Workflow"
+        content: |
+          A workflow provides a structured environment for building, connecting, managing, and deploying AI applications, especially those powered by large language models (LLMs) or other machine learning techniques. These frameworks offer modular components such as model integration, retrieval-augmented generation (RAG) pipelines, agent capabilities, prompt management, observability, and workflow orchestration, enabling rapid prototyping and scalable production deployments.
+
       - subcategory: "Agent"
         content: |
           An Agent is an autonomous or semi-autonomous system powered by large language models, integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
 
-      - subcategory: "Framework"
+      - subcategory: "Tool"
         content: |
-          An Orchestration Framework provides a structured environment for building, connecting, managing, and deploying AI applications, especially those powered by large language models (LLMs) or other machine learning techniques. These frameworks offer modular components such as model integration, retrieval-augmented generation (RAG) pipelines, agent capabilities, prompt management, observability, and workflow orchestration, enabling rapid prototyping and scalable production deployments.
-
-      - subcategory: "Tools"
-        content: |
-          Tools are external functional modules or APIs invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
+          A Tool is an external functional module or API invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
 
   - category: "Runtime"
     content: |
@@ -61,9 +61,9 @@ categories:
       Runtimes often include components like chat frameworks, databases, code assistants, and observability tools.
 
     subcategories:
-      - subcategory: "Chat Framework"
+      - subcategory: "Chatbot"
         content: |
-          Chat Frameworks are platforms and toolkits designed to build, customize, deploy, and interact with AI chat applications. They often support multiple LLM providers, local deployment, plugin systems, RAG integration, and user-friendly UIs, enabling developers and users to easily create private, extensible, and cross-platform AI assistants.
+          Chatbots are platforms and toolkits designed to build, customize, deploy, and interact with AI chat applications. They often support multiple LLM providers, local deployment, plugin systems, RAG integration, and user-friendly UIs, enabling developers and users to easily create private, extensible, and cross-platform AI assistants.
 
       - subcategory: "Code Assistant"
         content: |
@@ -89,6 +89,14 @@ categories:
       Training is critical for creating capable, customized, and robust AI systems across a variety of applications.
 
     subcategories:
+      - subcategory: "Framework"
+        content: |
+          Framework refers to tools that assist in the training of machine learning models, particularly large AI models. These tools help improve the efficiency, scalability, and accessibility of the training process.
+
+      - subcategory: "FineTune"
+        content: |
+          Fine-tuning frameworks enable developers and researchers to efficiently adapt pre-trained large language models (LLMs) or vision-language models (VLMs) to specialized tasks or datasets. These tools often provide streamlined pipelines for training, parameter-efficient fine-tuning (PEFT), evaluation, and deployment, with support for both single-modal and multimodal models across a wide range of hardware environments.
+
       - subcategory: "Alignment"
         content: |
           Alignment in large-scale Agent development adjusts model behavior to align with human values, preferences, and safety constraints using techniques like RLHF and DPO. OpenRLHF leverages PPO, iterative DPO, and LoRA for efficient 70B+ model alignment, ensuring precise and stable outputs. Self-RLHF enhances safety through Constrained Value Alignment and Safe RLHF, minimizing harmful outputs. Integrated with RAG and Function Calling, Alignment ensures Agents remain consistent, reliable, and ethical in complex tasks.
@@ -96,14 +104,6 @@ categories:
       - subcategory: "Evaluation"
         content: |
           Evaluation frameworks are designed to systematically assess the performance, reliability, and behavior of large language models (LLMs), retrieval-augmented generation (RAG) systems, and AI agents. They provide benchmarking tools, dataset coverage, tracing, and automated evaluation pipelines to support both academic research and production deployment.      They help developers and researchers ensure that AI systems meet quality standards, are free from contamination, and perform reliably in real-world scenarios.
-
-      - subcategory: "FineTune"
-        content: |
-          Fine-tuning frameworks enable developers and researchers to efficiently adapt pre-trained large language models (LLMs) or vision-language models (VLMs) to specialized tasks or datasets. These tools often provide streamlined pipelines for training, parameter-efficient fine-tuning (PEFT), evaluation, and deployment, with support for both single-modal and multimodal models across a wide range of hardware environments.
-
-      - subcategory: "Framework"
-        content: |
-          Framework refers to tools that assist in the training of machine learning models, particularly large AI models. These tools help improve the efficiency, scalability, and accessibility of the training process.
 
       - subcategory: "Workflow"
         content: |
