@@ -35,11 +35,37 @@ grid_items_size: large
 groups:
   - name: ALL PROJECTS
     categories:
-      - Agents
-      - Alignment
-  - name: Agents
+      - Inference
+      - Orchestration
+      - Runtime
+      - Training
+  - name: Inference
     categories:
-      - Agents
+      - Inference Engine
+      - Inference Platform
+      - AI Gateway
+      - LLM Router
+      - Benchmark
+      - Output
+  - name: Orchestration
+    categories:
+      - Workflow
+      - Agent
+      - Tools
+  - name: Runtime
+    categories:
+      - Chatbot
+      - Code Assistant
+      - Database
+      - Development Environment
+      - Observation
+  - name: Training
+    categories:
+      - Framework
+      - FineTune
+      - Alignment
+      - Evaluation
+      - Workflow
 
 header:
   links:
