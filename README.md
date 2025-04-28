@@ -9,8 +9,8 @@
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
     - [Inference Platform](#inference-platform)
-    - [AI Gateway](#ai-gateway)
     - [LLM Router](#llm-router)
+    - [AI Gateway](#ai-gateway)
     - [Benchmark](#benchmark)
     - [Output](#output)
 - [Orchestration](#orchestration)
@@ -77,7 +77,7 @@
 * **[LiteLLM](https://github.com/BerriAI/litellm)**: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]. ![Stars](https://img.shields.io/github/stars/berriai/litellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/berriai/litellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/berriai/litellm?color=green)
 * **[RouteLLM](https://github.com/lm-sys/routellm)**: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality. ![Stars](https://img.shields.io/github/stars/lm-sys/routellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lm-sys/routellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lm-sys/routellm?color=green)
 
-### API Gateway
+### AI Gateway
 
 * **[APISIX](https://github.com/apache/apisix)**: The Cloud-Native API Gateway and AI Gateway with extensive plugin system and AI capabilities. ![Stars](https://img.shields.io/github/stars/apache/apisix.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/apache/apisix?color=green) ![LastCommit](https://img.shields.io/github/last-commit/apache/apisix?color=green)
 * **[Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)**: Envoy AI Gateway is an open source project for using Envoy Gateway to handle request traffic from application clients to Generative AI services. ![Stars](https://img.shields.io/github/stars/envoyproxy/ai-gateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/envoyproxy/ai-gateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/envoyproxy/ai-gateway?color=green)
