@@ -14,28 +14,29 @@ assignees: ''
 
 ## Section to add this project
 
-- Agent
-    - [ ] Framework
-    - [ ] Tools
-- [ ] Alignment 
-- [ ] Application Orchestration Framework
-- [ ] Benchmark
-- [ ] Chat Framework
-- [ ] Code Assistant
-- [ ] Database
-- [ ] Development Environment
-- [ ] Evaluation
-- [ ] FineTune
-- Gateway
-    - [ ] LLM Router
-    - [ ] API Gateway
 - Inference
     - [ ] Inference Engine
     - [ ] Inference Platform
+    - [ ] AI Gateway
+    - [ ] LLM Router
+    - [ ] Benchmark
+    - [ ] Output
+- Orchestration
+    - [ ] Workflow
+    - [ ] Agent
+    - [ ] Tools
+- Runtime
+    - [ ] Chatbot
+    - [ ] Code Assistant
+    - [ ] Database
+    - [ ] Development Environment
+    - [ ] Observation
+- Training
+    - [ ] Framework
+    - [ ] FineTune
+    - [ ] Alignment
+    - [ ] Evaluation
+    - [ ] Workflow
 - MCP
     - [ ] MCP Server
     - [ ] MCP Client
-- [ ] MLOps
-- [ ] Observation
-- [ ] Output
-- [ ] Training
