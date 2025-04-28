@@ -256,7 +256,7 @@ categories:
             logo: langchain.png
             repo_url: https://github.com/langchain-ai/langchain
           - name: Langfuse
-            description: Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more.
+            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
             homepage_url: https://github.com/langfuse/langfuse
             logo: langfuse.png
             repo_url: https://github.com/langfuse/langfuse
@@ -415,7 +415,7 @@ categories:
             logo: lobe-chat.png
             repo_url: https://github.com/lobehub/lobe-chat
           - name: NextChat
-            description: Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows.
+            description: "Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows."
             homepage_url: https://github.com/ChatGPTNextWeb/NextChat
             logo: nextchat.png
             repo_url: https://github.com/ChatGPTNextWeb/NextChat
@@ -432,7 +432,7 @@ categories:
       - name: Code Assistant
         items:
           - name: Auto-dev
-            description: AutoDev: The AI-powered coding wizard with multilingual support, auto code generation, and a helpful bug-slaying assistant. Customizable prompts and magic Auto Dev/Testing/Document/Agent features included.
+            description: "AutoDev: The AI-powered coding wizard with multilingual support, auto code generation, and a helpful bug-slaying assistant. Customizable prompts and magic Auto Dev/Testing/Document/Agent features included."
             homepage_url: https://github.com/unit-mesh/auto-dev
             logo: auto-dev.png
             repo_url: https://github.com/unit-mesh/auto-dev
@@ -452,7 +452,7 @@ categories:
             logo: continue.png
             repo_url: https://github.com/continuedev/continue
           - name: Sweep
-            description: JSweep: AI coding assistant for JetBrains.
+            description: "JSweep: AI coding assistant for JetBrains."
             homepage_url: https://github.com/sweepai/sweep
             logo: sweep.png
             repo_url: https://github.com/sweepai/sweep
@@ -537,7 +537,7 @@ categories:
             logo: colossalai.png
             repo_url: https://github.com/hpcaitech/ColossalAI
           - name: DLRover
-            description: DLRover: An Automatic Distributed Deep Learning System.
+            description: "DLRover: An Automatic Distributed Deep Learning System."
             homepage_url: https://github.com/intelligent-machine-learning/dlrover
             logo: dlrover.png
             repo_url: https://github.com/intelligent-machine-learning/dlrover
@@ -552,7 +552,7 @@ categories:
             logo: maxtext.png
             repo_url: https://github.com/google/maxtext
           - name: MLX
-            description: MLX: An array framework for Apple silicon.
+            description: "MLX: An array framework for Apple silicon."
             homepage_url: https://github.com/ml-explore/mlx
             logo: mlx.png
             repo_url: https://github.com/ml-explore/mlx
@@ -579,7 +579,7 @@ categories:
             logo: lmflow.png
             repo_url: https://github.com/OptimalScale/LMFlow
           - name: maestro
-            description: streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL.
+            description: "streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL."
             homepage_url: https://github.com/roboflow/maestro
             logo: maestro.png
             repo_url: https://github.com/roboflow/maestro
@@ -599,7 +599,7 @@ categories:
             logo: torchtune.png
             repo_url: https://github.com/pytorch/torchtune
           - name: Transformer Lab
-            description: Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer.
+            description: "Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer."
             homepage_url: https://github.com/transformerlab/transformerlab-app
             logo: transformerlab.png
             repo_url: https://github.com/transformerlab/transformerlab-app
@@ -616,7 +616,7 @@ categories:
             logo: openRLHF.png
             repo_url: https://github.com/OpenRLHF/OpenRLHF
           - name: Self-RLHF
-            description: Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback.
+            description: "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback."
             homepage_url: https://github.com/PKU-Alignment/safe-rlhf
             logo: self-rlhf.png
             repo_url: https://github.com/PKU-Alignment/safe-rlhf
@@ -628,7 +628,7 @@ categories:
             logo: agentbench.png
             repo_url: https://github.com/THUDM/AgentBench
           - name: LiveBench
-            description: LiveBench: A Challenging, Contamination-Free LLM Benchmark.
+            description: "LiveBench: A Challenging, Contamination-Free LLM Benchmark."
             homepage_url: https://github.com/livebench/livebench
             logo: livebench.png
             repo_url: https://github.com/livebench/livebench
@@ -695,7 +695,7 @@ categories:
             logo: seldon-core.png
             repo_url: https://github.com/SeldonIO/seldon-core
           - name: ZenML
-            description: ZenML 🙏: The bridge between ML and Ops. https://zenml.io.
+            description: "ZenML 🙏: The bridge between ML and Ops. https://zenml.io."
             homepage_url: https://github.com/zenml-io/zenml
             logo: zenml.png
             repo_url: https://github.com/zenml-io/zenml
