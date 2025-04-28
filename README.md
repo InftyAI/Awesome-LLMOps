@@ -89,7 +89,6 @@
 ### Benchmark
 
 * **[Inference Perf](https://github.com/kubernetes-sigs/inference-perf)**: GenAI inference performance benchmarking tool ![Stars](https://img.shields.io/github/stars/kubernetes-sigs/inference-perf.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kubernetes-sigs/inference-perf?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kubernetes-sigs/inference-perf?color=green)
-* **[LiveBench](https://github.com/livebench/livebench)**: LiveBench: A Challenging, Contamination-Free LLM Benchmark ![Stars](https://img.shields.io/github/stars/livebench/livebench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/livebench/livebench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/livebench/livebench?color=green)
 
 ### Output
 
@@ -213,6 +212,7 @@
 ### Evaluation
 
 * **[AgentBench](https://github.com/THUDM/AgentBench)**: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24). ![Stars](https://img.shields.io/github/stars/thudm/agentbench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/agentbench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/agentbench?color=green)
+* **[LiveBench](https://github.com/livebench/livebench)**: LiveBench: A Challenging, Contamination-Free LLM Benchmark ![Stars](https://img.shields.io/github/stars/livebench/livebench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/livebench/livebench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/livebench/livebench?color=green)
 * **[lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)**: A framework for few-shot evaluation of language models. ![Stars](https://img.shields.io/github/stars/eleutherai/lm-evaluation-harness.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/eleutherai/lm-evaluation-harness?color=green) ![LastCommit](https://img.shields.io/github/last-commit/eleutherai/lm-evaluation-harness?color=green)
 * **[LongBench](https://github.com/THUDM/LongBench)**: LongBench v2 and LongBench (ACL 2024). ![Stars](https://img.shields.io/github/stars/thudm/longbench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/longbench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/longbench?color=green)
 * **[OpenCompass](https://github.com/open-compass/opencompass)**: OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets. ![Stars](https://img.shields.io/github/stars/open-compass/opencompass.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/open-compass/opencompass?color=green) ![LastCommit](https://img.shields.io/github/last-commit/open-compass/opencompass?color=green)
