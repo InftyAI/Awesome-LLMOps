@@ -250,31 +250,6 @@ categories:
             repo_url: https://github.com/roboflow/inference
             tags:
               - computer_vision
-          - name: LangChain
-            description: Build context-aware reasoning applications.
-            homepage_url: https://github.com/langchain-ai/langchain
-            logo: langchain.png
-            repo_url: https://github.com/langchain-ai/langchain
-          - name: Langfuse
-            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
-            homepage_url: https://github.com/langfuse/langfuse
-            logo: langfuse.png
-            repo_url: https://github.com/langfuse/langfuse
-          - name: LightRAG
-            description: Simple and Fast Retrieval-Augmented Generation.
-            homepage_url: https://github.com/HKUDS/LightRAG
-            logo: lightrag.png
-            repo_url: https://github.com/HKUDS/LightRAG
-          - name: LlamaIndex
-            description: The leading framework for building LLM-powered agents over your data.
-            homepage_url: https://github.com/run-llama/llama_index
-            logo: llamaindex.png
-            repo_url: https://github.com/run-llama/llama_index
-          - name: Semantic Kernel
-            description: An open-source integration framework for LLMs, featuring plugin integration, memory management, planners, and multi-modal capabilities.
-            homepage_url: https://github.com/microsoft/semantic-kernel
-            logo: semantickernel.png
-            repo_url: https://github.com/microsoft/semantic-kernel
       - name: Agent
         items:
           - name: Agent Development Kit (ADK)
@@ -311,11 +286,26 @@ categories:
             repo_url: https://github.com/kagent-dev/kagent
             tags:
               - kubernetes
+          - name: LangChain
+            description: Build context-aware reasoning applications.
+            homepage_url: https://github.com/langchain-ai/langchain
+            logo: langchain.png
+            repo_url: https://github.com/langchain-ai/langchain
           - name: LangGraph
             description: Build resilient language agents as graphs.
             homepage_url: https://github.com/langchain-ai/langgraph
             logo: langgraph.png
             repo_url: https://github.com/langchain-ai/langgraph
+          - name: LightRAG
+            description: Simple and Fast Retrieval-Augmented Generation.
+            homepage_url: https://github.com/HKUDS/LightRAG
+            logo: lightrag.png
+            repo_url: https://github.com/HKUDS/LightRAG
+          - name: LlamaIndex
+            description: The leading framework for building LLM-powered agents over your data.
+            homepage_url: https://github.com/run-llama/llama_index
+            logo: llamaindex.png
+            repo_url: https://github.com/run-llama/llama_index
           - name: MetaGPT
             description: MetaGPT is the first multi-agent framework for natural language programming.
             homepage_url: https://github.com/geekan/MetaGPT
@@ -336,6 +326,11 @@ categories:
             homepage_url: https://github.com/pydantic/pydantic-ai
             logo: pydanticai.png
             repo_url: https://github.com/pydantic/pydantic-ai
+          - name: Semantic Kernel
+            description: An open-source integration framework for LLMs, featuring plugin integration, memory management, planners, and multi-modal capabilities.
+            homepage_url: https://github.com/microsoft/semantic-kernel
+            logo: semantickernel.png
+            repo_url: https://github.com/microsoft/semantic-kernel
           - name: Suna
             description: Suna is an open-source generalist AI agent.
             homepage_url: https://github.com/kortix-ai/suna
@@ -502,6 +497,11 @@ categories:
             repo_url: https://github.com/e2b-dev/E2B
       - name: Observation
         items:
+          - name: Langfuse
+            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
+            homepage_url: https://github.com/langfuse/langfuse
+            logo: langfuse.png
+            repo_url: https://github.com/langfuse/langfuse
           - name: OpenLLMetry
             description: Open-source observability for your LLM application, based on OpenTelemetry.
             homepage_url: https://github.com/traceloop/openllmetry
