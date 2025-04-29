@@ -327,7 +327,7 @@ categories:
             logo: pydanticai.png
             repo_url: https://github.com/pydantic/pydantic-ai
           - name: Semantic Kernel
-            description: An open-source integration framework for LLMs, featuring plugin integration, memory management, planners, and multi-modal capabilities.
+            description: Integrate cutting-edge LLM technology quickly and easily into your apps.
             homepage_url: https://github.com/microsoft/semantic-kernel
             logo: semantickernel.png
             repo_url: https://github.com/microsoft/semantic-kernel
