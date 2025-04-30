@@ -264,36 +264,36 @@ categories:
             repo_url: https://github.com/agno-agi/agno
           - name: AutoGPT
             description: AutoGPT is the vision of accessible AI for everyone, providing the tools to focus on what matters.
-            homepage_url: https://github.com/Significant-Gravitas/AutoGPT
+            homepage_url: https://agpt.co/
             logo: autogpt.png
             repo_url: https://github.com/Significant-Gravitas/AutoGPT
           - name: CAMEL
             description: CAMEL is the first multi-agent framework, focused on finding the scaling law of agents.
-            homepage_url: https://github.com/camel-ai/camel
+            homepage_url: https://www.camel-ai.org/
             logo: camel.png
             repo_url: https://github.com/camel-ai/camel
           - name: Codex
             description: Lightweight coding agent that runs in your terminal.
             homepage_url: https://github.com/openai/codex
-            logo: codex.png
+            logo: openai.png
             repo_url: https://github.com/openai/codex
             tags:
               - coding
           - name: kagent
             description: kagent is a Kubernetes-native framework for building AI agents.
-            homepage_url: https://github.com/kagent-dev/kagent
+            homepage_url: https://kagent.dev/
             logo: kagent.png
             repo_url: https://github.com/kagent-dev/kagent
             tags:
               - kubernetes
           - name: LangChain
             description: Build context-aware reasoning applications.
-            homepage_url: https://github.com/langchain-ai/langchain
-            logo: langchain.png
+            homepage_url: https://python.langchain.com/
+            logo: langchain.svg
             repo_url: https://github.com/langchain-ai/langchain
           - name: LangGraph
             description: Build resilient language agents as graphs.
-            homepage_url: https://github.com/langchain-ai/langgraph
+            homepage_url: https://langchain-ai.github.io/langgraph/
             logo: langgraph.png
             repo_url: https://github.com/langchain-ai/langgraph
           - name: LightRAG
@@ -303,43 +303,43 @@ categories:
             repo_url: https://github.com/HKUDS/LightRAG
           - name: LlamaIndex
             description: The leading framework for building LLM-powered agents over your data.
-            homepage_url: https://github.com/run-llama/llama_index
-            logo: llamaindex.png
+            homepage_url: https://docs.llamaindex.ai/
+            logo: llamaindex.svg
             repo_url: https://github.com/run-llama/llama_index
           - name: MetaGPT
             description: MetaGPT is the first multi-agent framework for natural language programming.
-            homepage_url: https://github.com/geekan/MetaGPT
+            homepage_url: https://mgx.dev/
             logo: metagpt.png
             repo_url: https://github.com/geekan/MetaGPT
           - name: OpenAI Agents SDK
             description: A lightweight, powerful framework for multi-agent workflows.
             homepage_url: https://github.com/openai/openai-agents-python
-            logo: openai-agents-sdk.png
+            logo: openai.png
             repo_url: https://github.com/openai/openai-agents-python
           - name: OpenManus
             description: OpenManus is an open-source project with no fortress, purely open ground.
-            homepage_url: https://github.com/mannaandpoem/OpenManus
+            homepage_url: https://openmanus.github.io/
             logo: openmanus.png
             repo_url: https://github.com/mannaandpoem/OpenManus
           - name: PydanticAI
             description: Agent framework/shim to use Pydantic with LLMs.
-            homepage_url: https://github.com/pydantic/pydantic-ai
-            logo: pydanticai.png
+            homepage_url: https://ai.pydantic.dev/
+            logo: pydanticai.svg
             repo_url: https://github.com/pydantic/pydantic-ai
           - name: Semantic Kernel
             description: Integrate cutting-edge LLM technology quickly and easily into your apps.
-            homepage_url: https://github.com/microsoft/semantic-kernel
+            homepage_url: https://aka.ms/semantic-kernel
             logo: semantickernel.png
             repo_url: https://github.com/microsoft/semantic-kernel
           - name: Suna
             description: Suna is an open-source generalist AI agent.
-            homepage_url: https://github.com/kortix-ai/suna
-            logo: suna.png
+            homepage_url: https://www.suna.so/
+            logo: suna.svg
             repo_url: https://github.com/kortix-ai/suna
           - name: Swarm
             description: An educational framework exploring ergonomic, lightweight multi-agent orchestration.
             homepage_url: https://github.com/openai/swarm
-            logo: swarm.png
+            logo: openai.png
             repo_url: https://github.com/openai/swarm
             tags:
               - experimental
