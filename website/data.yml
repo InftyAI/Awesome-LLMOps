@@ -123,8 +123,8 @@ categories:
         items:
           - name: AIBrix
             description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
-            homepage_url: https://github.com/vllm-project/aibrix
-            logo: aibrix.png
+            homepage_url: https://aibrix.readthedocs.io/latest/
+            logo: aibrix.jpeg
             repo_url: https://github.com/vllm-project/aibrix
           - name: Kaito
             description: Kubernetes operator for large-model inference and fine-tuning, with GPU auto-provisioning, container-based hosting, and CRD-based orchestration.
@@ -133,12 +133,12 @@ categories:
             repo_url: https://github.com/kaito-project/Kaito
           - name: Kserve
             description: Standardized Serverless ML Inference Platform on Kubernetes.
-            homepage_url: https://github.com/kserve/kserve
+            homepage_url: https://kserve.github.io/website/latest/
             logo: kserve.png
             repo_url: https://github.com/kserve/kserve
           - name: KubeAI
             description: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text.
-            homepage_url: https://github.com/substratusai/kubeai
+            homepage_url: https://www.kubeai.org/
             logo: kubeai.png
             repo_url: https://github.com/substratusai/kubeai
           - name: llmaz
@@ -148,7 +148,7 @@ categories:
             repo_url: https://github.com/InftyAI/llmaz
           - name: LMCache
             description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
-            homepage_url: https://github.com/LMCache/LMCache
+            homepage_url: https://lmcache.ai/
             logo: lmcache.png
             repo_url: https://github.com/LMCache/LMCache
           - name: Mooncake
@@ -160,32 +160,32 @@ categories:
         items:
           - name: APISIX
             description: The Cloud-Native API Gateway and AI Gateway with extensive plugin system and AI capabilities.
-            homepage_url: https://github.com/apache/apisix
+            homepage_url: https://apisix.apache.org/
             logo: apisix.png
             repo_url: https://github.com/apache/apisix
           - name: Envoy AI Gateway
             description: Envoy AI Gateway is an open source project for using Envoy Gateway to handle request traffic from application clients to Generative AI services.
-            homepage_url: https://github.com/envoyproxy/ai-gateway
+            homepage_url: https://aigateway.envoyproxy.io/
             logo: envoy-ai-gateway.png
             repo_url: https://github.com/envoyproxy/ai-gateway
           - name: Higress
             description: 🤖 AI Gateway | AI Native API Gateway.
-            homepage_url: https://github.com/alibaba/higress
-            logo: higress.png
+            homepage_url: https://higress.ai/en/
+            logo: higress.avif
             repo_url: https://github.com/alibaba/higress
           - name: kgateway
             description: The Cloud-Native API Gateway and AI Gateway.
-            homepage_url: https://github.com/kgateway-dev/kgateway
+            homepage_url: https://kgateway.dev/
             logo: kgateway.png
             repo_url: https://github.com/kgateway-dev/kgateway
           - name: Kong
             description: 🦍 The Cloud-Native API Gateway and AI Gateway.
-            homepage_url: https://github.com/Kong/kong
+            homepage_url: https://docs.konghq.com/gateway/latest/
             logo: kong.png
             repo_url: https://github.com/Kong/kong
           - name: gateway-api-inference-extension
             description: Gateway API Inference Extension.
-            homepage_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
+            homepage_url: https://gateway-api-inference-extension.sigs.k8s.io/
             logo: gateway-api-inference-extension.png
             repo_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
       - name: LLM Router
