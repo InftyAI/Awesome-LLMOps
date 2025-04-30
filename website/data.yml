@@ -144,7 +144,7 @@ categories:
           - name: llmaz
             description: ☸️ Easy, advanced inference platform for large language models on Kubernetes. 🌟 Star to support our work!
             homepage_url: https://github.com/InftyAI/llmaz
-            logo: llmaz.png
+            logo: llmaz.svg
             repo_url: https://github.com/InftyAI/llmaz
           - name: LMCache
             description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
