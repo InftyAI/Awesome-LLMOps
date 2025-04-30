@@ -230,23 +230,23 @@ categories:
         items:
           - name: Dify
             description: Dify is an open-source LLM app development platform, with an intuitive interface for AI workflow, RAG pipeline, agent capabilities, model management, and observability.
-            homepage_url: https://github.com/langgenius/dify
+            homepage_url: https://dify.ai
             logo: dify.png
             repo_url: https://github.com/langgenius/dify
           - name: Flowise
             description: Drag & drop UI to build your customized LLM flow.
-            homepage_url: https://github.com/FlowiseAI/Flowise
-            logo: flowise.png
+            homepage_url: https://flowiseai.com
+            logo: flowiseai.png
             repo_url: https://github.com/FlowiseAI/Flowise
           - name: Haystack
             description: AI orchestration framework to build customizable, production-ready LLM applications. Best suited for RAG, question answering, semantic search, or conversational agent chatbots.
-            homepage_url: https://github.com/deepset-ai/haystack
-            logo: haystack.png
+            homepage_url: https://haystack.deepset.ai
+            logo: deepset.png
             repo_url: https://github.com/deepset-ai/haystack
           - name: Inference
             description: Turn any computer or edge device into a command center for computer vision projects.
-            homepage_url: https://github.com/roboflow/inference
-            logo: inference.png
+            homepage_url: https://inference.roboflow.com
+            logo: roboflow.png
             repo_url: https://github.com/roboflow/inference
             tags:
               - computer_vision
