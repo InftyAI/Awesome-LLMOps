@@ -11,73 +11,73 @@ categories:
         items:
           - name: Cortex.cpp
             description: Local AI API Platform.
-            homepage_url: https://github.com/janhq/cortex.cpp
-            logo: cortex-cpp.png
+            homepage_url: https://cortex.so
+            logo: cortex-cpp.svg
             repo_url: https://github.com/janhq/cortex.cpp
           - name: DeepSpeed-MII
             description: MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
             homepage_url: https://github.com/microsoft/DeepSpeed-MII
-            logo: deepspeed-mii.png
+            logo: deepspeed-mii.svg
             repo_url: https://github.com/microsoft/DeepSpeed-MII
           - name: Nvidia Dynamo
             description: A Datacenter Scale Distributed Inference Serving Framework.
-            homepage_url: https://github.com/ai-dynamo/dynamo
-            logo: nvidia-dynamo.png
+            homepage_url: https://developer.nvidia.com/dynamo
+            logo: nvidia.png
             repo_url: https://github.com/ai-dynamo/dynamo
           - name: ipex-llm
             description: Accelerate local LLM inference and finetuning on Intel XPU.
             homepage_url: https://github.com/intel-analytics/ipex-llm
-            logo: ipex-llm.png
+            logo: intel.png
             repo_url: https://github.com/intel-analytics/ipex-llm
           - name: LMDeploy
             description: LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
-            homepage_url: https://github.com/InternLM/lmdeploy
-            logo: lmdeploy.png
+            homepage_url: http://lmdeploy.readthedocs.io/
+            logo: lmdeploy.svg
             repo_url: https://github.com/InternLM/lmdeploy
           - name: LoRAX
             description: Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs.
-            homepage_url: https://github.com/predibase/lorax
+            homepage_url: https://loraexchange.ai
             logo: lorax.png
             repo_url: https://github.com/predibase/lorax
           - name: llama.cpp
             description: LLM inference in C/C++.
             homepage_url: https://github.com/ggerganov/llama.cpp
-            logo: llama-cpp.png
+            logo: llamacpp.svg
             repo_url: https://github.com/ggerganov/llama.cpp
           - name: Llumnix
             description: Efficient and easy multi-instance LLM serving.
             homepage_url: https://github.com/AlibabaPAI/llumnix
-            logo: llumnix.png
+            logo: alibaba.png
             repo_url: https://github.com/AlibabaPAI/llumnix
           - name: MInference
             description: To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention.
-            homepage_url: https://github.com/microsoft/minference
+            homepage_url: https://aka.ms/MInference
             logo: minference.png
             repo_url: https://github.com/microsoft/minference
           - name: MLC LLM
             description: Universal LLM Deployment Engine with ML Compilation.
-            homepage_url: https://github.com/mlc-ai/mlc-llm
-            logo: mlc-llm.png
+            homepage_url: https://llm.mlc.ai/
+            logo: mlc.png
             repo_url: https://github.com/mlc-ai/mlc-llm
           - name: MLServer
             description: An inference server for your machine learning models, including support for multiple frameworks.
-            homepage_url: https://github.com/SeldonIO/MLServer
+            homepage_url: https://mlserver.readthedocs.io/
             logo: mlserver.png
             repo_url: https://github.com/SeldonIO/MLServer
           - name: Ollama
             description: Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.
-            homepage_url: https://github.com/ollama/ollama
+            homepage_url: https://ollama.com
             logo: ollama.png
             repo_url: https://github.com/ollama/ollama
           - name: OpenLLM
             description: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
-            homepage_url: https://github.com/bentoml/OpenLLM
-            logo: openllm.png
+            homepage_url: bentoml.com
+            logo: bentoml.png
             repo_url: https://github.com/bentoml/OpenLLM
           - name: OpenVINO
             description: OpenVINO™ is an open source toolkit for optimizing and deploying AI inference.
-            homepage_url: https://github.com/openvinotoolkit/openvino
-            logo: openvino.png
+            homepage_url: https://docs.openvino.ai
+            logo: openvino.svg
             repo_url: https://github.com/openvinotoolkit/openvino
           - name: Ratchet
             description: A cross-platform browser ML framework.
@@ -86,38 +86,38 @@ categories:
             repo_url: https://github.com/huggingface/ratchet
           - name: SGLang
             description: SGLang is a fast serving framework for large language models and vision language models.
-            homepage_url: https://github.com/sgl-project/sglang
+            homepage_url: https://docs.sglang.ai/
             logo: sglang.png
             repo_url: https://github.com/sgl-project/sglang
           - name: transformers.js
             description: State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
-            homepage_url: https://github.com/huggingface/transformers.js
+            homepage_url: https://huggingface.co/docs/transformers.js
             logo: transformers-js.png
             repo_url: https://github.com/huggingface/transformers.js
           - name: Triton Inference Server
             description: The Triton Inference Server provides an optimized cloud and edge inferencing solution.
-            homepage_url: https://github.com/triton-inference-server/server
-            logo: triton-inference-server.png
+            homepage_url: https://docs.nvidia.com/deeplearning/triton-inference-server/
+            logo: nvidia.png
             repo_url: https://github.com/triton-inference-server/server
           - name: Text Generation Inference
             description: Large Language Model Text Generation Inference.
-            homepage_url: https://github.com/huggingface/text-generation-inference
-            logo: text-generation-inference.png
+            homepage_url: https://hf.co/docs/text-generation-inference
+            logo: hf.png
             repo_url: https://github.com/huggingface/text-generation-inference
           - name: vLLM
             description: A high-throughput and memory-efficient inference and serving engine for LLMs.
-            homepage_url: https://github.com/vllm-project/vllm
+            homepage_url: https://docs.vllm.ai
             logo: vllm.png
             repo_url: https://github.com/vllm-project/vllm
           - name: web-llm
             description: High-performance In-browser LLM Inference Engine.
-            homepage_url: https://github.com/mlc-ai/web-llm
-            logo: web-llm.png
+            homepage_url: https://webllm.mlc.ai
+            logo: mlc.png
             repo_url: https://github.com/mlc-ai/web-llm
           - name: zml
             description: Any model. Any hardware. Zero compromise. Built with @ziglang / @openxla / MLIR / @bazelbuild.
-            homepage_url: https://github.com/zml/zml
-            logo: zml.png
+            homepage_url: https://docs.zml.ai
+            logo: zml.svg
             repo_url: https://github.com/zml/zml
       - name: Inference Platform
         items:
@@ -216,12 +216,12 @@ categories:
         items:
           - name: Instructor
             description: Structured outputs for LLMs.
-            homepage_url: https://github.com/instructor-ai/instructor
-            logo: instructor.png
+            homepage_url: https://python.useinstructor.com/
+            logo: default.png
             repo_url: https://github.com/instructor-ai/instructor
           - name: Outlines
             description: Structured Text Generation.
-            homepage_url: https://github.com/dottxt-ai/outlines
+            homepage_url: dottxt-ai.github.io/outlines/
             logo: outlines.png
             repo_url: https://github.com/dottxt-ai/outlines
   - name: Orchestration
@@ -282,7 +282,7 @@ categories:
           - name: kagent
             description: kagent is a Kubernetes-native framework for building AI agents.
             homepage_url: https://kagent.dev/
-            logo: kagent.png
+            logo: kagent.svg
             repo_url: https://github.com/kagent-dev/kagent
             tags:
               - kubernetes
@@ -347,23 +347,23 @@ categories:
         items:
           - name: Browser Use
             description: Make websites accessible for AI agents.
-            homepage_url: https://github.com/browser-use/browser-use
-            logo: browser-use.png
+            homepage_url: https://browser-use.com
+            logo: browser-use.svg
             repo_url: https://github.com/browser-use/browser-use
           - name: Graphiti
             description: Build real-time knowledge graphs for AI agents.
-            homepage_url: https://github.com/getzep/graphiti
+            homepage_url: https://help.getzep.com/graphiti
             logo: graphiti.png
             repo_url: https://github.com/getzep/graphiti
           - name: Mem0
             description: The memory layer for AI agents.
-            homepage_url: https://github.com/mem0ai/mem0
-            logo: mem0.png
+            homepage_url: https://mem0.ai/research
+            logo: mem0.svg
             repo_url: https://github.com/mem0ai/mem0
           - name: OpenAI CUA
             description: Computer Using Agent Sample App.
             homepage_url: https://github.com/openai/openai-cua-sample-app
-            logo: openai-cua.png
+            logo: openai.png
             repo_url: https://github.com/openai/openai-cua-sample-app
   - name: Runtime
     subcategories:
