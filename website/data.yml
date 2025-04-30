@@ -221,7 +221,7 @@ categories:
             repo_url: https://github.com/instructor-ai/instructor
           - name: Outlines
             description: Structured Text Generation.
-            homepage_url: dottxt-ai.github.io/outlines/
+            homepage_url: https://dottxt-ai.github.io/outlines/
             logo: outlines.png
             repo_url: https://github.com/dottxt-ai/outlines
   - name: Orchestration
