@@ -192,25 +192,25 @@ categories:
         items:
           - name: AI Gateway
             description: A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.
-            homepage_url: https://github.com/Portkey-AI/gateway
-            logo: ai-gateway.png
+            homepage_url: https://portkey.ai/features/ai-gateway
+            logo: portkeyai.png
             repo_url: https://github.com/Portkey-AI/gateway
           - name: LiteLLM
             description: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq].
-            homepage_url: https://github.com/BerriAI/litellm
-            logo: litellm.png
+            homepage_url: https://docs.litellm.ai/docs/
+            logo: berriai.png
             repo_url: https://github.com/BerriAI/litellm
           - name: RouteLLM
             description: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality.
             homepage_url: https://github.com/lm-sys/routellm
-            logo: routellm.png
+            logo: lmsys.png
             repo_url: https://github.com/lm-sys/routellm
       - name: Benchmark
         items:
           - name: Inference Perf
             description: GenAI inference performance benchmarking tool.
             homepage_url: https://github.com/kubernetes-sigs/inference-perf
-            logo: inference-perf.png
+            logo: k8s.png
             repo_url: https://github.com/kubernetes-sigs/inference-perf
       - name: Output
         items:
