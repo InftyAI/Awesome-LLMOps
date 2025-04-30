@@ -123,8 +123,8 @@ categories:
         items:
           - name: AIBrix
             description: Cost-efficient and pluggable Infrastructure components for GenAI inference.
-            homepage_url: https://github.com/vllm-project/aibrix
-            logo: aibrix.png
+            homepage_url: https://aibrix.readthedocs.io/latest/
+            logo: aibrix.jpeg
             repo_url: https://github.com/vllm-project/aibrix
           - name: Kaito
             description: Kubernetes operator for large-model inference and fine-tuning, with GPU auto-provisioning, container-based hosting, and CRD-based orchestration.
@@ -133,12 +133,12 @@ categories:
             repo_url: https://github.com/kaito-project/Kaito
           - name: Kserve
             description: Standardized Serverless ML Inference Platform on Kubernetes.
-            homepage_url: https://github.com/kserve/kserve
+            homepage_url: https://kserve.github.io/website/latest/
             logo: kserve.png
             repo_url: https://github.com/kserve/kserve
           - name: KubeAI
             description: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text.
-            homepage_url: https://github.com/substratusai/kubeai
+            homepage_url: https://www.kubeai.org/
             logo: kubeai.png
             repo_url: https://github.com/substratusai/kubeai
           - name: llmaz
@@ -148,7 +148,7 @@ categories:
             repo_url: https://github.com/InftyAI/llmaz
           - name: LMCache
             description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
-            homepage_url: https://github.com/LMCache/LMCache
+            homepage_url: https://lmcache.ai/
             logo: lmcache.png
             repo_url: https://github.com/LMCache/LMCache
           - name: Mooncake
@@ -160,32 +160,32 @@ categories:
         items:
           - name: APISIX
             description: The Cloud-Native API Gateway and AI Gateway with extensive plugin system and AI capabilities.
-            homepage_url: https://github.com/apache/apisix
+            homepage_url: https://apisix.apache.org/
             logo: apisix.png
             repo_url: https://github.com/apache/apisix
           - name: Envoy AI Gateway
             description: Envoy AI Gateway is an open source project for using Envoy Gateway to handle request traffic from application clients to Generative AI services.
-            homepage_url: https://github.com/envoyproxy/ai-gateway
+            homepage_url: https://aigateway.envoyproxy.io/
             logo: envoy-ai-gateway.png
             repo_url: https://github.com/envoyproxy/ai-gateway
           - name: Higress
             description: 🤖 AI Gateway | AI Native API Gateway.
-            homepage_url: https://github.com/alibaba/higress
-            logo: higress.png
+            homepage_url: https://higress.ai/en/
+            logo: higress.avif
             repo_url: https://github.com/alibaba/higress
           - name: kgateway
             description: The Cloud-Native API Gateway and AI Gateway.
-            homepage_url: https://github.com/kgateway-dev/kgateway
+            homepage_url: https://kgateway.dev/
             logo: kgateway.png
             repo_url: https://github.com/kgateway-dev/kgateway
           - name: Kong
             description: 🦍 The Cloud-Native API Gateway and AI Gateway.
-            homepage_url: https://github.com/Kong/kong
+            homepage_url: https://docs.konghq.com/gateway/latest/
             logo: kong.png
             repo_url: https://github.com/Kong/kong
           - name: gateway-api-inference-extension
             description: Gateway API Inference Extension.
-            homepage_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
+            homepage_url: https://gateway-api-inference-extension.sigs.k8s.io/
             logo: gateway-api-inference-extension.png
             repo_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
       - name: LLM Router
@@ -250,6 +250,31 @@ categories:
             repo_url: https://github.com/roboflow/inference
             tags:
               - computer_vision
+          - name: LangChain
+            description: Build context-aware reasoning applications.
+            homepage_url: https://github.com/langchain-ai/langchain
+            logo: langchain.png
+            repo_url: https://github.com/langchain-ai/langchain
+          - name: Langfuse
+            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
+            homepage_url: https://github.com/langfuse/langfuse
+            logo: langfuse.png
+            repo_url: https://github.com/langfuse/langfuse
+          - name: LightRAG
+            description: Simple and Fast Retrieval-Augmented Generation.
+            homepage_url: https://github.com/HKUDS/LightRAG
+            logo: lightrag.png
+            repo_url: https://github.com/HKUDS/LightRAG
+          - name: LlamaIndex
+            description: The leading framework for building LLM-powered agents over your data.
+            homepage_url: https://github.com/run-llama/llama_index
+            logo: llamaindex.png
+            repo_url: https://github.com/run-llama/llama_index
+          - name: Semantic Kernel
+            description: An open-source integration framework for LLMs, featuring plugin integration, memory management, planners, and multi-modal capabilities.
+            homepage_url: https://github.com/microsoft/semantic-kernel
+            logo: semantickernel.png
+            repo_url: https://github.com/microsoft/semantic-kernel
       - name: Agent
         items:
           - name: Agent Development Kit (ADK)
@@ -286,26 +311,11 @@ categories:
             repo_url: https://github.com/kagent-dev/kagent
             tags:
               - kubernetes
-          - name: LangChain
-            description: Build context-aware reasoning applications.
-            homepage_url: https://github.com/langchain-ai/langchain
-            logo: langchain.png
-            repo_url: https://github.com/langchain-ai/langchain
           - name: LangGraph
             description: Build resilient language agents as graphs.
             homepage_url: https://github.com/langchain-ai/langgraph
             logo: langgraph.png
             repo_url: https://github.com/langchain-ai/langgraph
-          - name: LightRAG
-            description: Simple and Fast Retrieval-Augmented Generation.
-            homepage_url: https://github.com/HKUDS/LightRAG
-            logo: lightrag.png
-            repo_url: https://github.com/HKUDS/LightRAG
-          - name: LlamaIndex
-            description: The leading framework for building LLM-powered agents over your data.
-            homepage_url: https://github.com/run-llama/llama_index
-            logo: llamaindex.png
-            repo_url: https://github.com/run-llama/llama_index
           - name: MetaGPT
             description: MetaGPT is the first multi-agent framework for natural language programming.
             homepage_url: https://github.com/geekan/MetaGPT
@@ -326,11 +336,6 @@ categories:
             homepage_url: https://github.com/pydantic/pydantic-ai
             logo: pydanticai.png
             repo_url: https://github.com/pydantic/pydantic-ai
-          - name: Semantic Kernel
-            description: Integrate cutting-edge LLM technology quickly and easily into your apps.
-            homepage_url: https://github.com/microsoft/semantic-kernel
-            logo: semantickernel.png
-            repo_url: https://github.com/microsoft/semantic-kernel
           - name: Suna
             description: Suna is an open-source generalist AI agent.
             homepage_url: https://github.com/kortix-ai/suna
@@ -497,11 +502,6 @@ categories:
             repo_url: https://github.com/e2b-dev/E2B
       - name: Observation
         items:
-          - name: Langfuse
-            description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
-            homepage_url: https://github.com/langfuse/langfuse
-            logo: langfuse.png
-            repo_url: https://github.com/langfuse/langfuse
           - name: OpenLLMetry
             description: Open-source observability for your LLM application, based on OpenTelemetry.
             homepage_url: https://github.com/traceloop/openllmetry
