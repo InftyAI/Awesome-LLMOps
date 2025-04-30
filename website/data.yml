@@ -71,7 +71,7 @@ categories:
             repo_url: https://github.com/ollama/ollama
           - name: OpenLLM
             description: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
-            homepage_url: bentoml.com
+            homepage_url: https://bentoml.com
             logo: bentoml.png
             repo_url: https://github.com/bentoml/OpenLLM
           - name: OpenVINO
