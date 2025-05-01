@@ -186,7 +186,7 @@ categories:
           - name: gateway-api-inference-extension
             description: Gateway API Inference Extension.
             homepage_url: https://gateway-api-inference-extension.sigs.k8s.io/
-            logo: gateway-api-inference-extension.png
+            logo: k8s.png
             repo_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
       - name: LLM Router
         items:
@@ -601,7 +601,7 @@ categories:
           - name: Transformer Lab
             description: "Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer."
             homepage_url: https://transformerlab.ai/
-            logo: transformerlab.png
+            logo: transformerlab.svg
             repo_url: https://github.com/transformerlab/transformerlab-app
           - name: unsloth
             description: Finetune Llama 3.3, DeepSeek-R1 & Reasoning LLMs 2x faster with 70% less memory!
