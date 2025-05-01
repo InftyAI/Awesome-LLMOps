@@ -373,153 +373,153 @@ categories:
             description: 5ire is a cross-platform desktop AI assistant, MCP client. Compatible with major service providers, supports local knowledge base and tools via model context protocol servers.
             homepage_url: https://github.com/nanbingxyz/5ire
             logo: 5ire.png
-            repo_url: https://github.com/nanbingxyz/5ire
+            repo_url: https://5ire.app
           - name: Chat SDK
             description: A full-featured, hackable Next.js AI chatbot built by Vercel.
-            homepage_url: https://github.com/vercel/ai-chatbot
-            logo: chat-sdk.png
+            homepage_url: https://chat.vercel.ai
+            logo: vercel.png
             repo_url: https://github.com/vercel/ai-chatbot
           - name: Chatbot UI
             description: AI chat for any model.
-            homepage_url: https://github.com/mckaywrigley/chatbot-ui
-            logo: chatbot-ui.png
+            homepage_url: https://JoinTakeoff.com
+            logo: default.png
             repo_url: https://github.com/mckaywrigley/chatbot-ui
           - name: Cherry Studio
             description: Cherry Studio is a desktop client that supports multiple LLM providers. Support for deepseek-r1.
-            homepage_url: https://github.com/CherryHQ/cherry-studio
+            homepage_url: https://cherry-ai.com
             logo: cherry-studio.png
             repo_url: https://github.com/CherryHQ/cherry-studio
           - name: FastChat
             description: An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.
             homepage_url: https://github.com/lm-sys/fastchat
-            logo: fastchat.png
+            logo: lmsys.png
             repo_url: https://github.com/lm-sys/fastchat
           - name: Gradio
             description: Build and share delightful machine learning apps, all in Python.
-            homepage_url: https://github.com/gradio-app/gradio
+            homepage_url: https://www.gradio.app
             logo: gradio.png
             repo_url: https://github.com/gradio-app/gradio
           - name: Jan
             description: Jan is an open-source alternative to ChatGPT that runs 100% offline on your computer.
-            homepage_url: https://github.com/janhq/jan
+            homepage_url: https://jan.ai/
             logo: jan.png
             repo_url: https://github.com/janhq/jan
           - name: Lobe Chat
             description: Lobe Chat is an open-source, modern-design AI chat framework. Supports Multi AI Providers, Knowledge Base, Multi-Modals, and Thinking.
-            homepage_url: https://github.com/lobehub/lobe-chat
+            homepage_url: https://chat-preview.lobehub.com
             logo: lobe-chat.png
             repo_url: https://github.com/lobehub/lobe-chat
           - name: NextChat
             description: "Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows."
-            homepage_url: https://github.com/ChatGPTNextWeb/NextChat
+            homepage_url: https://nextchat.club/
             logo: nextchat.png
             repo_url: https://github.com/ChatGPTNextWeb/NextChat
           - name: Open WebUI
             description: User-friendly AI Interface. Supports Ollama, OpenAI API, and more.
-            homepage_url: https://github.com/open-webui/open-webui
+            homepage_url: https://openwebui.com
             logo: open-webui.png
             repo_url: https://github.com/open-webui/open-webui
           - name: PrivateGPT
             description: Interact with your documents using the power of GPT, 100% privately, no data leaks.
-            homepage_url: https://github.com/zylon-ai/private-gpt
+            homepage_url: https://privategpt.dev
             logo: privategpt.png
             repo_url: https://github.com/zylon-ai/private-gpt
       - name: Code Assistant
         items:
           - name: Auto-dev
             description: "AutoDev: The AI-powered coding wizard with multilingual support, auto code generation, and a helpful bug-slaying assistant. Customizable prompts and magic Auto Dev/Testing/Document/Agent features included."
-            homepage_url: https://github.com/unit-mesh/auto-dev
+            homepage_url: https://ide.unitmesh.cc/
             logo: auto-dev.png
             repo_url: https://github.com/unit-mesh/auto-dev
           - name: Codefuse-chatbot
             description: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG, etc.
             homepage_url: https://github.com/codefuse-ai/codefuse-chatbot
-            logo: codefuse-chatbot.png
+            logo: codefuse.png
             repo_url: https://github.com/codefuse-ai/codefuse-chatbot
           - name: Cody
             description: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.
-            homepage_url: https://github.com/sourcegraph/cody
+            homepage_url: https://cody.dev
             logo: cody.png
             repo_url: https://github.com/sourcegraph/cody
           - name: Continue
             description: Create, share, and use custom AI code assistants with open-source IDE extensions and a hub of models, rules, prompts, docs, and other building blocks.
-            homepage_url: https://github.com/continuedev/continue
+            homepage_url: https://docs.continue.dev/
             logo: continue.png
             repo_url: https://github.com/continuedev/continue
           - name: Sweep
             description: "JSweep: AI coding assistant for JetBrains."
-            homepage_url: https://github.com/sweepai/sweep
+            homepage_url: https://sweep.dev
             logo: sweep.png
             repo_url: https://github.com/sweepai/sweep
           - name: Tabby
             description: Self-hosted AI coding assistant.
-            homepage_url: https://github.com/TabbyML/tabby
+            homepage_url: https://tabbyml.com
             logo: tabby.png
             repo_url: https://github.com/TabbyML/tabby
       - name: Database
         items:
           - name: Chroma
             description: The AI-native open-source embedding database.
-            homepage_url: https://github.com/chroma-core/chroma
+            homepage_url: https://www.trychroma.com/
             logo: chroma.png
             repo_url: https://github.com/chroma-core/chroma
           - name: Deeplake
             description: Database for AI. Store Vectors, Images, Texts, Videos, etc. Use with LLMs/LangChain. Store, query, version, & visualize any AI data. Stream data in real-time to PyTorch/TensorFlow.
-            homepage_url: https://github.com/activeloopai/deeplake
+            homepage_url: https://activeloop.ai
             logo: deeplake.png
             repo_url: https://github.com/activeloopai/deeplake
           - name: Faiss
             description: A library for efficient similarity search and clustering of dense vectors.
-            homepage_url: https://github.com/facebookresearch/faiss
-            logo: faiss.png
+            homepage_url: https://faiss.ai
+            logo: meta.png
             repo_url: https://github.com/facebookresearch/faiss
           - name: Milvus
             description: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search.
-            homepage_url: https://github.com/milvus-io/milvus
+            homepage_url: https://milvus.io
             logo: milvus.png
             repo_url: https://github.com/milvus-io/milvus
           - name: Weaviate
             description: Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database.
-            homepage_url: https://github.com/weaviate/weaviate
+            homepage_url: https://weaviate.io/developers/weaviate/
             logo: weaviate.png
             repo_url: https://github.com/weaviate/weaviate
       - name: Development Environment
         items:
           - name: Daytona
             description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code.
-            homepage_url: https://github.com/daytonaio/daytona
+            homepage_url: https://daytona.io
             logo: daytona.png
             repo_url: https://github.com/daytonaio/daytona
           - name: E2B
             description: Secure open source cloud runtime for AI apps & AI agents.
-            homepage_url: https://github.com/e2b-dev/E2B
+            homepage_url: https://e2b.dev/docs
             logo: e2b.png
             repo_url: https://github.com/e2b-dev/E2B
       - name: Observation
         items:
           - name: Langfuse
             description: "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, and more."
-            homepage_url: https://github.com/langfuse/langfuse
+            homepage_url: https://langfuse.com/docs
             logo: langfuse.png
             repo_url: https://github.com/langfuse/langfuse
           - name: OpenLLMetry
             description: Open-source observability for your LLM application, based on OpenTelemetry.
-            homepage_url: https://github.com/traceloop/openllmetry
+            homepage_url: https://www.traceloop.com/openllmetry
             logo: openllmetry.png
             repo_url: https://github.com/traceloop/openllmetry
           - name: Helicone
             description: Open source LLM observability platform. One line of code to monitor, evaluate, and experiment.
-            homepage_url: https://github.com/helicone/helicone
+            homepage_url: https://www.helicone.ai
             logo: helicone.png
             repo_url: https://github.com/helicone/helicone
           - name: phoenix
             description: AI Observability & Evaluation.
-            homepage_url: https://github.com/arize-ai/phoenix
+            homepage_url: https://docs.arize.com/phoenix
             logo: phoenix.png
             repo_url: https://github.com/arize-ai/phoenix
           - name: wandb
             description: The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.
-            homepage_url: https://github.com/wandb/wandb
+            homepage_url: https://wandb.ai
             logo: wandb.png
             repo_url: https://github.com/wandb/wandb
   - name: Training
@@ -529,11 +529,11 @@ categories:
           - name: Candle
             description: Minimalist ML framework for Rust.
             homepage_url: https://github.com/huggingface/candle
-            logo: candle.png
+            logo: hf.png
             repo_url: https://github.com/huggingface/candle
           - name: ColossalAI
             description: Making large AI models cheaper, faster and more accessible.
-            homepage_url: https://github.com/hpcaitech/ColossalAI
+            homepage_url: https://www.colossalai.org
             logo: colossalai.png
             repo_url: https://github.com/hpcaitech/ColossalAI
           - name: DLRover
@@ -543,30 +543,30 @@ categories:
             repo_url: https://github.com/intelligent-machine-learning/dlrover
           - name: Ludwig
             description: Low-code framework for building custom LLMs, neural networks, and other AI models.
-            homepage_url: https://github.com/ludwig-ai/ludwig
+            homepage_url: https://ludwig.ai
             logo: ludwig.png
             repo_url: https://github.com/ludwig-ai/ludwig
           - name: MaxText
             description: A simple, performant and scalable Jax LLM!
             homepage_url: https://github.com/google/maxtext
-            logo: maxtext.png
+            logo: google.png
             repo_url: https://github.com/google/maxtext
           - name: MLX
             description: "MLX: An array framework for Apple silicon."
-            homepage_url: https://github.com/ml-explore/mlx
+            homepage_url: https://ml-explore.github.io/mlx/
             logo: mlx.png
             repo_url: https://github.com/ml-explore/mlx
       - name: FineTune
         items:
           - name: Axolotl
             description: Go ahead and axolotl questions.
-            homepage_url: https://github.com/axolotl-ai-cloud/axolotl
-            logo: axolotl.png
+            homepage_url: https://docs.axolotl.ai
+            logo: axolotl.svg
             repo_url: https://github.com/axolotl-ai-cloud/axolotl
           - name: EasyLM
             description: Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax.
             homepage_url: https://github.com/young-geng/EasyLM
-            logo: easylm.png
+            logo: default.png
             repo_url: https://github.com/young-geng/EasyLM
           - name: LLaMa-Factory
             description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024).
@@ -575,18 +575,18 @@ categories:
             repo_url: https://github.com/hiyouga/LLaMA-Factory
           - name: LMFlow
             description: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All.
-            homepage_url: https://github.com/OptimalScale/LMFlow
+            homepage_url: https://optimalscale.github.io/LMFlow/
             logo: lmflow.png
             repo_url: https://github.com/OptimalScale/LMFlow
           - name: maestro
             description: "streamline the fine-tuning process for multimodal models: PaliGemma 2, Florence-2, and Qwen2.5-VL."
-            homepage_url: https://github.com/roboflow/maestro
-            logo: maestro.png
+            homepage_url: https://maestro.roboflow.com
+            logo: roboflow.png
             repo_url: https://github.com/roboflow/maestro
           - name: MLX-VLM
             description: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
             homepage_url: https://github.com/Blaizzy/mlx-vlm
-            logo: mlx-vlm.png
+            logo: default.png
             repo_url: https://github.com/Blaizzy/mlx-vlm
           - name: Swift
             description: Use PEFT or Full-parameter to finetune 450+ LLMs and 150+ MLLMs.
@@ -595,107 +595,107 @@ categories:
             repo_url: https://github.com/modelscope/ms-swift
           - name: torchtune
             description: PyTorch native post-training library.
-            homepage_url: https://github.com/pytorch/torchtune
+            homepage_url: https://pytorch.org/torchtune/main/
             logo: torchtune.png
             repo_url: https://github.com/pytorch/torchtune
           - name: Transformer Lab
             description: "Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer."
-            homepage_url: https://github.com/transformerlab/transformerlab-app
+            homepage_url: https://transformerlab.ai/
             logo: transformerlab.png
             repo_url: https://github.com/transformerlab/transformerlab-app
           - name: unsloth
             description: Finetune Llama 3.3, DeepSeek-R1 & Reasoning LLMs 2x faster with 70% less memory!
-            homepage_url: https://github.com/unslothai/unsloth
+            homepage_url: https://unsloth.ai
             logo: unsloth.png
             repo_url: https://github.com/unslothai/unsloth
       - name: Alignment
         items:
           - name: OpenRLHF
             description: An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & RingAttention & RFT).
-            homepage_url: https://github.com/OpenRLHF/OpenRLHF
+            homepage_url: https://openrlhf.readthedocs.io/
             logo: openRLHF.png
             repo_url: https://github.com/OpenRLHF/OpenRLHF
           - name: Self-RLHF
             description: "Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback."
-            homepage_url: https://github.com/PKU-Alignment/safe-rlhf
-            logo: self-rlhf.png
+            homepage_url: https://pku-beaver.github.io
+            logo: selfrlhf.png
             repo_url: https://github.com/PKU-Alignment/safe-rlhf
       - name: Evaluation
         items:
           - name: AgentBench
             description: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24).
-            homepage_url: https://github.com/THUDM/AgentBench
+            homepage_url: https://llmbench.ai
             logo: agentbench.png
             repo_url: https://github.com/THUDM/AgentBench
           - name: LiveBench
             description: "LiveBench: A Challenging, Contamination-Free LLM Benchmark."
             homepage_url: https://github.com/livebench/livebench
-            logo: livebench.png
+            logo: default.png
             repo_url: https://github.com/livebench/livebench
           - name: lm-evaluation-harness
             description: A framework for few-shot evaluation of language models.
-            homepage_url: https://github.com/EleutherAI/lm-evaluation-harness
-            logo: lm-evaluation-harness.png
+            homepage_url: https://www.eleuther.ai
+            logo: eleutherai.png
             repo_url: https://github.com/EleutherAI/lm-evaluation-harness
           - name: LongBench
             description: LongBench v2 and LongBench (ACL 2024).
-            homepage_url: https://github.com/THUDM/LongBench
+            homepage_url: https://longbench2.github.io
             logo: longbench.png
             repo_url: https://github.com/THUDM/LongBench
           - name: OpenCompass
             description: OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2, GPT-4, LLaMa2, Qwen, GLM, Claude, etc) over 100+ datasets.
-            homepage_url: https://github.com/open-compass/opencompass
-            logo: opencompass.png
+            homepage_url: https://opencompass.org.cn/
+            logo: opencompass.svg
             repo_url: https://github.com/open-compass/opencompass
           - name: opik
             description: Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
-            homepage_url: https://github.com/comet-ml/opik
+            homepage_url: https://www.comet.com/docs/opik/
             logo: opik.png
             repo_url: https://github.com/comet-ml/opik
       - name: Workflow
         items:
           - name: BentoML
             description: The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
-            homepage_url: https://github.com/bentoml/BentoML
+            homepage_url: https://bentoml.com
             logo: bentoml.png
             repo_url: https://github.com/bentoml/BentoML
           - name: Flyte
             description: Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.
-            homepage_url: https://github.com/flyteorg/flyte
+            homepage_url: https://flyte.org
             logo: flyte.png
             repo_url: https://github.com/flyteorg/flyte
           - name: Kubeflow
             description: Machine Learning Toolkit for Kubernetes.
-            homepage_url: https://github.com/kubeflow/kubeflow
+            homepage_url: https://www.kubeflow.org/
             logo: kubeflow.png
             repo_url: https://github.com/kubeflow/kubeflow
           - name: Metaflow
             description: Build, Deploy and Manage AI/ML Systems.
-            homepage_url: https://github.com/Netflix/metaflow
+            homepage_url: https://metaflow.org
             logo: metaflow.png
             repo_url: https://github.com/Netflix/metaflow
           - name: MLflow
             description: Open source platform for the machine learning lifecycle.
-            homepage_url: https://github.com/mlflow/mlflow
+            homepage_url: https://mlflow.org
             logo: mlflow.png
             repo_url: https://github.com/mlflow/mlflow
           - name: Polyaxon
             description: MLOps Tools For Managing & Orchestrating The Machine Learning LifeCycle.
-            homepage_url: https://github.com/polyaxon/polyaxon
+            homepage_url: https://polyaxon.com
             logo: polyaxon.png
             repo_url: https://github.com/polyaxon/polyaxon
           - name: Ray
             description: Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
-            homepage_url: https://github.com/ray-project/ray
+            homepage_url: https://ray.io
             logo: ray.png
             repo_url: https://github.com/ray-project/ray
           - name: Seldon-Core
             description: An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models.
-            homepage_url: https://github.com/SeldonIO/seldon-core
+            homepage_url: https://www.seldon.io/tech/products/core/
             logo: seldon-core.png
             repo_url: https://github.com/SeldonIO/seldon-core
           - name: ZenML
             description: "ZenML 🙏: The bridge between ML and Ops. https://zenml.io."
-            homepage_url: https://github.com/zenml-io/zenml
+            homepage_url: https://zenml.io
             logo: zenml.png
             repo_url: https://github.com/zenml-io/zenml
