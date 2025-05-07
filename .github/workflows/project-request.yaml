@@ -55,8 +55,31 @@ jobs:
             const logoNameMatch = issueBody.match(/- Logo Name:([^\n]+)/i);
             const logoName = logoNameMatch ? logoNameMatch[1].trim() : null;
 
-            // Extract Category - Find the first checked box with [x]
-            const category = issueBody.match(/- \[x\] (.+)/)?.[1].trim() || null;
+            // Extract Category - Find the first checked box with [x] and its parent category
+            let category = null;
+            const lines = bodyWithoutComments.split('\n');
+            let parentCategory = null;
+            
+            for (let i = 0; i < lines.length; i++) {
+              const line = lines[i].trim();
+              
+              // Check if this is a main category line
+              if (line.startsWith('- ') && !line.includes('[')) {
+                parentCategory = line.substring(2).trim();
+              }
+              
+              // Check if this is a checked subcategory
+              if (line.match(/- \[x\] (.+)/)) {
+                const subcategory = line.match(/- \[x\] (.+)/)[1].trim();
+                if (parentCategory) {
+                  category = `${parentCategory}/${subcategory}`;
+                  break;
+                } else {
+                  category = subcategory;
+                  break;
+                }
+              }
+            }
 
             // Set outputs
             core.setOutput('repo-url', githubUrl);
@@ -119,7 +142,7 @@ jobs:
         env:
           ISSUE_AUTHOR: ${{ steps.parse-issue.outputs.author-id }}
         run: |
-          git add README.md
+          git add .
           git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.category }} category
 
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"

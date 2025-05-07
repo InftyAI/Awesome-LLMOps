@@ -93,7 +93,8 @@ def find_category(content: str, category: str) -> Tuple[int, int, List[str]]:
     
     Args:
         content: The full content of the README.md file
-        category: The name of the category to find (e.g., "framework")
+        category: The name of the category to find (e.g., "framework" or "orchestration/workflow")
+                 Can include a path with '/' as separator for nested categories
         
     Returns:
         A tuple containing:
@@ -114,25 +115,65 @@ def find_category(content: str, category: str) -> Tuple[int, int, List[str]]:
     ]
     
     lines = content.split('\n')
-    category_start_line = -1
-    category_end_line = -1
-    current_category = ""
+    category_path = [c.strip().lower() for c in category.split('/')]
     
-    for i, line in enumerate(lines):
-        # Check if this line starts a category
-        for pattern in category_patterns:
-            match = pattern.match(line)
-            if match:
-                # If we already found our category, this new category marks the end
-                if category_start_line != -1 and category_end_line == -1:
-                    category_end_line = i
-                    break
-                
-                # Check if this is the category we're looking for
-                current_category = match.group(1).strip().lower()
-                if current_category == category:
-                    category_start_line = i
-                    break
+    # If we have a path with multiple levels, we need to find each level
+    if len(category_path) > 1:
+        current_path = []
+        current_level = 0
+        category_start_line = -1
+        category_end_line = -1
+        
+        for i, line in enumerate(lines):
+            # Check if this line starts a category
+            for pattern in category_patterns:
+                match = pattern.match(line)
+                if match:
+                    # Get the heading level (## = 2, ### = 3)
+                    heading_level = line.count('#')
+                    category_name = match.group(1).strip().lower()
+                    
+                    # If we're at a level we're tracking
+                    if heading_level - 2 <= len(current_path):
+                        # If we're at a lower level than current, pop levels
+                        while heading_level - 2 < len(current_path):
+                            current_path.pop()
+                        
+                        # If we're at a new level, add it
+                        if heading_level - 2 == len(current_path):
+                            current_path.append(category_name)
+                        # If we're at the same level, replace the last item
+                        else:
+                            current_path[-1] = category_name
+                        
+                        # Check if the current path matches our target path
+                        if len(current_path) == len(category_path) and all(a == b for a, b in zip(current_path, category_path)):
+                            category_start_line = i
+                        # If we already found our category and encounter another at the same or higher level, that's the end
+                        elif category_start_line != -1 and category_end_line == -1 and heading_level - 2 <= len(category_path) - 1:
+                            category_end_line = i
+                            break
+    else:
+        # Original single-level category search
+        category_start_line = -1
+        category_end_line = -1
+        current_category = ""
+        
+        for i, line in enumerate(lines):
+            # Check if this line starts a category
+            for pattern in category_patterns:
+                match = pattern.match(line)
+                if match:
+                    # If we already found our category, this new category marks the end
+                    if category_start_line != -1 and category_end_line == -1:
+                        category_end_line = i
+                        break
+                    
+                    # Check if this is the category we're looking for
+                    current_category = match.group(1).strip().lower()
+                    if current_category == category_path[0]:
+                        category_start_line = i
+                        break
     
     # If we found the start but not the end, the category goes to the end of the file
     if category_start_line != -1 and category_end_line == -1:
@@ -160,6 +201,7 @@ def insert_entry(lines: List[str], category_start_line: int, category_end_line: 
     
     # Find the correct position to insert the new entry
     insert_position = category_end_line
+    last_entry_position = -1
     
     # Skip the category header
     for i in range(category_start_line + 1, category_end_line):
@@ -167,11 +209,17 @@ def insert_entry(lines: List[str], category_start_line: int, category_end_line: 
         # Check if this line is an entry
         entry_name_match = re.search(r'\*\s+\*\*\[([^\]]+)\]', line)
         if entry_name_match:
+            last_entry_position = i
             entry_name = entry_name_match.group(1).lower()
             # If the new entry comes before this entry alphabetically (case-insensitive comparison)
             if project_name.lower() < entry_name:
                 insert_position = i
                 break
+    
+    # If we're inserting at the end of the category
+    if insert_position == category_end_line:
+        # Always insert after the last entry
+        insert_position = last_entry_position + 1
     
     # Insert the new entry at the determined position
     lines.insert(insert_position, new_entry)
@@ -233,10 +281,14 @@ def update_website(category: str, project_name: str, repo_url: str, logo_url: st
         
         print(f"Successfully downloaded logo to {logo_path}")
 
+        # Parse the category path
+        category_path = [c.strip().lower() for c in category.split('/')]
+        target_category = category_path[-1]  # Use the last part as the actual category name
+        
         # Find the appropriate category and subcategory
         for maincategory in data['categories']:
             for subcategory in maincategory['subcategories']:
-                if subcategory['name'].lower() == category.lower():
+                if subcategory['name'].lower() == target_category:
                     # Create new item entry
                     new_item = {
                         'name': project_name,
@@ -298,7 +350,8 @@ def main() -> None:
     """Main function to parse arguments and execute the script.
     
     Command line arguments:
-        --category/-c: The category to add the project to (e.g., "Inference Engine", "Agent")
+        --category/-c: The category to add the project to (e.g., "Inference/Inference Engine", "Orchestration/Workflow")
+                      Can include a path with '/' as separator for nested categories
         --repo_url/-r: The GitHub repository URL
         --name/-n: Custom project name
         --logo_url/-l: URL to the project logo
@@ -307,14 +360,14 @@ def main() -> None:
 
     Example:
         python project_request.py \
-            --category "Inference Engine" \
+            --category "Inference/Inference Engine" \
             --repo_url https://github.com/google/adk-python \
             --name "Agent Development Kit (ADK)" \
             --logo_url https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png \
             --homepage_url https://google.github.io/adk-docs
     """
     parser = argparse.ArgumentParser(description='Add a new project to the README.md file and update the website data.')
-    parser.add_argument('--category', '-c', required=True, help='The category to add the project to (e.g., "Inference Engine", "Agent")')
+    parser.add_argument('--category', '-c', required=True, help='The category to add the project to (e.g., "Inference Engine", "Agent", "Orchestration/Workflow"). Can include a path with "/" as separator for nested categories.')
     parser.add_argument('--repo_url', '-r', required=True, help='The GitHub repository URL')
     parser.add_argument('--name', '-n', required=True, help='Custom project name')
     parser.add_argument('--logo_url', '-l', required=True, help='URL to the project logo')
@@ -341,7 +394,7 @@ def main() -> None:
             print("Failed to update website data")
             sys.exit(1)
         else:
-            print(f"Successfully updated website data for '{project_name}'")
+            print(f"Successfully updated website data for {project_name}")
     
     except Exception as e:
         print(f"Error: {str(e)}")
