@@ -347,7 +347,7 @@ def main() -> None:
         print(f"Error: {str(e)}")
         sys.exit(1)
 
-    print(f"Successfully added '{project_name}' to the {args.category} category.")
+    print(f"Successfully added {project_name} to the {args.category} category")
 
 if __name__ == '__main__':
     main()
