@@ -254,7 +254,7 @@ def update_website(category: str, project_name: str, repo_url: str, logo_url: st
                     
                     # Write the updated data back to the file
                     with open(DATA_YML_PATH, 'w', encoding='utf-8') as file:
-                        yaml.dump(data, file, sort_keys=False, default_flow_style=False)
+                        yaml.dump(data, file, sort_keys=False, default_flow_style=False, allow_unicode=True)
                     
                     return True
 
