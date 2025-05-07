@@ -371,9 +371,9 @@ categories:
         items:
           - name: 5ire
             description: 5ire is a cross-platform desktop AI assistant, MCP client. Compatible with major service providers, supports local knowledge base and tools via model context protocol servers.
-            homepage_url: https://github.com/nanbingxyz/5ire
+            homepage_url: https://5ire.app
             logo: 5ire.png
-            repo_url: https://5ire.app
+            repo_url: https://github.com/nanbingxyz/5ire
           - name: Chat SDK
             description: A full-featured, hackable Next.js AI chatbot built by Vercel.
             homepage_url: https://chat.vercel.ai
@@ -382,7 +382,7 @@ categories:
           - name: Chatbot UI
             description: AI chat for any model.
             homepage_url: https://JoinTakeoff.com
-            logo: default.png
+            logo: chatbotui.png
             repo_url: https://github.com/mckaywrigley/chatbot-ui
           - name: Cherry Studio
             description: Cherry Studio is a desktop client that supports multiple LLM providers. Support for deepseek-r1.
@@ -548,7 +548,7 @@ categories:
             repo_url: https://github.com/ludwig-ai/ludwig
           - name: MaxText
             description: A simple, performant and scalable Jax LLM!
-            homepage_url: https://github.com/google/maxtext
+            homepage_url: https://cloud.google.com/tpu/docs/tutorials/LLM/jetstream-maxtext-inference-v6e?hl=en
             logo: google.png
             repo_url: https://github.com/google/maxtext
           - name: MLX
@@ -570,7 +570,7 @@ categories:
             repo_url: https://github.com/young-geng/EasyLM
           - name: LLaMa-Factory
             description: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024).
-            homepage_url: https://github.com/hiyouga/LLaMA-Factory
+            homepage_url: https://huggingface.co/papers/2403.13372
             logo: llamafactory.png
             repo_url: https://github.com/hiyouga/LLaMA-Factory
           - name: LMFlow
@@ -590,7 +590,7 @@ categories:
             repo_url: https://github.com/Blaizzy/mlx-vlm
           - name: Swift
             description: Use PEFT or Full-parameter to finetune 450+ LLMs and 150+ MLLMs.
-            homepage_url: https://github.com/modelscope/ms-swift
+            homepage_url: https://swift.readthedocs.io
             logo: swift.png
             repo_url: https://github.com/modelscope/ms-swift
           - name: torchtune
@@ -629,7 +629,7 @@ categories:
             repo_url: https://github.com/THUDM/AgentBench
           - name: LiveBench
             description: "LiveBench: A Challenging, Contamination-Free LLM Benchmark."
-            homepage_url: https://github.com/livebench/livebench
+            homepage_url: https://livebench.ai
             logo: default.png
             repo_url: https://github.com/livebench/livebench
           - name: lm-evaluation-harness
