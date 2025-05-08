@@ -36,23 +36,23 @@ jobs:
 
             // Extract Project Information
             // Project name
-            const projectNameMatch = issueBody.match(/- Project name:([^\n]+)/i);
+            const projectNameMatch = bodyWithoutComments.match(/- Project name:([^\n]+)/i);
             const projectName = projectNameMatch ? projectNameMatch[1].trim() : null;
             
             // Github URL
-            const githubUrlMatch = issueBody.match(/- Github URL:([^\n]+)/i);
+            const githubUrlMatch = bodyWithoutComments.match(/- Github URL:([^\n]+)/i);
             const githubUrl = githubUrlMatch ? githubUrlMatch[1].trim() : null;
             
             // Homepage URL
-            const homepageUrlMatch = issueBody.match(/- Homepage URL:([^\n]+)/i);
+            const homepageUrlMatch = bodyWithoutComments.match(/- Homepage URL:([^\n]+)/i);
             const homepageUrl = homepageUrlMatch ? homepageUrlMatch[1].trim() : null;
             
             // Logo URL
-            const logoUrlMatch = issueBody.match(/- Logo URL:([^\n]+)/i);
+            const logoUrlMatch = bodyWithoutComments.match(/- Logo URL:([^\n]+)/i);
             const logoUrl = logoUrlMatch ? logoUrlMatch[1].trim() : null;
             
             // Logo Name (optional)
-            const logoNameMatch = issueBody.match(/- Logo Name:([^\n]+)/i);
+            const logoNameMatch = bodyWithoutComments.match(/- Logo Name:([^\n]+)/i);
             const logoName = logoNameMatch ? logoNameMatch[1].trim() : null;
 
             // Extract Category - Find the first checked box with [x] and its parent category
