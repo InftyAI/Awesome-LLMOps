@@ -22,6 +22,7 @@ To run the landscape website locally for testing:
 
 1. Use the commands defined in the Makefile:
    ```
+   make install   # Install landscape2
    make build     # Build the landscape
    make serve     # Serve the landscape locally
    ```
