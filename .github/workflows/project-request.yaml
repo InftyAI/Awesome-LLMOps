@@ -4,7 +4,7 @@ on:
     types: [opened, edited]
 
 env:
-  GH_TOKEN: ${{ secrets.AGENT_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   process-project-request:
@@ -147,13 +147,14 @@ jobs:
 
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
+          # 使用默认的GITHUB_TOKEN推送更改
           git push --set-upstream origin $BRANCH_NAME
+
 
       - name: Create Pull Request
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.AGENT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
