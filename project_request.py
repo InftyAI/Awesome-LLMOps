@@ -4,7 +4,7 @@ import re
 import requests
 import sys
 import yaml
-from typing import Tuple, Dict, List, Any, Optional
+from typing import Tuple, Dict, List, Any
 from urllib.parse import urlparse
 
 # Constants
