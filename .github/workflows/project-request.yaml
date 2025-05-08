@@ -133,7 +133,7 @@ jobs:
             --homepage_url \"${{ steps.parse-issue.outputs.homepage-url }}\""
           
           if [ -n "${{ steps.parse-issue.outputs.logo-name }}" ]; then
-            CMD="$CMD --logo_name \"${{ steps.parse-issue.outputs.logo-name }}""
+            CMD="$CMD --logo_name \"${{ steps.parse-issue.outputs.logo-name }}\""
           fi
           
           eval $CMD
