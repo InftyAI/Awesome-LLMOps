@@ -91,7 +91,7 @@ jobs:
             core.setOutput("author-id", issueAuthorId);
 
             // Log the extracted information
-            console.log(`Repository URL: ${githubUrl}`);
+            console.log(`Github URL: ${githubUrl}`);
             console.log(`Project Name: ${projectName}`);
             console.log(`Homepage URL: ${homepageUrl}`);
             console.log(`Logo URL: ${logoUrl}`);
@@ -100,7 +100,7 @@ jobs:
             console.log(`Author ID: ${issueAuthorId}`);
 
             // Check if we have all required information
-            if (!repoUrl || !projectName || !category || !logoUrl || !homepageUrl) {
+            if (!githubUrl || !projectName || !category || !logoUrl || !homepageUrl) {
               core.setFailed('Missing required information in the issue');
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
