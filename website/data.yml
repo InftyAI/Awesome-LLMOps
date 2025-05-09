@@ -364,6 +364,12 @@ categories:
       homepage_url: https://ai.pydantic.dev/
       logo: pydanticai.svg
       repo_url: https://github.com/pydantic/pydantic-ai
+    - name: Qwen-Agent
+      description: Agent framework and applications built upon Qwen>=3.0, featuring
+        Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.
+      homepage_url: https://pypi.org/project/qwen-agent
+      logo: qwen-agent
+      repo_url: https://github.com/QwenLM/Qwen-Agent
     - name: Semantic Kernel
       description: Integrate cutting-edge LLM technology quickly and easily into your
         apps.
