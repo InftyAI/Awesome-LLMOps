@@ -16,37 +16,13 @@ The landscape website provides a visual representation of the Awesome-LLMOps eco
 
 - `logos/`: Contains logo files for projects and the landscape itself.
 
-## How to Add a New Project
-
-To add a new project to the landscape, follow these steps:
-
-1. **Prepare the project logo**:
-   - Create or obtain a logo for the project (PNG or SVG format recommended)
-   - Image should be square or have transparent background
-   - Place the logo file in the `logos/` directory with a descriptive name
-
-2. **Update `data.yml`**:
-   - Find the appropriate category and subcategory for your project
-   - Add a new entry under the `items` section with the following format:
-   ```yaml
-   - name: Project Name
-     description: A brief description of the project (1-2 sentences)
-     homepage_url: https://github.com/org/repo
-     logo: project-logo.png
-     repo_url: https://github.com/org/repo
-   ```
-
-3. **Update the main README.md**:
-   - You can use the `project_request.py` script to automatically add the project to the main README.md
-   - Run: `python project_request.py --url https://github.com/org/repo --section "Category" --subsection "Subcategory"`
-   - Or manually add the project to the appropriate section in the main README.md
-
 ## Running the Landscape Locally
 
 To run the landscape website locally for testing:
 
 1. Use the commands defined in the Makefile:
    ```
+   make install   # Install landscape2
    make build     # Build the landscape
    make serve     # Serve the landscape locally
    ```
@@ -57,7 +33,10 @@ To run the landscape website locally for testing:
 
 The landscape currently includes the following main categories:
 
-- **Agents**: Frameworks and tools for building LLM-powered agents
-- **Alignment**: Tools for aligning LLMs with human preferences and safety constraints
+- **Inference**: Tools and platforms for deploying and serving LLMs
+- **Orchestration**: Tools for orchestrating LLM workflows and agents
+- **Runtime**: Runtime environments and tools for LLM applications
+- **Training**: Tools and frameworks for training and fine-tuning LLMs
+- **MCP**: Model Context Protocol related tools
 
 Additional categories can be added by updating the `data.yml`, `guide.yml`, and `settings.yml` files.

@@ -31,53 +31,82 @@ jobs:
             const issueBody = context.payload.issue.body;
             const issueAuthorId = context.payload.issue.user.login;
 
-            function extractInfoFromPattern(body, pattern) {
-              const match = body.match(pattern);
-              return match ? match[1].trim() : null;
-            }
-
             // First remove HTML comments from the issue body
             const bodyWithoutComments = issueBody.replace(/<!--[\s\S]*?-->/g, '');
 
-            // Extract GitHub Repository URL
-            const repoUrlPattern = /## GitHub Repository URL\s*\n(?:\s*\n)*(.*\S.*)/;
-            const repoUrl = extractInfoFromPattern(bodyWithoutComments, repoUrlPattern);
+            // Extract Project Information
+            // Project name
+            const projectNameMatch = bodyWithoutComments.match(/- Project name:([^\n]+)/i);
+            const projectName = projectNameMatch ? projectNameMatch[1].trim() : null;
+            
+            // Github URL
+            const githubUrlMatch = bodyWithoutComments.match(/- Github URL:([^\n]+)/i);
+            const githubUrl = githubUrlMatch ? githubUrlMatch[1].trim() : null;
+            
+            // Homepage URL
+            const homepageUrlMatch = bodyWithoutComments.match(/- Homepage URL:([^\n]+)/i);
+            const homepageUrl = homepageUrlMatch ? homepageUrlMatch[1].trim() : null;
+            
+            // Logo URL
+            const logoUrlMatch = bodyWithoutComments.match(/- Logo URL:([^\n]+)/i);
+            const logoUrl = logoUrlMatch ? logoUrlMatch[1].trim() : null;
+            
+            // Logo Name (optional)
+            const logoNameMatch = bodyWithoutComments.match(/- Logo Name:([^\n]+)/i);
+            const logoName = logoNameMatch ? logoNameMatch[1].trim() : null;
 
-            // Extract Project Name
-            const projectNamePattern = /## Project Name\s*\n(?:\s*\n)*(.*\S.*)/;
-            const projectName = extractInfoFromPattern(bodyWithoutComments, projectNamePattern);
-
-            // Extract Section
-            let section = null;
-
-            // Find the first checked box with [x]
-            const checkboxMatch = issueBody.match(/- \[x\] (.+)/);
-
-            if (checkboxMatch) {
-              section = checkboxMatch[1].trim();
-              console.log('Selected section:', section);
+            // Extract Category - Find the first checked box with [x] and its parent category
+            let category = null;
+            const lines = bodyWithoutComments.split('\n');
+            let parentCategory = null;
+            
+            for (let i = 0; i < lines.length; i++) {
+              const line = lines[i].trim();
+              
+              // Check if this is a main category line
+              if (line.startsWith('- ') && !line.includes('[')) {
+                parentCategory = line.substring(2).trim();
+              }
+              
+              // Check if this is a checked subcategory
+              if (line.match(/- \[x\] (.+)/)) {
+                const subcategory = line.match(/- \[x\] (.+)/)[1].trim();
+                if (parentCategory) {
+                  category = `${parentCategory}/${subcategory}`;
+                  break;
+                } else {
+                  category = subcategory;
+                  break;
+                }
+              }
             }
 
             // Set outputs
-            core.setOutput('repo-url', repoUrl);
+            core.setOutput('repo-url', githubUrl);
             core.setOutput('project-name', projectName);
-            core.setOutput('section', section);
+            core.setOutput('category', category);
+            core.setOutput('logo-url', logoUrl);
+            core.setOutput('logo-name', logoName);
+            core.setOutput('homepage-url', homepageUrl);
             core.setOutput("author-id", issueAuthorId);
 
             // Log the extracted information
-            console.log(`Repository URL: ${repoUrl}`);
+            console.log(`Github URL: ${githubUrl}`);
             console.log(`Project Name: ${projectName}`);
-            console.log(`Section: ${section}`);
+            console.log(`Homepage URL: ${homepageUrl}`);
+            console.log(`Logo URL: ${logoUrl}`);
+            console.log(`Logo Name: ${logoName}`);
+            console.log(`Category: ${category}`);
             console.log(`Author ID: ${issueAuthorId}`);
 
             // Check if we have all required information
-            if (!repoUrl || !projectName || !section) {
+            if (!githubUrl || !projectName || !category || !logoUrl || !homepageUrl) {
               core.setFailed('Missing required information in the issue');
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: '❌ Could not process this request. Please make sure you have provided the GitHub repo URL, project name, and selected a section.'
+                body: '❌ Could not process this request. Please make sure you have provided the GitHub repo URL, project name, and selected a category.'
               });
               return false;
             }
@@ -94,16 +123,27 @@ jobs:
           git checkout -b $BRANCH_NAME
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
-      - name: Run project_request.py
+      - name: Run project_request.py script
         run: |
-          python project_request.py --section "${{ steps.parse-issue.outputs.section }}" --repo_url "${{ steps.parse-issue.outputs.repo-url }}" --name "${{ steps.parse-issue.outputs.project-name }}"
+          CMD="python project_request.py \
+            --category \"${{ steps.parse-issue.outputs.category }}\" \
+            --repo_url \"${{ steps.parse-issue.outputs.repo-url }}\" \
+            --name \"${{ steps.parse-issue.outputs.project-name }}\" \
+            --logo_url \"${{ steps.parse-issue.outputs.logo-url }}\" \
+            --homepage_url \"${{ steps.parse-issue.outputs.homepage-url }}\""
+          
+          if [ -n "${{ steps.parse-issue.outputs.logo-name }}" ]; then
+            CMD="$CMD --logo_name \"${{ steps.parse-issue.outputs.logo-name }}\""
+          fi
+          
+          eval $CMD
 
       - name: Commit changes
         env:
           ISSUE_AUTHOR: ${{ steps.parse-issue.outputs.author-id }}
         run: |
-          git add README.md
-          git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.section }} section
+          git add .
+          git commit -m "Add ${{ steps.parse-issue.outputs.repo-url }} to ${{ steps.parse-issue.outputs.category }} category
 
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
@@ -120,7 +160,7 @@ jobs:
             const branchName = process.env.BRANCH_NAME;
 
             const repoUrl = '${{ steps.parse-issue.outputs.repo-url }}';
-            const section = '${{ steps.parse-issue.outputs.section }}';
+            const category = '${{ steps.parse-issue.outputs.category }}';
 
             // Get the repository name from the URL
             const repoName = repoUrl.split('/').pop();
@@ -137,7 +177,7 @@ jobs:
             const pr = await github.rest.pulls.create({
               owner,
               repo,
-              title: `Add ${repoName} to ${section}`,
+              title: `Add ${repoName} to ${category}`,
               body: `fixes #${issueNumber},
               
             Co-authored-by: @${issueAuthor}`,
