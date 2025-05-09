@@ -252,6 +252,15 @@ categories:
       homepage_url: https://dify.ai
       logo: dify.png
       repo_url: https://github.com/langgenius/dify
+    - name: FastGPT
+      description: FastGPT is a knowledge-based platform built on the LLMs, offers
+        a comprehensive suite of out-of-the-box capabilities such as data processing,
+        RAG retrieval, and visual AI workflow orchestration, letting you easily develop
+        and deploy complex question-answering systems without the need for extensive
+        setup or configuration.
+      homepage_url: https://tryfastgpt.ai
+      logo: fastgpt.svg
+      repo_url: https://github.com/labring/FastGPT
     - name: Flowise
       description: Drag & drop UI to build your customized LLM flow.
       homepage_url: https://flowiseai.com
