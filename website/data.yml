@@ -224,6 +224,11 @@ categories:
       repo_url: https://github.com/lm-sys/routellm
   - name: Benchmark
     items:
+    - name: Inference Benchmark
+      description: null
+      homepage_url: https://github.com/AI-Hypercomputer/inference-benchmark
+      logo: inference-benchmark.png
+      repo_url: https://github.com/AI-Hypercomputer/inference-benchmark
     - name: Inference Perf
       description: GenAI inference performance benchmarking tool.
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
