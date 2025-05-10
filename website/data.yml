@@ -225,7 +225,9 @@ categories:
   - name: Benchmark
     items:
     - name: Inference Benchmark
-      description: null
+      description: A model server agnostic inference benchmarking tool that can be
+        used to benchmark LLMs running on differet infrastructure like GPU and TPU.
+        It can also be run on a GKE cluster as a container.
       homepage_url: https://github.com/AI-Hypercomputer/inference-benchmark
       logo: inference-benchmark.png
       repo_url: https://github.com/AI-Hypercomputer/inference-benchmark
