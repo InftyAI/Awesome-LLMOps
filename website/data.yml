@@ -468,6 +468,11 @@ categories:
       homepage_url: https://jan.ai/
       logo: jan.png
       repo_url: https://github.com/janhq/jan
+    - name: LLM
+      description: Access large language models from the command-line
+      homepage_url: https://llm.datasette.io/
+      logo: llm.png
+      repo_url: https://github.com/simonw/llm
     - name: Lobe Chat
       description: Lobe Chat is an open-source, modern-design AI chat framework. Supports
         Multi AI Providers, Knowledge Base, Multi-Modals, and Thinking.
