@@ -514,6 +514,11 @@ categories:
       homepage_url: https://docs.continue.dev/
       logo: continue.png
       repo_url: https://github.com/continuedev/continue
+    - name: LLM
+      description: Access large language models from the command-line
+      homepage_url: https://llm.datasette.io/
+      logo: llm.png
+      repo_url: https://github.com/simonw/llm
     - name: Sweep
       description: 'JSweep: AI coding assistant for JetBrains.'
       homepage_url: https://sweep.dev
