@@ -429,6 +429,12 @@ categories:
       homepage_url: https://5ire.app
       logo: 5ire.png
       repo_url: https://github.com/nanbingxyz/5ire
+    - name: AnythingLLM
+      description: The all-in-one Desktop & Docker AI application with built-in RAG,
+        AI agents, No-code agent builder, MCP compatibility,  and more.
+      homepage_url: https://anythingllm.com/
+      logo: anythingllm.png
+      repo_url: https://github.com/Mintplex-Labs/anything-llm
     - name: Chat SDK
       description: A full-featured, hackable Next.js AI chatbot built by Vercel.
       homepage_url: https://chat.vercel.ai
