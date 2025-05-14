@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/inftyai-awesome-llmops-badge.png)](https://mseep.ai/app/inftyai-awesome-llmops)
+
 # Awesome-LLMOps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 🎉 An awesome &amp; curated list of best LLMOps tools.
