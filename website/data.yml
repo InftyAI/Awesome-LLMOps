@@ -468,6 +468,11 @@ categories:
       homepage_url: https://jan.ai/
       logo: jan.png
       repo_url: https://github.com/janhq/jan
+    - name: kubectl-ai
+      description: AI powered Kubernetes Assistant
+      homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
+      logo: kubectl-ai
+      repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
     - name: LLM
       description: Access large language models from the command-line
       homepage_url: https://llm.datasette.io/
