@@ -471,7 +471,7 @@ categories:
     - name: LLM
       description: Access large language models from the command-line
       homepage_url: https://llm.datasette.io/
-      logo: llm.png
+      logo: default.png
       repo_url: https://github.com/simonw/llm
     - name: Lobe Chat
       description: Lobe Chat is an open-source, modern-design AI chat framework. Supports
