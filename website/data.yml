@@ -201,6 +201,11 @@ categories:
       homepage_url: https://gateway-api-inference-extension.sigs.k8s.io/
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/gateway-api-inference-extension
+    - name: Portkey-AI
+      description:
+      homepage_url: https://portkey.ai/
+      logo: portkey.png
+      repo_url: https://github.com/Portkey-AI/gateway
   - name: LLM Router
     items:
     - name: AI Gateway
