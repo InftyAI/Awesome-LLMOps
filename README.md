@@ -17,6 +17,7 @@
     - [Workflow](#workflow)
     - [Agent](#agent)
     - [Tools](#tools)
+    - [RAG](#RAG)
 - [Runtime](#runtime)
     - [Chatbot](#chatbot)
     - [Code Assistant](#code-assistant)
@@ -134,6 +135,9 @@
 * **[Mem0](https://github.com/mem0ai/mem0)**: The Memory layer for AI Agents. ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mem0ai/mem0?color=green)
 * **[OpenAI CUA](https://github.com/openai/openai-cua-sample-app)**: Computer Using Agent Sample App. ![Stars](https://img.shields.io/github/stars/openai/openai-cua-sample-app.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/openai-cua-sample-app?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/openai-cua-sample-app?color=green)
 
+### RAG
+
+* **[RAGFlow](https://github.com/infiniflow/ragflow)**: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding. ![Stars](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/infiniflow/ragflow?color=green) ![LastCommit](https://img.shields.io/github/last-commit/infiniflow/ragflow?color=green)
 
 ## Runtime
 
