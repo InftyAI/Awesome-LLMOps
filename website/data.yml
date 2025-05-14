@@ -396,6 +396,12 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
+    - name: crewAI
+      description: Framework for orchestrating role-playing, autonomous AI agents. 
+        By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+      homepage_url: https://www.crewai.com/
+      logo: crewai.svg
+      repo_url: https://github.com/crewAIInc/crewAI
   - name: Tools
     items:
     - name: Browser Use
