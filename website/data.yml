@@ -11,7 +11,7 @@ categories:
     - name: DeepSpeed-MII
       description: MII makes low-latency and high-throughput inference possible, powered
         by DeepSpeed.
-      homepage_url: https://github.com/microsoft/DeepSpeed-MII
+      homepage_url: https://deepspeed-mii.readthedocs.io
       logo: deepspeed-mii.svg
       repo_url: https://github.com/microsoft/DeepSpeed-MII
     - name: Nvidia Dynamo
@@ -82,7 +82,7 @@ categories:
       repo_url: https://github.com/openvinotoolkit/openvino
     - name: Ratchet
       description: A cross-platform browser ML framework.
-      homepage_url: https://github.com/huggingface/ratchet
+      homepage_url: https://huggingface.co/ratchet-community
       logo: ratchet.png
       repo_url: https://github.com/huggingface/ratchet
     - name: SGLang
@@ -153,7 +153,7 @@ categories:
     - name: llmaz
       description: ☸️ Easy, advanced inference platform for large language models
         on Kubernetes. 🌟 Star to support our work!
-      homepage_url: https://github.com/InftyAI/llmaz
+      homepage_url: https://llmaz.inftyai.com
       logo: llmaz.svg
       repo_url: https://github.com/InftyAI/llmaz
     - name: LMCache
@@ -164,7 +164,7 @@ categories:
     - name: Mooncake
       description: Mooncake is the serving platform for Kimi, a leading LLM service
         provided by Moonshot AI.
-      homepage_url: https://github.com/kvcache-ai/Mooncake
+      homepage_url: https://kvcache.ai/repo/mooncake
       logo: mooncake.png
       repo_url: https://github.com/kvcache-ai/Mooncake
   - name: AI Gateway
