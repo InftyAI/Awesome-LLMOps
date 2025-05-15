@@ -321,6 +321,18 @@ categories:
       repo_url: https://github.com/openai/codex
       tags:
       - coding
+    - name: crewAI
+      description: Framework for orchestrating role-playing, autonomous AI agents.
+        By fostering collaborative intelligence, CrewAI empowers agents to work together
+        seamlessly, tackling complex tasks.
+      homepage_url: https://www.crewai.com/
+      logo: crewai.svg
+      repo_url: https://github.com/crewAIInc/crewAI
+    - name: fast-agent
+      description: Define, Prompt and Test MCP enabled Agents and Workflows
+      homepage_url: https://github.com/evalstate/fast-agent
+      logo: fast-agent.png
+      repo_url: https://github.com/evalstate/fast-agent
     - name: kagent
       description: kagent is a Kubernetes-native framework for building AI agents.
       homepage_url: https://kagent.dev/
@@ -475,10 +487,15 @@ categories:
       homepage_url: https://jan.ai/
       logo: jan.png
       repo_url: https://github.com/janhq/jan
+    - name: kubectl-ai
+      description: AI powered Kubernetes Assistant
+      homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
+      logo: kubectl-ai
+      repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
     - name: LLM
       description: Access large language models from the command-line
       homepage_url: https://llm.datasette.io/
-      logo: llm.png
+      logo: default.png
       repo_url: https://github.com/simonw/llm
     - name: Lobe Chat
       description: Lobe Chat is an open-source, modern-design AI chat framework. Supports
