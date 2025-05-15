@@ -17,6 +17,7 @@
     - [Workflow](#workflow)
     - [Agent](#agent)
     - [Tools](#tools)
+    - [RAG](#rag)
 - [Runtime](#runtime)
     - [Chatbot](#chatbot)
     - [Code Assistant](#code-assistant)
@@ -117,7 +118,6 @@
 * **[kagent](https://github.com/kagent-dev/kagent)**: kagent is a kubernetes native framework for building AI agents. ![Stars](https://img.shields.io/github/stars/kagent-dev/kagent.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kagent-dev/kagent?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kagent-dev/kagent?color=green) ![Tag](https://img.shields.io/badge/kubernetes-orange)
 * **[LangChain](https://github.com/langchain-ai/langchain)**: 🦜🔗 Build context-aware reasoning applications. ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/langchain-ai/langchain?color=green)  ![LastCommit](https://img.shields.io/github/last-commit/langchain-ai/langchain?color=green)
 * **[LangGraph](https://github.com/langchain-ai/langgraph)**: Build resilient language agents as graphs. ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/langchain-ai/langgraph?color=green) ![LastCommit](https://img.shields.io/github/last-commit/langchain-ai/langgraph?color=green)
-* **[LightRAG](https://github.com/HKUDS/LightRAG)**: "LightRAG: Simple and Fast Retrieval-Augmented Generation" ![Stars](https://img.shields.io/github/stars/HKUDS/LightRAG.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/HKUDS/LightRAG?color=green)  ![LastCommit](https://img.shields.io/github/last-commit/HKUDS/LightRAG?color=green)
 * **[LlamaIndex](https://github.com/run-llama/llama_index)**: LlamaIndex is the leading framework for building LLM-powered agents over your data. ![Stars](https://img.shields.io/github/stars/run-llama/llama_index.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/run-llama/llama_index?color=green) ![LastCommit](https://img.shields.io/github/last-commit/run-llama/llama_index?color=green)
 * **[MetaGPT](https://github.com/geekan/MetaGPT)**: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming. ![Stars](https://img.shields.io/github/stars/geekan/metagpt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/geekan/metagpt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/geekan/metagpt?color=green)
 * **[OpenAI Agents SDK](https://github.com/openai/openai-agents-python)**: A lightweight, powerful framework for multi-agent workflows. ![Stars](https://img.shields.io/github/stars/openai/openai-agents-python.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/openai-agents-python?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/openai-agents-python?color=green)
@@ -136,6 +136,11 @@
 * **[Mem0](https://github.com/mem0ai/mem0)**: The Memory layer for AI Agents. ![Stars](https://img.shields.io/github/stars/mem0ai/mem0.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mem0ai/mem0?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mem0ai/mem0?color=green)
 * **[OpenAI CUA](https://github.com/openai/openai-cua-sample-app)**: Computer Using Agent Sample App. ![Stars](https://img.shields.io/github/stars/openai/openai-cua-sample-app.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/openai-cua-sample-app?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/openai-cua-sample-app?color=green)
 
+### RAG
+
+* **[LightRAG](https://github.com/HKUDS/LightRAG)**: "LightRAG: Simple and Fast Retrieval-Augmented Generation" ![Stars](https://img.shields.io/github/stars/HKUDS/LightRAG.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/HKUDS/LightRAG?color=green)  ![LastCommit](https://img.shields.io/github/last-commit/HKUDS/LightRAG?color=green)
+
+* **[RAGFlow](https://github.com/infiniflow/ragflow)**: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding. ![Stars](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/infiniflow/ragflow?color=green) ![LastCommit](https://img.shields.io/github/last-commit/infiniflow/ragflow?color=green)
 
 ## Runtime
 

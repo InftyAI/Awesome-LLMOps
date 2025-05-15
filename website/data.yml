@@ -350,11 +350,6 @@ categories:
       homepage_url: https://langchain-ai.github.io/langgraph/
       logo: langgraph.png
       repo_url: https://github.com/langchain-ai/langgraph
-    - name: LightRAG
-      description: Simple and Fast Retrieval-Augmented Generation.
-      homepage_url: https://github.com/HKUDS/LightRAG
-      logo: lightrag.png
-      repo_url: https://github.com/HKUDS/LightRAG
     - name: LlamaIndex
       description: The leading framework for building LLM-powered agents over your
         data.
@@ -430,6 +425,18 @@ categories:
       homepage_url: https://github.com/openai/openai-cua-sample-app
       logo: openai.png
       repo_url: https://github.com/openai/openai-cua-sample-app
+  - name: RAG
+    items:
+    - name: LightRAG
+      description: Simple and Fast Retrieval-Augmented Generation.
+      homepage_url: https://github.com/HKUDS/LightRAG
+      logo: lightrag.png
+      repo_url: https://github.com/HKUDS/LightRAG
+    - name: ragflow
+      description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
+      homepage_url: https://ragflow.io/
+      logo: ragflow.png
+      repo_url: https://github.com/infiniflow/ragflow
 - name: Runtime
   subcategories:
   - name: Chatbot

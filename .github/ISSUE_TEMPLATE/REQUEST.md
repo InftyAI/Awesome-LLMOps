@@ -33,6 +33,7 @@ assignees: ''
     - [ ] Workflow
     - [ ] Agent
     - [ ] Tools
+    - [ ] RAG
 - Runtime
     - [ ] Chatbot
     - [ ] Code Assistant
