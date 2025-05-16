@@ -14,16 +14,21 @@ categories:
       homepage_url: https://deepspeed-mii.readthedocs.io
       logo: deepspeed-mii.svg
       repo_url: https://github.com/microsoft/DeepSpeed-MII
-    - name: Nvidia Dynamo
-      description: A Datacenter Scale Distributed Inference Serving Framework.
-      homepage_url: https://developer.nvidia.com/dynamo
-      logo: nvidia.png
-      repo_url: https://github.com/ai-dynamo/dynamo
     - name: ipex-llm
       description: Accelerate local LLM inference and finetuning on Intel XPU.
       homepage_url: https://github.com/intel-analytics/ipex-llm
       logo: intel.png
       repo_url: https://github.com/intel-analytics/ipex-llm
+    - name: llama.cpp
+      description: LLM inference in C/C++.
+      homepage_url: https://github.com/ggerganov/llama.cpp
+      logo: llamacpp.svg
+      repo_url: https://github.com/ggerganov/llama.cpp
+    - name: Llumnix
+      description: Efficient and easy multi-instance LLM serving.
+      homepage_url: https://github.com/AlibabaPAI/llumnix
+      logo: alibaba.png
+      repo_url: https://github.com/AlibabaPAI/llumnix
     - name: LMDeploy
       description: LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
       homepage_url: http://lmdeploy.readthedocs.io/
@@ -35,16 +40,6 @@ categories:
       homepage_url: https://loraexchange.ai
       logo: lorax.png
       repo_url: https://github.com/predibase/lorax
-    - name: llama.cpp
-      description: LLM inference in C/C++.
-      homepage_url: https://github.com/ggerganov/llama.cpp
-      logo: llamacpp.svg
-      repo_url: https://github.com/ggerganov/llama.cpp
-    - name: Llumnix
-      description: Efficient and easy multi-instance LLM serving.
-      homepage_url: https://github.com/AlibabaPAI/llumnix
-      logo: alibaba.png
-      repo_url: https://github.com/AlibabaPAI/llumnix
     - name: MInference
       description: To speed up Long-context LLMs' inference, approximate and dynamic
         sparse calculate the attention.
@@ -62,6 +57,11 @@ categories:
       homepage_url: https://mlserver.readthedocs.io/
       logo: mlserver.png
       repo_url: https://github.com/SeldonIO/MLServer
+    - name: Nvidia Dynamo
+      description: A Datacenter Scale Distributed Inference Serving Framework.
+      homepage_url: https://developer.nvidia.com/dynamo
+      logo: nvidia.png
+      repo_url: https://github.com/ai-dynamo/dynamo
     - name: Ollama
       description: Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3,
         and other large language models.
@@ -91,6 +91,11 @@ categories:
       homepage_url: https://docs.sglang.ai/
       logo: sglang.png
       repo_url: https://github.com/sgl-project/sglang
+    - name: Text Generation Inference
+      description: Large Language Model Text Generation Inference.
+      homepage_url: https://hf.co/docs/text-generation-inference
+      logo: hf.png
+      repo_url: https://github.com/huggingface/text-generation-inference
     - name: transformers.js
       description: State-of-the-art Machine Learning for the web. Run 🤗 Transformers
         directly in your browser, with no need for a server!
@@ -103,11 +108,6 @@ categories:
       homepage_url: https://docs.nvidia.com/deeplearning/triton-inference-server/
       logo: nvidia.png
       repo_url: https://github.com/triton-inference-server/server
-    - name: Text Generation Inference
-      description: Large Language Model Text Generation Inference.
-      homepage_url: https://hf.co/docs/text-generation-inference
-      logo: hf.png
-      repo_url: https://github.com/huggingface/text-generation-inference
     - name: vLLM
       description: A high-throughput and memory-efficient inference and serving engine
         for LLMs.
@@ -119,6 +119,15 @@ categories:
       homepage_url: https://webllm.mlc.ai
       logo: mlc.png
       repo_url: https://github.com/mlc-ai/web-llm
+    - name: Xinference
+      description: Replace OpenAI GPT with another LLM in your app by changing a single
+        line of code. Xinference gives you the freedom to use any LLM you need. With
+        Xinference, you're empowered to run inference with any open-source language
+        models, speech recognition models, and multimodal models, whether in the cloud,
+        on-premises, or even on your laptop.
+      homepage_url: https://inference.readthedocs.io/
+      logo: xinference
+      repo_url: https://github.com/xorbitsai/inference
     - name: zml
       description: Any model. Any hardware. Zero compromise. Built with @ziglang /
         @openxla / MLIR / @bazelbuild.
@@ -433,7 +442,8 @@ categories:
       logo: lightrag.png
       repo_url: https://github.com/HKUDS/LightRAG
     - name: ragflow
-      description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
+      description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation)
+        engine based on deep document understanding.
       homepage_url: https://ragflow.io/
       logo: ragflow.png
       repo_url: https://github.com/infiniflow/ragflow
