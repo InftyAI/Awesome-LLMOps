@@ -257,6 +257,13 @@ categories:
       homepage_url: https://dottxt-ai.github.io/outlines/
       logo: outlines.png
       repo_url: https://github.com/dottxt-ai/outlines
+  - name: Simulator
+    items:
+    - name: Vidur
+      description: A large-scale simulation framework for LLM inference
+      homepage_url: https://github.com/microsoft/vidur
+      logo: microsoft.png
+      repo_url: https://github.com/microsoft/vidur
 - name: Orchestration
   subcategories:
   - name: Workflow
@@ -397,7 +404,7 @@ categories:
       description: Integrate cutting-edge LLM technology quickly and easily into your
         apps.
       homepage_url: https://aka.ms/semantic-kernel
-      logo: semantickernel.png
+      logo: microsoft.png
       repo_url: https://github.com/microsoft/semantic-kernel
     - name: Suna
       description: Suna is an open-source generalist AI agent.

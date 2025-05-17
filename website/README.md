@@ -37,6 +37,5 @@ The landscape currently includes the following main categories:
 - **Orchestration**: Tools for orchestrating LLM workflows and agents
 - **Runtime**: Runtime environments and tools for LLM applications
 - **Training**: Tools and frameworks for training and fine-tuning LLMs
-- **MCP**: Model Context Protocol related tools
 
 Additional categories can be added by updating the `data.yml`, `guide.yml`, and `settings.yml` files.
