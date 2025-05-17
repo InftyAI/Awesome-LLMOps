@@ -419,6 +419,13 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
+    - name: SWE-agent
+      description: 'SWE-agent takes a GitHub issue and tries to automatically fix
+        it, using your LM of choice. It can also be employed for offensive cybersecurity
+        or competitive coding challenges. [NeurIPS 2024] '
+      homepage_url: https://swe-agent.com/
+      logo: swe-agent.png
+      repo_url: https://github.com/SWE-agent/SWE-agent
   - name: Tools
     items:
     - name: Browser Use
