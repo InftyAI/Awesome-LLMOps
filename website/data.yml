@@ -424,7 +424,7 @@ categories:
         it, using your LM of choice. It can also be employed for offensive cybersecurity
         or competitive coding challenges. [NeurIPS 2024] '
       homepage_url: https://swe-agent.com/
-      logo: swe-agent.png
+      logo: swe-agent.svg
       repo_url: https://github.com/SWE-agent/SWE-agent
   - name: Tools
     items:
@@ -476,7 +476,7 @@ categories:
       description: The all-in-one Desktop & Docker AI application with built-in RAG,
         AI agents, No-code agent builder, MCP compatibility,  and more.
       homepage_url: https://anythingllm.com/
-      logo: anythingllm.png
+      logo: anythingllm.jpeg
       repo_url: https://github.com/Mintplex-Labs/anything-llm
     - name: Chat SDK
       description: A full-featured, hackable Next.js AI chatbot built by Vercel.
