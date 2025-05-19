@@ -659,6 +659,11 @@ categories:
       homepage_url: https://wandb.ai
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
+    - name: OpenLit
+      description: Open source Observability platform for OpenTelemetry-native LLM Observability, GPU Monitoring.
+      homepage_url: https://openlit.io
+      logo: openlit.png
+      repo_url: https://github.com/openlit/openlit
 - name: Training
   subcategories:
   - name: Framework
