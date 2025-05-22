@@ -117,14 +117,14 @@ jobs:
               return false;
             }
             
-            // For non-README_ONLY_CATEGORIES, check for logo_url and homepage_url
-            if (!isReadmeOnly && (!logoUrl || !homepageUrl)) {
+            // For non-README_ONLY_CATEGORIES, check for homepage_url
+            if (!isReadmeOnly && !homepageUrl) {
               core.setFailed('Missing required information in the issue');
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: `❌ Could not process this request. Please make sure you have provided the logo URL and homepage URL.`
+                body: `❌ Could not process this request. Please make sure you have provided the homepage URL.`
               });
               return false;
             }
@@ -136,7 +136,7 @@ jobs:
         id: check-pr
         uses: actions/github-script@v6
         with:
-          # github-token: ${{ secrets.AGENT_TOKEN }}
+          github-token: ${{ secrets.AGENT_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
@@ -239,7 +239,7 @@ jobs:
 
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
-          # git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
           
           # Check if we need to force push (if branch already exists)
           if git ls-remote --heads origin $BRANCH_NAME | grep -q $BRANCH_NAME; then
@@ -251,7 +251,7 @@ jobs:
       - name: Create or Update Pull Request
         uses: actions/github-script@v6
         with:
-          # github-token: ${{ secrets.AGENT_TOKEN }}
+          github-token: ${{ secrets.AGENT_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
