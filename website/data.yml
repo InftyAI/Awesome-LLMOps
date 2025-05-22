@@ -794,6 +794,11 @@ categories:
       homepage_url: https://www.eleuther.ai
       logo: eleutherai.png
       repo_url: https://github.com/EleutherAI/lm-evaluation-harness
+    - name: lm-evaluation-harness
+      description: A framework for few-shot evaluation of language models.
+      homepage_url: https://www.eleuther.ai/
+      logo: lm-evaluation-harness
+      repo_url: https://github.com/EleutherAI/lm-evaluation-harness
     - name: LongBench
       description: LongBench v2 and LongBench (ACL 2024).
       homepage_url: https://longbench2.github.io
