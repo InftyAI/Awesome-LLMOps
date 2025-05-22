@@ -96,6 +96,11 @@ categories:
       homepage_url: https://hf.co/docs/text-generation-inference
       logo: hf.png
       repo_url: https://github.com/huggingface/text-generation-inference
+    - name: TinyGrad
+      description: 'You like pytorch? You like micrograd? You love tinygrad! ❤️ '
+      homepage_url: https://github.com/tinygrad/tinygrad
+      logo: tinygrad.svg
+      repo_url: https://github.com/tinygrad/tinygrad
     - name: transformers.js
       description: State-of-the-art Machine Learning for the web. Run 🤗 Transformers
         directly in your browser, with no need for a server!
@@ -660,7 +665,8 @@ categories:
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
     - name: OpenLit
-      description: Open source Observability platform for OpenTelemetry-native LLM Observability, GPU Monitoring.
+      description: Open source Observability platform for OpenTelemetry-native LLM
+        Observability, GPU Monitoring.
       homepage_url: https://openlit.io
       logo: openlit.png
       repo_url: https://github.com/openlit/openlit
