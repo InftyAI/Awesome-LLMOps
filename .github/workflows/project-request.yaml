@@ -239,7 +239,7 @@ jobs:
 
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
+          # git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
           
           # Check if we need to force push (if branch already exists)
           if git ls-remote --heads origin $BRANCH_NAME | grep -q $BRANCH_NAME; then
