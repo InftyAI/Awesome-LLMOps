@@ -93,6 +93,7 @@
 
 * **[Inference Benchmark](https://github.com/AI-Hypercomputer/inference-benchmark)**: A model server agnostic inference benchmarking tool that can be used to benchmark LLMs running on differet infrastructure like GPU and TPU. It can also be run on a GKE cluster as a container. ![Stars](https://img.shields.io/github/stars/AI-Hypercomputer/inference-benchmark.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/AI-Hypercomputer/inference-benchmark?color=green) ![LastCommit](https://img.shields.io/github/last-commit/AI-Hypercomputer/inference-benchmark?color=green)
 * **[Inference Perf](https://github.com/kubernetes-sigs/inference-perf)**: GenAI inference performance benchmarking tool ![Stars](https://img.shields.io/github/stars/kubernetes-sigs/inference-perf.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kubernetes-sigs/inference-perf?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kubernetes-sigs/inference-perf?color=green)
+* **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 
 ### Output
 
