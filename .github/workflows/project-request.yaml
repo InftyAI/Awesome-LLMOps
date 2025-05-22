@@ -131,14 +131,65 @@ jobs:
 
             return true;
 
-      - name: Create branch
+      - name: Check for existing PR
+        if: steps.parse-issue.outputs.result == 'true'
+        id: check-pr
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.AGENT_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            const issueNumber = context.issue.number;
+            const branchName = `add-project-issue-${issueNumber}`;
+            
+            // Search for existing PRs that reference this issue
+            const prs = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'open'
+            });
+            
+            // Look for PRs with the expected branch name or that reference this issue
+            let existingPR = null;
+            for (const pr of prs.data) {
+              if (pr.head.ref === branchName || pr.body.includes(`fixes #${issueNumber}`)) {
+                existingPR = pr;
+                break;
+              }
+            }
+            
+            if (existingPR) {
+              console.log(`Found existing PR #${existingPR.number} for issue #${issueNumber}`);
+              core.setOutput('pr-exists', 'true');
+              core.setOutput('pr-number', existingPR.number.toString());
+            } else {
+              console.log(`No existing PR found for issue #${issueNumber}`);
+              core.setOutput('pr-exists', 'false');
+            }
+            
+            // Always set the branch name for later steps
+            core.setOutput('branch-name', branchName);
+
+      - name: Create or update branch
         if: steps.parse-issue.outputs.result == 'true'
         run: |
           git config --global user.name "InftyAI-Agent"
           git config --global user.email "143625840+InftyAI-Agent@users.noreply.github.com"
 
-          BRANCH_NAME="add-project-issue-${{ github.event.issue.number }}"
-          git checkout -b $BRANCH_NAME
+          BRANCH_NAME="${{ steps.check-pr.outputs.branch-name }}"
+          
+          # Check if the branch already exists on remote
+          if git ls-remote --heads origin $BRANCH_NAME | grep -q $BRANCH_NAME; then
+            echo "Branch $BRANCH_NAME already exists on remote, updating it"
+            git fetch origin
+            git checkout $BRANCH_NAME || git checkout -b $BRANCH_NAME --track origin/$BRANCH_NAME
+            # Reset to main to get latest changes and avoid conflicts
+            git reset --hard origin/main
+          else
+            echo "Creating new branch $BRANCH_NAME"
+            git checkout -b $BRANCH_NAME
+          fi
+          
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
       - name: Run project_request.py script
@@ -189,9 +240,15 @@ jobs:
           Co-authored-by: $ISSUE_AUTHOR <$ISSUE_AUTHOR@users.noreply.github.com>"
 
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/InftyAI/Awesome-LLMOps.git
-          git push --set-upstream origin $BRANCH_NAME
+          
+          # Check if we need to force push (if branch already exists)
+          if git ls-remote --heads origin $BRANCH_NAME | grep -q $BRANCH_NAME; then
+            git push --force origin $BRANCH_NAME
+          else
+            git push --set-upstream origin $BRANCH_NAME
+          fi
 
-      - name: Create Pull Request
+      - name: Create or Update Pull Request
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.AGENT_TOKEN }}
@@ -199,6 +256,8 @@ jobs:
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
             const branchName = process.env.BRANCH_NAME;
+            const prExists = '${{ steps.check-pr.outputs.pr-exists }}' === 'true';
+            const existingPrNumber = '${{ steps.check-pr.outputs.pr-number }}';
 
             const repoUrl = '${{ steps.parse-issue.outputs.repo-url }}';
             const category = '${{ steps.parse-issue.outputs.category }}';
@@ -213,23 +272,45 @@ jobs:
               issue_number: issueNumber
             });
             const issueAuthor = issue.data.user.login;
-
-            // Create the PR
-            const pr = await github.rest.pulls.create({
-              owner,
-              repo,
-              title: `Add ${repoName} to ${category}`,
-              body: `fixes #${issueNumber},
+            
+            let pr;
+            if (prExists) {
+              // PR already exists, no need to create a new one
+              console.log(`Using existing PR #${existingPrNumber}`);
               
-            Co-authored-by: @${issueAuthor}`,
-              head: branchName,
-              base: 'main'
-            });
+              // Add comment to the PR about the update
+              await github.rest.issues.createComment({
+                issue_number: parseInt(existingPrNumber),
+                owner,
+                repo,
+                body: `♻️ PR updated with latest changes from issue #${issueNumber}`
+              });
+              
+              // Add comment to the issue
+              await github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner,
+                repo,
+                body: `✅ Pull Request #${existingPrNumber} has been updated with your changes`
+              });
+            } else {
+              // Create a new PR
+              pr = await github.rest.pulls.create({
+                owner,
+                repo,
+                title: `Add ${repoName} to ${category}`,
+                body: `fixes #${issueNumber},
+                
+              Co-authored-by: @${issueAuthor}`,
+                head: branchName,
+                base: 'main'
+              });
 
-            // Add comment to the issue
-            await github.rest.issues.createComment({
-              issue_number: issueNumber,
-              owner,
-              repo,
-              body: `✅ Pull Request created: #${pr.data.number}`
-            });
+              // Add comment to the issue
+              await github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner,
+                repo,
+                body: `✅ Pull Request created: #${pr.data.number}`
+              });
+            }
