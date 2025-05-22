@@ -99,14 +99,32 @@ jobs:
             console.log(`Category: ${category}`);
             console.log(`Author ID: ${issueAuthorId}`);
 
+            // Define README_ONLY_CATEGORIES
+            const README_ONLY_CATEGORIES = ["MCP/MCP Server", "MCP/MCP Client"];
+            
+            // Check if the category is in README_ONLY_CATEGORIES
+            const isReadmeOnly = README_ONLY_CATEGORIES.some(c => c.toLowerCase() === category?.toLowerCase());
+            
             // Check if we have all required information
-            if (!githubUrl || !projectName || !category || !logoUrl || !homepageUrl) {
+            if (!githubUrl || !projectName || !category) {
               core.setFailed('Missing required information in the issue');
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 body: '❌ Could not process this request. Please make sure you have provided the GitHub repo URL, project name, and selected a category.'
+              });
+              return false;
+            }
+            
+            // For non-README_ONLY_CATEGORIES, check for logo_url and homepage_url
+            if (!isReadmeOnly && (!logoUrl || !homepageUrl)) {
+              core.setFailed('Missing required information in the issue');
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `❌ Could not process this request. Please make sure you have provided the logo URL and homepage URL.`
               });
               return false;
             }
@@ -125,17 +143,40 @@ jobs:
 
       - name: Run project_request.py script
         run: |
-          CMD="python project_request.py \
-            --category \"${{ steps.parse-issue.outputs.category }}\" \
-            --repo_url \"${{ steps.parse-issue.outputs.repo-url }}\" \
-            --name \"${{ steps.parse-issue.outputs.project-name }}\" \
-            --logo_url \"${{ steps.parse-issue.outputs.logo-url }}\" \
-            --homepage_url \"${{ steps.parse-issue.outputs.homepage-url }}\""
+          # Define README_ONLY_CATEGORIES
+          README_ONLY_CATEGORIES=("MCP/MCP Server" "MCP/MCP Client")
+          CATEGORY="${{ steps.parse-issue.outputs.category }}"
           
+          # Check if category is in README_ONLY_CATEGORIES
+          IS_README_ONLY=false
+          for c in "${README_ONLY_CATEGORIES[@]}"; do
+            if [ "${c,,}" = "${CATEGORY,,}" ]; then
+              IS_README_ONLY=true
+              break
+            fi
+          done
+          
+          # Build command based on category type
+          CMD="python project_request.py \
+            --category \"$CATEGORY\" \
+            --repo_url \"${{ steps.parse-issue.outputs.repo-url }}\" \
+            --name \"${{ steps.parse-issue.outputs.project-name }}\""
+          
+          # Add logo_url and homepage_url if provided or required
+          if [ "$IS_README_ONLY" = false ] || [ -n "${{ steps.parse-issue.outputs.logo-url }}" ]; then
+            CMD="$CMD --logo_url \"${{ steps.parse-issue.outputs.logo-url }}\""
+          fi
+          
+          if [ "$IS_README_ONLY" = false ] || [ -n "${{ steps.parse-issue.outputs.homepage-url }}" ]; then
+            CMD="$CMD --homepage_url \"${{ steps.parse-issue.outputs.homepage-url }}\""
+          fi
+          
+          # Add logo_name if provided
           if [ -n "${{ steps.parse-issue.outputs.logo-name }}" ]; then
             CMD="$CMD --logo_name \"${{ steps.parse-issue.outputs.logo-name }}\""
           fi
           
+          echo "Running command: $CMD"
           eval $CMD
 
       - name: Commit changes
