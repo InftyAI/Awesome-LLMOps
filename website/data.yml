@@ -218,6 +218,13 @@ categories:
       homepage_url: https://portkey.ai/features/ai-gateway
       logo: portkeyai.png
       repo_url: https://github.com/Portkey-AI/gateway
+    - name: Langfuse
+      description: '🪢 Open source LLM engineering platform: LLM Observability, metrics,
+        evals, prompt management, playground, datasets. Integrates with OpenTelemetry,
+        Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 '
+      homepage_url: https://langfuse.com/
+      logo: langfuse.png
+      repo_url: https://github.com/langfuse/langfuse
     - name: LiteLLM
       description: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in
         OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker,
@@ -660,7 +667,8 @@ categories:
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
     - name: OpenLit
-      description: Open source Observability platform for OpenTelemetry-native LLM Observability, GPU Monitoring.
+      description: Open source Observability platform for OpenTelemetry-native LLM
+        Observability, GPU Monitoring.
       homepage_url: https://openlit.io
       logo: openlit.png
       repo_url: https://github.com/openlit/openlit
