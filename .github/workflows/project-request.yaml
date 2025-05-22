@@ -136,7 +136,7 @@ jobs:
         id: check-pr
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.AGENT_TOKEN }}
+          # github-token: ${{ secrets.AGENT_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
@@ -251,7 +251,7 @@ jobs:
       - name: Create or Update Pull Request
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.AGENT_TOKEN }}
+          # github-token: ${{ secrets.AGENT_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
             const issueNumber = context.issue.number;
