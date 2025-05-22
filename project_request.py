@@ -229,14 +229,14 @@ def insert_entry(lines: List[str], category_start_line: int, category_end_line: 
     return lines
 
 
-def update_website(category: str, project_name: str, repo_url: str, logo_url: str, homepage_url: str, logo_name: str = None) -> bool:
+def update_website(category: str, project_name: str, repo_url: str, homepage_url: str, logo_url: str = None, logo_name: str = None) -> bool:
     """Update the website data.yml file and download the logo.
     
     Args:
         category: The name of the category to add the entry to (e.g., "Inference Engine")
         project_name: The name of the project
         repo_url: The GitHub repository URL
-        logo_url: URL to the project logo
+        logo_url: URL to the project logo (optional, default.png will be used if not provided)
         homepage_url: Custom homepage URL
         logo_name: Optional custom logo filename
         
@@ -254,34 +254,38 @@ def update_website(category: str, project_name: str, repo_url: str, logo_url: st
         # Get repository information
         repo_info = get_repo_info(owner, repo)
         description = repo_info.get('description', '')
-        
+
         # Process logo
         logo_filename = None
 
-        # If logo_name is provided, use it directly
-        if logo_name:
-            logo_filename = logo_name
+        # If no logo_url is provided, use default.png
+        if not logo_url:
+            logo_filename = "default.png"
         else:
-            # Extract filename from URL
-            parsed_url = urlparse(logo_url)
-            original_filename = os.path.basename(parsed_url.path)
-            file_ext = os.path.splitext(original_filename)[1].lower()
+            # If logo_name is provided, use it directly
+            if logo_name:
+                logo_filename = logo_name
+            else:
+                # Extract filename from URL
+                parsed_url = urlparse(logo_url)
+                original_filename = os.path.basename(parsed_url.path)
+                file_ext = os.path.splitext(original_filename)[1].lower()
+                
+                # Create a sanitized filename based on project name
+                sanitized_name = project_name.lower().replace(' ', '-')
+                sanitized_name = re.sub(r'[^\w\-]', '', sanitized_name)
+                logo_filename = f"{sanitized_name}{file_ext}"
+            logo_path = os.path.join(LOGOS_DIR, logo_filename)
             
-            # Create a sanitized filename based on project name
-            sanitized_name = project_name.lower().replace(' ', '-')
-            sanitized_name = re.sub(r'[^\w\-]', '', sanitized_name)
-            logo_filename = f"{sanitized_name}{file_ext}"
-        logo_path = os.path.join(LOGOS_DIR, logo_filename)
-        
-        # Download the logo
-        response = requests.get(logo_url, stream=True)
-        response.raise_for_status()
-        
-        with open(logo_path, 'wb') as logo_file:
-            for chunk in response.iter_content(chunk_size=8192):
-                logo_file.write(chunk)
-        
-        print(f"Successfully downloaded logo to {logo_path}")
+            # Download the logo
+            response = requests.get(logo_url, stream=True)
+            response.raise_for_status()
+            
+            with open(logo_path, 'wb') as logo_file:
+                for chunk in response.iter_content(chunk_size=8192):
+                    logo_file.write(chunk)
+            
+            print(f"Successfully downloaded logo to {logo_path}")
 
         # Parse the category path
         category_path = [c.strip().lower() for c in category.split('/')]
@@ -409,23 +413,23 @@ def main() -> None:
             print("Failed to update README.md")
             sys.exit(1)
         
-        # Check if the project should only be added to README.md
+        # Check if the project is in README_ONLY_CATEGORIES
         readme_only = is_readme_only(args.category)
         
         if readme_only:
             print(f"Category '{args.category}' is in README_ONLY_CATEGORIES. Skipping website data update.")
             website_success = True
         else:
-            # Verify required parameters for projects not in README_ONLY_CATEGORIES
+            # For non-README_ONLY_CATEGORIES projects, warn if logo_url is not provided
             if not args.logo_url:
-                print("Error: --logo_url is required for projects not in README_ONLY_CATEGORIES")
-                sys.exit(1)
+                print("Warning: No logo URL provided, using default.png")
+            # For non-README_ONLY_CATEGORIES projects, homepage_url is required
             if not args.homepage_url:
                 print("Error: --homepage_url is required for projects not in README_ONLY_CATEGORIES")
                 sys.exit(1)
                 
             # Update website
-            website_success = update_website(args.category, args.name, args.repo_url, args.logo_url, args.homepage_url, args.logo_name)
+            website_success = update_website(args.category, args.name, args.repo_url, args.homepage_url, args.logo_url,args.logo_name)
             
             if not website_success:
                 print("Failed to update website data")
