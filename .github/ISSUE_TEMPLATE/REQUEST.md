@@ -14,7 +14,7 @@ assignees: ''
 - Github URL:
 <!-- Homepage URL: https://google.github.io/adk-docs (optional for MCP Server and MCP Client categories) -->
 - Homepage URL:
-<!-- Logo URL: https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png (optional for MCP Server and MCP Client categories) -->
+<!-- Logo URL: https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png (optional, use default.png if not provided) -->
 - Logo URL:
 <!-- Logo Name: agent-development-kit.png (optional, if you want to specify a custom filename) -->
 
