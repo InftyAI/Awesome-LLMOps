@@ -164,6 +164,12 @@ categories:
       homepage_url: https://www.kubeai.org/
       logo: kubeai.png
       repo_url: https://github.com/substratusai/kubeai
+    - name: llm-d
+      description: llm-d is a Kubernetes-native high-performance distributed LLM inference
+        framework
+      homepage_url: https://llm-d.ai
+      logo: llm-d.png
+      repo_url: https://github.com/llm-d/llm-d
     - name: llmaz
       description: ☸️ Easy, advanced inference platform for large language models
         on Kubernetes. 🌟 Star to support our work!
