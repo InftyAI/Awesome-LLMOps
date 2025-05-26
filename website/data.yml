@@ -383,6 +383,11 @@ categories:
       homepage_url: https://docs.llamaindex.ai/
       logo: llamaindex.svg
       repo_url: https://github.com/run-llama/llama_index
+    - name: Magentic-UI
+      description: A research prototype of a human-centered web agent
+      homepage_url: https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/
+      logo: magentic-ui
+      repo_url: https://github.com/microsoft/magentic-ui
     - name: MetaGPT
       description: MetaGPT is the first multi-agent framework for natural language
         programming.
