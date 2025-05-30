@@ -47,6 +47,7 @@ groups:
       - LLM Router
       - Benchmark
       - Output
+      - Simulator
   - name: Orchestration
     categories:
       - Workflow

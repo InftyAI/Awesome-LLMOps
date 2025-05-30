@@ -35,6 +35,10 @@ categories:
         content: |
           Output refers to tools or frameworks that help generate structured or formatted results from large language models (LLMs). These tools are designed to provide well-organized and easily interpretable outputs, especially for complex text generation tasks.
 
+      - subcategory: "Simulator"
+        content: |
+          Simulator refers to tools simulating the behavior and performance of inference engines.
+
 
   - category: "Orchestration"
     content: |

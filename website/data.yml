@@ -11,19 +11,24 @@ categories:
     - name: DeepSpeed-MII
       description: MII makes low-latency and high-throughput inference possible, powered
         by DeepSpeed.
-      homepage_url: https://github.com/microsoft/DeepSpeed-MII
+      homepage_url: https://deepspeed-mii.readthedocs.io
       logo: deepspeed-mii.svg
       repo_url: https://github.com/microsoft/DeepSpeed-MII
-    - name: Nvidia Dynamo
-      description: A Datacenter Scale Distributed Inference Serving Framework.
-      homepage_url: https://developer.nvidia.com/dynamo
-      logo: nvidia.png
-      repo_url: https://github.com/ai-dynamo/dynamo
     - name: ipex-llm
       description: Accelerate local LLM inference and finetuning on Intel XPU.
       homepage_url: https://github.com/intel-analytics/ipex-llm
       logo: intel.png
       repo_url: https://github.com/intel-analytics/ipex-llm
+    - name: llama.cpp
+      description: LLM inference in C/C++.
+      homepage_url: https://github.com/ggerganov/llama.cpp
+      logo: llamacpp.svg
+      repo_url: https://github.com/ggerganov/llama.cpp
+    - name: Llumnix
+      description: Efficient and easy multi-instance LLM serving.
+      homepage_url: https://github.com/AlibabaPAI/llumnix
+      logo: alibaba.png
+      repo_url: https://github.com/AlibabaPAI/llumnix
     - name: LMDeploy
       description: LMDeploy is a toolkit for compressing, deploying, and serving LLMs.
       homepage_url: http://lmdeploy.readthedocs.io/
@@ -35,16 +40,6 @@ categories:
       homepage_url: https://loraexchange.ai
       logo: lorax.png
       repo_url: https://github.com/predibase/lorax
-    - name: llama.cpp
-      description: LLM inference in C/C++.
-      homepage_url: https://github.com/ggerganov/llama.cpp
-      logo: llamacpp.svg
-      repo_url: https://github.com/ggerganov/llama.cpp
-    - name: Llumnix
-      description: Efficient and easy multi-instance LLM serving.
-      homepage_url: https://github.com/AlibabaPAI/llumnix
-      logo: alibaba.png
-      repo_url: https://github.com/AlibabaPAI/llumnix
     - name: MInference
       description: To speed up Long-context LLMs' inference, approximate and dynamic
         sparse calculate the attention.
@@ -62,6 +57,11 @@ categories:
       homepage_url: https://mlserver.readthedocs.io/
       logo: mlserver.png
       repo_url: https://github.com/SeldonIO/MLServer
+    - name: Nvidia Dynamo
+      description: A Datacenter Scale Distributed Inference Serving Framework.
+      homepage_url: https://developer.nvidia.com/dynamo
+      logo: nvidia.png
+      repo_url: https://github.com/ai-dynamo/dynamo
     - name: Ollama
       description: Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3,
         and other large language models.
@@ -82,7 +82,7 @@ categories:
       repo_url: https://github.com/openvinotoolkit/openvino
     - name: Ratchet
       description: A cross-platform browser ML framework.
-      homepage_url: https://github.com/huggingface/ratchet
+      homepage_url: https://huggingface.co/ratchet-community
       logo: ratchet.png
       repo_url: https://github.com/huggingface/ratchet
     - name: SGLang
@@ -91,6 +91,16 @@ categories:
       homepage_url: https://docs.sglang.ai/
       logo: sglang.png
       repo_url: https://github.com/sgl-project/sglang
+    - name: Text Generation Inference
+      description: Large Language Model Text Generation Inference.
+      homepage_url: https://hf.co/docs/text-generation-inference
+      logo: hf.png
+      repo_url: https://github.com/huggingface/text-generation-inference
+    - name: TinyGrad
+      description: 'You like pytorch? You like micrograd? You love tinygrad! ❤️ '
+      homepage_url: https://github.com/tinygrad/tinygrad
+      logo: tinygrad.svg
+      repo_url: https://github.com/tinygrad/tinygrad
     - name: transformers.js
       description: State-of-the-art Machine Learning for the web. Run 🤗 Transformers
         directly in your browser, with no need for a server!
@@ -103,11 +113,6 @@ categories:
       homepage_url: https://docs.nvidia.com/deeplearning/triton-inference-server/
       logo: nvidia.png
       repo_url: https://github.com/triton-inference-server/server
-    - name: Text Generation Inference
-      description: Large Language Model Text Generation Inference.
-      homepage_url: https://hf.co/docs/text-generation-inference
-      logo: hf.png
-      repo_url: https://github.com/huggingface/text-generation-inference
     - name: vLLM
       description: A high-throughput and memory-efficient inference and serving engine
         for LLMs.
@@ -119,6 +124,15 @@ categories:
       homepage_url: https://webllm.mlc.ai
       logo: mlc.png
       repo_url: https://github.com/mlc-ai/web-llm
+    - name: Xinference
+      description: Replace OpenAI GPT with another LLM in your app by changing a single
+        line of code. Xinference gives you the freedom to use any LLM you need. With
+        Xinference, you're empowered to run inference with any open-source language
+        models, speech recognition models, and multimodal models, whether in the cloud,
+        on-premises, or even on your laptop.
+      homepage_url: https://inference.readthedocs.io/
+      logo: xinference
+      repo_url: https://github.com/xorbitsai/inference
     - name: zml
       description: Any model. Any hardware. Zero compromise. Built with @ziglang /
         @openxla / MLIR / @bazelbuild.
@@ -150,10 +164,16 @@ categories:
       homepage_url: https://www.kubeai.org/
       logo: kubeai.png
       repo_url: https://github.com/substratusai/kubeai
+    - name: llm-d
+      description: llm-d is a Kubernetes-native high-performance distributed LLM inference
+        framework
+      homepage_url: https://llm-d.ai
+      logo: llm-d.png
+      repo_url: https://github.com/llm-d/llm-d
     - name: llmaz
       description: ☸️ Easy, advanced inference platform for large language models
         on Kubernetes. 🌟 Star to support our work!
-      homepage_url: https://github.com/InftyAI/llmaz
+      homepage_url: https://llmaz.inftyai.com
       logo: llmaz.svg
       repo_url: https://github.com/InftyAI/llmaz
     - name: LMCache
@@ -164,7 +184,7 @@ categories:
     - name: Mooncake
       description: Mooncake is the serving platform for Kimi, a leading LLM service
         provided by Moonshot AI.
-      homepage_url: https://github.com/kvcache-ai/Mooncake
+      homepage_url: https://kvcache.ai/repo/mooncake
       logo: mooncake.png
       repo_url: https://github.com/kvcache-ai/Mooncake
   - name: AI Gateway
@@ -248,6 +268,13 @@ categories:
       homepage_url: https://dottxt-ai.github.io/outlines/
       logo: outlines.png
       repo_url: https://github.com/dottxt-ai/outlines
+  - name: Simulator
+    items:
+    - name: Vidur
+      description: A large-scale simulation framework for LLM inference
+      homepage_url: https://github.com/microsoft/vidur
+      logo: microsoft.png
+      repo_url: https://github.com/microsoft/vidur
 - name: Orchestration
   subcategories:
   - name: Workflow
@@ -356,6 +383,11 @@ categories:
       homepage_url: https://docs.llamaindex.ai/
       logo: llamaindex.svg
       repo_url: https://github.com/run-llama/llama_index
+    - name: Magentic-UI
+      description: A research prototype of a human-centered web agent
+      homepage_url: https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/
+      logo: magentic-ui
+      repo_url: https://github.com/microsoft/magentic-ui
     - name: MetaGPT
       description: MetaGPT is the first multi-agent framework for natural language
         programming.
@@ -388,7 +420,7 @@ categories:
       description: Integrate cutting-edge LLM technology quickly and easily into your
         apps.
       homepage_url: https://aka.ms/semantic-kernel
-      logo: semantickernel.png
+      logo: microsoft.png
       repo_url: https://github.com/microsoft/semantic-kernel
     - name: Suna
       description: Suna is an open-source generalist AI agent.
@@ -403,6 +435,13 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
+    - name: SWE-agent
+      description: 'SWE-agent takes a GitHub issue and tries to automatically fix
+        it, using your LM of choice. It can also be employed for offensive cybersecurity
+        or competitive coding challenges. [NeurIPS 2024] '
+      homepage_url: https://swe-agent.com/
+      logo: swe-agent.svg
+      repo_url: https://github.com/SWE-agent/SWE-agent
   - name: Tools
     items:
     - name: Browser Use
@@ -457,7 +496,7 @@ categories:
       description: The all-in-one Desktop & Docker AI application with built-in RAG,
         AI agents, No-code agent builder, MCP compatibility,  and more.
       homepage_url: https://anythingllm.com/
-      logo: anythingllm.png
+      logo: anythingllm.jpeg
       repo_url: https://github.com/Mintplex-Labs/anything-llm
     - name: Chat SDK
       description: A full-featured, hackable Next.js AI chatbot built by Vercel.
@@ -640,6 +679,12 @@ categories:
       homepage_url: https://wandb.ai
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
+    - name: OpenLit
+      description: Open source Observability platform for OpenTelemetry-native LLM
+        Observability, GPU Monitoring.
+      homepage_url: https://openlit.io
+      logo: openlit.png
+      repo_url: https://github.com/openlit/openlit
 - name: Training
   subcategories:
   - name: Framework
