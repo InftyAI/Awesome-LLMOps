@@ -472,7 +472,8 @@ categories:
       logo: lightrag.png
       repo_url: https://github.com/HKUDS/LightRAG
     - name: ragflow
-      description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
+      description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation)
+        engine based on deep document understanding.
       homepage_url: https://ragflow.io/
       logo: ragflow.png
       repo_url: https://github.com/infiniflow/ragflow
