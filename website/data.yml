@@ -437,6 +437,11 @@ categories:
       homepage_url: https://ragflow.io/
       logo: ragflow.png
       repo_url: https://github.com/infiniflow/ragflow
+    - name: graphrag
+      description: A modular graph-based Retrieval-Augmented Generation (RAG) system.
+      homepage_url: https://microsoft.github.io/graphrag/
+      logo: graphrag.png
+      repo_url: https://github.com/microsoft/graphrag
 - name: Runtime
   subcategories:
   - name: Chatbot
