@@ -6,6 +6,9 @@
 
 ## Table of Contents
 
+- [GPU](#gpu)
+    - [Management](#management)
+    - [Scheduling](#scheduling)
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
     - [Inference Platform](#inference-platform)
@@ -34,6 +37,16 @@
     - [MCP Server](#mcp-server)
     - [MCP Client](#mcp-client)
 
+## GPU
+
+### Management
+
+* **[NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator)**: NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes. ![Stars](https://img.shields.io/github/stars/NVIDIA/gpu-operator.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/NVIDIA/gpu-operator?color=green) ![LastCommit](https://img.shields.io/github/last-commit/NVIDIA/gpu-operator?color=green)
+
+### Scheduling
+
+* **[KAI Scheduler](https://github.com/NVIDIA/KAI-Scheduler)**: KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale. ![Stars](https://img.shields.io/github/stars/NVIDIA/KAI-Scheduler.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/NVIDIA/KAI-Scheduler?color=green) ![LastCommit](https://img.shields.io/github/last-commit/NVIDIA/KAI-Scheduler?color=green)
+* **[Project-HAMi](https://github.com/Project-HAMi/HAMi)**: Heterogeneous AI Computing Virtualization Middleware. ![Stars](https://img.shields.io/github/stars/Project-HAMi/HAMi.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Project-HAMi/HAMi?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Project-HAMi/HAMi?color=green)
 
 ## Inference
 
