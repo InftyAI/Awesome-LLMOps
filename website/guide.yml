@@ -5,6 +5,19 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
+  - category: "GPU"
+    content: |
+      GPU refers to the hardware component responsible for processing and accelerating machine learning and AI workloads, including training, inference, and data processing tasks.
+
+    subcategories:
+      - subcategory: "Management"
+        content: |
+          Management refers to tools and frameworks that simplify GPU resource management, including hardware setup, driver installation, and performance monitoring. 
+
+      - subcategory: "Scheduling"
+        content: |
+          Scheduling involves tools and frameworks that enhance GPU resource utilization by managing job scheduling, dynamically allocating resources, and optimizing performance.
+
   - category: "Inference"
     content: |
       Inference refers to the phase where trained machine learning models, particularly LLMs (Large Language Models), are used to generate predictions, outputs, or perform tasks based on new input data.

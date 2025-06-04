@@ -1,4 +1,25 @@
 categories:
+- name: GPU
+  subcategories:
+  - name: Management
+    items:
+    - name: NVIDIA GPU Operator
+      description: NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes.
+      homepage_url: https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/index.html
+      logo: nvidia.png
+      repo_url: https://github.com/NVIDIA/gpu-operator
+  - name: Scheduling
+    items:
+    - name: KAI Scheduler
+      description: KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale.
+      homepage_url: https://github.com/NVIDIA/KAI-Scheduler
+      logo: nvidia.png
+      repo_url: https://github.com/NVIDIA/KAI-Scheduler
+    - name: Project-HAMi
+      description: Heterogeneous AI Computing Virtualization Middleware.
+      homepage_url: https://project-hami.io
+      logo: hami.png
+      repo_url: https://github.com/Project-HAMi/HAMi
 - name: Inference
   subcategories:
   - name: Inference Engine

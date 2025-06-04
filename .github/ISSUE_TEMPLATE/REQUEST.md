@@ -22,6 +22,9 @@ assignees: ''
 
 <!-- Select one of category for the project -->
 
+- GPU
+    - [ ] Management
+    - [ ] Scheduling
 - Inference
     - [ ] Inference Engine
     - [ ] Inference Platform
