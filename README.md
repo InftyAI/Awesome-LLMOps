@@ -156,11 +156,11 @@
 
 ### RAG
 
+* **[GraphRAG](https://github.com/microsoft/graphrag)**: A modular graph-based Retrieval-Augmented Generation (RAG) system. ![Stars](https://img.shields.io/github/stars/microsoft/graphrag.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/graphrag?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/graphrag?color=green)
+
 * **[LightRAG](https://github.com/HKUDS/LightRAG)**: "LightRAG: Simple and Fast Retrieval-Augmented Generation" ![Stars](https://img.shields.io/github/stars/HKUDS/LightRAG.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/HKUDS/LightRAG?color=green)  ![LastCommit](https://img.shields.io/github/last-commit/HKUDS/LightRAG?color=green)
 
 * **[RAGFlow](https://github.com/infiniflow/ragflow)**: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding. ![Stars](https://img.shields.io/github/stars/infiniflow/ragflow.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/infiniflow/ragflow?color=green) ![LastCommit](https://img.shields.io/github/last-commit/infiniflow/ragflow?color=green)
-
-* **[GraphRAG](https://github.com/microsoft/graphrag)**: A modular graph-based Retrieval-Augmented Generation (RAG) system. ![Stars](https://img.shields.io/github/stars/microsoft/graphrag.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/graphrag?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/graphrag?color=green)
 
 ## Runtime
 
