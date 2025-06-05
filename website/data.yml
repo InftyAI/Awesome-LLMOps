@@ -487,6 +487,11 @@ categories:
       repo_url: https://github.com/openai/openai-cua-sample-app
   - name: RAG
     items:
+    - name: graphrag
+      description: A modular graph-based Retrieval-Augmented Generation (RAG) system.
+      homepage_url: https://microsoft.github.io/graphrag/
+      logo: graphrag.png
+      repo_url: https://github.com/microsoft/graphrag
     - name: LightRAG
       description: Simple and Fast Retrieval-Augmented Generation.
       homepage_url: https://github.com/HKUDS/LightRAG
