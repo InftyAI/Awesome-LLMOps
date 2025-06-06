@@ -11,7 +11,8 @@ categories:
   - name: Scheduling
     items:
     - name: KAI Scheduler
-      description: KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale.
+      description: KAI Scheduler is an open source Kubernetes Native scheduler for
+        AI workloads at large scale.
       homepage_url: https://github.com/NVIDIA/KAI-Scheduler
       logo: nvidia.png
       repo_url: https://github.com/NVIDIA/KAI-Scheduler
@@ -350,6 +351,12 @@ categories:
       homepage_url: https://github.com/agno-agi/agno
       logo: agno.svg
       repo_url: https://github.com/agno-agi/agno
+    - name: autogen
+      description: 'A programming framework for agentic AI 🤖 PyPi: autogen-agentchat
+        Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour'
+      homepage_url: https://microsoft.github.io/autogen/stable/#
+      logo: autogen.svg
+      repo_url: https://github.com/microsoft/autogen
     - name: AutoGPT
       description: AutoGPT is the vision of accessible AI for everyone, providing
         the tools to focus on what matters.
