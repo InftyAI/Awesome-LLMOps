@@ -718,6 +718,11 @@ categories:
   subcategories:
   - name: Framework
     items:
+    - name: AXLearn
+      description: An Extensible Deep Learning Library
+      homepage_url: https://github.com/apple/axlearn
+      logo: axlearn
+      repo_url: https://github.com/apple/axlearn
     - name: Candle
       description: Minimalist ML framework for Rust.
       homepage_url: https://github.com/huggingface/candle
