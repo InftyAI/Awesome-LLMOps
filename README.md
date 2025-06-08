@@ -216,6 +216,7 @@
 
 ### Framework
 
+* **[AXLearn](https://github.com/apple/axlearn)**: An Extensible Deep Learning Library ![Stars](https://img.shields.io/github/stars/apple/axlearn.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/apple/axlearn?color=green) ![LastCommit](https://img.shields.io/github/last-commit/apple/axlearn?color=green)
 * **[Candle](https://github.com/huggingface/candle)**: Minimalist ML framework for Rust. ![Stars](https://img.shields.io/github/stars/huggingface/candle.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/huggingface/candle?color=green) ![LastCommit](https://img.shields.io/github/last-commit/huggingface/candle?color=green)
 * **[ColossalAI](https://github.com/hpcaitech/ColossalAI)**: Making large AI models cheaper, faster and more accessible. ![Stars](https://img.shields.io/github/stars/hpcaitech/ColossalAI.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/hpcaitech/ColossalAI?color=green) ![LastCommit](https://img.shields.io/github/last-commit/hpcaitech/ColossalAI?color=green)
 * **[DLRover](https://github.com/intelligent-machine-learning/dlrover)**: DLRover: An Automatic Distributed Deep Learning System ![Stars](https://img.shields.io/github/stars/intelligent-machine-learning/dlrover.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/intelligent-machine-learning/dlrover?color=green) ![LastCommit](https://img.shields.io/github/last-commit/intelligent-machine-learning/dlrover?color=green)
