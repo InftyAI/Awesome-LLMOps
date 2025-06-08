@@ -102,6 +102,12 @@ categories:
       homepage_url: https://docs.openvino.ai
       logo: openvino.svg
       repo_url: https://github.com/openvinotoolkit/openvino
+    - name: Petals
+      description: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference
+        up to 10x faster than offloading
+      homepage_url: https://petals.dev/
+      logo: petals
+      repo_url: https://github.com/bigscience-workshop/petals
     - name: Ratchet
       description: A cross-platform browser ML framework.
       homepage_url: https://huggingface.co/ratchet-community
