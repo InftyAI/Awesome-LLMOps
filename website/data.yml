@@ -510,6 +510,13 @@ categories:
       homepage_url: https://github.com/HKUDS/LightRAG
       logo: lightrag.png
       repo_url: https://github.com/HKUDS/LightRAG
+    - name: quivr
+      description: "Opiniated RAG for integrating GenAI in your apps 🧠 Focus on your product
+        rather than the RAG. Easy integration in existing products with customisation!
+        Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want."
+      homepage_url: https://core.quivr.com/en/latest/
+      logo: quivr.png
+      repo_url: https://github.com/QuivrHQ/quivr
     - name: ragflow
       description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation)
         engine based on deep document understanding.
