@@ -284,6 +284,11 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: ragas
+      description: Supercharge Your LLM Application Evaluations 🚀
+      homepage_url: https://docs.ragas.io/en/stable/
+      logo: ragas.png
+      repo_url: https://github.com/explodinggradients/ragas
   - name: Output
     items:
     - name: Instructor
