@@ -394,6 +394,12 @@ categories:
       homepage_url: https://github.com/evalstate/fast-agent
       logo: fast-agent.png
       repo_url: https://github.com/evalstate/fast-agent
+    - name: Gemini CLI
+      description: An open-source AI agent that brings the power of Gemini directly
+        into your terminal.
+      homepage_url: https://github.com/google-gemini/gemini-cli
+      logo: gemini-cli
+      repo_url: https://github.com/google-gemini/gemini-cli
     - name: kagent
       description: kagent is a Kubernetes-native framework for building AI agents.
       homepage_url: https://kagent.dev/
@@ -511,9 +517,10 @@ categories:
       logo: lightrag.png
       repo_url: https://github.com/HKUDS/LightRAG
     - name: quivr
-      description: "Opiniated RAG for integrating GenAI in your apps 🧠 Focus on your product
-        rather than the RAG. Easy integration in existing products with customisation!
-        Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want."
+      description: 'Opiniated RAG for integrating GenAI in your apps 🧠 Focus on your
+        product rather than the RAG. Easy integration in existing products with customisation!
+        Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway
+        you want.'
       homepage_url: https://core.quivr.com/en/latest/
       logo: quivr.png
       repo_url: https://github.com/QuivrHQ/quivr
