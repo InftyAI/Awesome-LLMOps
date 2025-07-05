@@ -58,6 +58,7 @@ groups:
       - Code Assistant
       - Database
       - Development Environment
+      - Evaluation
       - Observation
   - name: Training
     categories:

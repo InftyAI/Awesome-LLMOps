@@ -77,6 +77,10 @@ categories:
         content: |
           Development Environments for AI focus on providing secure, scalable, and elastic infrastructure to run AI-generated code, develop AI applications, and manage agent workflows. These environments are built to offer seamless cloud runtimes, strong isolation, and flexibility for iterative AI development.
 
+      - subcategory: "Evaluation"
+        content: |
+          Evaluation tools are designed to assess the performance, reliability, and behavior of LLM applications.
+
       - subcategory: "Observation"
         content: |
           Observation in AI refers to tools and platforms that help monitor, evaluate, and analyze machine learning models, particularly large language models (LLMs), to ensure optimal performance, identify issues, and manage experiments. These tools often focus on real-time monitoring, logging, and visualization, helping teams improve and maintain their AI systems.

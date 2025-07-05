@@ -615,6 +615,13 @@ categories:
       homepage_url: https://e2b.dev/docs
       logo: e2b.png
       repo_url: https://github.com/e2b-dev/E2B
+  - name: Evaluate
+    items:
+    - name: ragas
+      description: Supercharge Your LLM Application Evaluations 🚀
+      homepage_url: https://docs.ragas.io/en/stable/
+      logo: ragas.png
+      repo_url: https://github.com/explodinggradients/ragas
   - name: Observation
     items:
     - name: Langfuse
