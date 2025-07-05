@@ -26,6 +26,7 @@
     - [Code Assistant](#code-assistant)
     - [Database](#database)
     - [Development Environment](#development-environment)
+    - [Evaluation](#evaluation)
     - [Observation](#observation)
 - [Training](#training)
     - [Framework](#framework)
@@ -205,6 +206,10 @@
 
 * **[Daytona](https://github.com/daytonaio/daytona)**: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. ![Stars](https://img.shields.io/github/stars/daytonaio/daytona.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/daytonaio/daytona?color=green) ![LastCommit](https://img.shields.io/github/last-commit/daytonaio/daytona?color=green)
 * **[E2B](https://github.com/e2b-dev/E2B)**: Secure open source cloud runtime for AI apps & AI agents. ![Stars](https://img.shields.io/github/stars/e2b-dev/E2B.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/e2b-dev/E2B?color=green) ![LastCommit](https://img.shields.io/github/last-commit/e2b-dev/E2B?color=green)
+
+### Evaluation
+
+* **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 
 ### Observation
 
