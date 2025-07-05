@@ -272,6 +272,12 @@ categories:
       repo_url: https://github.com/lm-sys/routellm
   - name: Benchmark
     items:
+    - name: genai-bench
+      description: Genai-bench is a powerful benchmark tool designed for comprehensive
+        token-level performance evaluation of large language model (LLM) serving systems.
+      homepage_url: https://docs.sglang.ai/genai-bench
+      logo: genai-bench.png
+      repo_url: https://github.com/sgl-project/genai-bench
     - name: Inference Benchmark
       description: A model server agnostic inference benchmarking tool that can be
         used to benchmark LLMs running on differet infrastructure like GPU and TPU.
