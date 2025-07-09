@@ -41,6 +41,11 @@ categories:
       homepage_url: https://github.com/intel-analytics/ipex-llm
       logo: intel.png
       repo_url: https://github.com/intel-analytics/ipex-llm
+    - name: llama-box
+      description: LM inference server implementation based on *.cpp.
+      homepage_url: https://github.com/gpustack/llama-box
+      logo: default.png
+      repo_url: https://github.com/gpustack/llama-box
     - name: llama.cpp
       description: LLM inference in C/C++.
       homepage_url: https://github.com/ggerganov/llama.cpp
