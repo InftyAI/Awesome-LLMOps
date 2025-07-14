@@ -386,6 +386,13 @@ categories:
       homepage_url: https://www.camel-ai.org/
       logo: camel.png
       repo_url: https://github.com/camel-ai/camel
+    - name: Claudia
+      description: A powerful GUI app and Toolkit for Claude Code - Create custom
+        agents, manage interactive Claude Code sessions, run secure background agents,
+        and more.
+      homepage_url: https://claudiacode.com/
+      logo: claudia
+      repo_url: https://github.com/getAsterisk/claudia
     - name: Codex
       description: Lightweight coding agent that runs in your terminal.
       homepage_url: https://github.com/openai/codex
