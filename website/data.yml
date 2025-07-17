@@ -633,6 +633,11 @@ categories:
       repo_url: https://github.com/zylon-ai/private-gpt
   - name: Code Assistant
     items:
+    - name: aider
+      description: aider is AI pair programming in your terminal
+      homepage_url: https://aider.chat/
+      logo: aider
+      repo_url: https://github.com/Aider-AI/aider
     - name: Auto-dev
       description: 'AutoDev: The AI-powered coding wizard with multilingual support,
         auto code generation, and a helpful bug-slaying assistant. Customizable prompts
