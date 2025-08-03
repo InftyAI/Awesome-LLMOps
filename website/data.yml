@@ -909,6 +909,12 @@ categories:
       homepage_url: https://longbench2.github.io
       logo: longbench.png
       repo_url: https://github.com/THUDM/LongBench
+    - name: MLE-bench
+      description: MLE-bench is a benchmark for measuring how well AI agents perform
+        at machine learning engineering
+      homepage_url: https://openai.com/index/mle-bench/
+      logo: mle-bench
+      repo_url: https://github.com/openai/mle-bench/
     - name: OpenCompass
       description: OpenCompass is an LLM evaluation platform, supporting a wide range
         of models (Llama3, Mistral, InternLM2, GPT-4, LLaMa2, Qwen, GLM, Claude, etc)
