@@ -463,6 +463,11 @@ categories:
       homepage_url: https://mgx.dev/
       logo: metagpt.png
       repo_url: https://github.com/geekan/MetaGPT
+    - name: Open SWE
+      description: An Open-Source Asynchronous Coding Agent
+      homepage_url: https://swe.langchain.com/
+      logo: open-swe
+      repo_url: https://github.com/langchain-ai/open-swe
     - name: OpenAI Agents SDK
       description: A lightweight, powerful framework for multi-agent workflows.
       homepage_url: https://github.com/openai/openai-agents-python
