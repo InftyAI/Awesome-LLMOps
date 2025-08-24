@@ -259,6 +259,14 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: LLM Semantic Router
+      description: 'LLM Semantic Router: Intelligent Mixture-of-Models (MoM) System
+        with Privacy Preservation and Prompt Guard. The semantic router intelligently
+        directs OpenAI compliant API requests to the most suitable backend models
+        based on semantic understanding of request content. '
+      homepage_url: https://llm-semantic-router.readthedocs.io
+      logo: llm-semantic-router.svg
+      repo_url: https://github.com/redhat-et/semantic_router
   - name: LLM Router
     items:
     - name: AI Gateway
