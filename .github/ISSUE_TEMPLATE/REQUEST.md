@@ -22,27 +22,28 @@ assignees: ''
 
 <!-- Select one of category for the project -->
 
-- GPU
-    - [ ] Management
-    - [ ] Scheduling
 - Inference
     - [ ] Inference Engine
     - [ ] Inference Platform
-    - [ ] AI Gateway
     - [ ] LLM Router
-    - [ ] Benchmark
+    - [ ] AI Gateway
     - [ ] Output
     - [ ] Simulator
+    - [ ] Benchmark
 - Orchestration
     - [ ] Workflow
-    - [ ] Agent
-    - [ ] Tools
+    - [ ] Agent Framework
     - [ ] RAG
+    - [ ] Application Framework
 - Runtime
+    - [ ] AI Terminal
+    - [ ] Agent
+    - [ ] Code Agent
+    - [ ] Tool
     - [ ] Chatbot
-    - [ ] Code Assistant
     - [ ] Database
-    - [ ] Development Environment
+    - [ ] Sandbox
+    - [ ] Evaluation
     - [ ] Observation
 - Training
     - [ ] Framework
@@ -50,6 +51,3 @@ assignees: ''
     - [ ] Alignment
     - [ ] Evaluation
     - [ ] Workflow
-- MCP
-    - [ ] MCP Server
-    - [ ] MCP Client

@@ -1,26 +1,4 @@
 categories:
-- name: GPU
-  subcategories:
-  - name: Management
-    items:
-    - name: NVIDIA GPU Operator
-      description: NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes.
-      homepage_url: https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/index.html
-      logo: nvidia.png
-      repo_url: https://github.com/NVIDIA/gpu-operator
-  - name: Scheduling
-    items:
-    - name: KAI Scheduler
-      description: KAI Scheduler is an open source Kubernetes Native scheduler for
-        AI workloads at large scale.
-      homepage_url: https://github.com/NVIDIA/KAI-Scheduler
-      logo: nvidia.png
-      repo_url: https://github.com/NVIDIA/KAI-Scheduler
-    - name: Project-HAMi
-      description: Heterogeneous AI Computing Virtualization Middleware.
-      homepage_url: https://project-hami.io
-      logo: hami.png
-      repo_url: https://github.com/Project-HAMi/HAMi
 - name: Inference
   subcategories:
   - name: Inference Engine
@@ -180,6 +158,12 @@ categories:
       homepage_url: https://aibrix.readthedocs.io/latest/
       logo: aibrix.jpeg
       repo_url: https://github.com/vllm-project/aibrix
+    - name: BentoML
+      description: The easiest way to serve AI apps and models - Build Model Inference
+        APIs, Job queues, LLM apps, Multi-model pipelines, and more!
+      homepage_url: https://bentoml.com
+      logo: bentoml.png
+      repo_url: https://github.com/bentoml/BentoML
     - name: Kaito
       description: Kubernetes operator for large-model inference and fine-tuning,
         with GPU auto-provisioning, container-based hosting, and CRD-based orchestration.
@@ -259,14 +243,6 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
-    - name: LLM Semantic Router
-      description: 'LLM Semantic Router: Intelligent Mixture-of-Models (MoM) System
-        with Privacy Preservation and Prompt Guard. The semantic router intelligently
-        directs OpenAI compliant API requests to the most suitable backend models
-        based on semantic understanding of request content. '
-      homepage_url: https://llm-semantic-router.readthedocs.io
-      logo: llm-semantic-router.svg
-      repo_url: https://github.com/redhat-et/semantic_router
   - name: LLM Router
     items:
     - name: AI Gateway
@@ -288,6 +264,30 @@ categories:
       homepage_url: https://github.com/lm-sys/routellm
       logo: lmsys.png
       repo_url: https://github.com/lm-sys/routellm
+    - name: vLLM Semantic Router
+      description: 'Intelligent Mixture-of-Models Router for Efficient LLM Inference'
+      homepage_url: https://vllm-semantic-router.com/
+      logo: vllm.png
+      repo_url: https://github.com/vllm-project/semantic-router
+  - name: Output
+    items:
+    - name: Instructor
+      description: Structured outputs for LLMs.
+      homepage_url: https://python.useinstructor.com/
+      logo: default.png
+      repo_url: https://github.com/instructor-ai/instructor
+    - name: Outlines
+      description: Structured Text Generation.
+      homepage_url: https://dottxt-ai.github.io/outlines/
+      logo: outlines.png
+      repo_url: https://github.com/dottxt-ai/outlines
+  - name: Simulator
+    items:
+    - name: Vidur
+      description: A large-scale simulation framework for LLM inference
+      homepage_url: https://github.com/microsoft/vidur
+      logo: microsoft.png
+      repo_url: https://github.com/microsoft/vidur
   - name: Benchmark
     items:
     - name: genai-bench
@@ -308,25 +308,6 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
-  - name: Output
-    items:
-    - name: Instructor
-      description: Structured outputs for LLMs.
-      homepage_url: https://python.useinstructor.com/
-      logo: default.png
-      repo_url: https://github.com/instructor-ai/instructor
-    - name: Outlines
-      description: Structured Text Generation.
-      homepage_url: https://dottxt-ai.github.io/outlines/
-      logo: outlines.png
-      repo_url: https://github.com/dottxt-ai/outlines
-  - name: Simulator
-    items:
-    - name: Vidur
-      description: A large-scale simulation framework for LLM inference
-      homepage_url: https://github.com/microsoft/vidur
-      logo: microsoft.png
-      repo_url: https://github.com/microsoft/vidur
 - name: Orchestration
   subcategories:
   - name: Workflow
@@ -347,11 +328,6 @@ categories:
       homepage_url: https://tryfastgpt.ai
       logo: fastgpt.svg
       repo_url: https://github.com/labring/FastGPT
-    - name: Flowise
-      description: Drag & drop UI to build your customized LLM flow.
-      homepage_url: https://flowiseai.com
-      logo: flowiseai.png
-      repo_url: https://github.com/FlowiseAI/Flowise
     - name: Haystack
       description: AI orchestration framework to build customizable, production-ready
         LLM applications. Best suited for RAG, question answering, semantic search,
@@ -367,7 +343,18 @@ categories:
       repo_url: https://github.com/roboflow/inference
       tags:
       - computer_vision
-  - name: Agent
+    - name: LangChain
+      description: Build context-aware reasoning applications.
+      homepage_url: https://python.langchain.com/
+      logo: langchain.svg
+      repo_url: https://github.com/langchain-ai/langchain
+    - name: LlamaIndex
+      description: The leading framework for building LLM-powered agents over your
+        data.
+      homepage_url: https://docs.llamaindex.ai/
+      logo: llamaindex.svg
+      repo_url: https://github.com/run-llama/llama_index
+  - name: Agent Framework
     items:
     - name: Agent Development Kit (ADK)
       description: An open-source, code-first Python toolkit for building, evaluating,
@@ -385,7 +372,7 @@ categories:
       description: 'A programming framework for agentic AI 🤖 PyPi: autogen-agentchat
         Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour'
       homepage_url: https://microsoft.github.io/autogen/stable/#
-      logo: autogen.svg
+      logo: microsoft.png
       repo_url: https://github.com/microsoft/autogen
     - name: AutoGPT
       description: AutoGPT is the vision of accessible AI for everyone, providing
@@ -399,20 +386,6 @@ categories:
       homepage_url: https://www.camel-ai.org/
       logo: camel.png
       repo_url: https://github.com/camel-ai/camel
-    - name: Claudia
-      description: A powerful GUI app and Toolkit for Claude Code - Create custom
-        agents, manage interactive Claude Code sessions, run secure background agents,
-        and more.
-      homepage_url: https://claudiacode.com/
-      logo: claudia
-      repo_url: https://github.com/getAsterisk/claudia
-    - name: Codex
-      description: Lightweight coding agent that runs in your terminal.
-      homepage_url: https://github.com/openai/codex
-      logo: openai.png
-      repo_url: https://github.com/openai/codex
-      tags:
-      - coding
     - name: crewAI
       description: Framework for orchestrating role-playing, autonomous AI agents.
         By fostering collaborative intelligence, CrewAI empowers agents to work together
@@ -425,18 +398,11 @@ categories:
       homepage_url: https://github.com/evalstate/fast-agent
       logo: fast-agent.png
       repo_url: https://github.com/evalstate/fast-agent
-    - name: Gemini CLI
-      description: An open-source AI agent that brings the power of Gemini directly
-        into your terminal.
-      homepage_url: https://github.com/google-gemini/gemini-cli
-      logo: gemini-cli
-      repo_url: https://github.com/google-gemini/gemini-cli
-    - name: goose
-      description: an open source, extensible AI agent that goes beyond code suggestions
-        - install, execute, edit, and test with any LLM
-      homepage_url: https://block.github.io/goose/
-      logo: goose
-      repo_url: https://github.com/block/goose
+    - name: Flowise
+      description: Drag & drop UI to build your customized LLM flow.
+      homepage_url: https://flowiseai.com
+      logo: flowiseai.png
+      repo_url: https://github.com/FlowiseAI/Flowise
     - name: kagent
       description: kagent is a Kubernetes-native framework for building AI agents.
       homepage_url: https://kagent.dev/
@@ -444,49 +410,27 @@ categories:
       repo_url: https://github.com/kagent-dev/kagent
       tags:
       - kubernetes
-    - name: LangChain
-      description: Build context-aware reasoning applications.
-      homepage_url: https://python.langchain.com/
-      logo: langchain.svg
-      repo_url: https://github.com/langchain-ai/langchain
     - name: LangGraph
       description: Build resilient language agents as graphs.
       homepage_url: https://langchain-ai.github.io/langgraph/
       logo: langgraph.png
       repo_url: https://github.com/langchain-ai/langgraph
-    - name: LlamaIndex
-      description: The leading framework for building LLM-powered agents over your
-        data.
-      homepage_url: https://docs.llamaindex.ai/
-      logo: llamaindex.svg
-      repo_url: https://github.com/run-llama/llama_index
-    - name: Magentic-UI
-      description: A research prototype of a human-centered web agent
-      homepage_url: https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/
-      logo: magentic-ui
-      repo_url: https://github.com/microsoft/magentic-ui
     - name: MetaGPT
       description: MetaGPT is the first multi-agent framework for natural language
         programming.
       homepage_url: https://mgx.dev/
       logo: metagpt.png
       repo_url: https://github.com/geekan/MetaGPT
-    - name: Open SWE
-      description: An Open-Source Asynchronous Coding Agent
-      homepage_url: https://swe.langchain.com/
-      logo: open-swe
-      repo_url: https://github.com/langchain-ai/open-swe
+    # - name: Open SWE
+    #   description: An Open-Source Asynchronous Coding Agent
+    #   homepage_url: https://swe.langchain.com/
+    #   logo: open-swe
+    #   repo_url: https://github.com/langchain-ai/open-swe
     - name: OpenAI Agents SDK
       description: A lightweight, powerful framework for multi-agent workflows.
       homepage_url: https://github.com/openai/openai-agents-python
       logo: openai.png
       repo_url: https://github.com/openai/openai-agents-python
-    - name: OpenManus
-      description: OpenManus is an open-source project with no fortress, purely open
-        ground.
-      homepage_url: https://openmanus.github.io/
-      logo: openmanus.png
-      repo_url: https://github.com/mannaandpoem/OpenManus
     - name: PydanticAI
       description: Agent framework/shim to use Pydantic with LLMs.
       homepage_url: https://ai.pydantic.dev/
@@ -517,35 +461,6 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
-    - name: SWE-agent
-      description: 'SWE-agent takes a GitHub issue and tries to automatically fix
-        it, using your LM of choice. It can also be employed for offensive cybersecurity
-        or competitive coding challenges. [NeurIPS 2024] '
-      homepage_url: https://swe-agent.com/
-      logo: swe-agent.svg
-      repo_url: https://github.com/SWE-agent/SWE-agent
-  - name: Tools
-    items:
-    - name: Browser Use
-      description: Make websites accessible for AI agents.
-      homepage_url: https://browser-use.com
-      logo: browser-use.svg
-      repo_url: https://github.com/browser-use/browser-use
-    - name: Graphiti
-      description: Build real-time knowledge graphs for AI agents.
-      homepage_url: https://help.getzep.com/graphiti
-      logo: graphiti.png
-      repo_url: https://github.com/getzep/graphiti
-    - name: Mem0
-      description: The memory layer for AI agents.
-      homepage_url: https://mem0.ai/research
-      logo: mem0.svg
-      repo_url: https://github.com/mem0ai/mem0
-    - name: OpenAI CUA
-      description: Computer Using Agent Sample App.
-      homepage_url: https://github.com/openai/openai-cua-sample-app
-      logo: openai.png
-      repo_url: https://github.com/openai/openai-cua-sample-app
   - name: RAG
     items:
     - name: graphrag
@@ -572,8 +487,130 @@ categories:
       homepage_url: https://ragflow.io/
       logo: ragflow.png
       repo_url: https://github.com/infiniflow/ragflow
+  - name: Application Framework
+    items:
+    - name: Langfuse
+      description: 'Open source LLM engineering platform: LLM Observability, metrics,
+        evals, prompt management, and more.'
+      homepage_url: https://langfuse.com/docs
+      logo: langfuse.png
+      repo_url: https://github.com/langfuse/langfuse
+    - name: Helicone
+      description: Open source LLM observability platform. One line of code to monitor,
+        evaluate, and experiment.
+      homepage_url: https://www.helicone.ai
+      logo: helicone.png
+      repo_url: https://github.com/helicone/helicone
+    - name: OpenLit
+      description: Open source Observability platform for OpenTelemetry-native LLM
+        Observability, GPU Monitoring.
+      homepage_url: https://openlit.io
+      logo: openlit.png
+      repo_url: https://github.com/openlit/openlit
+    - name: phoenix
+      description: AI Observability & Evaluation.
+      homepage_url: https://docs.arize.com/phoenix
+      logo: phoenix.png
+      repo_url: https://github.com/arize-ai/phoenix
+    - name: Weave
+      description: Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.
+      homepage_url: https://weave-docs.wandb.ai/
+      logo: wandb.png
+      repo_url: https://github.com/wandb/weave
 - name: Runtime
   subcategories:
+  - name: AI Terminal
+    items:
+    - name: Gemini CLI
+      description: An open-source AI agent that brings the power of Gemini directly
+        into your terminal.
+      homepage_url: https://github.com/google-gemini/gemini-cli
+      logo: gemini-cli
+      repo_url: https://github.com/google-gemini/gemini-cli
+    - name: kubectl-ai
+      description: AI powered Kubernetes Assistant
+      homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
+      logo: kubectl-ai
+      repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
+  - name: Agent
+    items:
+    - name: goose
+      description: an open source, extensible AI agent that goes beyond code suggestions
+        - install, execute, edit, and test with any LLM
+      homepage_url: https://block.github.io/goose/
+      logo: goose
+      repo_url: https://github.com/block/goose
+    - name: Magentic-UI
+      description: A research prototype of a human-centered web agent
+      homepage_url: https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/
+      logo: magentic-ui
+      repo_url: https://github.com/microsoft/magentic-ui
+    - name: OpenManus
+      description: OpenManus is an open-source project with no fortress, purely open
+        ground.
+      homepage_url: https://openmanus.github.io/
+      logo: openmanus.png
+      repo_url: https://github.com/mannaandpoem/OpenManus
+  - name: Code Agent
+    items:
+    - name: aider
+      description: aider is AI pair programming in your terminal
+      homepage_url: https://aider.chat/
+      logo: aider
+      repo_url: https://github.com/Aider-AI/aider
+    - name: Codex
+      description: Lightweight coding agent that runs in your terminal.
+      homepage_url: https://github.com/openai/codex
+      logo: openai.png
+      repo_url: https://github.com/openai/codex
+      tags:
+      - coding
+    - name: Continue
+      description: Create, share, and use custom AI code assistants with open-source
+        IDE extensions and a hub of models, rules, prompts, docs, and other building
+        blocks.
+      homepage_url: https://docs.continue.dev/
+      logo: continue.png
+      repo_url: https://github.com/continuedev/continue
+    - name: Open SWE
+      description: An Open-Source Asynchronous Coding Agent.
+      homepage_url: https://swe.langchain.com/
+      logo: langchain.svg
+      repo_url: https://github.com/langchain-ai/open-swe
+    - name: SWE-agent
+      description: 'SWE-agent takes a GitHub issue and tries to automatically fix
+        it, using your LM of choice. It can also be employed for offensive cybersecurity
+        or competitive coding challenges. [NeurIPS 2024] '
+      homepage_url: https://swe-agent.com/
+      logo: swe-agent.svg
+      repo_url: https://github.com/SWE-agent/SWE-agent
+    - name: Tabby
+      description: Self-hosted AI coding assistant.
+      homepage_url: https://tabbyml.com
+      logo: tabby.png
+      repo_url: https://github.com/TabbyML/tabby
+  - name: Tools
+    items:
+    - name: Browser Use
+      description: Make websites accessible for AI agents.
+      homepage_url: https://browser-use.com
+      logo: browser-use.svg
+      repo_url: https://github.com/browser-use/browser-use
+    - name: Graphiti
+      description: Build real-time knowledge graphs for AI agents.
+      homepage_url: https://help.getzep.com/graphiti
+      logo: graphiti.png
+      repo_url: https://github.com/getzep/graphiti
+    - name: Mem0
+      description: The memory layer for AI agents.
+      homepage_url: https://mem0.ai/research
+      logo: mem0.svg
+      repo_url: https://github.com/mem0ai/mem0
+    - name: OpenAI CUA
+      description: Computer Using Agent Sample App.
+      homepage_url: https://github.com/openai/openai-cua-sample-app
+      logo: openai.png
+      repo_url: https://github.com/openai/openai-cua-sample-app
   - name: Chatbot
     items:
     - name: 5ire
@@ -622,11 +659,6 @@ categories:
       homepage_url: https://jan.ai/
       logo: jan.png
       repo_url: https://github.com/janhq/jan
-    - name: kubectl-ai
-      description: AI powered Kubernetes Assistant
-      homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
-      logo: kubectl-ai
-      repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
     - name: LLM
       description: Access large language models from the command-line
       homepage_url: https://llm.datasette.io/
@@ -644,6 +676,11 @@ categories:
       homepage_url: https://nextchat.club/
       logo: nextchat.png
       repo_url: https://github.com/ChatGPTNextWeb/NextChat
+    - name: opcode
+      description: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+      homepage_url: https://opcode.sh/
+      logo: asterisk.png
+      repo_url: https://github.com/getAsterisk/opcode
     - name: Open WebUI
       description: User-friendly AI Interface. Supports Ollama, OpenAI API, and more.
       homepage_url: https://openwebui.com
@@ -655,50 +692,6 @@ categories:
       homepage_url: https://privategpt.dev
       logo: privategpt.png
       repo_url: https://github.com/zylon-ai/private-gpt
-  - name: Code Assistant
-    items:
-    - name: aider
-      description: aider is AI pair programming in your terminal
-      homepage_url: https://aider.chat/
-      logo: aider
-      repo_url: https://github.com/Aider-AI/aider
-    - name: Auto-dev
-      description: 'AutoDev: The AI-powered coding wizard with multilingual support,
-        auto code generation, and a helpful bug-slaying assistant. Customizable prompts
-        and magic Auto Dev/Testing/Document/Agent features included.'
-      homepage_url: https://ide.unitmesh.cc/
-      logo: auto-dev.png
-      repo_url: https://github.com/unit-mesh/auto-dev
-    - name: Codefuse-chatbot
-      description: An intelligent assistant serving the entire software development
-        lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits,
-        Code&Doc Repo RAG, etc.
-      homepage_url: https://github.com/codefuse-ai/codefuse-chatbot
-      logo: codefuse.png
-      repo_url: https://github.com/codefuse-ai/codefuse-chatbot
-    - name: Cody
-      description: Cody is an AI code assistant that uses advanced search and codebase
-        context to help you write and fix code.
-      homepage_url: https://cody.dev
-      logo: cody.png
-      repo_url: https://github.com/sourcegraph/cody
-    - name: Continue
-      description: Create, share, and use custom AI code assistants with open-source
-        IDE extensions and a hub of models, rules, prompts, docs, and other building
-        blocks.
-      homepage_url: https://docs.continue.dev/
-      logo: continue.png
-      repo_url: https://github.com/continuedev/continue
-    - name: Sweep
-      description: 'JSweep: AI coding assistant for JetBrains.'
-      homepage_url: https://sweep.dev
-      logo: sweep.png
-      repo_url: https://github.com/sweepai/sweep
-    - name: Tabby
-      description: Self-hosted AI coding assistant.
-      homepage_url: https://tabbyml.com
-      logo: tabby.png
-      repo_url: https://github.com/TabbyML/tabby
   - name: Database
     items:
     - name: Chroma
@@ -732,7 +725,7 @@ categories:
       homepage_url: https://weaviate.io/developers/weaviate/
       logo: weaviate.png
       repo_url: https://github.com/weaviate/weaviate
-  - name: Development Environment
+  - name: Sandbox
     items:
     - name: Daytona
       description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
@@ -754,40 +747,17 @@ categories:
       repo_url: https://github.com/explodinggradients/ragas
   - name: Observation
     items:
-    - name: Langfuse
-      description: 'Open source LLM engineering platform: LLM Observability, metrics,
-        evals, prompt management, and more.'
-      homepage_url: https://langfuse.com/docs
-      logo: langfuse.png
-      repo_url: https://github.com/langfuse/langfuse
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
-    - name: Helicone
-      description: Open source LLM observability platform. One line of code to monitor,
-        evaluate, and experiment.
-      homepage_url: https://www.helicone.ai
-      logo: helicone.png
-      repo_url: https://github.com/helicone/helicone
-    - name: phoenix
-      description: AI Observability & Evaluation.
-      homepage_url: https://docs.arize.com/phoenix
-      logo: phoenix.png
-      repo_url: https://github.com/arize-ai/phoenix
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
       homepage_url: https://wandb.ai
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
-    - name: OpenLit
-      description: Open source Observability platform for OpenTelemetry-native LLM
-        Observability, GPU Monitoring.
-      homepage_url: https://openlit.io
-      logo: openlit.png
-      repo_url: https://github.com/openlit/openlit
 - name: Training
   subcategories:
   - name: Framework
@@ -949,12 +919,6 @@ categories:
       repo_url: https://github.com/laude-institute/terminal-bench
   - name: Workflow
     items:
-    - name: BentoML
-      description: The easiest way to serve AI apps and models - Build Model Inference
-        APIs, Job queues, LLM apps, Multi-model pipelines, and more!
-      homepage_url: https://bentoml.com
-      logo: bentoml.png
-      repo_url: https://github.com/bentoml/BentoML
     - name: Flyte
       description: Scalable and flexible workflow orchestration platform that seamlessly
         unifies data, ML and analytics stacks.

@@ -5,19 +5,6 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
-  - category: "GPU"
-    content: |
-      GPU refers to the hardware component responsible for processing and accelerating machine learning and AI workloads, including training, inference, and data processing tasks.
-
-    subcategories:
-      - subcategory: "Management"
-        content: |
-          Management refers to tools and frameworks that simplify GPU resource management, including hardware setup, driver installation, and performance monitoring. 
-
-      - subcategory: "Scheduling"
-        content: |
-          Scheduling involves tools and frameworks that enhance GPU resource utilization by managing job scheduling, dynamically allocating resources, and optimizing performance.
-
   - category: "Inference"
     content: |
       Inference refers to the phase where trained machine learning models, particularly LLMs (Large Language Models), are used to generate predictions, outputs, or perform tasks based on new input data.
@@ -40,10 +27,6 @@ categories:
         content: |
           LLM routers are specialized systems designed to intelligently route, proxy, or switch between multiple large language model (LLM) providers based on factors like cost, latency, quality, or model capabilities. They help developers and organizations optimize API usage across different backends while maintaining a unified, often OpenAI-compatible, interface. Some also integrate guardrails and evaluation mechanisms to ensure safe and efficient AI interactions.
 
-      - subcategory: "Benchmark"
-        content: |
-          Benchmark provide standardized methods for evaluating and comparing the performance, quality, and capabilities of LLMs (Large Language Models) and AI systems. They focus on areas such as inference speed, latency, model accuracy, contamination-free testing, and real-world scenario simulation, helping developers and researchers make informed decisions about model and system selection.
-
       - subcategory: "Output"
         content: |
           Output refers to tools or frameworks that help generate structured or formatted results from large language models (LLMs). These tools are designed to provide well-organized and easily interpretable outputs, especially for complex text generation tasks.
@@ -51,6 +34,10 @@ categories:
       - subcategory: "Simulator"
         content: |
           Simulator refers to tools simulating the behavior and performance of inference engines.
+
+      - subcategory: "Benchmark"
+        content: |
+          Benchmark provide standardized methods for evaluating and comparing the performance, quality, and capabilities of LLMs (Large Language Models) and AI systems. They focus on areas such as inference speed, latency, model accuracy, contamination-free testing, and real-world scenario simulation, helping developers and researchers make informed decisions about model and system selection.
 
 
   - category: "Orchestration"
@@ -63,13 +50,17 @@ categories:
         content: |
           A workflow provides a structured environment for building, connecting, managing, and deploying AI applications, especially those powered by large language models (LLMs) or other machine learning techniques. These frameworks offer modular components such as model integration, retrieval-augmented generation (RAG) pipelines, agent capabilities, prompt management, observability, and workflow orchestration, enabling rapid prototyping and scalable production deployments.
 
-      - subcategory: "Agent"
+      - subcategory: "Agent Framework"
         content: |
-          An Agent is an autonomous or semi-autonomous system powered by large language models, integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
+          An Agent framework is an autonomous or semi-autonomous system powered by large language models, integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
 
-      - subcategory: "Tool"
+      - subcategory: "RAG"
         content: |
-          A Tool is an external functional module or API invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
+          Retrieval-Augmented Generation (RAG) frameworks combine large language models (LLMs) with external knowledge sources to enhance the accuracy, relevance, and context-awareness of AI-generated content. These frameworks facilitate the integration of vector databases, document stores, and search engines, enabling LLMs to retrieve pertinent information during the generation process.
+
+      - subcategory: "Application Framework"
+        content: |
+          An Application framework provides a structured environment for building and deploying AI applications. It includes components for user interface design, data management, and integration with external services, enabling developers to create robust and scalable AI solutions.
 
   - category: "Runtime"
     content: |
@@ -77,22 +68,35 @@ categories:
       It provides the foundation for deploying, running, monitoring, and scaling AI workloads, ensuring they perform reliably across cloud, edge, or on-premise setups.
       Runtimes often include components like chat frameworks, databases, code assistants, and observability tools.
 
+
     subcategories:
+      - subcategory: "AI Terminal"
+        content: |
+          AI Terminals are interactive command-line interfaces or environments that allow users to engage with AI models, particularly large language models (LLMs), in a conversational manner. These terminals provide a text-based interface for users to input queries, receive responses, and interact with AI systems directly from the command line, often supporting features like multi-turn conversations, context retention, and integration with various LLM providers.
+
+      - subcategory: "Agent"
+        content: |
+          An Agent is an autonomous or semi-autonomous system powered by large language models (LLMs), integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
+
+      - subcategory: "Code Agent"
+        content: |
+          Code Agents are specialized AI agents designed to assist with software development tasks by leveraging large language models (LLMs). They can understand and generate code, debug, test, and document software projects.
+
+      - subcategory: "Tool"
+        content: |
+          A Tool is an external functional module or API invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
+
       - subcategory: "Chatbot"
         content: |
           Chatbots are platforms and toolkits designed to build, customize, deploy, and interact with AI chat applications. They often support multiple LLM providers, local deployment, plugin systems, RAG integration, and user-friendly UIs, enabling developers and users to easily create private, extensible, and cross-platform AI assistants.
-
-      - subcategory: "Code Assistant"
-        content: |
-          Code Assistants are AI-driven tools that support developers throughout the software development lifecycle. They provide capabilities such as intelligent code completion, automated code generation, bug detection, testing assistance, document generation, and integration with development environments and DevOps toolkits. These assistants enhance productivity by understanding project context, codebases, and developer intent.
 
       - subcategory: "Database"
         content: |
           Databases for AI applications, especially vector databases, are specialized systems designed to store, index, and query high-dimensional embeddings and AI-related data like vectors, text, images, and videos. They enable fast similarity search, retrieval-augmented generation (RAG), and integration with machine learning pipelines.      They often support various data types, including text, images, and videos, and are optimized for high-performance querying and retrieval.
 
-      - subcategory: "Development Environment"
+      - subcategory: "Sandbox"
         content: |
-          Development Environments for AI focus on providing secure, scalable, and elastic infrastructure to run AI-generated code, develop AI applications, and manage agent workflows. These environments are built to offer seamless cloud runtimes, strong isolation, and flexibility for iterative AI development.
+          A Sandbox is a secure and isolated environment that allows users to run, test, and experiment with code, applications, or AI models without affecting the host system. Sandboxes provide controlled access to resources, ensuring safety and preventing unintended interactions with the broader system or network.
 
       - subcategory: "Evaluation"
         content: |
