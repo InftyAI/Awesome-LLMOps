@@ -490,6 +490,13 @@ categories:
       repo_url: https://github.com/infiniflow/ragflow
   - name: Application Framework
     items:
+    - name: Evidently
+      description: Evidently is ​​an open-source ML and LLM observability framework.
+        Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular
+        data to Gen AI. 100+ metrics.
+      homepage_url: https://github.com/evidentlyai/evidently
+      logo: evidently
+      repo_url: https://github.com/evidentlyai/evidently
     - name: Helicone
       description: Open source LLM observability platform. One line of code to monitor,
         evaluate, and experiment.
