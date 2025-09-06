@@ -204,6 +204,12 @@ categories:
       homepage_url: https://kvcache.ai/repo/mooncake
       logo: mooncake.png
       repo_url: https://github.com/kvcache-ai/Mooncake
+    - name: OME
+      description: OME is a Kubernetes operator for enterprise-grade management and
+        serving of Large Language Models (LLMs)
+      homepage_url: https://docs.sglang.ai/ome/
+      logo: ome.png
+      repo_url: https://github.com/sgl-project/ome
   - name: AI Gateway
     items:
     - name: agentgateway
@@ -265,7 +271,7 @@ categories:
       logo: lmsys.png
       repo_url: https://github.com/lm-sys/routellm
     - name: vLLM Semantic Router
-      description: 'Intelligent Mixture-of-Models Router for Efficient LLM Inference'
+      description: Intelligent Mixture-of-Models Router for Efficient LLM Inference
       homepage_url: https://vllm-semantic-router.com/
       logo: vllm.png
       repo_url: https://github.com/vllm-project/semantic-router
@@ -421,11 +427,6 @@ categories:
       homepage_url: https://mgx.dev/
       logo: metagpt.png
       repo_url: https://github.com/geekan/MetaGPT
-    # - name: Open SWE
-    #   description: An Open-Source Asynchronous Coding Agent
-    #   homepage_url: https://swe.langchain.com/
-    #   logo: open-swe
-    #   repo_url: https://github.com/langchain-ai/open-swe
     - name: OpenAI Agents SDK
       description: A lightweight, powerful framework for multi-agent workflows.
       homepage_url: https://github.com/openai/openai-agents-python
@@ -513,7 +514,8 @@ categories:
       logo: phoenix.png
       repo_url: https://github.com/arize-ai/phoenix
     - name: Weave
-      description: Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.
+      description: Weave is a toolkit for developing AI-powered applications, built
+        by Weights & Biases.
       homepage_url: https://weave-docs.wandb.ai/
       logo: wandb.png
       repo_url: https://github.com/wandb/weave
@@ -677,7 +679,9 @@ categories:
       logo: nextchat.png
       repo_url: https://github.com/ChatGPTNextWeb/NextChat
     - name: opcode
-      description: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
+      description: A powerful GUI app and Toolkit for Claude Code - Create custom
+        agents, manage interactive Claude Code sessions, run secure background agents,
+        and more.
       homepage_url: https://opcode.sh/
       logo: asterisk.png
       repo_url: https://github.com/getAsterisk/opcode
