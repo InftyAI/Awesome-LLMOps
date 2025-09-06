@@ -894,6 +894,11 @@ categories:
       homepage_url: https://llmbench.ai
       logo: agentbench.png
       repo_url: https://github.com/THUDM/AgentBench
+    - name: DeepEval
+      description: The LLM Evaluation Framework
+      homepage_url: https://deepeval.com/
+      logo: deepeval
+      repo_url: https://github.com/confident-ai/deepeval
     - name: LiveBench
       description: 'LiveBench: A Challenging, Contamination-Free LLM Benchmark.'
       homepage_url: https://livebench.ai
