@@ -490,18 +490,18 @@ categories:
       repo_url: https://github.com/infiniflow/ragflow
   - name: Application Framework
     items:
-    - name: Langfuse
-      description: 'Open source LLM engineering platform: LLM Observability, metrics,
-        evals, prompt management, and more.'
-      homepage_url: https://langfuse.com/docs
-      logo: langfuse.png
-      repo_url: https://github.com/langfuse/langfuse
     - name: Helicone
       description: Open source LLM observability platform. One line of code to monitor,
         evaluate, and experiment.
       homepage_url: https://www.helicone.ai
       logo: helicone.png
       repo_url: https://github.com/helicone/helicone
+    - name: Langfuse
+      description: 'Open source LLM engineering platform: LLM Observability, metrics,
+        evals, prompt management, and more.'
+      homepage_url: https://langfuse.com/docs
+      logo: langfuse.png
+      repo_url: https://github.com/langfuse/langfuse
     - name: OpenLit
       description: Open source Observability platform for OpenTelemetry-native LLM
         Observability, GPU Monitoring.
@@ -513,6 +513,13 @@ categories:
       homepage_url: https://docs.arize.com/phoenix
       logo: phoenix.png
       repo_url: https://github.com/arize-ai/phoenix
+    - name: PostHog
+      description: 🦔 PostHog provides open-source web & product analytics, session
+        recording, feature flagging and A/B testing that you can self-host. Get started
+        - free.
+      homepage_url: https://posthog.com/
+      logo: posthog
+      repo_url: https://github.com/PostHog/posthog
     - name: Weave
       description: Weave is a toolkit for developing AI-powered applications, built
         by Weights & Biases.
