@@ -222,6 +222,7 @@
 
 ### Evaluation
 
+* **[DeepEval](https://github.com/confident-ai/deepeval)**: The LLM Evaluation Framework ![Stars](https://img.shields.io/github/stars/confident-ai/deepeval.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/confident-ai/deepeval?color=green) ![LastCommit](https://img.shields.io/github/last-commit/confident-ai/deepeval?color=green)
 * **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 
 ### Observation
