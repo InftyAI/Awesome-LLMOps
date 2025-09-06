@@ -502,6 +502,12 @@ categories:
       homepage_url: https://langfuse.com/docs
       logo: langfuse.png
       repo_url: https://github.com/langfuse/langfuse
+    - name: lunaary
+      description: 'The production toolkit for LLMs. Observability, prompt management
+        and evaluations. '
+      homepage_url: https://lunary.ai/
+      logo: lunaary
+      repo_url: https://github.com/lunary-ai/lunary
     - name: OpenLit
       description: Open source Observability platform for OpenTelemetry-native LLM
         Observability, GPU Monitoring.
