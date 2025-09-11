@@ -9,6 +9,7 @@
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
     - [Inference Platform](#inference-platform)
+    - [Middleware](#middleware)
     - [LLM Router](#llm-router)
     - [AI Gateway](#ai-gateway)
     - [Output](#output)
@@ -76,9 +77,13 @@
 * **[KubeAI](https://github.com/substratusai/kubeai)**: AI Inference Operator for Kubernetes. The easiest way to serve ML models in production. Supports VLMs, LLMs, embeddings, and speech-to-text. ![Stars](https://img.shields.io/github/stars/substratusai/kubeai.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/substratusai/kubeai?color=green) ![LastCommit](https://img.shields.io/github/last-commit/substratusai/kubeai?color=green)
 * **[llm-d](https://github.com/llm-d/llm-d)**: llm-d is a Kubernetes-native high-performance distributed LLM inference framework ![Stars](https://img.shields.io/github/stars/llm-d/llm-d.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/llm-d/llm-d?color=green) ![LastCommit](https://img.shields.io/github/last-commit/llm-d/llm-d?color=green)
 * **[llmaz](https://github.com/InftyAI/llmaz)**: ☸️ Easy, advanced inference platform for large language models on Kubernetes. 🌟 Star to support our work! ![Stars](https://img.shields.io/github/stars/inftyai/llmaz.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/inftyai/llmaz?color=green) ![LastCommit](https://img.shields.io/github/last-commit/inftyai/llmaz?color=green)
-* **[LMCache](https://github.com/LMCache/LMCache)**: 10x Faster Long-Context LLM By Smart KV Cache Optimizations. ![Stars](https://img.shields.io/github/stars/lmcache/lmcache.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lmcache/lmcache?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lmcache/lmcache?color=green) ![Tag](https://img.shields.io/badge/kvcache-orange)
 * **[Mooncake](https://github.com/kvcache-ai/Mooncake)**: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. ![Stars](https://img.shields.io/github/stars/kvcache-ai/mooncake.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kvcache-ai/mooncake?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kvcache-ai/mooncake?color=green)
 * **[OME](https://github.com/sgl-project/ome)**: OME is a Kubernetes operator for enterprise-grade management and serving of Large Language Models (LLMs) ![Stars](https://img.shields.io/github/stars/sgl-project/ome.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sgl-project/ome?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sgl-project/ome?color=green)
+
+### Middleware
+
+* **[LMCache](https://github.com/LMCache/LMCache)**: 10x Faster Long-Context LLM By Smart KV Cache Optimizations. ![Stars](https://img.shields.io/github/stars/lmcache/lmcache.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lmcache/lmcache?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lmcache/lmcache?color=green) ![Tag](https://img.shields.io/badge/kvcache-orange)
+
 
 ### LLM Router
 
