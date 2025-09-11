@@ -78,9 +78,9 @@ categories:
         content: |
           AI Terminals are interactive command-line interfaces or environments that allow users to engage with AI models, particularly large language models (LLMs), in a conversational manner. These terminals provide a text-based interface for users to input queries, receive responses, and interact with AI systems directly from the command line, often supporting features like multi-turn conversations, context retention, and integration with various LLM providers.
 
-      - subcategory: "Agent"
+      - subcategory: "AI Agent"
         content: |
-          An Agent is an autonomous or semi-autonomous system powered by large language models (LLMs), integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
+          An AI Agent is an autonomous or semi-autonomous system powered by large language models (LLMs), integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
 
       - subcategory: "Code Agent"
         content: |

@@ -22,7 +22,7 @@
     - [Application Framework](#application-framework)
 - [Runtime](#runtime)
     - [AI Terminal](#ai-terminal)
-    - [Agent](#agent)
+    - [AI Agent](#ai-agent)
     - [Code Agent](#code-agent)
     - [Tool](#tool)
     - [Chatbot](#chatbot)
@@ -175,7 +175,7 @@
 * **[Gemini CLI](https://github.com/google-gemini/gemini-cli)**: An open-source AI agent that brings the power of Gemini directly into your terminal. ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/google-gemini/gemini-cli?color=green) ![LastCommit](https://img.shields.io/github/last-commit/google-gemini/gemini-cli?color=green)
 * **[kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)**: AI powered Kubernetes Assistant ![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/kubectl-ai.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/GoogleCloudPlatform/kubectl-ai?color=green) ![LastCommit](https://img.shields.io/github/last-commit/GoogleCloudPlatform/kubectl-ai?color=green)
 
-### Agent
+### AI Agent
 
 * **[goose](https://github.com/block/goose)**: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM ![Stars](https://img.shields.io/github/stars/block/goose.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/block/goose?color=green) ![LastCommit](https://img.shields.io/github/last-commit/block/goose?color=green)
 * **[Magentic-UI](https://github.com/microsoft/magentic-ui)**: A research prototype of a human-centered web agent ![Stars](https://img.shields.io/github/stars/microsoft/magentic-ui.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/magentic-ui?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/magentic-ui?color=green)
