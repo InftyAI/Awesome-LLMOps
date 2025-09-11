@@ -562,7 +562,7 @@ categories:
       homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
       logo: kubectl-ai
       repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
-  - name: Agent
+  - name: AI Agent
     items:
     - name: goose
       description: an open source, extensible AI agent that goes beyond code suggestions

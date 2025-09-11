@@ -38,7 +38,7 @@ assignees: ''
     - [ ] Application Framework
 - Runtime
     - [ ] AI Terminal
-    - [ ] Agent
+    - [ ] AI Agent
     - [ ] Code Agent
     - [ ] Tool
     - [ ] Chatbot
