@@ -193,11 +193,6 @@ categories:
       homepage_url: https://llmaz.inftyai.com
       logo: llmaz.svg
       repo_url: https://github.com/InftyAI/llmaz
-    - name: LMCache
-      description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
-      homepage_url: https://lmcache.ai/
-      logo: lmcache.png
-      repo_url: https://github.com/LMCache/LMCache
     - name: Mooncake
       description: Mooncake is the serving platform for Kimi, a leading LLM service
         provided by Moonshot AI.
@@ -210,6 +205,13 @@ categories:
       homepage_url: https://docs.sglang.ai/ome/
       logo: ome.png
       repo_url: https://github.com/sgl-project/ome
+  - name: Middleware
+    items:
+    - name: LMCache
+      description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
+      homepage_url: https://lmcache.ai/
+      logo: lmcache.png
+      repo_url: https://github.com/LMCache/LMCache
   - name: AI Gateway
     items:
     - name: agentgateway

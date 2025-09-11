@@ -19,6 +19,10 @@ categories:
         content: |
           Inference Platforms are specialized environments or infrastructures designed for deploying and managing large-scale AI inference tasks, particularly for Generative AI (GenAI) models and large language models (LLMs). These platforms focus on providing efficient resource management, scaling capabilities, and ease of use when serving models in production environments, often integrating Kubernetes for orchestration, auto-provisioning, and container-based deployments.
 
+      - subcategory: "Middleware"
+        content: |
+          Middleware in the context of AI inference refers to software that acts as an intermediary layer between inference engines and large language models (LLMs) or other AI services to optimize performance and scalability.
+
       - subcategory: "AI Gateway"
         content: |
           AI Gateways serve as the central entry point for managing and routing requests to various backend services, including LLMs and AI models. These gateways are designed to handle high traffic volumes, manage APIs, and often provide additional features like rate limiting, security, monitoring, and AI-specific capabilities. They act as intermediaries between clients and services, enabling efficient communication, management, and scalability for AI-driven applications.

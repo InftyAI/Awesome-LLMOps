@@ -25,6 +25,7 @@ assignees: ''
 - Inference
     - [ ] Inference Engine
     - [ ] Inference Platform
+    - [ ] Middleware
     - [ ] LLM Router
     - [ ] AI Gateway
     - [ ] Output
