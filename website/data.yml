@@ -207,6 +207,12 @@ categories:
       repo_url: https://github.com/sgl-project/ome
   - name: Middleware
     items:
+    - name: Checkpoint Engine
+      description: Checkpoint-engine is a simple middleware to update model weights
+        in LLM inference engines
+      homepage_url: https://github.com/MoonshotAI/checkpoint-engine
+      logo: checkpoint-engine
+      repo_url: https://github.com/MoonshotAI/checkpoint-engine
     - name: LMCache
       description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
       homepage_url: https://lmcache.ai/
