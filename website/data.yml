@@ -295,6 +295,11 @@ categories:
       homepage_url: https://dottxt-ai.github.io/outlines/
       logo: outlines.png
       repo_url: https://github.com/dottxt-ai/outlines
+    - name: XGrammar
+      description: Fast, Flexible and Portable Structured Generation
+      homepage_url: https://xgrammar.mlc.ai/docs/
+      logo: xgrammar.svg
+      repo_url: https://github.com/mlc-ai/xgrammar
   - name: Simulator
     items:
     - name: Vidur
