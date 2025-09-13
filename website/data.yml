@@ -193,6 +193,11 @@ categories:
       homepage_url: https://llmaz.inftyai.com
       logo: llmaz.svg
       repo_url: https://github.com/InftyAI/llmaz
+    - name: Modular
+      description: The Modular Platform (includes MAX & Mojo)
+      homepage_url: https://docs.modular.com/
+      logo: modular
+      repo_url: https://github.com/modular/modular
     - name: Mooncake
       description: Mooncake is the serving platform for Kimi, a leading LLM service
         provided by Moonshot AI.
