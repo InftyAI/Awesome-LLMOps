@@ -107,6 +107,7 @@
 
 * **[Instructor](https://github.com/instructor-ai/instructor)**: structured outputs for llms. ![Stars](https://img.shields.io/github/stars/instructor-ai/instructor.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/instructor-ai/instructor?color=green) ![LastCommit](https://img.shields.io/github/last-commit/instructor-ai/instructor?color=green)
 * **[Outlines](https://github.com/dottxt-ai/outlines)**: Structured Text Generation. ![Stars](https://img.shields.io/github/stars/dottxt-ai/outlines.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/dottxt-ai/outlines?color=green) ![LastCommit](https://img.shields.io/github/last-commit/dottxt-ai/outlines?color=green)
+* **[XGrammar](https://github.com/mlc-ai/xgrammar)**: Fast, Flexible and Portable Structured Generation ![Stars](https://img.shields.io/github/stars/mlc-ai/xgrammar.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/mlc-ai/xgrammar?color=green) ![LastCommit](https://img.shields.io/github/last-commit/mlc-ai/xgrammar?color=green)
 
 ### Simulator
 
