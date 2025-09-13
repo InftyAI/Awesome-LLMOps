@@ -954,6 +954,11 @@ categories:
       homepage_url: https://www.tbench.ai/
       logo: terminal-bench
       repo_url: https://github.com/laude-institute/terminal-bench
+    - name: terminal-bench
+      description: A benchmark for LLMs on complicated tasks in the terminal
+      homepage_url: https://www.tbench.ai/
+      logo: terminal-bench
+      repo_url: https://github.com/laude-institute/terminal-bench
   - name: Workflow
     items:
     - name: Flyte
