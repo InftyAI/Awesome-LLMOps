@@ -591,6 +591,11 @@ categories:
       homepage_url: https://openmanus.github.io/
       logo: openmanus.png
       repo_url: https://github.com/mannaandpoem/OpenManus
+    - name: Tongyi Deep Research
+      description: Tongyi DeepResearch, the Leading Open-source DeepResearch Agent
+      homepage_url: https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/
+      logo: tongyi-deep-research
+      repo_url: https://github.com/Alibaba-NLP/DeepResearch
   - name: Code Agent
     items:
     - name: aider
