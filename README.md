@@ -174,9 +174,13 @@
 
 ### AI Terminal
 
+<<<<<<< Updated upstream
 * **[Crush](https://github.com/charmbracelet/crush)**: The glamourous AI coding agent for your favourite terminal 💘 ![Stars](https://img.shields.io/github/stars/charmbracelet/crush.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/charmbracelet/crush?color=green) ![LastCommit](https://img.shields.io/github/last-commit/charmbracelet/crush?color=green)
+=======
+* **[aider](https://github.com/Aider-AI/aider)**: aider is AI pair programming in your terminal ![Stars](https://img.shields.io/github/stars/Aider-AI/aider.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Aider-AI/aider?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Aider-AI/aider?color=green)
+* **[Codex](https://github.com/openai/codex)**: Lightweight coding agent that runs in your terminal ![Stars](https://img.shields.io/github/stars/openai/codex.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/codex?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/codex?color=green) ![Tag](https://img.shields.io/badge/coding-orange)
+>>>>>>> Stashed changes
 * **[Gemini CLI](https://github.com/google-gemini/gemini-cli)**: An open-source AI agent that brings the power of Gemini directly into your terminal. ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/google-gemini/gemini-cli?color=green) ![LastCommit](https://img.shields.io/github/last-commit/google-gemini/gemini-cli?color=green)
-* **[kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)**: AI powered Kubernetes Assistant ![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/kubectl-ai.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/GoogleCloudPlatform/kubectl-ai?color=green) ![LastCommit](https://img.shields.io/github/last-commit/GoogleCloudPlatform/kubectl-ai?color=green)
 
 ### AI Agent
 
@@ -187,8 +191,6 @@
 
 ### Code Agent
 
-* **[aider](https://github.com/Aider-AI/aider)**: aider is AI pair programming in your terminal ![Stars](https://img.shields.io/github/stars/Aider-AI/aider.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Aider-AI/aider?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Aider-AI/aider?color=green)
-* **[Codex](https://github.com/openai/codex)**: Lightweight coding agent that runs in your terminal ![Stars](https://img.shields.io/github/stars/openai/codex.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/codex?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/codex?color=green) ![Tag](https://img.shields.io/badge/coding-orange)
 * **[Continue](https://github.com/continuedev/continue)**: ⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks. ![Stars](https://img.shields.io/github/stars/continuedev/continue.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/continuedev/continue?color=green) ![LastCommit](https://img.shields.io/github/last-commit/continuedev/continue?color=green)
 * **[Open SWE](https://github.com/langchain-ai/open-swe)**: An Open-Source Asynchronous Coding Agent ![Stars](https://img.shields.io/github/stars/langchain-ai/open-swe.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/langchain-ai/open-swe?color=green) ![LastCommit](https://img.shields.io/github/last-commit/langchain-ai/open-swe?color=green)
 * **[SWE-agent](https://github.com/SWE-agent/SWE-agent)**: SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]  ![Stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/SWE-agent/SWE-agent?color=green) ![LastCommit](https://img.shields.io/github/last-commit/SWE-agent/SWE-agent?color=green)
