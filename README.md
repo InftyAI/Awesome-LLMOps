@@ -174,6 +174,7 @@
 
 ### AI Terminal
 
+* **[Crush](https://github.com/charmbracelet/crush)**: The glamourous AI coding agent for your favourite terminal 💘 ![Stars](https://img.shields.io/github/stars/charmbracelet/crush.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/charmbracelet/crush?color=green) ![LastCommit](https://img.shields.io/github/last-commit/charmbracelet/crush?color=green)
 * **[Gemini CLI](https://github.com/google-gemini/gemini-cli)**: An open-source AI agent that brings the power of Gemini directly into your terminal. ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/google-gemini/gemini-cli?color=green) ![LastCommit](https://img.shields.io/github/last-commit/google-gemini/gemini-cli?color=green)
 * **[kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)**: AI powered Kubernetes Assistant ![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/kubectl-ai.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/GoogleCloudPlatform/kubectl-ai?color=green) ![LastCommit](https://img.shields.io/github/last-commit/GoogleCloudPlatform/kubectl-ai?color=green)
 

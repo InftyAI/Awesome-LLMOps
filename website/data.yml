@@ -561,6 +561,11 @@ categories:
   subcategories:
   - name: AI Terminal
     items:
+    - name: Crush
+      description: The glamourous AI coding agent for your favourite terminal 💘
+      homepage_url: https://charm.land/
+      logo: crush
+      repo_url: https://github.com/charmbracelet/crush
     - name: Gemini CLI
       description: An open-source AI agent that brings the power of Gemini directly
         into your terminal.
