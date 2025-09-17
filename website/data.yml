@@ -561,6 +561,18 @@ categories:
   subcategories:
   - name: AI Terminal
     items:
+    - name: aider
+      description: aider is AI pair programming in your terminal
+      homepage_url: https://aider.chat/
+      logo: aider
+      repo_url: https://github.com/Aider-AI/aider
+    - name: Codex
+      description: Lightweight coding agent that runs in your terminal.
+      homepage_url: https://github.com/openai/codex
+      logo: openai.png
+      repo_url: https://github.com/openai/codex
+      tags:
+      - coding
     - name: Crush
       description: The glamourous AI coding agent for your favourite terminal 💘
       homepage_url: https://charm.land/
@@ -572,11 +584,6 @@ categories:
       homepage_url: https://github.com/google-gemini/gemini-cli
       logo: gemini-cli
       repo_url: https://github.com/google-gemini/gemini-cli
-    - name: kubectl-ai
-      description: AI powered Kubernetes Assistant
-      homepage_url: https://github.com/GoogleCloudPlatform/kubectl-ai
-      logo: kubectl-ai
-      repo_url: https://github.com/GoogleCloudPlatform/kubectl-ai
   - name: AI Agent
     items:
     - name: goose
@@ -603,18 +610,6 @@ categories:
       repo_url: https://github.com/Alibaba-NLP/DeepResearch
   - name: Code Agent
     items:
-    - name: aider
-      description: aider is AI pair programming in your terminal
-      homepage_url: https://aider.chat/
-      logo: aider
-      repo_url: https://github.com/Aider-AI/aider
-    - name: Codex
-      description: Lightweight coding agent that runs in your terminal.
-      homepage_url: https://github.com/openai/codex
-      logo: openai.png
-      repo_url: https://github.com/openai/codex
-      tags:
-      - coding
     - name: Continue
       description: Create, share, and use custom AI code assistants with open-source
         IDE extensions and a hub of models, rules, prompts, docs, and other building
