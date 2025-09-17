@@ -561,13 +561,6 @@ categories:
   subcategories:
   - name: AI Terminal
     items:
-<<<<<<< Updated upstream
-    - name: Crush
-      description: The glamourous AI coding agent for your favourite terminal 💘
-      homepage_url: https://charm.land/
-      logo: crush
-      repo_url: https://github.com/charmbracelet/crush
-=======
     - name: aider
       description: aider is AI pair programming in your terminal
       homepage_url: https://aider.chat/
@@ -580,7 +573,11 @@ categories:
       repo_url: https://github.com/openai/codex
       tags:
       - coding
->>>>>>> Stashed changes
+    - name: Crush
+      description: The glamourous AI coding agent for your favourite terminal 💘
+      homepage_url: https://charm.land/
+      logo: crush
+      repo_url: https://github.com/charmbracelet/crush
     - name: Gemini CLI
       description: An open-source AI agent that brings the power of Gemini directly
         into your terminal.
