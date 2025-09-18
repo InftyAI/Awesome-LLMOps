@@ -44,7 +44,6 @@ assignees: ''
     - [ ] Chatbot
     - [ ] Database
     - [ ] Sandbox
-    - [ ] Evaluation
     - [ ] Observation
 - Training
     - [ ] Framework

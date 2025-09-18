@@ -28,7 +28,6 @@
     - [Chatbot](#chatbot)
     - [Database](#database)
     - [Sandbox](#sandbox)
-    - [Evaluation](#evaluation)
     - [Observation](#observation)
 - [Training](#training)
     - [Framework](#framework)
@@ -161,6 +160,7 @@
 
 ### Application Framework
 
+* **[DeepEval](https://github.com/confident-ai/deepeval)**: The LLM Evaluation Framework ![Stars](https://img.shields.io/github/stars/confident-ai/deepeval.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/confident-ai/deepeval?color=green) ![LastCommit](https://img.shields.io/github/last-commit/confident-ai/deepeval?color=green)
 * **[Evidently](https://github.com/evidentlyai/evidently)**: Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics. ![Stars](https://img.shields.io/github/stars/evidentlyai/evidently.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/evidentlyai/evidently?color=green) ![LastCommit](https://img.shields.io/github/last-commit/evidentlyai/evidently?color=green)
 * **[Langfuse](https://github.com/langfuse/langfuse)**: 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23  ![Stars](https://img.shields.io/github/stars/langfuse/langfuse.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/langfuse/langfuse?color=green) ![LastCommit](https://img.shields.io/github/last-commit/langfuse/langfuse?color=green)
 * **[Helicone](https://github.com/helicone/helicone)**: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓 ![Stars](https://img.shields.io/github/stars/helicone/helicone.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/helicone/helicone?color=green) ![LastCommit](https://img.shields.io/github/last-commit/helicone/helicone?color=green)
@@ -168,6 +168,7 @@
 * **[OpenLIT](https://github.com/openlit/openlit)**: Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs. ![Stars](https://img.shields.io/github/stars/openlit/openlit.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openlit/openlit?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openlit/openlit?color=green)
 * **[phoenix](https://github.com/arize-ai/phoenix)**: AI Observability & Evaluation. ![Stars](https://img.shields.io/github/stars/arize-ai/phoenix.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/arize-ai/phoenix?color=green) ![LastCommit](https://img.shields.io/github/last-commit/arize-ai/phoenix?color=green)
 * **[PostHog](https://github.com/PostHog/posthog)**: 🦔 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free. ![Stars](https://img.shields.io/github/stars/PostHog/posthog.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/PostHog/posthog?color=green) ![LastCommit](https://img.shields.io/github/last-commit/PostHog/posthog?color=green)
+* **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 * **[Weave](https://github.com/wandb/weave)**: Weave is a toolkit for developing AI-powered applications, built by Weights & Biases. ![Stars](https://img.shields.io/github/stars/wandb/weave.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/wandb/weave?color=green) ![LastCommit](https://img.shields.io/github/last-commit/wandb/weave?color=green)
 
 ## Runtime
@@ -229,11 +230,6 @@
 
 * **[Daytona](https://github.com/daytonaio/daytona)**: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. ![Stars](https://img.shields.io/github/stars/daytonaio/daytona.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/daytonaio/daytona?color=green) ![LastCommit](https://img.shields.io/github/last-commit/daytonaio/daytona?color=green)
 * **[E2B](https://github.com/e2b-dev/E2B)**: Secure open source cloud runtime for AI apps & AI agents. ![Stars](https://img.shields.io/github/stars/e2b-dev/E2B.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/e2b-dev/E2B?color=green) ![LastCommit](https://img.shields.io/github/last-commit/e2b-dev/E2B?color=green)
-
-### Evaluation
-
-* **[DeepEval](https://github.com/confident-ai/deepeval)**: The LLM Evaluation Framework ![Stars](https://img.shields.io/github/stars/confident-ai/deepeval.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/confident-ai/deepeval?color=green) ![LastCommit](https://img.shields.io/github/last-commit/confident-ai/deepeval?color=green)
-* **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 
 ### Observation
 

@@ -508,6 +508,11 @@ categories:
       repo_url: https://github.com/infiniflow/ragflow
   - name: Application Framework
     items:
+    - name: DeepEval
+      description: The LLM Evaluation Framework
+      homepage_url: https://deepeval.com/
+      logo: deepeval
+      repo_url: https://github.com/confident-ai/deepeval
     - name: Evidently
       description: Evidently is ​​an open-source ML and LLM observability framework.
         Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular
@@ -551,6 +556,11 @@ categories:
       homepage_url: https://posthog.com/
       logo: posthog
       repo_url: https://github.com/PostHog/posthog
+    - name: ragas
+      description: Supercharge Your LLM Application Evaluations 🚀
+      homepage_url: https://docs.ragas.io/en/stable/
+      logo: ragas.png
+      repo_url: https://github.com/explodinggradients/ragas
     - name: Weave
       description: Weave is a toolkit for developing AI-powered applications, built
         by Weights & Biases.
@@ -785,13 +795,6 @@ categories:
       homepage_url: https://e2b.dev/docs
       logo: e2b.png
       repo_url: https://github.com/e2b-dev/E2B
-  - name: Evaluate
-    items:
-    - name: ragas
-      description: Supercharge Your LLM Application Evaluations 🚀
-      homepage_url: https://docs.ragas.io/en/stable/
-      logo: ragas.png
-      repo_url: https://github.com/explodinggradients/ragas
   - name: Observation
     items:
     - name: OpenLLMetry
@@ -924,11 +927,6 @@ categories:
       homepage_url: https://llmbench.ai
       logo: agentbench.png
       repo_url: https://github.com/THUDM/AgentBench
-    - name: DeepEval
-      description: The LLM Evaluation Framework
-      homepage_url: https://deepeval.com/
-      logo: deepeval
-      repo_url: https://github.com/confident-ai/deepeval
     - name: LiveBench
       description: 'LiveBench: A Challenging, Contamination-Free LLM Benchmark.'
       homepage_url: https://livebench.ai
