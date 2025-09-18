@@ -927,6 +927,12 @@ categories:
       homepage_url: https://llmbench.ai
       logo: agentbench.png
       repo_url: https://github.com/THUDM/AgentBench
+    - name: ASQI Engineer
+      description: ASQI (AI Solutions Quality Index) Engineer - run containerised
+        AI tests and map to score cards!
+      homepage_url: https://asqi.ai
+      logo: default.png
+      repo_url: https://github.com/asqi-engineer/asqi-engineer
     - name: LiveBench
       description: 'LiveBench: A Challenging, Contamination-Free LLM Benchmark.'
       homepage_url: https://livebench.ai
