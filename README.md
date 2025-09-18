@@ -232,6 +232,7 @@
 
 ### Evaluation
 
+* **[ASQI Engineer](https://github.com/asqi-engineer/asqi-engineer)**: ASQI (AI Solutions Quality Index) Engineer - run containerised AI tests and map to score cards! ![Stars](https://img.shields.io/github/stars/asqi-engineer/asqi-engineer.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/asqi-engineer/asqi-engineer?color=green) ![LastCommit](https://img.shields.io/github/last-commit/asqi-engineer/asqi-engineer?color=green)
 * **[DeepEval](https://github.com/confident-ai/deepeval)**: The LLM Evaluation Framework ![Stars](https://img.shields.io/github/stars/confident-ai/deepeval.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/confident-ai/deepeval?color=green) ![LastCommit](https://img.shields.io/github/last-commit/confident-ai/deepeval?color=green)
 * **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 
