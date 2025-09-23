@@ -164,6 +164,11 @@ categories:
       homepage_url: https://bentoml.com
       logo: bentoml.png
       repo_url: https://github.com/bentoml/BentoML
+    - name: beta9
+      description: Ultrafast serverless GPU inference, sandboxes, and background jobs
+      homepage_url: https://www.beam.cloud
+      logo: beta9
+      repo_url: https://github.com/beam-cloud/beta9
     - name: Kaito
       description: Kubernetes operator for large-model inference and fine-tuning,
         with GPU auto-provisioning, container-based hosting, and CRD-based orchestration.
