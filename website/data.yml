@@ -504,6 +504,12 @@ categories:
       - experimental
   - name: Evolutionary Framework
     items:
+    - name: AIDE ML
+      description: 'AIDE: AI-Driven Exploration in the Space of Code. The machine
+        Learning engineering agent that automates AI R&D.'
+      homepage_url: https://www.weco.ai/
+      logo: aide-ml
+      repo_url: https://github.com/WecoAI/aideml
     - name: OpenEvolve
       description: Open-source implementation of AlphaEvolve
       homepage_url: https://github.com/codelion/openevolve
