@@ -32,10 +32,11 @@ assignees: ''
     - [ ] Simulator
     - [ ] Benchmark
 - Orchestration
-    - [ ] Workflow
-    - [ ] Agent Framework
-    - [ ] RAG
     - [ ] Application Framework
+    - [ ] Agent Framework
+    - [ ] Evolutionary Framework
+    - [ ] RAG
+    - [ ] Workflow
 - Runtime
     - [ ] AI Terminal
     - [ ] AI Agent

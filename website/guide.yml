@@ -50,21 +50,26 @@ categories:
       It ensures that models, tools, APIs, agents, and data sources work seamlessly together, supporting scalability, automation, modularity, and efficient deployment from development to production environments.
 
     subcategories:
-      - subcategory: "Workflow"
+      - subcategory: "Application Framework"
         content: |
-          A workflow provides a structured environment for building, connecting, managing, and deploying AI applications, especially those powered by large language models (LLMs) or other machine learning techniques. These frameworks offer modular components such as model integration, retrieval-augmented generation (RAG) pipelines, agent capabilities, prompt management, observability, and workflow orchestration, enabling rapid prototyping and scalable production deployments.
+          An Application framework provides a structured environment for building and deploying AI applications. It includes components for user interface design, data management, and integration with external services, enabling developers to create robust and scalable AI solutions.
 
       - subcategory: "Agent Framework"
         content: |
           An Agent framework is an autonomous or semi-autonomous system powered by large language models, integrating RAG, Function Calling, and MCP to understand user intent, retrieve external knowledge, invoke tools or APIs, and dynamically execute complex tasks with precise responses.
 
+      - subcategory: "Evolutionary Framework"
+        content: |
+          Evolutionary Frameworks combine large language models (LLMs) with evolutionary algorithms to drive scientific discovery and optimization. These frameworks facilitate the iterative improvement of solutions by simulating natural selection processes, enabling the exploration of complex problem spaces and the generation of innovative ideas or designs.
+
+      - subcategory: "Workflow"
+        content: |
+          A workflow provides a structured environment for building, connecting, managing, and deploying AI applications, especially those powered by large language models (LLMs) or other machine learning techniques. These frameworks offer modular components such as model integration, retrieval-augmented generation (RAG) pipelines, agent capabilities, prompt management, observability, and workflow orchestration, enabling rapid prototyping and scalable production deployments.
+
       - subcategory: "RAG"
         content: |
           Retrieval-Augmented Generation (RAG) frameworks combine large language models (LLMs) with external knowledge sources to enhance the accuracy, relevance, and context-awareness of AI-generated content. These frameworks facilitate the integration of vector databases, document stores, and search engines, enabling LLMs to retrieve pertinent information during the generation process.
 
-      - subcategory: "Application Framework"
-        content: |
-          An Application framework provides a structured environment for building and deploying AI applications. It includes components for user interface design, data management, and integration with external services, enabling developers to create robust and scalable AI solutions.
 
   - category: "Runtime"
     content: |
