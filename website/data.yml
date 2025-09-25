@@ -339,50 +339,67 @@ categories:
       repo_url: https://github.com/kubernetes-sigs/inference-perf
 - name: Orchestration
   subcategories:
-  - name: Workflow
+  - name: Application Framework
     items:
-    - name: Dify
-      description: Dify is an open-source LLM app development platform, with an intuitive
-        interface for AI workflow, RAG pipeline, agent capabilities, model management,
-        and observability.
-      homepage_url: https://dify.ai
-      logo: dify.png
-      repo_url: https://github.com/langgenius/dify
-    - name: FastGPT
-      description: FastGPT is a knowledge-based platform built on the LLMs, offers
-        a comprehensive suite of out-of-the-box capabilities such as data processing,
-        RAG retrieval, and visual AI workflow orchestration, letting you easily develop
-        and deploy complex question-answering systems without the need for extensive
-        setup or configuration.
-      homepage_url: https://tryfastgpt.ai
-      logo: fastgpt.svg
-      repo_url: https://github.com/labring/FastGPT
-    - name: Haystack
-      description: AI orchestration framework to build customizable, production-ready
-        LLM applications. Best suited for RAG, question answering, semantic search,
-        or conversational agent chatbots.
-      homepage_url: https://haystack.deepset.ai
-      logo: deepset.png
-      repo_url: https://github.com/deepset-ai/haystack
-    - name: Inference
-      description: Turn any computer or edge device into a command center for computer
-        vision projects.
-      homepage_url: https://inference.roboflow.com
-      logo: roboflow.png
-      repo_url: https://github.com/roboflow/inference
-      tags:
-      - computer_vision
-    - name: LangChain
-      description: Build context-aware reasoning applications.
-      homepage_url: https://python.langchain.com/
-      logo: langchain.svg
-      repo_url: https://github.com/langchain-ai/langchain
-    - name: LlamaIndex
-      description: The leading framework for building LLM-powered agents over your
-        data.
-      homepage_url: https://docs.llamaindex.ai/
-      logo: llamaindex.svg
-      repo_url: https://github.com/run-llama/llama_index
+    - name: DeepEval
+      description: The LLM Evaluation Framework
+      homepage_url: https://deepeval.com/
+      logo: deepeval
+      repo_url: https://github.com/confident-ai/deepeval
+    - name: Evidently
+      description: Evidently is ​​an open-source ML and LLM observability framework.
+        Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular
+        data to Gen AI. 100+ metrics.
+      homepage_url: https://github.com/evidentlyai/evidently
+      logo: evidently
+      repo_url: https://github.com/evidentlyai/evidently
+    - name: Helicone
+      description: Open source LLM observability platform. One line of code to monitor,
+        evaluate, and experiment.
+      homepage_url: https://www.helicone.ai
+      logo: helicone.png
+      repo_url: https://github.com/helicone/helicone
+    - name: Langfuse
+      description: 'Open source LLM engineering platform: LLM Observability, metrics,
+        evals, prompt management, and more.'
+      homepage_url: https://langfuse.com/docs
+      logo: langfuse.png
+      repo_url: https://github.com/langfuse/langfuse
+    - name: lunaary
+      description: 'The production toolkit for LLMs. Observability, prompt management
+        and evaluations. '
+      homepage_url: https://lunary.ai/
+      logo: lunaary
+      repo_url: https://github.com/lunary-ai/lunary
+    - name: OpenLit
+      description: Open source Observability platform for OpenTelemetry-native LLM
+        Observability, GPU Monitoring.
+      homepage_url: https://openlit.io
+      logo: openlit.png
+      repo_url: https://github.com/openlit/openlit
+    - name: phoenix
+      description: AI Observability & Evaluation.
+      homepage_url: https://docs.arize.com/phoenix
+      logo: phoenix.png
+      repo_url: https://github.com/arize-ai/phoenix
+    - name: PostHog
+      description: 🦔 PostHog provides open-source web & product analytics, session
+        recording, feature flagging and A/B testing that you can self-host. Get started
+        - free.
+      homepage_url: https://posthog.com/
+      logo: posthog
+      repo_url: https://github.com/PostHog/posthog
+    - name: ragas
+      description: Supercharge Your LLM Application Evaluations 🚀
+      homepage_url: https://docs.ragas.io/en/stable/
+      logo: ragas.png
+      repo_url: https://github.com/explodinggradients/ragas
+    - name: Weave
+      description: Weave is a toolkit for developing AI-powered applications, built
+        by Weights & Biases.
+      homepage_url: https://weave-docs.wandb.ai/
+      logo: wandb.png
+      repo_url: https://github.com/wandb/weave
   - name: Agent Framework
     items:
     - name: Agent Development Kit (ADK)
@@ -485,6 +502,8 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
+  - name: Evolutionary Framework
+    items:
   - name: RAG
     items:
     - name: graphrag
@@ -511,67 +530,50 @@ categories:
       homepage_url: https://ragflow.io/
       logo: ragflow.png
       repo_url: https://github.com/infiniflow/ragflow
-  - name: Application Framework
+  - name: Workflow
     items:
-    - name: DeepEval
-      description: The LLM Evaluation Framework
-      homepage_url: https://deepeval.com/
-      logo: deepeval
-      repo_url: https://github.com/confident-ai/deepeval
-    - name: Evidently
-      description: Evidently is ​​an open-source ML and LLM observability framework.
-        Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular
-        data to Gen AI. 100+ metrics.
-      homepage_url: https://github.com/evidentlyai/evidently
-      logo: evidently
-      repo_url: https://github.com/evidentlyai/evidently
-    - name: Helicone
-      description: Open source LLM observability platform. One line of code to monitor,
-        evaluate, and experiment.
-      homepage_url: https://www.helicone.ai
-      logo: helicone.png
-      repo_url: https://github.com/helicone/helicone
-    - name: Langfuse
-      description: 'Open source LLM engineering platform: LLM Observability, metrics,
-        evals, prompt management, and more.'
-      homepage_url: https://langfuse.com/docs
-      logo: langfuse.png
-      repo_url: https://github.com/langfuse/langfuse
-    - name: lunaary
-      description: 'The production toolkit for LLMs. Observability, prompt management
-        and evaluations. '
-      homepage_url: https://lunary.ai/
-      logo: lunaary
-      repo_url: https://github.com/lunary-ai/lunary
-    - name: OpenLit
-      description: Open source Observability platform for OpenTelemetry-native LLM
-        Observability, GPU Monitoring.
-      homepage_url: https://openlit.io
-      logo: openlit.png
-      repo_url: https://github.com/openlit/openlit
-    - name: phoenix
-      description: AI Observability & Evaluation.
-      homepage_url: https://docs.arize.com/phoenix
-      logo: phoenix.png
-      repo_url: https://github.com/arize-ai/phoenix
-    - name: PostHog
-      description: 🦔 PostHog provides open-source web & product analytics, session
-        recording, feature flagging and A/B testing that you can self-host. Get started
-        - free.
-      homepage_url: https://posthog.com/
-      logo: posthog
-      repo_url: https://github.com/PostHog/posthog
-    - name: ragas
-      description: Supercharge Your LLM Application Evaluations 🚀
-      homepage_url: https://docs.ragas.io/en/stable/
-      logo: ragas.png
-      repo_url: https://github.com/explodinggradients/ragas
-    - name: Weave
-      description: Weave is a toolkit for developing AI-powered applications, built
-        by Weights & Biases.
-      homepage_url: https://weave-docs.wandb.ai/
-      logo: wandb.png
-      repo_url: https://github.com/wandb/weave
+    - name: Dify
+      description: Dify is an open-source LLM app development platform, with an intuitive
+        interface for AI workflow, RAG pipeline, agent capabilities, model management,
+        and observability.
+      homepage_url: https://dify.ai
+      logo: dify.png
+      repo_url: https://github.com/langgenius/dify
+    - name: FastGPT
+      description: FastGPT is a knowledge-based platform built on the LLMs, offers
+        a comprehensive suite of out-of-the-box capabilities such as data processing,
+        RAG retrieval, and visual AI workflow orchestration, letting you easily develop
+        and deploy complex question-answering systems without the need for extensive
+        setup or configuration.
+      homepage_url: https://tryfastgpt.ai
+      logo: fastgpt.svg
+      repo_url: https://github.com/labring/FastGPT
+    - name: Haystack
+      description: AI orchestration framework to build customizable, production-ready
+        LLM applications. Best suited for RAG, question answering, semantic search,
+        or conversational agent chatbots.
+      homepage_url: https://haystack.deepset.ai
+      logo: deepset.png
+      repo_url: https://github.com/deepset-ai/haystack
+    - name: Inference
+      description: Turn any computer or edge device into a command center for computer
+        vision projects.
+      homepage_url: https://inference.roboflow.com
+      logo: roboflow.png
+      repo_url: https://github.com/roboflow/inference
+      tags:
+      - computer_vision
+    - name: LangChain
+      description: Build context-aware reasoning applications.
+      homepage_url: https://python.langchain.com/
+      logo: langchain.svg
+      repo_url: https://github.com/langchain-ai/langchain
+    - name: LlamaIndex
+      description: The leading framework for building LLM-powered agents over your
+        data.
+      homepage_url: https://docs.llamaindex.ai/
+      logo: llamaindex.svg
+      repo_url: https://github.com/run-llama/llama_index
 - name: Runtime
   subcategories:
   - name: AI Terminal
