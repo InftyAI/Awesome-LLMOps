@@ -504,6 +504,11 @@ categories:
       - experimental
   - name: Evolutionary Framework
     items:
+    - name: OpenEvolve
+      description: Open-source implementation of AlphaEvolve
+      homepage_url: https://github.com/codelion/openevolve
+      logo: openevolve.png
+      repo_url: https://github.com/codelion/openevolve
   - name: RAG
     items:
     - name: graphrag

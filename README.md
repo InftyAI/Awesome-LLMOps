@@ -158,6 +158,8 @@
 
 ### Evolutionary Framework
 
+* **[OpenEvolve](https://github.com/codelion/openevolve)**: Open-source implementation of AlphaEvolve ![Stars](https://img.shields.io/github/stars/codelion/openevolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codelion/openevolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codelion/openevolve?color=green)
+
 ### RAG
 
 * **[GraphRAG](https://github.com/microsoft/graphrag)**: A modular graph-based Retrieval-Augmented Generation (RAG) system. ![Stars](https://img.shields.io/github/stars/microsoft/graphrag.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/graphrag?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/graphrag?color=green)
