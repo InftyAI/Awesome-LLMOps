@@ -509,6 +509,11 @@ categories:
       homepage_url: https://github.com/codelion/openevolve
       logo: openevolve.png
       repo_url: https://github.com/codelion/openevolve
+    - name: ShinkaEvolve
+      description: null
+      homepage_url: https://github.com/SakanaAI/ShinkaEvolve
+      logo: shinkaevolve.png
+      repo_url: https://github.com/SakanaAI/ShinkaEvolve
   - name: RAG
     items:
     - name: graphrag
