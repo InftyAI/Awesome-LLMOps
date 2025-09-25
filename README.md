@@ -159,6 +159,7 @@
 
 ### Evolutionary Framework
 
+* **[AIDE ML](https://github.com/WecoAI/aideml)**: AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D. ![Stars](https://img.shields.io/github/stars/WecoAI/aideml.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/WecoAI/aideml?color=green) ![LastCommit](https://img.shields.io/github/last-commit/WecoAI/aideml?color=green)
 * **[OpenEvolve](https://github.com/codelion/openevolve)**: Open-source implementation of AlphaEvolve ![Stars](https://img.shields.io/github/stars/codelion/openevolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codelion/openevolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codelion/openevolve?color=green)
 * **[ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)**: None ![Stars](https://img.shields.io/github/stars/SakanaAI/ShinkaEvolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/SakanaAI/ShinkaEvolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/SakanaAI/ShinkaEvolve?color=green)
 
