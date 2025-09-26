@@ -540,6 +540,11 @@ categories:
       homepage_url: https://core.quivr.com/en/latest/
       logo: quivr.png
       repo_url: https://github.com/QuivrHQ/quivr
+    - name: RAG-Anything
+      description: '"RAG-Anything: All-in-One RAG Framework"'
+      homepage_url: https://github.com/HKUDS/RAG-Anything
+      logo: rag-anything.png
+      repo_url: https://github.com/HKUDS/RAG-Anything
     - name: ragflow
       description: RAGFlow is an open-source RAG (Retrieval-Augmented Generation)
         engine based on deep document understanding.
