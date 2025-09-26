@@ -504,6 +504,12 @@ categories:
       - experimental
   - name: Evolutionary Framework
     items:
+    - name: AI-Researcher
+      description: '[NeurIPS2025] "AI-Researcher: Autonomous Scientific Innovation"
+        -- A production-ready version: https://novix.science/chat'
+      homepage_url: https://github.com/HKUDS/AI-Researcher
+      logo: ai-researcher.png
+      repo_url: https://github.com/HKUDS/AI-Researcher
     - name: AIDE ML
       description: 'AIDE: AI-Driven Exploration in the Space of Code. The machine
         Learning engineering agent that automates AI R&D.'
