@@ -628,6 +628,11 @@ categories:
       homepage_url: https://github.com/google-gemini/gemini-cli
       logo: gemini-cli
       repo_url: https://github.com/google-gemini/gemini-cli
+    - name: OpenCode
+      description: The AI coding agent built for the terminal.
+      homepage_url: https://opencode.ai/
+      logo: opencode
+      repo_url: https://github.com/sst/opencode
   - name: AI Agent
     items:
     - name: goose
