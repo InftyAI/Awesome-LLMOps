@@ -371,6 +371,13 @@ categories:
       homepage_url: https://lunary.ai/
       logo: lunaary
       repo_url: https://github.com/lunary-ai/lunary
+    - name: Neurolink
+      description: Universal AI Development Platform with MCP server integration,
+        multi-provider support, and professional CLI. Build, test, and deploy AI applications
+        with multiple ai providers.
+      homepage_url: https://juspay.github.io/neurolink/
+      logo: default.png
+      repo_url: https://github.com/juspay/neurolink
     - name: OpenLit
       description: Open source Observability platform for OpenTelemetry-native LLM
         Observability, GPU Monitoring.
