@@ -223,6 +223,11 @@ categories:
       homepage_url: https://github.com/MoonshotAI/checkpoint-engine
       logo: checkpoint-engine
       repo_url: https://github.com/MoonshotAI/checkpoint-engine
+    - name: kvcached
+      description: Virtualized Elastic KV Cache for Dynamic GPU Sharing and Beyond
+      homepage_url: https://github.com/ovg-project/kvcached
+      logo: kvcached
+      repo_url: https://github.com/ovg-project/kvcached
     - name: LMCache
       description: 10x Faster Long-Context LLM By Smart KV Cache Optimizations.
       homepage_url: https://lmcache.ai/

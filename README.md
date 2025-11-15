@@ -85,6 +85,7 @@
 ### Middleware
 
 * **[Checkpoint Engine](https://github.com/MoonshotAI/checkpoint-engine)**: Checkpoint-engine is a simple middleware to update model weights in LLM inference engines ![Stars](https://img.shields.io/github/stars/MoonshotAI/checkpoint-engine.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/MoonshotAI/checkpoint-engine?color=green) ![LastCommit](https://img.shields.io/github/last-commit/MoonshotAI/checkpoint-engine?color=green)
+* **[kvcached](https://github.com/ovg-project/kvcached)**: Virtualized Elastic KV Cache for Dynamic GPU Sharing and Beyond ![Stars](https://img.shields.io/github/stars/ovg-project/kvcached.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/ovg-project/kvcached?color=green) ![LastCommit](https://img.shields.io/github/last-commit/ovg-project/kvcached?color=green)
 * **[LMCache](https://github.com/LMCache/LMCache)**: 10x Faster Long-Context LLM By Smart KV Cache Optimizations. ![Stars](https://img.shields.io/github/stars/lmcache/lmcache.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lmcache/lmcache?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lmcache/lmcache?color=green) ![Tag](https://img.shields.io/badge/kvcache-orange)
 
 
