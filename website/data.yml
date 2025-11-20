@@ -696,7 +696,12 @@ categories:
       logo: tabby.png
       repo_url: https://github.com/TabbyML/tabby
   - name: Evolve Agent
-    items: []
+    items:
+    - name: EvoAgentX
+      description: '🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents'
+      homepage_url: https://evoagentx.github.io/EvoAgentX/
+      logo: evoagentx
+      repo_url: https://github.com/EvoAgentX/EvoAgentX
   - name: Tool
     items:
     - name: Browser Use
