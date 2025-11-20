@@ -1,3 +1,4 @@
+* **[AgentEvolver](https://github.com/modelscope/AgentEvolver)**: AgentEvolver: Towards Efficient Self-Evolving Agent System ![Stars](https://img.shields.io/github/stars/modelscope/AgentEvolver.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/modelscope/AgentEvolver?color=green) ![LastCommit](https://img.shields.io/github/last-commit/modelscope/AgentEvolver?color=green)
 * **[EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)**: 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents ![Stars](https://img.shields.io/github/stars/EvoAgentX/EvoAgentX.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/EvoAgentX/EvoAgentX?color=green) ![LastCommit](https://img.shields.io/github/last-commit/EvoAgentX/EvoAgentX?color=green)
 # Awesome-LLMOps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
