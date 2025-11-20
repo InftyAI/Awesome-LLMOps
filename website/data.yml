@@ -695,7 +695,9 @@ categories:
       homepage_url: https://tabbyml.com
       logo: tabby.png
       repo_url: https://github.com/TabbyML/tabby
-  - name: Tools
+  - name: Evolve Agent
+    items:
+  - name: Tool
     items:
     - name: Browser Use
       description: Make websites accessible for AI agents.

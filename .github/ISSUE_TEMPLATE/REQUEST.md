@@ -40,12 +40,13 @@ assignees: ''
 - Runtime
     - [ ] AI Terminal
     - [ ] AI Agent
-    - [ ] Code Agent
-    - [ ] Tool
     - [ ] Chatbot
+    - [ ] Code Agent
     - [ ] Database
-    - [ ] Sandbox
+    - [ ] Evolve Agent
     - [ ] Observation
+    - [ ] Sandbox
+    - [ ] Tool
 - Training
     - [ ] Framework
     - [ ] FineTune

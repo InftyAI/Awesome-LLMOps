@@ -24,12 +24,13 @@
 - [Runtime](#runtime)
     - [AI Terminal](#ai-terminal)
     - [AI Agent](#ai-agent)
-    - [Code Agent](#code-agent)
-    - [Tool](#tool)
     - [Chatbot](#chatbot)
+    - [Code Agent](#code-agent)
+    - [Evolve Agent](#evolve-agent)
     - [Database](#database)
-    - [Sandbox](#sandbox)
     - [Observation](#observation)
+    - [Sandbox](#sandbox)
+    - [Tool](#tool)
 - [Training](#training)
     - [Framework](#framework)
     - [FineTune](#finetune)
@@ -164,7 +165,7 @@
 * **[AI-Researcher](https://github.com/HKUDS/AI-Researcher)**: [NeurIPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat ![Stars](https://img.shields.io/github/stars/HKUDS/AI-Researcher.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/HKUDS/AI-Researcher?color=green) ![LastCommit](https://img.shields.io/github/last-commit/HKUDS/AI-Researcher?color=green)
 * **[AIDE ML](https://github.com/WecoAI/aideml)**: AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D. ![Stars](https://img.shields.io/github/stars/WecoAI/aideml.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/WecoAI/aideml?color=green) ![LastCommit](https://img.shields.io/github/last-commit/WecoAI/aideml?color=green)
 * **[OpenEvolve](https://github.com/codelion/openevolve)**: Open-source implementation of AlphaEvolve ![Stars](https://img.shields.io/github/stars/codelion/openevolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codelion/openevolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codelion/openevolve?color=green)
-* **[ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)**: None ![Stars](https://img.shields.io/github/stars/SakanaAI/ShinkaEvolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/SakanaAI/ShinkaEvolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/SakanaAI/ShinkaEvolve?color=green)
+* **[ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)**: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution ![Stars](https://img.shields.io/github/stars/SakanaAI/ShinkaEvolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/SakanaAI/ShinkaEvolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/SakanaAI/ShinkaEvolve?color=green)
 
 ### RAG
 
@@ -231,6 +232,8 @@
 * **[opcode](https://github.com/getAsterisk/opcode)**: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. ![Stars](https://img.shields.io/github/stars/getAsterisk/opcode.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/getAsterisk/opcode?color=green) ![LastCommit](https://img.shields.io/github/last-commit/getAsterisk/opcode?color=green)
 * **[Open WebUI](https://github.com/open-webui/open-webui)**: User-friendly AI Interface (Supports Ollama, OpenAI API, ...). ![Stars](https://img.shields.io/github/stars/open-webui/open-webui.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/open-webui/open-webui?color=green) ![LastCommit](https://img.shields.io/github/last-commit/open-webui/open-webui?color=green)
 * **[PrivateGPT](https://github.com/zylon-ai/private-gpt)**: Interact with your documents using the power of GPT, 100% privately, no data leaks. ![Stars](https://img.shields.io/github/stars/zylon-ai/private-gpt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/zylon-ai/private-gpt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/zylon-ai/private-gpt?color=green)
+
+### Evolve Agent
 
 ### Database
 

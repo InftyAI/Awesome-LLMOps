@@ -91,6 +91,10 @@ categories:
         content: |
           Code Agents are specialized AI agents designed to assist with software development tasks by leveraging large language models (LLMs). They can understand and generate code, debug, test, and document software projects.
 
+      - subcategory: "Evolve Agent"
+        content: |
+          Evolve Agents are AI systems that combine large language models (LLMs) with evolutionary algorithms to autonomously explore, optimize, and innovate solutions across various domains. These agents iteratively improve their performance by simulating natural selection processes, enabling them to adapt and evolve in response to complex problem spaces and dynamic environments.
+
       - subcategory: "Tool"
         content: |
           A Tool is an external functional module or API invoked by Agents via Function Calling, extending their capabilities to perform specific computations, retrieve real-time data, or interact with third-party services, enabling dynamic task processing and precise outputs.
