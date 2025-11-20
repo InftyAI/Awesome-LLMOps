@@ -697,6 +697,11 @@ categories:
       repo_url: https://github.com/TabbyML/tabby
   - name: Evolve Agent
     items:
+    - name: AgentEvolver
+      description: 'AgentEvolver: Towards Efficient Self-Evolving Agent System'
+      homepage_url: https://modelscope.github.io/AgentEvolver/
+      logo: agentevolver.png
+      repo_url: https://github.com/modelscope/AgentEvolver
     - name: EvoAgentX
       description: '🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents'
       homepage_url: https://evoagentx.github.io/EvoAgentX/
