@@ -696,7 +696,7 @@ categories:
       logo: tabby.png
       repo_url: https://github.com/TabbyML/tabby
   - name: Evolve Agent
-    items:
+    items: []
   - name: Tool
     items:
     - name: Browser Use
