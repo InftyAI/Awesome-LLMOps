@@ -307,6 +307,12 @@ categories:
       repo_url: https://github.com/vllm-project/semantic-router
   - name: Output
     items:
+    - name: BAML
+      description: The AI framework that adds the engineering to prompt engineering
+        (Python/TS/Ruby/Java/C#/Rust/Go compatible)
+      homepage_url: https://docs.boundaryml.com/home
+      logo: baml
+      repo_url: https://github.com/boundaryml/baml
     - name: Instructor
       description: Structured outputs for LLMs.
       homepage_url: https://python.useinstructor.com/
