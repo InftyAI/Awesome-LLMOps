@@ -190,7 +190,7 @@
 ## Runtime
 
 ### AI Terminal
-
+* **[Stakpak](https://github.com/stakpak/agent)**: Stakpak is an Open-source DevOps agent to help you secure, deploy, and maintain production-ready infrastructure.   ![Stars](https://img.shields.io/github/stars/stakpak/agent.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/stakpak/agent?color=green) ![LastCommit](https://img.shields.io/github/last-commit/stakpak/agent?color=green)
 * **[aider](https://github.com/Aider-AI/aider)**: aider is AI pair programming in your terminal ![Stars](https://img.shields.io/github/stars/Aider-AI/aider.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Aider-AI/aider?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Aider-AI/aider?color=green)
 * **[Codex](https://github.com/openai/codex)**: Lightweight coding agent that runs in your terminal ![Stars](https://img.shields.io/github/stars/openai/codex.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openai/codex?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openai/codex?color=green) ![Tag](https://img.shields.io/badge/coding-orange)
 * **[Crush](https://github.com/charmbracelet/crush)**: The glamourous AI coding agent for your favourite terminal 💘 ![Stars](https://img.shields.io/github/stars/charmbracelet/crush.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/charmbracelet/crush?color=green) ![LastCommit](https://img.shields.io/github/last-commit/charmbracelet/crush?color=green)
