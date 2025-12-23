@@ -658,6 +658,12 @@ categories:
       homepage_url: https://opencode.ai/
       logo: opencode
       repo_url: https://github.com/sst/opencode
+    - name: Stakpak
+      description: DevOps agent that won't accidentally tweet your AWS credentials
+        🦀
+      homepage_url: https://github.com/stakpak/agent
+      logo: stakpak.png
+      repo_url: https://github.com/stakpak/agent
   - name: AI Agent
     items:
     - name: goose
