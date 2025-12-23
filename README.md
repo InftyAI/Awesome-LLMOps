@@ -196,6 +196,7 @@
 * **[Crush](https://github.com/charmbracelet/crush)**: The glamourous AI coding agent for your favourite terminal 💘 ![Stars](https://img.shields.io/github/stars/charmbracelet/crush.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/charmbracelet/crush?color=green) ![LastCommit](https://img.shields.io/github/last-commit/charmbracelet/crush?color=green)
 * **[Gemini CLI](https://github.com/google-gemini/gemini-cli)**: An open-source AI agent that brings the power of Gemini directly into your terminal. ![Stars](https://img.shields.io/github/stars/google-gemini/gemini-cli.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/google-gemini/gemini-cli?color=green) ![LastCommit](https://img.shields.io/github/last-commit/google-gemini/gemini-cli?color=green)
 * **[OpenCode](https://github.com/sst/opencode)**: The AI coding agent built for the terminal. ![Stars](https://img.shields.io/github/stars/sst/opencode.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sst/opencode?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sst/opencode?color=green)
+* **[Stakpak](https://github.com/stakpak/agent)**: DevOps agent that won't accidentally tweet your AWS credentials 🦀 ![Stars](https://img.shields.io/github/stars/stakpak/agent.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/stakpak/agent?color=green) ![LastCommit](https://img.shields.io/github/last-commit/stakpak/agent?color=green)
 
 ### AI Agent
 
