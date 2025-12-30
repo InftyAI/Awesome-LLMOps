@@ -294,6 +294,11 @@ categories:
       homepage_url: https://docs.litellm.ai/docs/
       logo: berriai.png
       repo_url: https://github.com/BerriAI/litellm
+    - name: LLMRouter
+      description: 'LLMRouter: An Open-Source Library for LLM Routing'
+      homepage_url: https://ulab-uiuc.github.io/LLMRouter/
+      logo: llmrouter.png
+      repo_url: https://github.com/ulab-uiuc/LLMRouter
     - name: RouteLLM
       description: A framework for serving and evaluating LLM routers - save LLM costs
         without compromising quality.
