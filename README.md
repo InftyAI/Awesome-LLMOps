@@ -34,8 +34,8 @@
 - [Training](#training)
     - [Framework](#framework)
     - [FineTune](#finetune)
-    - [Agentic RL](#agentic-rl)
     - [RLHF](#rlhf)
+    - [Agentic RL](#agentic-rl)
     - [Evaluation](#evaluation)
     - [Workflow](#workflow)
 
