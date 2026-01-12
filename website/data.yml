@@ -993,7 +993,7 @@ categories:
       homepage_url: https://unsloth.ai
       logo: unsloth.png
       repo_url: https://github.com/unslothai/unsloth
-  - name: Alignment
+  - name: RLHF
     items:
     - name: OpenRLHF
       description: An Easy-to-use, Scalable and High-performance RLHF Framework (70B+
@@ -1007,6 +1007,8 @@ categories:
       homepage_url: https://pku-beaver.github.io
       logo: selfrlhf.png
       repo_url: https://github.com/PKU-Alignment/safe-rlhf
+  - name: Agentic RL
+    items: []
   - name: Evaluation
     items:
     - name: AgentBench

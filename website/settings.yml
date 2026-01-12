@@ -70,7 +70,8 @@ groups:
     categories:
       - Framework
       - FineTune
-      - Alignment
+      - Agentic RL
+      - RLHF
       - Evaluation
       - Workflow
 

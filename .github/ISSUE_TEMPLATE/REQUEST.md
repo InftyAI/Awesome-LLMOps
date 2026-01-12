@@ -50,6 +50,7 @@ assignees: ''
 - Training
     - [ ] Framework
     - [ ] FineTune
-    - [ ] Alignment
+    - [ ] Agentic RL
+    - [ ] RLHF
     - [ ] Evaluation
     - [ ] Workflow
