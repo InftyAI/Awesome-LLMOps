@@ -1008,7 +1008,12 @@ categories:
       logo: selfrlhf.png
       repo_url: https://github.com/PKU-Alignment/safe-rlhf
   - name: Agentic RL
-    items: []
+    items:
+    - name: slime
+      description: slime is an LLM post-training framework for RL Scaling.
+      homepage_url: https://thudm.github.io/slime/
+      logo: slime
+      repo_url: https://github.com/THUDM/slime
   - name: Evaluation
     items:
     - name: AgentBench

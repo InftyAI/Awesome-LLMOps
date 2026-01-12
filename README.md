@@ -1,3 +1,4 @@
+* **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/THUDM/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/THUDM/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/THUDM/slime?color=green)
 # Awesome-LLMOps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 🎉 An awesome &amp; curated list of best LLMOps tools.
