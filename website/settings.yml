@@ -72,7 +72,7 @@ groups:
       - FineTune
       - RLHF
       - Agentic RL
-      - Evaluation
+      - Benchmark
       - Workflow
 
 header:
