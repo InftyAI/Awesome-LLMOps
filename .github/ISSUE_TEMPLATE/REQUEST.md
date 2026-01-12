@@ -52,5 +52,5 @@ assignees: ''
     - [ ] FineTune
     - [ ] RLHF
     - [ ] Agentic RL
-    - [ ] Evaluation
+    - [ ] Benchmark
     - [ ] Workflow

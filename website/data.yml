@@ -1018,7 +1018,7 @@ categories:
       description: Democratizing Reinforcement Learning for LLMs
       homepage_url: https://rllm-project.readthedocs.io/en/latest/
       logo: rllm
-      repo_url: https://github.com/rllm-org/rllm    
+      repo_url: https://github.com/rllm-org/rllm
     - name: slime
       description: slime is an LLM post-training framework for RL Scaling.
       homepage_url: https://thudm.github.io/slime/
@@ -1029,7 +1029,7 @@ categories:
       homepage_url: https://verl.readthedocs.io/en/latest/index.html
       logo: verl
       repo_url: https://github.com/volcengine/verl
-  - name: Evaluation
+  - name: Benchmark
     items:
     - name: AgentBench
       description: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24).

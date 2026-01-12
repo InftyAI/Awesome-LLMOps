@@ -143,9 +143,9 @@ categories:
         content: |
           Agentic RL frameworks combine reinforcement learning techniques with agent-based architectures powered by large language models (LLMs). These frameworks enable the development of autonomous agents that can learn from interactions with their environment,
 
-      - subcategory: "Evaluation"
+      - subcategory: "Benchmark"
         content: |
-          Evaluation frameworks are designed to systematically assess the performance, reliability, and behavior of large language models (LLMs), retrieval-augmented generation (RAG) systems, and AI agents. They provide benchmarking tools, dataset coverage, tracing, and automated evaluation pipelines to support both academic research and production deployment.      They help developers and researchers ensure that AI systems meet quality standards, are free from contamination, and perform reliably in real-world scenarios.
+          Benchmark provide standardized methods for evaluating and comparing the performance, quality, and capabilities of LLMs (Large Language Models) and AI systems. They focus on areas such as inference speed, latency, model accuracy, contamination-free testing, and real-world scenario simulation, helping developers and researchers make informed decisions about model and system selection.
 
       - subcategory: "Workflow"
         content: |

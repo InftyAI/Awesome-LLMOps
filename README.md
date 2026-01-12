@@ -1,4 +1,3 @@
-* **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/THUDM/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/THUDM/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/THUDM/slime?color=green)
 # Awesome-LLMOps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 🎉 An awesome &amp; curated list of best LLMOps tools.
@@ -37,7 +36,7 @@
     - [FineTune](#finetune)
     - [RLHF](#rlhf)
     - [Agentic RL](#agentic-rl)
-    - [Evaluation](#evaluation)
+    - [Benchmark](#benchmark)
     - [Workflow](#workflow)
 
 ## Inference
@@ -299,7 +298,7 @@
 * **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
 * **[verl](https://github.com/volcengine/verl)**: verl: Volcano Engine Reinforcement Learning for LLMs ![Stars](https://img.shields.io/github/stars/volcengine/verl.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/volcengine/verl?color=green) ![LastCommit](https://img.shields.io/github/last-commit/volcengine/verl?color=green)
 
-### Evaluation
+### Benchmark
 
 * **[AgentBench](https://github.com/THUDM/AgentBench)**: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24). ![Stars](https://img.shields.io/github/stars/thudm/agentbench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/agentbench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/agentbench?color=green)
 * **[ASQI Engineer](https://github.com/asqi-engineer/asqi-engineer)**: ASQI (AI Solutions Quality Index) Engineer - run containerised AI tests and map to score cards! ![Stars](https://img.shields.io/github/stars/asqi-engineer/asqi-engineer.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/asqi-engineer/asqi-engineer?color=green) ![LastCommit](https://img.shields.io/github/last-commit/asqi-engineer/asqi-engineer?color=green)
