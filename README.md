@@ -34,7 +34,8 @@
 - [Training](#training)
     - [Framework](#framework)
     - [FineTune](#finetune)
-    - [Alignment](#alignment)
+    - [RLHF](#rlhf)
+    - [Agentic RL](#agentic-rl)
     - [Evaluation](#evaluation)
     - [Workflow](#workflow)
 
@@ -285,10 +286,12 @@
 * **[Transformer Lab](https://github.com/transformerlab/transformerlab-app)**: Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer. ![Stars](https://img.shields.io/github/stars/transformerlab/transformerlab-app.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/transformerlab/transformerlab-app?color=green) ![LastCommit](https://img.shields.io/github/last-commit/transformerlab/transformerlab-app?color=green)
 * **[unsloth](https://github.com/unslothai/unsloth)**: Finetune Llama 3.3, DeepSeek-R1 & Reasoning LLMs 2x faster with 70% less memory! 🦥 ![Stars](https://img.shields.io/github/stars/unslothai/unsloth.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/unslothai/unsloth?color=green) ![LastCommit](https://img.shields.io/github/last-commit/unslothai/unsloth?color=green)
 
-### Alignment
+### RLHF
 
 * **[OpenRLHF](https://github.com/OpenLLMAI/OpenRLHF)**: An Easy-to-use, Scalable and High-performance RLHF Framework (70B+ PPO Full Tuning & Iterative DPO & LoRA & RingAttention & RFT). ![Stars](https://img.shields.io/github/stars/openllmai/openrlhf.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/openllmai/openrlhf?color=green) ![LastCommit](https://img.shields.io/github/last-commit/openllmai/openrlhf?color=green)
 * **[Self-RLHF](https://github.com/PKU-Alignment/safe-rlhf)**: Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback. ![Stars](https://img.shields.io/github/stars/pku-alignment/safe-rlhf.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/pku-alignment/safe-rlhf?color=green) ![LastCommit](https://img.shields.io/github/last-commit/pku-alignment/safe-rlhf?color=green)
+
+### Agentic RL
 
 ### Evaluation
 

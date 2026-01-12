@@ -135,9 +135,13 @@ categories:
         content: |
           Fine-tuning frameworks enable developers and researchers to efficiently adapt pre-trained large language models (LLMs) or vision-language models (VLMs) to specialized tasks or datasets. These tools often provide streamlined pipelines for training, parameter-efficient fine-tuning (PEFT), evaluation, and deployment, with support for both single-modal and multimodal models across a wide range of hardware environments.
 
-      - subcategory: "Alignment"
+      - subcategory: "RLHF"
         content: |
-          Alignment in large-scale Agent development adjusts model behavior to align with human values, preferences, and safety constraints using techniques like RLHF and DPO. OpenRLHF leverages PPO, iterative DPO, and LoRA for efficient 70B+ model alignment, ensuring precise and stable outputs. Self-RLHF enhances safety through Constrained Value Alignment and Safe RLHF, minimizing harmful outputs. Integrated with RAG and Function Calling, Alignment ensures Agents remain consistent, reliable, and ethical in complex tasks.
+          RLHF (Reinforcement Learning from Human Feedback) frameworks facilitate the training of large language models (LLMs) using reinforcement learning techniques guided by human feedback. These tools provide scalable, high-performance solutions for implementing RLHF algorithms such as PPO (Proximal Policy Optimization) and DPO (Direct Preference Optimization), enabling efficient fine-tuning of LLMs to align with human preferences and improve their behavior in real-world applications.
+
+      - subcategory: "Agentic RL"
+        content: |
+          Agentic RL frameworks combine reinforcement learning techniques with agent-based architectures powered by large language models (LLMs). These frameworks enable the development of autonomous agents that can learn from interactions with their environment,
 
       - subcategory: "Evaluation"
         content: |
