@@ -294,6 +294,8 @@
 
 ### Agentic RL
 
+* **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
+
 ### Evaluation
 
 * **[AgentBench](https://github.com/THUDM/AgentBench)**: A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24). ![Stars](https://img.shields.io/github/stars/thudm/agentbench.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/agentbench?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/agentbench?color=green)
