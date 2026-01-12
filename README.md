@@ -295,6 +295,7 @@
 ### Agentic RL
 
 * **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
+* **[verl](https://github.com/volcengine/verl)**: verl: Volcano Engine Reinforcement Learning for LLMs ![Stars](https://img.shields.io/github/stars/volcengine/verl.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/volcengine/verl?color=green) ![LastCommit](https://img.shields.io/github/last-commit/volcengine/verl?color=green)
 
 ### Evaluation
 
