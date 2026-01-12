@@ -1009,16 +1009,26 @@ categories:
       repo_url: https://github.com/PKU-Alignment/safe-rlhf
   - name: Agentic RL
     items:
+    - name: AReaL
+      description: Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.
+      homepage_url: https://inclusionai.github.io/AReaL/intro.html
+      logo: areal.png
+      repo_url: https://github.com/inclusionAI/AReaL
     - name: rLLM
       description: Democratizing Reinforcement Learning for LLMs
       homepage_url: https://rllm-project.readthedocs.io/en/latest/
       logo: rllm
-      repo_url: https://github.com/rllm-org/rllm
+      repo_url: https://github.com/rllm-org/rllm    
     - name: slime
       description: slime is an LLM post-training framework for RL Scaling.
       homepage_url: https://thudm.github.io/slime/
       logo: slime
       repo_url: https://github.com/THUDM/slime
+    - name: verl
+      description: 'verl: Volcano Engine Reinforcement Learning for LLMs'
+      homepage_url: https://verl.readthedocs.io/en/latest/index.html
+      logo: verl
+      repo_url: https://github.com/volcengine/verl
   - name: Evaluation
     items:
     - name: AgentBench
