@@ -295,6 +295,7 @@
 ### Agentic RL
 
 * **[AReaL](https://github.com/inclusionAI/AReaL)**: Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. ![Stars](https://img.shields.io/github/stars/inclusionAI/AReaL.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/inclusionAI/AReaL?color=green) ![LastCommit](https://img.shields.io/github/last-commit/inclusionAI/AReaL?color=green)
+* **[rLLM](https://github.com/rllm-org/rllm)**: Democratizing Reinforcement Learning for LLMs ![Stars](https://img.shields.io/github/stars/rllm-org/rllm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/rllm-org/rllm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/rllm-org/rllm?color=green)
 * **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
 * **[verl](https://github.com/volcengine/verl)**: verl: Volcano Engine Reinforcement Learning for LLMs ![Stars](https://img.shields.io/github/stars/volcengine/verl.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/volcengine/verl?color=green) ![LastCommit](https://img.shields.io/github/last-commit/volcengine/verl?color=green)
 
