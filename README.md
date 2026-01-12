@@ -294,6 +294,7 @@
 
 ### Agentic RL
 
+* **[AReaL](https://github.com/inclusionAI/AReaL)**: Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible. ![Stars](https://img.shields.io/github/stars/inclusionAI/AReaL.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/inclusionAI/AReaL?color=green) ![LastCommit](https://img.shields.io/github/last-commit/inclusionAI/AReaL?color=green)
 * **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
 
 ### Evaluation
