@@ -1009,6 +1009,11 @@ categories:
       repo_url: https://github.com/PKU-Alignment/safe-rlhf
   - name: Agentic RL
     items:
+    - name: rLLM
+      description: Democratizing Reinforcement Learning for LLMs
+      homepage_url: https://rllm-project.readthedocs.io/en/latest/
+      logo: rllm
+      repo_url: https://github.com/rllm-org/rllm
     - name: slime
       description: slime is an LLM post-training framework for RL Scaling.
       homepage_url: https://thudm.github.io/slime/

@@ -294,6 +294,7 @@
 
 ### Agentic RL
 
+* **[rLLM](https://github.com/rllm-org/rllm)**: Democratizing Reinforcement Learning for LLMs ![Stars](https://img.shields.io/github/stars/rllm-org/rllm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/rllm-org/rllm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/rllm-org/rllm?color=green)
 * **[slime](https://github.com/THUDM/slime)**: slime is an LLM post-training framework for RL Scaling. ![Stars](https://img.shields.io/github/stars/thudm/slime.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/thudm/slime?color=green) ![LastCommit](https://img.shields.io/github/last-commit/thudm/slime?color=green)
 
 ### Evaluation
