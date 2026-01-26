@@ -546,6 +546,12 @@ categories:
       homepage_url: https://www.weco.ai/
       logo: aide-ml
       repo_url: https://github.com/WecoAI/aideml
+    - name: LoongFlow
+      description: 'LoongFlow: A Thinking & Learning Framework for Expert-Grade AI
+        Agents.'
+      homepage_url: https://github.com/baidu-baige/LoongFlow
+      logo: loongflow
+      repo_url: https://github.com/baidu-baige/LoongFlow
     - name: OpenEvolve
       description: Open-source implementation of AlphaEvolve
       homepage_url: https://github.com/codelion/openevolve
