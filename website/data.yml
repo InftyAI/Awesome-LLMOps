@@ -364,6 +364,14 @@ categories:
   subcategories:
   - name: Application Framework
     items:
+    - name: Cordum.io
+      description: 'Cordum (cordum.io) is a platform-only control plane for autonomous
+        AI Agents and external workers. It uses NATS for the bus, Redis for state
+        and payload pointers, and CAP v2 wire contracts for jobs, results, and heartbeats.
+        Workers and product packs live outside this repo.Core cordum '
+      homepage_url: https://cordum.io
+      logo: cordumio
+      repo_url: https://github.com/cordum-io/cordum
     - name: DeepEval
       description: The LLM Evaluation Framework
       homepage_url: https://deepeval.com/
