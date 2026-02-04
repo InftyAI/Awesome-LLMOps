@@ -287,6 +287,11 @@ categories:
       homepage_url: https://www.getmaxim.ai/bifrost
       logo: bifrost
       repo_url: https://github.com/maximhq/bifrost
+    - name: Hebo AI Gateway
+      description: OpenAI-compatible /chat/completions, /embeddings & /models endpoints
+      homepage_url: https://hebo.ai/gateway
+      logo: hebo-ai-gateway.png
+      repo_url: https://github.com/8monkey-ai/hebo-gateway/
     - name: LiteLLM
       description: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in
         OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker,
