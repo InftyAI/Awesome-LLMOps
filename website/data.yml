@@ -752,6 +752,11 @@ categories:
       repo_url: https://github.com/EvoAgentX/EvoAgentX
   - name: Tool
     items:
+    - name: Beads
+      description: Beads - A memory upgrade for your coding agent
+      homepage_url: https://github.com/steveyegge/beads
+      logo: default.png
+      repo_url: https://github.com/steveyegge/beads
     - name: Browser Use
       description: Make websites accessible for AI agents.
       homepage_url: https://browser-use.com
