@@ -762,6 +762,10 @@ categories:
       homepage_url: https://browser-use.com
       logo: browser-use.svg
       repo_url: https://github.com/browser-use/browser-use
+    - name: Deploybase
+      description: Track real-time GPU and LLM pricing across all cloud and inference providers.
+      homepage_url: https://deploybase.ai/
+      logo: default.png
     - name: Graphiti
       description: Build real-time knowledge graphs for AI agents.
       homepage_url: https://help.getzep.com/graphiti
