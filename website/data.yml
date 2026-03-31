@@ -777,6 +777,12 @@ categories:
       homepage_url: https://github.com/openai/openai-cua-sample-app
       logo: openai.png
       repo_url: https://github.com/openai/openai-cua-sample-app
+    - name: SidClaw
+      description: The approval and accountability layer for AI agents. Identity →
+        Policy → Approval → Trace. 13 framework integrations. Free during early access.
+      homepage_url: https://sidclaw.com
+      logo: sidclaw.png
+      repo_url: https://github.com/sidclawhq/platform
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
