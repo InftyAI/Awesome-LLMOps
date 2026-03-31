@@ -891,6 +891,11 @@ categories:
       homepage_url: https://faiss.ai
       logo: meta.png
       repo_url: https://github.com/facebookresearch/faiss
+    - name: Hindsight
+      description: 'Hindsight: Agent Memory That  Learns'
+      homepage_url: https://hindsight.vectorize.io/
+      logo: hindsight.png
+      repo_url: https://github.com/vectorize-io/hindsight
     - name: Milvus
       description: Milvus is a high-performance, cloud-native vector database built
         for scalable vector ANN search.
