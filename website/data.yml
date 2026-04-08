@@ -451,6 +451,12 @@ categories:
       homepage_url: https://github.com/google/adk-python
       logo: agent-development-kit.png
       repo_url: https://github.com/google/adk-python
+    - name: AgentField
+      description: Framework for AI Backend. Build and run AI agents like microservices
+        - scalable, observable, and identity-aware from day one.
+      homepage_url: https://agentfield.ai/docs/learn?utm_source=github&utm_campaign=awesome-llmops&utm_id=inftyai-project-request
+      logo: agentfield.svg
+      repo_url: https://github.com/Agent-Field/agentfield
     - name: Agno
       description: Build Multimodal AI Agents with memory, knowledge and tools. Simple,
         fast and model-agnostic.
