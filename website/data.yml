@@ -365,6 +365,12 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: skill-optimizer
+      description: Benchmark and self-optimize SDK/CLI/MCP guidance so every agent
+        model can use your tool reliably.
+      homepage_url: https://github.com/fastxyz/skill-optimizer
+      logo: default.png
+      repo_url: https://github.com/fastxyz/skill-optimizer
 - name: Orchestration
   subcategories:
   - name: Application Framework
