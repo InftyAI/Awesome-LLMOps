@@ -292,6 +292,11 @@ categories:
       homepage_url: https://hebo.ai/gateway
       logo: hebo-ai-gateway.png
       repo_url: https://github.com/8monkey-ai/hebo-gateway/
+    - name: Herma AI
+      description: Intelligent LLM router that automatically selects the optimal model
+        per request, optimizing cost while maintaining quality.
+      homepage_url: https://hermaai.com
+      logo: default.png
     - name: LiteLLM
       description: Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in
         OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker,
