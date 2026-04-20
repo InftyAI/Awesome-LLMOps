@@ -457,6 +457,13 @@ categories:
       homepage_url: https://github.com/google/adk-python
       logo: agent-development-kit.png
       repo_url: https://github.com/google/adk-python
+    - name: Agent Shadow Brain
+      description: Self-evolving AI coding intelligence with infinite memory (TurboQuant),
+        genetic algorithm evolution, predictive bug detection, PageRank knowledge
+        graphs, and swarm intelligence. The world's first autonomous coding brain.
+      homepage_url: https://github.com/theihtisham/agent-shadow-brain
+      logo: default.png
+      repo_url: https://github.com/theihtisham/agent-shadow-brain
     - name: AgentField
       description: Framework for AI Backend. Build and run AI agents like microservices
         - scalable, observable, and identity-aware from day one.
