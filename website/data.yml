@@ -287,6 +287,12 @@ categories:
       homepage_url: https://www.getmaxim.ai/bifrost
       logo: bifrost
       repo_url: https://github.com/maximhq/bifrost
+    - name: Ferro Labs AI Gateway
+      description: One API for 25+ LLMs, OpenAI, Anthropic, Bedrock, Azure. Caching,
+        guardrails & cost controls. Go-native LiteLLM & Kong AI Gateway alternative.
+      homepage_url: https://docs.ferrolabs.ai
+      logo: ferro-labs-ai-gateway.png
+      repo_url: https://github.com/ferro-labs/ai-gateway
     - name: Hebo AI Gateway
       description: OpenAI-compatible /chat/completions, /embeddings & /models endpoints
       homepage_url: https://hebo.ai/gateway
