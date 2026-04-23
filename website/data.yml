@@ -600,6 +600,11 @@ categories:
       homepage_url: https://github.com/SakanaAI/ShinkaEvolve
       logo: shinkaevolve.png
       repo_url: https://github.com/SakanaAI/ShinkaEvolve
+    - name: SkyDiscover
+      description: AI-Driven Scientific and Algorithmic Discovery
+      homepage_url: https://skydiscover-ai.github.io/blog.html
+      logo: skydiscover.png
+      repo_url: https://github.com/skydiscover-ai/skydiscover#-benchmark-performance
   - name: RAG
     items:
     - name: graphrag
