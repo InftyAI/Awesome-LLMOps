@@ -954,6 +954,13 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: agenttrace
+      description: 'TUI observability for AI coding agents: traces cost, tokens,
+        tool failures, latency, anomalies, health, diffs, and CI gates for Claude
+        Code, Codex CLI, Gemini CLI, Aider, and Cursor exports.'
+      homepage_url: https://luoyuctl.github.io/agenttrace/
+      logo: default.png
+      repo_url: https://github.com/luoyuctl/agenttrace
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
