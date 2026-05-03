@@ -269,6 +269,7 @@
 
 ### Observation
 
+* **[BudgetForge](https://llmbudget.maxiaworld.app)**: LLM budget guard. Set hard spending limits per project on LLM API calls. Real-time cost tracking, alerts, multi-provider support (OpenAI, Anthropic, etc.). REST API + Python SDK.
 * **[OpenLLMetry](https://github.com/traceloop/openllmetry)**: Open-source observability for your LLM application, based on OpenTelemetry. ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry?color=green) ![LastCommit](https://img.shields.io/github/last-commit/traceloop/openllmetry?color=green)
 * **[wandb](https://github.com/wandb/wandb)**: The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production. ![Stars](https://img.shields.io/github/stars/wandb/wandb.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/wandb/wandb?color=green) ![LastCommit](https://img.shields.io/github/last-commit/wandb/wandb?color=green)
 
