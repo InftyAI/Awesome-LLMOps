@@ -111,6 +111,7 @@
 * **[kgateway](https://github.com/kgateway-dev/kgateway)**: The Cloud-Native API Gateway and AI Gateway. ![Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kgateway-dev/kgateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kgateway-dev/kgateway?color=green)
 * **[Kong](https://github.com/Kong/kong)**: 🦍 The Cloud-Native API Gateway and AI Gateway. ![Stars](https://img.shields.io/github/stars/Kong/kong.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Kong/kong?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Kong/kong?color=green)
 * **[gateway-api-inference-extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension)**: Gateway API Inference Extension. ![Stars](https://img.shields.io/github/stars/kubernetes-sigs/gateway-api-inference-extension.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kubernetes-sigs/gateway-api-inference-extension?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kubernetes-sigs/gateway-api-inference-extension?color=green)
+* **[agent-command-center-sdk](https://github.com/future-agi/agent-command-center-sdk)**: SDK client for Agent Command Center — programmatic gateway for managing and routing AI agent requests with OpenAI-compatible API. ![Stars](https://img.shields.io/github/stars/future-agi/agent-command-center-sdk.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/future-agi/agent-command-center-sdk?color=green) ![LastCommit](https://img.shields.io/github/last-commit/future-agi/agent-command-center-sdk?color=green)
 
 ### Output
 
@@ -122,6 +123,7 @@
 ### Simulator
 
 * **[Vidur](https://github.com/microsoft/vidur)**: A large-scale simulation framework for LLM inference ![Stars](https://img.shields.io/github/stars/microsoft/vidur.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/vidur?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/vidur?color=green)
+* **[simulate-sdk](https://github.com/future-agi/simulate-sdk)**: Voice AI simulation SDK for testing AI agents. Generates synthetic conversation datasets to evaluate agent behavior across edge-case scenarios. ![Stars](https://img.shields.io/github/stars/future-agi/simulate-sdk.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/future-agi/simulate-sdk?color=green) ![LastCommit](https://img.shields.io/github/last-commit/future-agi/simulate-sdk?color=green)
 
 ### Benchmark
 
@@ -177,6 +179,7 @@
 * **[OpenEvolve](https://github.com/codelion/openevolve)**: Open-source implementation of AlphaEvolve ![Stars](https://img.shields.io/github/stars/codelion/openevolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/codelion/openevolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/codelion/openevolve?color=green)
 * **[ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)**: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution ![Stars](https://img.shields.io/github/stars/SakanaAI/ShinkaEvolve.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/SakanaAI/ShinkaEvolve?color=green) ![LastCommit](https://img.shields.io/github/last-commit/SakanaAI/ShinkaEvolve?color=green)
 * **[SkyDiscover](https://github.com/skydiscover-ai/skydiscover#-benchmark-performance)**: AI-Driven Scientific and Algorithmic Discovery ![Stars](https://img.shields.io/github/stars/skydiscover-ai/skydiscover.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/skydiscover-ai/skydiscover?color=green) ![LastCommit](https://img.shields.io/github/last-commit/skydiscover-ai/skydiscover?color=green)
+* **[agent-opt](https://github.com/future-agi/agent-opt)**: Open-source library for automated optimization of AI agent workflows. Evaluation-driven prompt and config tuning with six algorithms (Random, Bayesian, ProTeGi, Meta-Prompt, PromptWizard, GEPA). ![Stars](https://img.shields.io/github/stars/future-agi/agent-opt.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/future-agi/agent-opt?color=green) ![LastCommit](https://img.shields.io/github/last-commit/future-agi/agent-opt?color=green)
 
 ### RAG
 
