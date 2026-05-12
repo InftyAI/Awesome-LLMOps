@@ -954,6 +954,12 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: BrowserTrace
+      description: Local replay debugger for Browser Use failures with screenshots,
+        model I/O, failed-step timelines, and public-safe HTML exports.
+      homepage_url: https://aaronlab.github.io/browsertrace/
+      logo: browsertrace.png
+      repo_url: https://github.com/aaronlab/browsertrace
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
