@@ -792,6 +792,13 @@ categories:
       homepage_url: https://browser-use.com
       logo: browser-use.svg
       repo_url: https://github.com/browser-use/browser-use
+    - name: APort Integrations
+      description: Agent identity verification and policy-enforcement middleware
+        for AI-agent tool calls, with integrations for Express, FastAPI, LangChain,
+        Shopify, MCP, and runtime gateways.
+      homepage_url: https://github.com/aporthq/aport-integrations
+      logo: default.png
+      repo_url: https://github.com/aporthq/aport-integrations
     - name: Graphiti
       description: Build real-time knowledge graphs for AI agents.
       homepage_url: https://help.getzep.com/graphiti
