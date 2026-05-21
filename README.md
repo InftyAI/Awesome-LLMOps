@@ -146,6 +146,8 @@
 * **[PostHog](https://github.com/PostHog/posthog)**: 🦔 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free. ![Stars](https://img.shields.io/github/stars/PostHog/posthog.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/PostHog/posthog?color=green) ![LastCommit](https://img.shields.io/github/last-commit/PostHog/posthog?color=green)
 * **[ragas](https://github.com/explodinggradients/ragas)**: Supercharge Your LLM Application Evaluations 🚀 ![Stars](https://img.shields.io/github/stars/explodinggradients/ragas.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/explodinggradients/ragas?color=green) ![LastCommit](https://img.shields.io/github/last-commit/explodinggradients/ragas?color=green)
 * **[Weave](https://github.com/wandb/weave)**: Weave is a toolkit for developing AI-powered applications, built by Weights & Biases. ![Stars](https://img.shields.io/github/stars/wandb/weave.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/wandb/weave?color=green) ![LastCommit](https://img.shields.io/github/last-commit/wandb/weave?color=green)
+* **[Middleare](https://github.com/middleware-labs/)**: Middleware is a full-stack observability platform that detects issues from infra, APM, RUM and resolves them using the AI SRE Agent.🍊YC W23  
+
 
 ### Agent Framework
 
