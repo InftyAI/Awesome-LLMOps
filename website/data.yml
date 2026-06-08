@@ -959,6 +959,12 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: Respan
+      description: Full-stack LLM engineering platform for tracing, evals, prompt management,
+        and an AI gateway across 250+ models.
+      homepage_url: https://www.respan.ai/ai-gateway
+      logo: respan.png
+      repo_url: https://github.com/respanai/respan
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
