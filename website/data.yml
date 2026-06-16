@@ -401,6 +401,13 @@ categories:
       homepage_url: https://github.com/evidentlyai/evidently
       logo: evidently
       repo_url: https://github.com/evidentlyai/evidently
+    - name: Future AGI
+      description: Open-source, end-to-end platform for evaluating, observing, and
+        improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets
+        · Gateway · Guardrails. Self-hostable. Apache 2.0.
+      homepage_url: https://futureagi.com
+      logo: future-agi
+      repo_url: https://github.com/future-agi/future-agi
     - name: Helicone
       description: Open source LLM observability platform. One line of code to monitor,
         evaluate, and experiment.
