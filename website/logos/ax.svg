@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" rx="222" fill="#0b0f0d"/>
+  <text x="500" y="565" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="700" font-size="380" letter-spacing="-8">
+    <tspan fill="#8a948e">n</tspan><tspan fill="#4f7cff">/</tspan><tspan fill="#ffffff">ax</tspan>
+  </text>
+</svg>

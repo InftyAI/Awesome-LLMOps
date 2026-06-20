@@ -961,6 +961,12 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: ax
+      description: Local-first observability and memory graph for AI coding agents,
+        with dashboard, OTLP receiver, cost analytics, and MCP queries.
+      homepage_url: https://github.com/Necmttn/ax
+      logo: ax.svg
+      repo_url: https://github.com/Necmttn/ax
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
