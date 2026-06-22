@@ -381,6 +381,13 @@ categories:
   subcategories:
   - name: Application Framework
     items:
+    - name: AgentMark
+      description: Open-source, Git-native platform for building and observing reliable
+        AI agents. Prompts and datasets in your repo, evals in CI, and OpenTelemetry
+        tracing.
+      homepage_url: https://www.agentmark.co
+      logo: agentmark.png
+      repo_url: https://github.com/agentmark-ai/agentmark
     - name: Cordum.io
       description: 'Cordum (cordum.io) is a platform-only control plane for autonomous
         AI Agents and external workers. It uses NATS for the bus, Redis for state
