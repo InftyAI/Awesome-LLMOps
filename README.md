@@ -271,6 +271,7 @@
 
 ### Observation
 
+* **[Heron](https://github.com/Netis/heron)**: Passive, SDK-free observability for LLM & agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama. ![Stars](https://img.shields.io/github/stars/Netis/heron.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Netis/heron?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Netis/heron?color=green)
 * **[OpenLLMetry](https://github.com/traceloop/openllmetry)**: Open-source observability for your LLM application, based on OpenTelemetry. ![Stars](https://img.shields.io/github/stars/traceloop/openllmetry.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/traceloop/openllmetry?color=green) ![LastCommit](https://img.shields.io/github/last-commit/traceloop/openllmetry?color=green)
 * **[wandb](https://github.com/wandb/wandb)**: The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production. ![Stars](https://img.shields.io/github/stars/wandb/wandb.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/wandb/wandb?color=green) ![LastCommit](https://img.shields.io/github/last-commit/wandb/wandb?color=green)
 
