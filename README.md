@@ -5,6 +5,7 @@
 > More than welcome to add a new project by simply opening an issue.
 
 ## Table of Contents
+* [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time AI agent monitoring dashboard for OpenClaw. Track Gateway status, sessions, token usage & trends.
 
 - [Inference](#inference)
     - [Inference Engine](#inference-engine)
