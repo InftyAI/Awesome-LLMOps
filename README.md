@@ -101,6 +101,7 @@
 * **[LLMRouter](https://github.com/ulab-uiuc/LLMRouter)**: LLMRouter: An Open-Source Library for LLM Routing ![Stars](https://img.shields.io/github/stars/ulab-uiuc/LLMRouter.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/ulab-uiuc/LLMRouter?color=green) ![LastCommit](https://img.shields.io/github/last-commit/ulab-uiuc/LLMRouter?color=green)
 * **[RouteLLM](https://github.com/lm-sys/routellm)**: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality. ![Stars](https://img.shields.io/github/stars/lm-sys/routellm.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lm-sys/routellm?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lm-sys/routellm?color=green)
 * **[vLLM Semantic Router](https://github.com/vllm-project/semantic-router)**: Intelligent Mixture-of-Models Router for Efficient LLM Inference  ![Stars](https://img.shields.io/github/stars/vllm-project/semantic-router.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/vllm-project/semantic-router?color=green) ![LastCommit](https://img.shields.io/github/last-commit/vllm-project/semantic-router?color=green)
+* **[QuotaFlow](https://quotaflow.ai)**: Token and resource utilization layer for AI development teams. Helps teams track subscribed AI capacity, run controlled internal pools, and reduce wasted token quota across shared AI workflows.
 
 ### AI Gateway
 
