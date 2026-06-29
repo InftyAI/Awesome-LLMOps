@@ -968,6 +968,11 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: Latitude
+      description: Latitude is the open-source ai monitoring platform.
+      homepage_url: https://latitude.so
+      logo: default.png
+      repo_url: https://github.com/latitude-dev/latitude-llm
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
