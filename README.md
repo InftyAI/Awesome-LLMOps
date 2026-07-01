@@ -41,6 +41,8 @@
 
 ## Inference
 
+| [OneComp](https://github.com/FujitsuResearch/OneCompression) | ![](https://img.shields.io/github/stars/FujitsuResearch/OneCompression.svg?style=social) | Apache-2.0 | LLM post-training quantization pipeline with QEP/AutoBit/JointQ + vLLM plugin (arXiv:2603.28845). |
+
 ### Inference Engine
 
 * **[Cortex.cpp](https://github.com/janhq/cortex.cpp)**: Local AI API Platform. ![Stars](https://img.shields.io/github/stars/janhq/cortex.cpp.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/janhq/cortex.cpp?color=green) ![LastCommit](https://img.shields.io/github/last-commit/janhq/cortex.cpp?color=green)
