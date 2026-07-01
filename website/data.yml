@@ -609,6 +609,12 @@ categories:
       homepage_url: https://github.com/codelion/openevolve
       logo: openevolve.png
       repo_url: https://github.com/codelion/openevolve
+    - name: rust-norion
+      description: Rust Noiron/Norion self-evolving local LLM runtime engine for non-commercial
+        research deployment
+      homepage_url: https://github.com/yanghao1143/rust-norion
+      logo: default.png
+      repo_url: https://github.com/yanghao1143/rust-norion
     - name: ShinkaEvolve
       description: null
       homepage_url: https://github.com/SakanaAI/ShinkaEvolve
