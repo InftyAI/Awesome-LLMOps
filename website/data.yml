@@ -310,6 +310,12 @@ categories:
       homepage_url: https://ulab-uiuc.github.io/LLMRouter/
       logo: llmrouter.png
       repo_url: https://github.com/ulab-uiuc/LLMRouter
+    - name: Otari
+      description: Open-source, OpenAI-compatible LLM gateway you run yourself. One
+        endpoint for 40+ providers, with virtual keys, budgets, and usage tracking.
+      homepage_url: https://otari.ai
+      logo: otari.svg
+      repo_url: https://github.com/mozilla-ai/otari
     - name: RouteLLM
       description: A framework for serving and evaluating LLM routers - save LLM costs
         without compromising quality.
