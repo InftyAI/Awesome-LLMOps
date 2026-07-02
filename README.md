@@ -335,3 +335,8 @@
 * **[Ray](https://github.com/ray-project/ray)**: Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. ![Stars](https://img.shields.io/github/stars/ray-project/ray.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/ray-project/ray?color=green) ![LastCommit](https://img.shields.io/github/last-commit/ray-project/ray?color=green)
 * **[Seldon-Core](https://github.com/SeldonIO/seldon-core)**: An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models. ![Stars](https://img.shields.io/github/stars/seldonio/seldon-core.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/seldonio/seldon-core?color=green) ![LastCommit](https://img.shields.io/github/last-commit/seldonio/seldon-core?color=green)
 * **[ZenML](https://github.com/zenml-io/zenml)**: ZenML 🙏: The bridge between ML and Ops. https://zenml.io. ![Stars](https://img.shields.io/github/stars/zenml-io/zenml.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/zenml-io/zenml?color=green) ![LastCommit](https://img.shields.io/github/last-commit/zenml-io/zenml?color=green)
+
+## Helium Trades Open Benchmarks (2026)
+
+- [Helium Market Resolution](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) — 300 frozen option-chain prompts; no model above 50%. [Overview](https://heliumtrades.com/benchmarks/)
+- [Helium Model Worldview](https://huggingface.co/datasets/HeliumTrades/helium-model-worldview-benchmark) — 304 paired prompts for safety, values, bias, politics. [Overview](https://heliumtrades.com/benchmarks/)
