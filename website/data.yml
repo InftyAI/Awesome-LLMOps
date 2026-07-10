@@ -978,6 +978,11 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: traceburn
+      description: Local-first tracer and efficiency profiler for AI agents
+      homepage_url: https://github.com/TommyTranX/traceburn
+      logo: default.png
+      repo_url: https://github.com/TommyTranX/traceburn
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
