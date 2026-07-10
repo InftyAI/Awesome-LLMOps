@@ -287,6 +287,13 @@ categories:
       homepage_url: https://www.getmaxim.ai/bifrost
       logo: bifrost
       repo_url: https://github.com/maximhq/bifrost
+    - name: Doubleword Control Layer
+      description: The world's fastest AI model gateway (450x less overhead than LiteLLM).
+        Unified access to LLMs across endpoints behind a single authentication layer,
+        with API key generation, user management & request logging.
+      homepage_url: https://doublewordai.github.io/control-layer/
+      logo: default.png
+      repo_url: https://github.com/doublewordai/control-layer
     - name: Ferro Labs AI Gateway
       description: One API for 25+ LLMs, OpenAI, Anthropic, Bedrock, Azure. Caching,
         guardrails & cost controls. Go-native LiteLLM & Kong AI Gateway alternative.
