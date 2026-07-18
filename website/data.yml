@@ -683,6 +683,12 @@ categories:
       homepage_url: https://haystack.deepset.ai
       logo: deepset.png
       repo_url: https://github.com/deepset-ai/haystack
+    - name: Heym
+      description: Source-available, self-hosted visual platform for building, running,
+        evaluating, and observing AI workflows with agents, RAG, and MCP.
+      homepage_url: https://heym.run
+      logo: heym.svg
+      repo_url: https://github.com/heymrun/heym
     - name: Inference
       description: Turn any computer or edge device into a command center for computer
         vision projects.
