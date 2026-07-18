@@ -810,6 +810,12 @@ categories:
       repo_url: https://github.com/EvoAgentX/EvoAgentX
   - name: Tool
     items:
+    - name: Agent-Ready Repository Auditor
+      description: Free GitHub Action that scores public repositories for Codex, Claude
+        Code, Copilot, and Cursor readiness—without cloning or executing code.
+      homepage_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
+      logo: default.png
+      repo_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
     - name: Beads
       description: Beads - A memory upgrade for your coding agent
       homepage_url: https://github.com/steveyegge/beads
