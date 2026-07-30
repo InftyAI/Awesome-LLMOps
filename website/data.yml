@@ -831,6 +831,12 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: llm-stream-guard
+      description: Runtime-neutral replay-boundary tracking for fallible LLM streams
+        in Rust
+      homepage_url: https://docs.rs/llm-stream-guard/
+      logo: default.png
+      repo_url: https://github.com/airouter-dev/llm-stream-guard
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
