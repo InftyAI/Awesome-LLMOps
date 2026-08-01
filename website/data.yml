@@ -836,6 +836,13 @@ categories:
       homepage_url: https://mem0.ai/research
       logo: mem0.svg
       repo_url: https://github.com/mem0ai/mem0
+    - name: NuGuard
+      description: AI red-teaming tool and LLM security framework to evaluate agentic
+        AI applications. Tests prompt injections, handles vulnerability assessment,
+        SBOM generation, and static analysis.
+      homepage_url: https://nuguard.ai/
+      logo: nuguard.png
+      repo_url: https://github.com/NuGuardAI/nuguard
     - name: OpenAI CUA
       description: Computer Using Agent Sample App.
       homepage_url: https://github.com/openai/openai-cua-sample-app
