@@ -272,6 +272,12 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: Unified AI System
+      description: Terminal-first, self-hosted AI and MCP gateway that turns plain
+        language into structured work. 9 governed tools for Codex, Cursor, and Cline.
+      homepage_url: https://happy520ai.github.io/unified-ai-system/
+      logo: unified-ai-system.png
+      repo_url: https://github.com/happy520ai/unified-ai-system
   - name: LLM Router
     items:
     - name: AI Gateway
