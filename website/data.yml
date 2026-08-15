@@ -998,6 +998,12 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: Tracely
+      description: Trace-native observability and CI for AI agents, grading production traces
+        on ingest, clustering failures, and replaying frozen failures as regression tests.
+      homepage_url: https://tracely-studio.xyz
+      logo: default.png
+      repo_url: https://github.com/Jwuthri/Tracely
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
