@@ -847,6 +847,12 @@ categories:
       homepage_url: https://sidclaw.com
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
+    - name: TokenGauge
+      description: 'Evidence-backed LLM cost optimization, BYOK A/B tests, and live
+        model pricing. Launch 100: £5 Pro / £15 Pro+ / £20 Ultimate.'
+      homepage_url: https://tokengauge.enby.fish/
+      logo: tokengauge-launch-square.jpg
+      repo_url: https://github.com/fablgen-agent/tokengauge
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
