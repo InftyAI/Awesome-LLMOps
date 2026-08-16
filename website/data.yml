@@ -754,6 +754,14 @@ categories:
       repo_url: https://github.com/stakpak/agent
   - name: AI Agent
     items:
+    - name: Agent QA
+      description: Open-source self-improving QA agent for software teams. A test
+        harness with memory. Write tests in natural language for web and mobile. agent-qa
+        learns from every run, adapts to UI changes, and catches regressions before
+        you ship.
+      homepage_url: https://vostride.com/docs/agent-qa
+      logo: agent-qa.svg
+      repo_url: https://github.com/vostride/agent-qa
     - name: goose
       description: an open source, extensible AI agent that goes beyond code suggestions
         - install, execute, edit, and test with any LLM
