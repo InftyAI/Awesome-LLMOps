@@ -816,6 +816,12 @@ categories:
       repo_url: https://github.com/EvoAgentX/EvoAgentX
   - name: Tool
     items:
+    - name: AI Agent Token Cost Calculator
+      description: Browser-only calculator for AI-agent token spend, avoidable context
+        waste, and cleanup payback.
+      homepage_url: https://tinyopsstudio.com/ai-agent-token-cost-calculator
+      logo: default.png
+      repo_url: https://github.com/tinyopsstudio/ai-agent-token-cost-calculator
     - name: Beads
       description: Beads - A memory upgrade for your coding agent
       homepage_url: https://github.com/steveyegge/beads
