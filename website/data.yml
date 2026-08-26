@@ -91,6 +91,14 @@ categories:
       homepage_url: https://petals.dev/
       logo: petals
       repo_url: https://github.com/bigscience-workshop/petals
+    - name: qwen3.8-27b-in-c
+      description: 'Qwen3.8-27B on one laptop CPU: up to 2.52 token/s, 8 GB tested,
+        with no accuracy loss from runtime speedups. Native C, no GPU or Python. |
+        单颗笔记本 CPU 运行 Qwen3.8-27B：最快 2.52 token/s，最低 8 GB 内存可运行；推理加速不牺牲准确性。原生 C 语言，无需
+        GPU 或 Python。'
+      homepage_url: https://github.com/shyringo/qwen3.8-27b-in-c
+      logo: default.png
+      repo_url: https://github.com/shyringo/qwen3.8-27b-in-c
     - name: Ratchet
       description: A cross-platform browser ML framework.
       homepage_url: https://huggingface.co/ratchet-community
