@@ -998,6 +998,11 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: Observatory
+      description: Open-source TypeScript and Python SDKs for instrumenting AI agents and analyzing production runs, traces, sessions, feedback, and recurring patterns.
+      homepage_url: https://www.thecontextcompany.com
+      logo: default.png
+      repo_url: https://github.com/The-Context-Company/observatory
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
