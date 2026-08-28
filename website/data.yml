@@ -272,6 +272,13 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: SandBase CLI
+      description: Open-source AI CLI and local MCP server connecting 25 clients—Claude
+        Code, Cursor, Codex, ChatGPT, Hermes, and OpenClaw—to 2,000+ models/APIs,
+        with OAuth and rollback.
+      homepage_url: https://github.com/sandbaseai/cli
+      logo: sandbase-cli.png
+      repo_url: https://github.com/sandbaseai/cli
   - name: LLM Router
     items:
     - name: AI Gateway
