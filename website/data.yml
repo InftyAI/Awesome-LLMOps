@@ -318,6 +318,13 @@ categories:
       homepage_url: https://ulab-uiuc.github.io/LLMRouter/
       logo: llmrouter.png
       repo_url: https://github.com/ulab-uiuc/LLMRouter
+    - name: OpenRoutiQ
+      description: Open-source Python router for explainable, policy-controlled selection
+        across models, providers, deployments, and reasoning levels, with optional
+        outcome learning.
+      homepage_url: https://github.com/antat-ai/openroutiq
+      logo: default.png
+      repo_url: https://github.com/antat-ai/openroutiq
     - name: Otari
       description: Open-source, OpenAI-compatible LLM gateway you run yourself. One
         endpoint for 40+ providers, with virtual keys, budgets, and usage tracking.
