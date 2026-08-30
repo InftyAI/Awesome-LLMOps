@@ -240,6 +240,11 @@ categories:
       homepage_url: https://agentgateway.dev
       logo: agentgateway.svg
       repo_url: https://github.com/agentgateway/agentgateway
+    - name: Agnos
+      description: Gateway-agnostic, self-hosted LLM control plane (MIT) that runs LiteLLM, Bifrost or Portkey as a swappable, stateless engine while keys, budgets, guardrails and audit stay in a control plane you own.
+      homepage_url: https://agnos-llm-gateway.site
+      logo: agnos.svg
+      repo_url: https://github.com/siva010928/agnos-proxy-oss
     - name: APISIX
       description: The Cloud-Native API Gateway and AI Gateway with extensive plugin
         system and AI capabilities.
