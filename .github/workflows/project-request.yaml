@@ -152,7 +152,7 @@ jobs:
             // Look for PRs with the expected branch name or that reference this issue
             let existingPR = null;
             for (const pr of prs.data) {
-              if (pr.head.ref === branchName || pr.body.includes(`fixes #${issueNumber}`)) {
+              if (pr.head.ref === branchName || (pr.body && pr.body.includes(`fixes #${issueNumber}`))) {
                 existingPR = pr;
                 break;
               }

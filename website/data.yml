@@ -287,6 +287,14 @@ categories:
       homepage_url: https://www.getmaxim.ai/bifrost
       logo: bifrost
       repo_url: https://github.com/maximhq/bifrost
+    - name: Doubleword Control Layer
+      description: The world’s fastest AI model gateway (450x less overhead than LiteLLM).
+        Unified access to LLMs across endpoints (openAI, self-hosted, etc.) behind
+        a single authentication layer - with API key generation, user management,
+        request logging, and more
+      homepage_url: https://doublewordai.github.io/control-layer/
+      logo: doubleword-control-layer
+      repo_url: https://github.com/doublewordai/control-layer
     - name: Ferro Labs AI Gateway
       description: One API for 25+ LLMs, OpenAI, Anthropic, Bedrock, Azure. Caching,
         guardrails & cost controls. Go-native LiteLLM & Kong AI Gateway alternative.
@@ -310,12 +318,24 @@ categories:
       homepage_url: https://ulab-uiuc.github.io/LLMRouter/
       logo: llmrouter.png
       repo_url: https://github.com/ulab-uiuc/LLMRouter
+    - name: Otari
+      description: Open-source, OpenAI-compatible LLM gateway you run yourself. One
+        endpoint for 40+ providers, with virtual keys, budgets, and usage tracking.
+      homepage_url: https://otari.ai
+      logo: otari.svg
+      repo_url: https://github.com/mozilla-ai/otari
     - name: RouteLLM
       description: A framework for serving and evaluating LLM routers - save LLM costs
         without compromising quality.
       homepage_url: https://github.com/lm-sys/routellm
       logo: lmsys.png
       repo_url: https://github.com/lm-sys/routellm
+    - name: Swobu
+      description: Local AI gateway for routing clients across providers, regions,
+        accounts, and local models.
+      homepage_url: https://swobu.com
+      logo: default.png
+      repo_url: https://github.com/swobuforge/swobu
     - name: vLLM Semantic Router
       description: Intelligent Mixture-of-Models Router for Efficient LLM Inference
       homepage_url: https://vllm-semantic-router.com/
@@ -381,6 +401,13 @@ categories:
   subcategories:
   - name: Application Framework
     items:
+    - name: AgentMark
+      description: Open-source, Git-native platform for building and observing reliable
+        AI agents. Prompts and datasets in your repo, evals in CI, and OpenTelemetry
+        tracing.
+      homepage_url: https://www.agentmark.co
+      logo: agentmark.png
+      repo_url: https://github.com/agentmark-ai/agentmark
     - name: Cordum.io
       description: 'Cordum (cordum.io) is a platform-only control plane for autonomous
         AI Agents and external workers. It uses NATS for the bus, Redis for state
@@ -401,6 +428,13 @@ categories:
       homepage_url: https://github.com/evidentlyai/evidently
       logo: evidently
       repo_url: https://github.com/evidentlyai/evidently
+    - name: Future AGI
+      description: Open-source, end-to-end platform for evaluating, observing, and
+        improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets
+        · Gateway · Guardrails. Self-hostable. Apache 2.0.
+      homepage_url: https://futureagi.com
+      logo: future-agi
+      repo_url: https://github.com/future-agi/future-agi
     - name: Helicone
       description: Open source LLM observability platform. One line of code to monitor,
         evaluate, and experiment.
@@ -661,6 +695,12 @@ categories:
       homepage_url: https://haystack.deepset.ai
       logo: deepset.png
       repo_url: https://github.com/deepset-ai/haystack
+    - name: Heym
+      description: Source-available, self-hosted visual platform for building, running,
+        evaluating, and observing AI workflows with agents, RAG, and MCP.
+      homepage_url: https://heym.run
+      logo: heym.svg
+      repo_url: https://github.com/heymrun/heym
     - name: Inference
       description: Turn any computer or edge device into a command center for computer
         vision projects.
@@ -689,6 +729,16 @@ categories:
       homepage_url: https://aider.chat/
       logo: aider
       repo_url: https://github.com/Aider-AI/aider
+    - name: Atomic Agent
+      description: Local-first CLI and TUI coding agent that runs open-weight models
+        entirely on your machine through a llama.cpp fork, with no account or API
+        key required. 56 built-in tools, MCP support, and a five-layer local memory
+        system. Currently a developer preview.
+      homepage_url: https://atomicagent.io
+      logo: atomic-agent.svg
+      repo_url: https://github.com/AtomicBot-ai/atomic-agent
+      tags:
+      - coding
     - name: Codex
       description: Lightweight coding agent that runs in your terminal.
       homepage_url: https://github.com/openai/codex
@@ -720,6 +770,14 @@ categories:
       repo_url: https://github.com/stakpak/agent
   - name: AI Agent
     items:
+    - name: Agent QA
+      description: Open-source self-improving QA agent for software teams. A test
+        harness with memory. Write tests in natural language for web and mobile. agent-qa
+        learns from every run, adapts to UI changes, and catches regressions before
+        you ship.
+      homepage_url: https://vostride.com/docs/agent-qa
+      logo: agent-qa.svg
+      repo_url: https://github.com/vostride/agent-qa
     - name: goose
       description: an open source, extensible AI agent that goes beyond code suggestions
         - install, execute, edit, and test with any LLM
@@ -782,6 +840,12 @@ categories:
       repo_url: https://github.com/EvoAgentX/EvoAgentX
   - name: Tool
     items:
+    - name: Agent-Ready Repository Auditor
+      description: Free GitHub Action that scores public repositories for Codex, Claude
+        Code, Copilot, and Cursor readiness—without cloning or executing code.
+      homepage_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
+      logo: default.png
+      repo_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
     - name: Beads
       description: Beads - A memory upgrade for your coding agent
       homepage_url: https://github.com/steveyegge/beads
@@ -954,11 +1018,28 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: ClawMetry
+      description: Self-hosted observability for coding agents. Reads the session logs
+        runtimes already write on disk, so there is no SDK and nothing in the request
+        path.
+      homepage_url: https://clawmetry.com
+      logo: clawmetry.svg
+      repo_url: https://github.com/vivekchand/clawmetry
+    - name: Latitude
+      description: Latitude is the open-source ai monitoring platform.
+      homepage_url: https://latitude.so
+      logo: default.png
+      repo_url: https://github.com/latitude-dev/latitude-llm
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: Observatory
+      description: Open-source TypeScript and Python SDKs for instrumenting AI agents and analyzing production runs, traces, sessions, feedback, and recurring patterns.
+      homepage_url: https://www.thecontextcompany.com
+      logo: default.png
+      repo_url: https://github.com/The-Context-Company/observatory
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
