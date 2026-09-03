@@ -330,6 +330,12 @@ categories:
       homepage_url: https://github.com/lm-sys/routellm
       logo: lmsys.png
       repo_url: https://github.com/lm-sys/routellm
+    - name: Swobu
+      description: Local AI gateway for routing clients across providers, regions,
+        accounts, and local models.
+      homepage_url: https://swobu.com
+      logo: default.png
+      repo_url: https://github.com/swobuforge/swobu
     - name: vLLM Semantic Router
       description: Intelligent Mixture-of-Models Router for Efficient LLM Inference
       homepage_url: https://vllm-semantic-router.com/
