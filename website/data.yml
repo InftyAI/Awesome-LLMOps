@@ -771,6 +771,12 @@ categories:
       homepage_url: https://openmanus.github.io/
       logo: openmanus.png
       repo_url: https://github.com/mannaandpoem/OpenManus
+    - name: SandBase Harness
+      description: Local-first, self-hosted AI agent runtime with MCP tools, sandboxed
+        sessions, memory, credentials, audit/replay, and a local Console.
+      homepage_url: https://github.com/sandbaseai/sandbase-harness
+      logo: default.png
+      repo_url: https://github.com/sandbaseai/sandbase-harness
     - name: Tongyi Deep Research
       description: Tongyi DeepResearch, the Leading Open-source DeepResearch Agent
       homepage_url: https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/
