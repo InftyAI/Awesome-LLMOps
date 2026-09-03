@@ -729,6 +729,16 @@ categories:
       homepage_url: https://aider.chat/
       logo: aider
       repo_url: https://github.com/Aider-AI/aider
+    - name: Atomic Agent
+      description: Local-first CLI and TUI coding agent that runs open-weight models
+        entirely on your machine through a llama.cpp fork, with no account or API
+        key required. 56 built-in tools, MCP support, and a five-layer local memory
+        system. Currently a developer preview.
+      homepage_url: https://atomicagent.io
+      logo: atomic-agent.svg
+      repo_url: https://github.com/AtomicBot-ai/atomic-agent
+      tags:
+      - coding
     - name: Codex
       description: Lightweight coding agent that runs in your terminal.
       homepage_url: https://github.com/openai/codex
