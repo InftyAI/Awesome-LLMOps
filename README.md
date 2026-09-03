@@ -105,6 +105,7 @@
 * **[vLLM Semantic Router](https://github.com/vllm-project/semantic-router)**: Intelligent Mixture-of-Models Router for Efficient LLM Inference  ![Stars](https://img.shields.io/github/stars/vllm-project/semantic-router.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/vllm-project/semantic-router?color=green) ![LastCommit](https://img.shields.io/github/last-commit/vllm-project/semantic-router?color=green)
 
 ### AI Gateway
+* **[TrustGate](https://github.com/NeuralTrust/TrustGate)**: Self-hosted Go Agent Gateway (Apache-2.0) — OpenAI-compatible LLM proxy + MCP aggregation with per-consumer auth/audit. ![Stars](https://img.shields.io/github/stars/NeuralTrust/TrustGate.svg?style=flat&color=green)
 
 * **[agentgateway](https://github.com/agentgateway/agentgateway)**: Next Generation Agentic Proxy for AI Agents and MCP servers ![Stars](https://img.shields.io/github/stars/agentgateway/agentgateway.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/agentgateway/agentgateway?color=green) ![LastCommit](https://img.shields.io/github/last-commit/agentgateway/agentgateway?color=green)
 * **[APISIX](https://github.com/apache/apisix)**: The Cloud-Native API Gateway and AI Gateway with extensive plugin system and AI capabilities. ![Stars](https://img.shields.io/github/stars/apache/apisix.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/apache/apisix?color=green) ![LastCommit](https://img.shields.io/github/last-commit/apache/apisix?color=green)
