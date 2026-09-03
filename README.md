@@ -83,6 +83,7 @@
 * **[Modular](https://github.com/modular/modular)**: The Modular Platform (includes MAX & Mojo) ![Stars](https://img.shields.io/github/stars/modular/modular.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/modular/modular?color=green) ![LastCommit](https://img.shields.io/github/last-commit/modular/modular?color=green)
 * **[Mooncake](https://github.com/kvcache-ai/Mooncake)**: Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. ![Stars](https://img.shields.io/github/stars/kvcache-ai/mooncake.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kvcache-ai/mooncake?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kvcache-ai/mooncake?color=green)
 * **[OME](https://github.com/sgl-project/ome)**: OME is a Kubernetes operator for enterprise-grade management and serving of Large Language Models (LLMs) ![Stars](https://img.shields.io/github/stars/sgl-project/ome.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/sgl-project/ome?color=green) ![LastCommit](https://img.shields.io/github/last-commit/sgl-project/ome?color=green)
+* **[Paralleliq](https://www.paralleliq.ai)**: Model-aware GPU control plane for AI inference clusters. Understands which model runs on which GPU, detects tier misplacement, dark capacity, OOM risk, and CPU:GPU imbalance — with human-in-the-loop approval workflows and a full audit trail.
 
 ### Middleware
 
