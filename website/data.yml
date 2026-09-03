@@ -1008,6 +1008,13 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: ClawMetry
+      description: Self-hosted observability for coding agents. Reads the session logs
+        runtimes already write on disk, so there is no SDK and nothing in the request
+        path.
+      homepage_url: https://clawmetry.com
+      logo: clawmetry.svg
+      repo_url: https://github.com/vivekchand/clawmetry
     - name: Latitude
       description: Latitude is the open-source ai monitoring platform.
       homepage_url: https://latitude.so
