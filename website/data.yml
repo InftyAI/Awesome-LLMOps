@@ -1018,6 +1018,11 @@ categories:
       repo_url: https://github.com/e2b-dev/E2B
   - name: Observation
     items:
+    - name: agent-watch
+      description: POSIX shell monitor that classifies background Claude Code and Codex jobs as RUNNING, DONE, FAILED, or STALL and checks transport before credentials.
+      homepage_url: https://github.com/soul-sol/agent-watch
+      logo: default.png
+      repo_url: https://github.com/soul-sol/agent-watch
     - name: ClawMetry
       description: Self-hosted observability for coding agents. Reads the session logs
         runtimes already write on disk, so there is no SDK and nothing in the request
