@@ -1228,6 +1228,12 @@ categories:
       homepage_url: https://www.comet.com/docs/opik/
       logo: opik.png
       repo_url: https://github.com/comet-ml/opik
+    - name: StructEval
+      description: A TMLR benchmark for evaluating LLM structured-output generation
+        and conversion across 2,035 examples and 18 text and renderable visual formats.
+      homepage_url: https://tiger-ai-lab.github.io/StructEval/
+      logo: default.png
+      repo_url: https://github.com/TIGER-AI-Lab/StructEval
     - name: terminal-bench
       description: A benchmark for LLMs on complicated tasks in the terminal
       homepage_url: https://www.tbench.ai/
