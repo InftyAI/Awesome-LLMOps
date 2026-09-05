@@ -882,6 +882,13 @@ categories:
       homepage_url: https://github.com/Writbase/writbase
       logo: default.png
       repo_url: https://github.com/Writbase/writbase
+    - name: SourceryKit
+      description: Verifies an agent's outbound HTTP and MCP calls against a source
+        of truth with zero-knowledge proofs, then blocks anything off the
+        trusted-endpoint allow-list and logs each call.
+      homepage_url: https://github.com/ProvablyAI/sourcerykit
+      logo: default.png
+      repo_url: https://github.com/ProvablyAI/sourcerykit
   - name: Chatbot
     items:
     - name: 5ire
