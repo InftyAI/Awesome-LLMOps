@@ -324,6 +324,11 @@ categories:
       homepage_url: https://otari.ai
       logo: otari.svg
       repo_url: https://github.com/mozilla-ai/otari
+    - name: Routed
+      description: Universal local router for Agent Skills across AI coding environments
+      homepage_url: https://github.com/bshea-1/routed
+      logo: default.png
+      repo_url: https://github.com/bshea-1/routed
     - name: RouteLLM
       description: A framework for serving and evaluating LLM routers - save LLM costs
         without compromising quality.
