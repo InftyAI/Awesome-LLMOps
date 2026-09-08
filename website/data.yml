@@ -62,6 +62,11 @@ categories:
       homepage_url: https://mlserver.readthedocs.io/
       logo: mlserver.png
       repo_url: https://github.com/SeldonIO/MLServer
+    - name: nanoserve
+      description: An AI inference engine from scratch. Like nanoGPT, but for serving.
+      homepage_url: https://pjdurden.github.io/nanoserve/
+      logo: default.png
+      repo_url: https://github.com/pjdurden/nanoserve
     - name: Nvidia Dynamo
       description: A Datacenter Scale Distributed Inference Serving Framework.
       homepage_url: https://developer.nvidia.com/dynamo
