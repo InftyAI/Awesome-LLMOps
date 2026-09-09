@@ -866,6 +866,12 @@ categories:
       homepage_url: https://mem0.ai/research
       logo: mem0.svg
       repo_url: https://github.com/mem0ai/mem0
+    - name: Nora
+      description: Self-hosted control plane to deploy, monitor, and operate OpenClaw
+        and Hermes AI agents on Docker/Kubernetes — with REST, CLI, and MCP.
+      homepage_url: https://nora.solomontsao.com
+      logo: nora-logo-mark.png
+      repo_url: https://github.com/solomon2773/nora
     - name: OpenAI CUA
       description: Computer Using Agent Sample App.
       homepage_url: https://github.com/openai/openai-cua-sample-app
