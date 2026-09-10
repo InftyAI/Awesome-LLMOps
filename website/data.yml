@@ -428,6 +428,13 @@ categories:
       homepage_url: https://github.com/evidentlyai/evidently
       logo: evidently
       repo_url: https://github.com/evidentlyai/evidently
+    - name: fde-framework
+      description: 'A framework for Forward Deployed Engineers: from problem statement
+        to a deployable AI project — every decision traced to a fact, every fact to
+        a source.'
+      homepage_url: https://atulkapoor.github.io/fde-framework/
+      logo: default.png
+      repo_url: https://github.com/atulkapoor/fde-framework
     - name: Future AGI
       description: Open-source, end-to-end platform for evaluating, observing, and
         improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets
@@ -1019,9 +1026,9 @@ categories:
   - name: Observation
     items:
     - name: ClawMetry
-      description: Self-hosted observability for coding agents. Reads the session logs
-        runtimes already write on disk, so there is no SDK and nothing in the request
-        path.
+      description: Self-hosted observability for coding agents. Reads the session
+        logs runtimes already write on disk, so there is no SDK and nothing in the
+        request path.
       homepage_url: https://clawmetry.com
       logo: clawmetry.svg
       repo_url: https://github.com/vivekchand/clawmetry
@@ -1036,7 +1043,8 @@ categories:
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
     - name: Observatory
-      description: Open-source TypeScript and Python SDKs for instrumenting AI agents and analyzing production runs, traces, sessions, feedback, and recurring patterns.
+      description: Open-source TypeScript and Python SDKs for instrumenting AI agents
+        and analyzing production runs, traces, sessions, feedback, and recurring patterns.
       homepage_url: https://www.thecontextcompany.com
       logo: default.png
       repo_url: https://github.com/The-Context-Company/observatory
