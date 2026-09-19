@@ -217,6 +217,13 @@ categories:
       repo_url: https://github.com/sgl-project/ome
   - name: Middleware
     items:
+    - name: CacheVerifier
+      description: 'Verification layer for semantic caches: a REST API and Python
+        client that checks gray-zone cache hits with a cross-encoder before they are
+        served.'
+      homepage_url: https://www.cacheverifier.com
+      logo: default.png
+      repo_url: https://github.com/imxinchengyou/cacheverifier-python
     - name: Checkpoint Engine
       description: Checkpoint-engine is a simple middleware to update model weights
         in LLM inference engines
