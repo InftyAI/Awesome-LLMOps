@@ -1043,6 +1043,12 @@ categories:
       homepage_url: https://latitude.so
       logo: default.png
       repo_url: https://github.com/latitude-dev/latitude-llm
+    - name: Noveum Trace
+      description: A high-performance, OpenTelemetry-compliant tracing SDK designed
+        specifically for Large Language Model (LLM) applications and AI workloads.
+      homepage_url: https://noveum.ai
+      logo: noveum-trace.png
+      repo_url: https://github.com/Noveum/noveum-trace
     - name: Observatory
       description: Open-source TypeScript and Python SDKs for instrumenting AI agents
         and analyzing production runs, traces, sessions, feedback, and recurring patterns.
