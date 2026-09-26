@@ -1054,6 +1054,12 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: saver-audit
+      description: Offline CLI that prices Claude Code and Codex session logs with
+        prompt-cache costs and replays them through token savers.
+      homepage_url: https://github.com/VladUZH/saver-audit
+      logo: default.png
+      repo_url: https://github.com/VladUZH/saver-audit
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
