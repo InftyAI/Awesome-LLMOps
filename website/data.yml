@@ -883,6 +883,12 @@ categories:
       homepage_url: https://sidclaw.com
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
+    - name: since-cutoff
+      description: Find which of your exact dependency versions your coding agent
+        writes wrong, and fix it with a small AGENTS.md note verified by a type checker.
+      homepage_url: https://mohammadhijjawi97.github.io/since-cutoff/
+      logo: default.png
+      repo_url: https://github.com/MohammadHijjawi97/since-cutoff
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
