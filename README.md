@@ -123,6 +123,7 @@
 * **[Kong](https://github.com/Kong/kong)**: 🦍 The Cloud-Native API Gateway and AI Gateway. ![Stars](https://img.shields.io/github/stars/Kong/kong.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/Kong/kong?color=green) ![LastCommit](https://img.shields.io/github/last-commit/Kong/kong?color=green)
 * **[gateway-api-inference-extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension)**: Gateway API Inference Extension. ![Stars](https://img.shields.io/github/stars/kubernetes-sigs/gateway-api-inference-extension.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/kubernetes-sigs/gateway-api-inference-extension?color=green) ![LastCommit](https://img.shields.io/github/last-commit/kubernetes-sigs/gateway-api-inference-extension?color=green)
 * **[Gram](https://github.com/speakeasy-api/gram)**: Open-source AI control plane for connecting agents to MCPs with role-scoped access, policy enforcement, threat detection, and observability. ![Stars](https://img.shields.io/github/stars/speakeasy-api/gram.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/speakeasy-api/gram?color=green) ![LastCommit](https://img.shields.io/github/last-commit/speakeasy-api/gram?color=green)
+* **[APIClaw](https://apiclaw.biz)**: Flat-rate OpenAI-compatible AI API gateway for Claude, GPT, Kimi, Qwen, DeepSeek, and GLM models, with multi-model routing and predictable monthly pricing.
 
 ### Output
 
