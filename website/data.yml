@@ -403,6 +403,11 @@ categories:
       homepage_url: https://github.com/fastxyz/skill-optimizer
       logo: default.png
       repo_url: https://github.com/fastxyz/skill-optimizer
+    - name: Throttle
+      description: Safe, local benchmarking for OpenAI-compatible inference endpoints
+      homepage_url: https://www.throttle-pro.com
+      logo: throttle.svg
+      repo_url: https://github.com/KushagraKanaujia/throttle
 - name: Orchestration
   subcategories:
   - name: Application Framework
