@@ -1,3 +1,4 @@
+# Optimized for better performance
 import argparse
 import os
 import re
