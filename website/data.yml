@@ -215,6 +215,14 @@ categories:
       homepage_url: https://docs.sglang.ai/ome/
       logo: ome.png
       repo_url: https://github.com/sgl-project/ome
+    - name: Self-Hosted AI Stack
+      description: 'Deploy a complete self-hosted AI stack with Docker Compose: Ollama,
+        LiteLLM, AnythingLLM, Whisper, WhisperLive, Kokoro, Embeddings, Docling and
+        MCP Gateway. Local-first, private by default, with lightweight stacks, optional
+        HTTPS and NVIDIA CUDA acceleration. Multi-arch: amd64, arm64.'
+      homepage_url: https://selfhostedaistack.com/
+      logo: default.png
+      repo_url: https://github.com/hwdsl2/self-hosted-ai-stack
   - name: Middleware
     items:
     - name: Checkpoint Engine
