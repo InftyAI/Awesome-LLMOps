@@ -268,6 +268,13 @@ categories:
       homepage_url: https://higress.ai/en/
       logo: higress.avif
       repo_url: https://github.com/alibaba/higress
+    - name: Inferrail
+      description: 'Self-hosted OpenAI/Anthropic-compatible gateway: give each AI
+        agent run a dollar budget, enforced before the provider, with a payload-free
+        per-run cost record.'
+      homepage_url: https://github.com/domondi1/inferrail
+      logo: inferrail.svg
+      repo_url: https://github.com/domondi1/inferrail
     - name: kgateway
       description: The Cloud-Native API Gateway and AI Gateway.
       homepage_url: https://kgateway.dev/
