@@ -403,6 +403,12 @@ categories:
       homepage_url: https://github.com/fastxyz/skill-optimizer
       logo: default.png
       repo_url: https://github.com/fastxyz/skill-optimizer
+    - name: Tensward
+      description: Profile and diagnose LLM serving on your own GPU. Measures your
+        vLLM setup on your real workload and suggests what to change.
+      homepage_url: https://tensward.com
+      logo: tensward.svg
+      repo_url: https://github.com/Tensward/tensward
 - name: Orchestration
   subcategories:
   - name: Application Framework
