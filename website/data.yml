@@ -1049,6 +1049,12 @@ categories:
       homepage_url: https://www.thecontextcompany.com
       logo: default.png
       repo_url: https://github.com/The-Context-Company/observatory
+    - name: OpenClaw Monitor
+      description: Free open-source monitoring dashboard for OpenClaw AI agents —
+        token usage, session tracking, 7-day trends, multi-model support
+      homepage_url: https://github.com/flik2002/openclaw-monitor#readme
+      logo: default.png
+      repo_url: https://github.com/flik2002/openclaw-monitor
     - name: OpenLLMetry
       description: Open-source observability for your LLM application, based on OpenTelemetry.
       homepage_url: https://www.traceloop.com/openllmetry
