@@ -726,6 +726,13 @@ categories:
       homepage_url: https://docs.llamaindex.ai/
       logo: llamaindex.svg
       repo_url: https://github.com/run-llama/llama_index
+    - name: Tale
+      description: Open-source project workspace for teams and AI agents. Assign tasks,
+        coordinate agents in persistent sandboxes, and review results together. Self-hosted
+        or managed cloud.
+      homepage_url: https://tale.dev
+      logo: default.png
+      repo_url: https://github.com/tale-project/tale
 - name: Runtime
   subcategories:
   - name: AI Terminal
