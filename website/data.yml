@@ -403,6 +403,13 @@ categories:
       homepage_url: https://github.com/fastxyz/skill-optimizer
       logo: default.png
       repo_url: https://github.com/fastxyz/skill-optimizer
+    - name: toolsmoke
+      description: Checks whether an OpenAI-compatible or Anthropic Messages endpoint
+        actually works for agents (tool calls, tool_choice, streamed tool-call deltas,
+        JSON schema, reasoning separation) and measures TTFT and tokens/sec.
+      homepage_url: https://blackman99.github.io/toolsmoke/
+      logo: toolsmoke.png
+      repo_url: https://github.com/Blackman99/toolsmoke
 - name: Orchestration
   subcategories:
   - name: Application Framework
