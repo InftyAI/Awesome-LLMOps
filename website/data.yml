@@ -808,6 +808,13 @@ categories:
       homepage_url: https://openmanus.github.io/
       logo: openmanus.png
       repo_url: https://github.com/mannaandpoem/OpenManus
+    - name: Tholos
+      description: Local AI assistants that run on a schedule and share tables, notes
+        and a task board, with rules that allow, ask about or deny each action. Works
+        with llama.cpp, Ollama and OpenAI-compatible servers.
+      homepage_url: https://tholos.mertkayacs.com
+      logo: tholos.svg
+      repo_url: https://github.com/mertkayacs/tholos
     - name: Tongyi Deep Research
       description: Tongyi DeepResearch, the Leading Open-source DeepResearch Agent
       homepage_url: https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/
