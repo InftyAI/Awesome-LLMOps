@@ -397,6 +397,12 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: JevOss
+      description: 'Evaluate Jev-compatible decision models: accuracy, probability
+        calibration, prompt injection, option-order sensitivity and consistency.'
+      homepage_url: https://jevoss.mertkayacs.com
+      logo: default.png
+      repo_url: https://github.com/mertkayacs/jevoss
     - name: skill-optimizer
       description: Benchmark and self-optimize SDK/CLI/MCP guidance so every agent
         model can use your tool reliably.
