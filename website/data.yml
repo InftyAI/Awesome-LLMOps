@@ -29,6 +29,14 @@ categories:
       homepage_url: https://github.com/ggerganov/llama.cpp
       logo: llamacpp.svg
       repo_url: https://github.com/ggerganov/llama.cpp
+    - name: llmash
+      description: Ollama-compatible LLM server on a tuned llama.cpp fork. Same commands,
+        API and model store as Ollama, up to 4x Ollama's decode speed and 2.8x vLLM's
+        in our benchmarks, from custom CUDA kernels, MTP speculation and its own 3-bit
+        builds. Uncensors models in one command. Windows and Linux, NVIDIA.
+      homepage_url: https://github.com/omgitsbase/llmash
+      logo: llmash.png
+      repo_url: https://github.com/omgitsbase/llmash
     - name: Llumnix
       description: Efficient and easy multi-instance LLM serving.
       homepage_url: https://github.com/AlibabaPAI/llumnix
