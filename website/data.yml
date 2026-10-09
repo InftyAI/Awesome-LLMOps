@@ -874,6 +874,13 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: Impri
+      description: Approval inbox for AI agents. Agents propose actions via MCP or
+        REST, a human approves/edits/rejects from web, Slack, Telegram or phone.
+        Open-core MIT, self-hostable.
+      homepage_url: https://impri.dev
+      logo: impri.png
+      repo_url: https://github.com/sekera-radim/impri
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
