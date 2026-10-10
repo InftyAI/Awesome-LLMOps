@@ -8,6 +8,14 @@ categories:
       homepage_url: https://cortex.so
       logo: cortex-cpp.svg
       repo_url: https://github.com/janhq/cortex.cpp
+    - name: deepseek-v4-flash-0731-in-c
+      description: 'Run the native 284B-A13B DeepSeek-V4-Flash-0731 LLM locally on
+        a single laptop CPU: pure C, 8 GB RAM minimum, no GPU, best TPOT 0.892 s/token.
+        ｜ 在笔记本单颗 CPU 上本地运行原生 284B-A13B DeepSeek-V4-Flash-0731 大模型：纯 C，最低 8 GB 内存，无需
+        GPU，最优 TPOT 0.892 秒/token。'
+      homepage_url: https://github.com/shyringo/deepseek-v4-flash-0731-in-c
+      logo: default.png
+      repo_url: https://github.com/shyringo/deepseek-v4-flash-0731-in-c
     - name: DeepSpeed-MII
       description: MII makes low-latency and high-throughput inference possible, powered
         by DeepSpeed.
