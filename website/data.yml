@@ -859,6 +859,12 @@ categories:
       homepage_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
       logo: default.png
       repo_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
+    - name: AICostBudget AI API Pricing Dataset
+      description: AI API pricing dataset for OpenAI, Anthropic Claude, Google Gemini,
+        xAI, DeepSeek, Mistral AI, and Cohere. JSON & CSV with official pricing sources.
+      homepage_url: https://aicostbudget.com/en/datasets/ai-api-pricing
+      logo: default.png
+      repo_url: https://github.com/aicostbudget/ai-api-pricing-data
     - name: Beads
       description: Beads - A memory upgrade for your coding agent
       homepage_url: https://github.com/steveyegge/beads
