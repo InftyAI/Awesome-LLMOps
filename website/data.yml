@@ -278,6 +278,13 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: Unified AI System
+      description: 'Public Preview: self-hosted, protocol-first AI gateway and agent
+        control plane for OpenAI, Anthropic, Gemini, MCP and A2A — governed tools,
+        virtual-key budgets, cache and audit; zero-key first run.'
+      homepage_url: https://happy520ai.github.io/unified-ai-system/
+      logo: unified-ai-system.png
+      repo_url: https://github.com/happy520ai/unified-ai-system
   - name: LLM Router
     items:
     - name: AI Gateway
