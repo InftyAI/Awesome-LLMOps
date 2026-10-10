@@ -379,6 +379,12 @@ categories:
       repo_url: https://github.com/microsoft/vidur
   - name: Benchmark
     items:
+    - name: EvalPort
+      description: EvalPort — The Open LLM Evaluation Standard. Portable test cases,
+        graders, suites, and results across DeepEval, Promptfoo, Inspect AI, and more.
+      homepage_url: https://github.com/adhabnr-ux/evalport
+      logo: default.png
+      repo_url: https://github.com/adhabnr-ux/evalport
     - name: genai-bench
       description: Genai-bench is a powerful benchmark tool designed for comprehensive
         token-level performance evaluation of large language model (LLM) serving systems.
