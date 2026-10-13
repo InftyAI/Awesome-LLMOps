@@ -296,6 +296,7 @@
 
 * **[Daytona](https://github.com/daytonaio/daytona)**: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. ![Stars](https://img.shields.io/github/stars/daytonaio/daytona.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/daytonaio/daytona?color=green) ![LastCommit](https://img.shields.io/github/last-commit/daytonaio/daytona?color=green)
 * **[E2B](https://github.com/e2b-dev/E2B)**: Secure open source cloud runtime for AI apps & AI agents. ![Stars](https://img.shields.io/github/stars/e2b-dev/E2B.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/e2b-dev/E2B?color=green) ![LastCommit](https://img.shields.io/github/last-commit/e2b-dev/E2B?color=green)
+* **[Lizard Sandboxes](https://github.com/lizard-build/lizard-sdk)**: Lizard SDK for TypeScript and Python. Boot Lizard Sandboxes, Firecracker microVMs for AI agents, then run commands, read and write files, open HTTPS ports, pause, resume and snapshot. Docs: https://lizard.build/docs/sandboxes ![Stars](https://img.shields.io/github/stars/lizard-build/lizard-sdk.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/lizard-build/lizard-sdk?color=green) ![LastCommit](https://img.shields.io/github/last-commit/lizard-build/lizard-sdk?color=green)
 
 ### Observation
 
