@@ -278,6 +278,14 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: Quilzo
+      description: 'The control plane for AI agents: identity, policy, budgets, human
+        approval and signed receipts for every agent, plus an MCP gateway, RAG chatbots,
+        AI Act and ISO 42001 evidence, a security console and a CMS. One Go binary,
+        no dependencies.'
+      homepage_url: https://quilzo.github.io
+      logo: quilzo.svg
+      repo_url: https://github.com/quilzo/quilzo
   - name: LLM Router
     items:
     - name: AI Gateway
