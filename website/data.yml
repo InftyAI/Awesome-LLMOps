@@ -233,6 +233,12 @@ categories:
       homepage_url: https://lmcache.ai/
       logo: lmcache.png
       repo_url: https://github.com/LMCache/LMCache
+    - name: SteerPlane
+      description: The safety layer for the AGI era. Runtime guardrails for autonomous
+        AI agents.
+      homepage_url: https://www.steerplane.com
+      logo: steerplane.jpg
+      repo_url: https://github.com/vijaym2k6/SteerPlane
   - name: AI Gateway
     items:
     - name: agentgateway
