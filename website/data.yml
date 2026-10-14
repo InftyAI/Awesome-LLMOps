@@ -278,6 +278,12 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: Spendline
+      description: 'Spendline hosted MCP server: docs and registry descriptor for
+        the AI spend governance proxy'
+      homepage_url: https://www.spendline.ai
+      logo: default.png
+      repo_url: https://github.com/Spendline/spendline-mcp-server
   - name: LLM Router
     items:
     - name: AI Gateway
