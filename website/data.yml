@@ -1071,7 +1071,7 @@ categories:
     - name: Rius
       description: OpenTelemetry-native agent observability by GlassFlow. Traces every
         LLM call, tool call and agent step, with cost per call, alerts, and Claude Code
-        / Codex / Cursor session tracing.
+        session tracing (Codex and Cursor in beta).
       homepage_url: https://www.glassflow.ai/rius
       logo: default.png
       repo_url: https://github.com/glassflow/rius-sdk-python
