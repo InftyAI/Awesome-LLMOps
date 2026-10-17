@@ -1025,6 +1025,11 @@ categories:
       repo_url: https://github.com/weaviate/weaviate
   - name: Sandbox
     items:
+    - name: CubeSandbox
+      description: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
+      homepage_url: https://cubesandbox.com
+      logo: cubesandbox.png
+      repo_url: https://github.com/TencentCloud/CubeSandbox
     - name: Daytona
       description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
         Code.
@@ -1036,6 +1041,28 @@ categories:
       homepage_url: https://e2b.dev/docs
       logo: e2b.png
       repo_url: https://github.com/e2b-dev/E2B
+    - name: microsandbox
+      description: Easy, fast, programmable and local-first microVM runtime and
+        library.
+      homepage_url: https://docs.microsandbox.dev
+      logo: microsandbox.png
+      repo_url: https://github.com/superradcompany/microsandbox
+    - name: MXC
+      description: Policy-driven, layered isolation and containment.
+      homepage_url: https://github.com/microsoft/mxc
+      logo: mxc.png
+      repo_url: https://github.com/microsoft/mxc
+    - name: OpenSandbox
+      description: Secure, Fast, and Extensible Sandbox runtime for AI agents.
+      homepage_url: https://open-sandbox.ai
+      logo: opensandbox.png
+      repo_url: https://github.com/opensandbox-group/OpenSandbox
+    - name: SPACE
+      description: 'Sandboxed Platform for Agentic Code Execution: pluggable-runtime
+        sandboxes for running agent and user code in isolation.'
+      homepage_url: https://github.com/perplexityai/SPACE
+      logo: space.png
+      repo_url: https://github.com/perplexityai/SPACE
   - name: Observation
     items:
     - name: ClawMetry
