@@ -347,6 +347,11 @@ categories:
       homepage_url: https://vllm-semantic-router.com/
       logo: vllm.png
       repo_url: https://github.com/vllm-project/semantic-router
+    - name: Weave Router
+      description: "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change."
+      homepage_url: https://weaveos.com/products/router
+      logo: weave-router.svg
+      repo_url: https://github.com/weave-os/router
   - name: Output
     items:
     - name: BAML
