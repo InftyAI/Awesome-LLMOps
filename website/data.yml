@@ -547,6 +547,13 @@ categories:
       homepage_url: https://www.crewai.com/
       logo: crewai.svg
       repo_url: https://github.com/crewAIInc/crewAI
+    - name: CUGA
+      description: CUGA is an open-source generalist agent harness for the enterprise,
+        supporting complex task execution on web and APIs, OpenAPI/MCP integrations,
+        composable architecture, reasoning modes, and policy-aware features.
+      homepage_url: https://cuga.dev
+      logo: cuga.png
+      repo_url: https://github.com/cuga-project/cuga-agent
     - name: fast-agent
       description: Define, Prompt and Test MCP enabled Agents and Workflows
       homepage_url: https://github.com/evalstate/fast-agent
@@ -1042,8 +1049,7 @@ categories:
       logo: e2b.png
       repo_url: https://github.com/e2b-dev/E2B
     - name: microsandbox
-      description: Easy, fast, programmable and local-first microVM runtime and
-        library.
+      description: Easy, fast, programmable and local-first microVM runtime and library.
       homepage_url: https://docs.microsandbox.dev
       logo: microsandbox.png
       repo_url: https://github.com/superradcompany/microsandbox
