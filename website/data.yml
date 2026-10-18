@@ -1071,6 +1071,13 @@ categories:
       repo_url: https://github.com/perplexityai/SPACE
   - name: Observation
     items:
+    - name: agent-chain-doctor
+      description: 'Read-only diagnostic for scheduled AI-agent chains: 30 checks
+        for the ways an unattended agent stops silently, plus a missed-run alarm for
+        Claude Code routines and scheduled tasks. One shell file, no dependencies.'
+      homepage_url: https://elfovo.github.io/agent-chain-doctor/
+      logo: default.png
+      repo_url: https://github.com/elfovo/agent-chain-doctor
     - name: ClawMetry
       description: Self-hosted observability for coding agents. Reads the session
         logs runtimes already write on disk, so there is no SDK and nothing in the
