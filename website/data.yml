@@ -379,6 +379,12 @@ categories:
       repo_url: https://github.com/microsoft/vidur
   - name: Benchmark
     items:
+    - name: EvalShift
+      description: Open-source LLM migration and regression testing for AI agents.
+        Compare models, detect tool-call regressions, and gate model changes in CI.
+      homepage_url: https://www.evalshift.dev
+      logo: evalshift.png
+      repo_url: https://github.com/evalshift/evalshift-cli
     - name: genai-bench
       description: Genai-bench is a powerful benchmark tool designed for comprehensive
         token-level performance evaluation of large language model (LLM) serving systems.
