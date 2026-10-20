@@ -209,6 +209,11 @@ categories:
       homepage_url: https://kvcache.ai/repo/mooncake
       logo: mooncake.png
       repo_url: https://github.com/kvcache-ai/Mooncake
+    - name: Narwhal
+      description: Adaptive Disaggregated Inference on a Role-free Fleet!
+      homepage_url: https://athrael-soju.github.io/Narwhal/
+      logo: narwhal.png
+      repo_url: https://github.com/athrael-soju/Narwhal
     - name: OME
       description: OME is a Kubernetes operator for enterprise-grade management and
         serving of Large Language Models (LLMs)
