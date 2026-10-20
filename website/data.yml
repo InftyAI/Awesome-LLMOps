@@ -379,6 +379,14 @@ categories:
       repo_url: https://github.com/microsoft/vidur
   - name: Benchmark
     items:
+    - name: Decision Models as Guardrails
+      description: Can a decision model replace your guardrail? Open benchmark of
+        19 systems (Jev, Clef, Strands Deciders, the Perplexity and OpenAI Decisions
+        APIs, Bedrock Guardrails) on the same 9,975 checks, scored on accuracy and
+        cost.
+      homepage_url: https://dm-as-guardrails.raxitlabs.com
+      logo: default.png
+      repo_url: https://github.com/raxITlabs/decision-models-as-guardrails
     - name: genai-bench
       description: Genai-bench is a powerful benchmark tool designed for comprehensive
         token-level performance evaluation of large language model (LLM) serving systems.
