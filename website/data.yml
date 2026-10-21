@@ -896,6 +896,12 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: LLMSlim
+      description: 'The context layer for production AI agents: local-first context
+        planning, compression and runtime for LLM apps.'
+      homepage_url: https://www.llmslim.app
+      logo: llmslim.png
+      repo_url: https://github.com/Thanatos9404/llmslim
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
