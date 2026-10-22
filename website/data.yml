@@ -1115,6 +1115,13 @@ categories:
       homepage_url: https://www.traceloop.com/openllmetry
       logo: openllmetry.png
       repo_url: https://github.com/traceloop/openllmetry
+    - name: Rius
+      description: OpenTelemetry-native agent observability by GlassFlow. Traces every
+        LLM call, tool call and agent step, with cost per call, alerts, and Claude Code
+        session tracing (Codex and Cursor in beta).
+      homepage_url: https://www.glassflow.ai/rius
+      logo: default.png
+      repo_url: https://github.com/glassflow/rius-sdk-python
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
