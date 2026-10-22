@@ -851,8 +851,8 @@ categories:
       repo_url: https://github.com/langchain-ai/open-swe
     - name: Orbi
       description: 'Open-source (AGPL-3.0), self-hostable coding agent for GitHub:
-        label an Issue and it implements the change, runs tests, opens a PR, and merges
-        after a separate AI review.'
+        label an Issue ai-ready and it implements the change, runs tests, opens a PR,
+        and merges once a separate AI review and CI pass.'
       homepage_url: https://orbi.build/?ref=dir-awesome-llmops
       logo: orbi.png
       repo_url: https://github.com/orbi-build/orbi
