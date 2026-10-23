@@ -365,6 +365,13 @@ categories:
       homepage_url: https://dottxt-ai.github.io/outlines/
       logo: outlines.png
       repo_url: https://github.com/dottxt-ai/outlines
+    - name: solvi
+      description: 'A runtime where decision models propose and your code decides:
+        typed questions, hard rules, quotes checked against the text, escalation with
+        a guaranteed error budget, replayable traces. Works with any System One model.'
+      homepage_url: https://solvi-ai.github.io/solvi/
+      logo: default.png
+      repo_url: https://github.com/solvi-ai/solvi
     - name: XGrammar
       description: Fast, Flexible and Portable Structured Generation
       homepage_url: https://xgrammar.mlc.ai/docs/
@@ -851,8 +858,8 @@ categories:
       repo_url: https://github.com/langchain-ai/open-swe
     - name: Orbi
       description: 'Open-source (AGPL-3.0), self-hostable coding agent for GitHub:
-        label an Issue ai-ready and it implements the change, runs tests, opens a PR,
-        and merges once a separate AI review and CI pass.'
+        label an Issue ai-ready and it implements the change, runs tests, opens a
+        PR, and merges once a separate AI review and CI pass.'
       homepage_url: https://orbi.build/?ref=dir-awesome-llmops
       logo: orbi.png
       repo_url: https://github.com/orbi-build/orbi
@@ -1124,8 +1131,8 @@ categories:
       repo_url: https://github.com/traceloop/openllmetry
     - name: Rius
       description: OpenTelemetry-native agent observability by GlassFlow. Traces every
-        LLM call, tool call and agent step, with cost per call, alerts, and Claude Code
-        session tracing (Codex and Cursor in beta).
+        LLM call, tool call and agent step, with cost per call, alerts, and Claude
+        Code session tracing (Codex and Cursor in beta).
       homepage_url: https://www.glassflow.ai/rius
       logo: default.png
       repo_url: https://github.com/glassflow/rius-sdk-python
