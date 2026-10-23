@@ -35,15 +35,11 @@ grid_items_size: large
 groups:
   - name: ALL PROJECTS
     categories:
-      - GPU
       - Inference
       - Orchestration
       - Runtime
+      - Sandbox
       - Training
-  - name: GPU
-    categories:
-      - Management
-      - Scheduling
   - name: Inference
     categories:
       - Inference Engine
@@ -66,6 +62,7 @@ groups:
       - Development Environment
       - Evaluation
       - Observation
+      - Sandbox
   - name: Training
     categories:
       - Framework
