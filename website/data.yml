@@ -278,6 +278,12 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: relay-failover
+      description: 多中转站自动故障转移代理：把多个 OpenAI 兼容站点组成一个池子，上游超时或 5xx 时自动切换，客户端无感知。零依赖，Node.js
+        单文件。
+      homepage_url: https://github.com/huangjinpeng216/relay-failover
+      logo: default.png
+      repo_url: https://github.com/huangjinpeng216/relay-failover
   - name: LLM Router
     items:
     - name: AI Gateway
