@@ -330,6 +330,12 @@ categories:
       homepage_url: https://otari.ai
       logo: otari.svg
       repo_url: https://github.com/mozilla-ai/otari
+    - name: Respan Gateway
+      description: One endpoint for every LLM vendor. Any SDK, any model, any tool.
+        One Rust binary.
+      homepage_url: https://github.com/respanai/respan-gateway
+      logo: respan-gateway.svg
+      repo_url: https://github.com/respanai/respan-gateway
     - name: RouteLLM
       description: A framework for serving and evaluating LLM routers - save LLM costs
         without compromising quality.
@@ -851,8 +857,8 @@ categories:
       repo_url: https://github.com/langchain-ai/open-swe
     - name: Orbi
       description: 'Open-source (AGPL-3.0), self-hostable coding agent for GitHub:
-        label an Issue ai-ready and it implements the change, runs tests, opens a PR,
-        and merges once a separate AI review and CI pass.'
+        label an Issue ai-ready and it implements the change, runs tests, opens a
+        PR, and merges once a separate AI review and CI pass.'
       homepage_url: https://orbi.build/?ref=dir-awesome-llmops
       logo: orbi.png
       repo_url: https://github.com/orbi-build/orbi
@@ -1124,8 +1130,8 @@ categories:
       repo_url: https://github.com/traceloop/openllmetry
     - name: Rius
       description: OpenTelemetry-native agent observability by GlassFlow. Traces every
-        LLM call, tool call and agent step, with cost per call, alerts, and Claude Code
-        session tracing (Codex and Cursor in beta).
+        LLM call, tool call and agent step, with cost per call, alerts, and Claude
+        Code session tracing (Codex and Cursor in beta).
       homepage_url: https://www.glassflow.ai/rius
       logo: default.png
       repo_url: https://github.com/glassflow/rius-sdk-python
