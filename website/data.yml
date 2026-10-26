@@ -246,6 +246,13 @@ categories:
       homepage_url: https://apisix.apache.org/
       logo: apisix.png
       repo_url: https://github.com/apache/apisix
+    - name: Cognipeer Console
+      description: 'Open-source, self-hosted AI gateway and control plane: OpenAI-compatible
+        LLM routing, RAG, an MCP hub, guardrails and agent tracing for multi-tenant
+        teams.'
+      homepage_url: https://docs.cognipeer.com/console/
+      logo: default.png
+      repo_url: https://github.com/Cognipeer/console
     - name: Envoy AI Gateway
       description: Envoy AI Gateway is an open source project for using Envoy Gateway
         to handle request traffic from application clients to Generative AI services.
