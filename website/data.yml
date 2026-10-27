@@ -1142,6 +1142,12 @@ categories:
       homepage_url: https://www.glassflow.ai/rius
       logo: default.png
       repo_url: https://github.com/glassflow/rius-sdk-python
+    - name: Tracekit
+      description: 'Tamper-evident tracing, policy gates and cross-checks for AI agents:
+        see what the agent did, and why.'
+      homepage_url: https://cygnuxlabs.com/tracekit
+      logo: default.png
+      repo_url: https://github.com/Cygnux-Labs/Tracekit
     - name: wandb
       description: The AI developer platform. Use Weights & Biases to train and fine-tune
         models, and manage models from experimentation to production.
