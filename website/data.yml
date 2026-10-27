@@ -1087,7 +1087,7 @@ categories:
         microVMs for AI agents, then run commands, read and write files, open HTTPS
         ports, pause, resume and snapshot. Docs: https://lizard.build/docs/sandboxes'
       homepage_url: https://lizard.build/sandboxes
-      logo: default.png
+      logo: lizard.svg
       repo_url: https://github.com/lizard-build/lizard-sdk
     - name: microsandbox
       description: Easy, fast, programmable and local-first microVM runtime and library.
