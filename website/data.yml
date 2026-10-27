@@ -1103,6 +1103,12 @@ categories:
       homepage_url: https://github.com/perplexityai/SPACE
       logo: space.png
       repo_url: https://github.com/perplexityai/SPACE
+    - name: Tracekit Box
+      description: 'Micro-VM sandbox for AI agents: isolated, gated and auditable,
+        to prove what your agents did'
+      homepage_url: https://github.com/Cygnux-Labs/Tracekit-box
+      logo: default.png
+      repo_url: https://github.com/Cygnux-Labs/Tracekit-box
   - name: Observation
     items:
     - name: ClawMetry
