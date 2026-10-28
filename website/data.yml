@@ -543,6 +543,12 @@ categories:
       homepage_url: https://github.com/agno-agi/agno
       logo: agno.svg
       repo_url: https://github.com/agno-agi/agno
+    - name: apowerb
+      description: The open-source agentic framework to build, orchestrate, and operate
+        production AI agents.
+      homepage_url: https://docs.apowerb.com
+      logo: default.png
+      repo_url: https://github.com/apowerb/apowerb
     - name: autogen
       description: 'A programming framework for agentic AI 🤖 PyPi: autogen-agentchat
         Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour'
