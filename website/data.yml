@@ -932,6 +932,12 @@ categories:
       homepage_url: https://sidclaw.com
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
+    - name: subagent-tuner
+      description: 'Claude Code mod: picks the model and reasoning effort of every
+        subagent'
+      homepage_url: https://github.com/Kruhlikau/subagent-tuner
+      logo: default.png
+      repo_url: https://github.com/Kruhlikau/subagent-tuner
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
