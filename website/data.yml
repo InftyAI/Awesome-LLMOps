@@ -1060,6 +1060,12 @@ categories:
       repo_url: https://github.com/weaviate/weaviate
   - name: Sandbox
     items:
+    - name: AEGIS by 100monkeys.ai
+      description: AEGIS is a self-hosted orchestrator that runs autonomous agents
+        in isolated, policy-enforced runtimes with durable FSM state.
+      homepage_url: https://100monkeys.ai
+      logo: default.png
+      repo_url: https://github.com/100monkeys-ai/aegis-orchestrator
     - name: BoxLite
       description: The micro-VM for AI agents — light enough to embed on your laptop,
         elastic enough to power an agentic cloud.
