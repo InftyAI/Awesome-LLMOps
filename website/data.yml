@@ -378,6 +378,13 @@ categories:
       homepage_url: https://dottxt-ai.github.io/outlines/
       logo: outlines.png
       repo_url: https://github.com/dottxt-ai/outlines
+    - name: solvi
+      description: 'A runtime where decision models propose and your code decides:
+        typed questions, hard rules, quotes checked against the text, escalation with
+        a guaranteed error budget, replayable traces. Works with any System One model.'
+      homepage_url: https://solvi-ai.github.io/solvi/
+      logo: default.png
+      repo_url: https://github.com/solvi-ai/solvi
     - name: XGrammar
       description: Fast, Flexible and Portable Structured Generation
       homepage_url: https://xgrammar.mlc.ai/docs/
