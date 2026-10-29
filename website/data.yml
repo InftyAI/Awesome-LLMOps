@@ -349,6 +349,12 @@ categories:
       homepage_url: https://github.com/lm-sys/routellm
       logo: lmsys.png
       repo_url: https://github.com/lm-sys/routellm
+    - name: strata-router
+      description: 'conversation-sticky router in front of several Strata engines:
+        one endpoint, KV stays warm'
+      homepage_url: https://github.com/mrq1911/strata-router
+      logo: default.png
+      repo_url: https://github.com/mrq1911/strata-router
     - name: Swobu
       description: Local AI gateway for routing clients across providers, regions,
         accounts, and local models.
