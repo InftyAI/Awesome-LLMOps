@@ -418,6 +418,13 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: LLM Cost per Task
+      description: 'What one correct LLM answer really costs: 16 tasks, code-only
+        validators, bring-your-own-key runner (OpenAI, Anthropic, Gemini, DeepSeek).
+        First result: same accuracy, 9x the cost per success.'
+      homepage_url: https://github.com/aicostbudget/llm-cost-per-task-benchmark
+      logo: llm-cost-per-task.png
+      repo_url: https://github.com/aicostbudget/llm-cost-per-task-benchmark
     - name: skill-optimizer
       description: Benchmark and self-optimize SDK/CLI/MCP guidance so every agent
         model can use your tool reliably.
