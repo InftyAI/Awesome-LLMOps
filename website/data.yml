@@ -901,6 +901,12 @@ categories:
       homepage_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
       logo: default.png
       repo_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
+    - name: Aixle Flow
+      description: Aixle Flow — orchestrate coding agents through durable, inspectable
+        workflows.
+      homepage_url: https://aixle.com/labs/flow
+      logo: aixle-flow.png
+      repo_url: https://github.com/AixleHQ/flow
     - name: Beads
       description: Beads - A memory upgrade for your coding agent
       homepage_url: https://github.com/steveyegge/beads
