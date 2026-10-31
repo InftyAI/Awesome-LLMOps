@@ -1112,6 +1112,13 @@ categories:
       homepage_url: https://open-sandbox.ai
       logo: opensandbox.png
       repo_url: https://github.com/opensandbox-group/OpenSandbox
+    - name: Runtime Cloud
+      description: Firecracker microVM sandboxes for AI agents, billed on active CPU
+        ($0.025 per vCPU-hour) with no plan fee; pause and wake with memory kept, and
+        E2B/Daytona SDK-compatible.
+      homepage_url: https://withruntime.com
+      logo: runtime-cloud.png
+      repo_url: https://github.com/withruntime/runtime
     - name: SPACE
       description: 'Sandboxed Platform for Agentic Code Execution: pluggable-runtime
         sandboxes for running agent and user code in isolation.'
