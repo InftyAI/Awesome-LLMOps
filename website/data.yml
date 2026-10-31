@@ -293,6 +293,12 @@ categories:
       homepage_url: https://docs.konghq.com/gateway/latest/
       logo: kong.png
       repo_url: https://github.com/Kong/kong
+    - name: TapVow
+      description: Local spend limits for AI agents. Signed budgets, LLM calls and
+        x402 receipts. Source release; npm publication pending.
+      homepage_url: https://tapvow.com
+      logo: tapvow.png
+      repo_url: https://github.com/theluckystrike/tapvow
   - name: LLM Router
     items:
     - name: AI Gateway
