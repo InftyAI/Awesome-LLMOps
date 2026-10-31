@@ -233,6 +233,14 @@ categories:
       homepage_url: https://lmcache.ai/
       logo: lmcache.png
       repo_url: https://github.com/LMCache/LMCache
+    - name: warmctl
+      description: 'GPU checkpoint/restore for vLLM: snapshot a warmed-up engine (compiled
+        kernels, CUDA graphs, weights, 1-8 GPUs) into an OCI image and restore it
+        in seconds instead of a multi-minute cold start. Scale to zero, spot GPUs,
+        Kubernetes optional.'
+      homepage_url: https://warmctl.io
+      logo: warmctl.png
+      repo_url: https://github.com/TensorRails/warmctl
   - name: AI Gateway
     items:
     - name: agentgateway
