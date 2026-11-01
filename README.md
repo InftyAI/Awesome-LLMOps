@@ -136,6 +136,7 @@
 
 ### Simulator
 
+* **[AgentTwin](https://github.com/dataagentsai/agenttwin)**: Tests an AI agent by running it in a simulated world of customers, systems, data and faults, then checking what changed in that world, not just what the agent said. ![Stars](https://img.shields.io/github/stars/dataagentsai/agenttwin.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/dataagentsai/agenttwin?color=green) ![LastCommit](https://img.shields.io/github/last-commit/dataagentsai/agenttwin?color=green)
 * **[Vidur](https://github.com/microsoft/vidur)**: A large-scale simulation framework for LLM inference ![Stars](https://img.shields.io/github/stars/microsoft/vidur.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/vidur?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/vidur?color=green)
 
 ### Benchmark
