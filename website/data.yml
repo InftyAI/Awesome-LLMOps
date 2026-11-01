@@ -833,6 +833,12 @@ categories:
       homepage_url: https://block.github.io/goose/
       logo: goose
       repo_url: https://github.com/block/goose
+    - name: Kwant
+      description: Self-hosted team of AI agents in one Rust binary with @mention
+        handoffs, scheduled routines, approval prompts, and spaces.
+      homepage_url: https://kwant.si
+      logo: kwant.svg
+      repo_url: https://github.com/alexsergivan/kwant
     - name: Magentic-UI
       description: A research prototype of a human-centered web agent
       homepage_url: https://www.microsoft.com/en-us/research/blog/magentic-ui-an-experimental-human-centered-web-agent/
