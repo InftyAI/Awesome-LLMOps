@@ -569,6 +569,12 @@ categories:
       homepage_url: https://www.camel-ai.org/
       logo: camel.png
       repo_url: https://github.com/camel-ai/camel
+    - name: Cognipeer Agent SDK
+      description: Lightweight, message-first TypeScript agent runtime with planning,
+        sub-agents, human-in-the-loop approvals, MCP tools and OpenTelemetry tracing.
+      homepage_url: https://docs.cognipeer.com/agent-sdk/
+      logo: default.png
+      repo_url: https://github.com/Cognipeer/agent-sdk
     - name: crewAI
       description: Framework for orchestrating role-playing, autonomous AI agents.
         By fostering collaborative intelligence, CrewAI empowers agents to work together
