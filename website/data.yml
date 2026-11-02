@@ -1157,6 +1157,14 @@ categories:
       homepage_url: https://latitude.so
       logo: default.png
       repo_url: https://github.com/latitude-dev/latitude-llm
+    - name: LLMBrake
+      description: Per-customer monthly dollar budgets for OpenAI-compatible chat
+        completion calls. A TypeScript library (MIT, zero dependencies) that prices
+        each call from token usage, switches to a cheaper model near the cap and blocks
+        at the cap.
+      homepage_url: https://llmbrake.com
+      logo: llmbrake.svg
+      repo_url: https://github.com/llmbrake/llmbrake
     - name: Observatory
       description: Open-source TypeScript and Python SDKs for instrumenting AI agents
         and analyzing production runs, traces, sessions, feedback, and recurring patterns.
