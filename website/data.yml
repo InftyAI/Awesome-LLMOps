@@ -812,6 +812,15 @@ categories:
       homepage_url: https://github.com/google-gemini/gemini-cli
       logo: gemini-cli
       repo_url: https://github.com/google-gemini/gemini-cli
+    - name: Mercury CLI
+      description: Open-source terminal coding agent for macOS, Linux and Windows
+        with parallel sessions, isolated git worktree crewmates, 22 model providers,
+        project memory, LSP, and a DAP debugger.
+      homepage_url: https://mercury-cli.ai
+      logo: default.png
+      repo_url: https://github.com/Whq02/MercuryCLI
+      tags:
+      - coding
     - name: OpenCode
       description: The AI coding agent built for the terminal.
       homepage_url: https://opencode.ai/
