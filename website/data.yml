@@ -889,6 +889,14 @@ categories:
       homepage_url: https://orbi.build/?ref=dir-awesome-llmops
       logo: orbi.png
       repo_url: https://github.com/orbi-build/orbi
+    - name: Sno Station
+      description: 'When Claude Code hits its usage limit, Codex picks the task up
+        from the same memory. Sno Station puts Codex, Claude Code, Cursor, Hermes
+        Agent and OpenClaw on one squad: they hand work to each other and review each
+        other''s code. Open source, runs on your computer.'
+      homepage_url: https://sno.ai
+      logo: default.png
+      repo_url: https://github.com/sno-ai/sno-station
     - name: SWE-agent
       description: 'SWE-agent takes a GitHub issue and tries to automatically fix
         it, using your LM of choice. It can also be employed for offensive cybersecurity
