@@ -652,6 +652,11 @@ categories:
       repo_url: https://github.com/openai/swarm
       tags:
       - experimental
+    - name: theloop
+      description: The agent loop as a stateless HTTP service
+      homepage_url: https://theloopengine.com
+      logo: theloop.png
+      repo_url: https://github.com/paveler/theloop
   - name: Evolutionary Framework
     items:
     - name: AI-Researcher
