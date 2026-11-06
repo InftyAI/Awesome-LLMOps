@@ -398,6 +398,13 @@ categories:
       homepage_url: https://github.com/microsoft/vidur
       logo: microsoft.png
       repo_url: https://github.com/microsoft/vidur
+    - name: vllm-headroom
+      description: How much more traffic can your vLLM server take before it breaks
+        its latency SLO? Profile in ~3 minutes, simulate continuous batching, get
+        headroom with uncertainty and a backtest.
+      homepage_url: https://haochen2049.github.io/vllm-headroom/
+      logo: default.png
+      repo_url: https://github.com/haochen2049/vllm-headroom
   - name: Benchmark
     items:
     - name: Decision Models as Guardrails
