@@ -1195,6 +1195,14 @@ categories:
       homepage_url: https://wandb.ai
       logo: wandb.png
       repo_url: https://github.com/wandb/wandb
+    - name: Spend Brake
+      description: Self-hostable egress proxy that enforces hard dollar caps on the
+        paid APIs agents call (search, maps, SMS, custom APIs), refusing a call with
+        402 once a cap per key, agent or session would be crossed; loop detection,
+        kill switch, Prometheus metrics and OpenTelemetry spans.
+      homepage_url: https://spendbrake.dev
+      logo: default.png
+      repo_url: https://github.com/KIvanow/spend-brake
 - name: Training
   subcategories:
   - name: Framework
