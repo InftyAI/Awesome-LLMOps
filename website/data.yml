@@ -774,6 +774,13 @@ categories:
       homepage_url: https://docs.llamaindex.ai/
       logo: llamaindex.svg
       repo_url: https://github.com/run-llama/llama_index
+    - name: rewindable
+      description: 'Crash-proof, resumable, rewindable AI agent workflows. Every model
+        call and tool call is a journaled step: resume after a crash without paying
+        twice, pause for human approval, rewind to any step.'
+      homepage_url: https://github.com/milad-ahmd/rewindable
+      logo: default.png
+      repo_url: https://github.com/milad-ahmd/rewindable
     - name: Tale
       description: Open-source project workspace for teams and AI agents. Assign tasks,
         coordinate agents in persistent sandboxes, and review results together. Self-hosted
