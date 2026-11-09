@@ -20,8 +20,8 @@ categories:
       logo: intel.png
       repo_url: https://github.com/intel-analytics/ipex-llm
     - name: Kapitsa
-      description: Native C++ LLM inference engine for Apple silicon (Metal kernels and
-        the Neural Engine) with OpenAI- and Anthropic-compatible APIs.
+      description: Native C++ LLM inference engine for Apple silicon (Metal kernels
+        and the Neural Engine) with OpenAI- and Anthropic-compatible APIs.
       homepage_url: https://github.com/nace-ai/kapitsa
       logo: kapitsa.svg
       repo_url: https://github.com/nace-ai/kapitsa
@@ -935,6 +935,14 @@ categories:
       homepage_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
       logo: default.png
       repo_url: https://github.com/wrightops-ai/agent-ready-repo-auditor
+    - name: AICostBudget AI API Pricing Dataset
+      description: 'LLM & AI API pricing data as JSON, CSV and a free static API:
+        input, output, cached and batch prices for OpenAI, Claude, Gemini, Grok, DeepSeek,
+        Mistral, Qwen, Kimi and more. Every price source-linked and dated, with history.
+        npm package + MCP server.'
+      homepage_url: https://aicostbudget.com/en/datasets/ai-api-pricing
+      logo: default.png
+      repo_url: https://github.com/aicostbudget/ai-api-pricing-data
     - name: Aixle Flow
       description: Aixle Flow — orchestrate coding agents through durable, inspectable
         workflows.
