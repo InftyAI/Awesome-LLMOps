@@ -138,6 +138,7 @@
 ### Simulator
 
 * **[Vidur](https://github.com/microsoft/vidur)**: A large-scale simulation framework for LLM inference ![Stars](https://img.shields.io/github/stars/microsoft/vidur.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/microsoft/vidur?color=green) ![LastCommit](https://img.shields.io/github/last-commit/microsoft/vidur?color=green)
+* **[vllm-headroom](https://github.com/haochen2049/vllm-headroom)**: How much more traffic can your vLLM server take before it breaks its latency SLO? Profile in ~3 minutes, simulate continuous batching, get headroom with uncertainty and a backtest. ![Stars](https://img.shields.io/github/stars/haochen2049/vllm-headroom.svg?style=flat&color=green) ![Contributors](https://img.shields.io/github/contributors/haochen2049/vllm-headroom?color=green) ![LastCommit](https://img.shields.io/github/last-commit/haochen2049/vllm-headroom?color=green)
 
 ### Benchmark
 
