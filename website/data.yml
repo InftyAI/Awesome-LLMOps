@@ -1178,6 +1178,14 @@ categories:
       homepage_url: https://latitude.so
       logo: default.png
       repo_url: https://github.com/latitude-dev/latitude-llm
+    - name: LEEVAR Battery
+      description: 'Reliability battery for AI agents: grades conversation transcripts on 18 tests
+        across six dimensions, locally against a judge model you configure or in CI as a
+        GitHub Action. Tests the transcript cannot evidence are reported NOT TESTED, and
+        no letter grade is issued when two thirds or fewer have evidence.'
+      homepage_url: https://github.com/forevercrab321-svg/leevar-battery
+      logo: default.png
+      repo_url: https://github.com/forevercrab321-svg/leevar-battery
     - name: Observatory
       description: Open-source TypeScript and Python SDKs for instrumenting AI agents
         and analyzing production runs, traces, sessions, feedback, and recurring patterns.
