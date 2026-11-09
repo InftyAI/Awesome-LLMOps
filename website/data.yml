@@ -20,8 +20,8 @@ categories:
       logo: intel.png
       repo_url: https://github.com/intel-analytics/ipex-llm
     - name: Kapitsa
-      description: Native C++ LLM inference engine for Apple silicon (Metal kernels and
-        the Neural Engine) with OpenAI- and Anthropic-compatible APIs.
+      description: Native C++ LLM inference engine for Apple silicon (Metal kernels
+        and the Neural Engine) with OpenAI- and Anthropic-compatible APIs.
       homepage_url: https://github.com/nace-ai/kapitsa
       logo: kapitsa.svg
       repo_url: https://github.com/nace-ai/kapitsa
@@ -972,6 +972,13 @@ categories:
       homepage_url: https://sidclaw.com
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
+    - name: Vulnify MCP
+      description: 'MCP server for Vulnify: MCP clients such as Claude and Cursor
+        check an agent action and get ALLOW, REVIEW or BLOCK. Hosted at mcp.vulnify.io
+        with OAuth, or run locally over stdio.'
+      homepage_url: https://docs.vulnify.io
+      logo: vulnify-mcp.png
+      repo_url: https://github.com/vulnify/vulnify-mcp
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
