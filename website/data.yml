@@ -956,6 +956,13 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: Imagera MCP
+      description: 'Remote MCP server for Imagera: agents generate and edit images, video,
+        voice and music, with a cost estimate before each run. Hosted at mcp.imagera.ai
+        with OAuth.'
+      homepage_url: https://imagera.ai/mcp
+      logo: imagera-mcp.png
+      repo_url: https://github.com/alexadams6ix/imagera-skills
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
