@@ -462,6 +462,12 @@ categories:
       homepage_url: https://deepeval.com/
       logo: deepeval
       repo_url: https://github.com/confident-ai/deepeval
+    - name: drift-ci
+      description: Block merges when your LLM app's behaviour regresses. Behaviour
+        regression testing for LLM applications — baselines as code, CI-native.
+      homepage_url: https://drift-ci.com
+      logo: drift-ci.png
+      repo_url: https://github.com/Drift-CI/drift-ci
     - name: Evidently
       description: Evidently is ​​an open-source ML and LLM observability framework.
         Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular
