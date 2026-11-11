@@ -956,6 +956,12 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: Lantern Works
+      description: Read-only MCP for GPU rental price comparison across tracked
+        providers, with cited rates, each price's age, and job-cost estimates.
+      homepage_url: https://thelanternworks.com/for-agents/?ref=gh-inftyllmops
+      logo: default.png
+      repo_url: https://github.com/connormatthewdouglas/agent-work-stack-deals
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
