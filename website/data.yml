@@ -951,6 +951,11 @@ categories:
       homepage_url: https://browser-use.com
       logo: browser-use.svg
       repo_url: https://github.com/browser-use/browser-use
+    - name: CloudGPU MCP
+      description: MCP server for quoting, renting and shutting down per-minute cloud GPUs, running bounded jobs, and listing models on an OpenAI-compatible API.
+      homepage_url: https://cloudgpu.app/docs/mcp
+      logo: default.png
+      repo_url: https://github.com/mrhy7176/cloudgpu-mcp
     - name: Graphiti
       description: Build real-time knowledge graphs for AI agents.
       homepage_url: https://help.getzep.com/graphiti
