@@ -951,6 +951,13 @@ categories:
       homepage_url: https://browser-use.com
       logo: browser-use.svg
       repo_url: https://github.com/browser-use/browser-use
+    - name: Call4Agents
+      description: 'Stop AI agents repeating actions after a crash: approved tool
+        calls run at most once. Python, no dependencies. Works with LangGraph, Pydantic
+        AI, the OpenAI Agents SDK, MCP and plain Python.'
+      homepage_url: https://salahmakboul.github.io/call4agents/
+      logo: default.png
+      repo_url: https://github.com/salahmakboul/call4agents
     - name: Graphiti
       description: Build real-time knowledge graphs for AI agents.
       homepage_url: https://help.getzep.com/graphiti
