@@ -1074,6 +1074,12 @@ categories:
       homepage_url: https://www.trychroma.com/
       logo: chroma.png
       repo_url: https://github.com/chroma-core/chroma
+    - name: ClickHouse Loom
+      description: Data plane for AI agents with shared memory, document search and
+        code intelligence. Plugins for Claude Code and Codex, an MCP server and SDKs.
+      homepage_url: https://github.com/ClickHouse/loom/blob/main/docs/index.md
+      logo: clickhouse-loom.png
+      repo_url: https://github.com/ClickHouse/loom
     - name: Deeplake
       description: Database for AI. Store Vectors, Images, Texts, Videos, etc. Use
         with LLMs/LangChain. Store, query, version, & visualize any AI data. Stream
