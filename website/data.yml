@@ -927,6 +927,12 @@ categories:
       homepage_url: https://evoagentx.github.io/EvoAgentX/
       logo: evoagentx
       repo_url: https://github.com/EvoAgentX/EvoAgentX
+    - name: improvemyagent
+      description: Stop telling your agent the same thing twice. Turns the corrections
+        you keep repeating into AGENTS.md rules.
+      homepage_url: https://improvemyagent.com
+      logo: default.png
+      repo_url: https://github.com/AgnostAI/improvemyagent
   - name: Tool
     items:
     - name: Agent-Ready Repository Auditor
