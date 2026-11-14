@@ -289,6 +289,12 @@ categories:
       homepage_url: https://higress.ai/en/
       logo: higress.avif
       repo_url: https://github.com/alibaba/higress
+    - name: Kaeso
+      description: Self-hosted AI gateway in Rust with OpenAI- and Anthropic-compatible
+        APIs, SSO, budgets and request logs.
+      homepage_url: https://kaeso.app
+      logo: default.png
+      repo_url: https://github.com/logicplanes/kaeso
     - name: kgateway
       description: The Cloud-Native API Gateway and AI Gateway.
       homepage_url: https://kgateway.dev/
