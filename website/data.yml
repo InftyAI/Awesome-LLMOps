@@ -956,6 +956,13 @@ categories:
       homepage_url: https://help.getzep.com/graphiti
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
+    - name: json-schema-for-llms
+      description: Turn JSON larger than an LLM context window into a JSON Schema
+        of a few hundred tokens, with real examples and counts; merge schemas and
+        check new documents against them without a model call.
+      homepage_url: https://www.npmjs.com/package/json-schema-for-llms
+      logo: default.png
+      repo_url: https://github.com/carmenaresearch/json-schema-for-llms
     - name: Mem0
       description: The memory layer for AI agents.
       homepage_url: https://mem0.ai/research
