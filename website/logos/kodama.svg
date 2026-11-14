@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Kodama</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14423A"/>
+      <stop offset="1" stop-color="#0B2A2C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7BE0A0" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7BE0A0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.55" stop-color="#F3F7F2"/>
+      <stop offset="1" stop-color="#DDEBE3"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="256" cy="262" r="224" fill="url(#glow)"/>
+  <ellipse cx="256" cy="447" rx="104" ry="12" fill="#061A1B" opacity="0.35"/>
+  <g transform="rotate(-5 256 280)">
+    <path d="M256 108V80" fill="none" stroke="#6FD08C" stroke-width="8" stroke-linecap="round"/>
+    <path d="M256 84C235 84 220 71 218 51C240 51 255 63 256 84Z" fill="#6FD08C"/>
+    <path d="M256 84C279 84 296 69 298 46C274 46 257 61 256 84Z" fill="#00ADD8"/>
+    <ellipse cx="212" cy="428" rx="28" ry="13" fill="#D3E4DA"/>
+    <ellipse cx="300" cy="428" rx="28" ry="13" fill="#D3E4DA"/>
+    <ellipse cx="150" cy="352" rx="22" ry="14" transform="rotate(-28 150 352)" fill="#F3F7F2"/>
+    <ellipse cx="362" cy="352" rx="22" ry="14" transform="rotate(28 362 352)" fill="#F3F7F2"/>
+    <circle cx="162" cy="146" r="32" fill="#F3F7F2"/>
+    <circle cx="350" cy="146" r="32" fill="#F3F7F2"/>
+    <path d="M256 104C334 104 388 158 388 224C388 262 372 290 352 310C362 338 366 362 360 384C354 414 316 430 256 430C196 430 158 414 152 384C146 362 150 338 160 310C140 290 124 262 124 224C124 158 178 104 256 104Z" fill="url(#body)"/>
+    <ellipse cx="206" cy="222" rx="28" ry="32" fill="#0E2C2A"/>
+    <ellipse cx="308" cy="218" rx="22" ry="26" fill="#0E2C2A"/>
+    <circle cx="216" cy="210" r="6.5" fill="#F3F7F2"/>
+    <circle cx="315" cy="208" r="5" fill="#F3F7F2"/>
+    <ellipse cx="258" cy="285" rx="18" ry="15" fill="#0E2C2A"/>
+    <rect x="248" y="271" width="8.5" height="16" rx="2.5" fill="#F3F7F2"/>
+    <rect x="259.5" y="271" width="8.5" height="16" rx="2.5" fill="#F3F7F2"/>
+  </g>
+</svg>

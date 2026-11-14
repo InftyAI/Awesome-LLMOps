@@ -889,6 +889,15 @@ categories:
       homepage_url: https://docs.continue.dev/
       logo: continue.png
       repo_url: https://github.com/continuedev/continue
+    - name: Kodama
+      description: API-first, multi-tenant software factory (Apache-2.0, Go) running
+        container pipelines and AI coding agents (Claude Code, OpenCode, Codex, Pi)
+        on rootless Podman 5 or Kubernetes Jobs, with PostgreSQL RLS, NATS JetStream,
+        REST/MCP edges, a model gateway, gitolite-style Git access rules, and
+        human-in-the-loop role inbox approvals.
+      homepage_url: https://github.com/optimiware/kodama
+      logo: kodama.svg
+      repo_url: https://github.com/optimiware/kodama
     - name: Open SWE
       description: An Open-Source Asynchronous Coding Agent.
       homepage_url: https://swe.langchain.com/
