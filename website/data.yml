@@ -348,7 +348,7 @@ categories:
       logo: vllm.png
       repo_url: https://github.com/vllm-project/semantic-router
     - name: Weave Router
-      description: "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change."
+      description: "Open-source model router for coding agents and LLM apps. Picks a model for each request across Anthropic, OpenAI and Gemini APIs, with streaming, tool calls and vision; hosted or self-hosted."
       homepage_url: https://weaveos.com/products/router
       logo: weave-router.svg
       repo_url: https://github.com/weave-os/router
