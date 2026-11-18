@@ -921,14 +921,6 @@ categories:
       homepage_url: https://swe-agent.com/
       logo: swe-agent.svg
       repo_url: https://github.com/SWE-agent/SWE-agent
-    - name: Switch
-      description: Self-hosted server and desktop console that run coding agents
-        such as Claude Code, Codex, Cursor and OpenCode as members of Slack, Microsoft
-        Teams, Discord, Telegram and Mattermost channels, where people and agents share
-        one room.
-      homepage_url: https://www.switchagents.ai
-      logo: default.png
-      repo_url: https://github.com/sandbox-quantum/switch
     - name: Tabby
       description: Self-hosted AI coding assistant.
       homepage_url: https://tabbyml.com
@@ -991,6 +983,14 @@ categories:
       homepage_url: https://sidclaw.com
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
+    - name: Switch
+      description: Self-hosted server and desktop console that run coding agents
+        such as Claude Code, Codex, Cursor and OpenCode as members of Slack, Microsoft
+        Teams, Discord, Telegram and Mattermost channels, where people and agents share
+        one room.
+      homepage_url: https://www.switchagents.ai
+      logo: default.png
+      repo_url: https://github.com/sandbox-quantum/switch
     - name: Vulnify MCP
       description: 'MCP server for Vulnify: MCP clients such as Claude and Cursor
         check an agent action and get ALLOW, REVIEW or BLOCK. Hosted at mcp.vulnify.io
