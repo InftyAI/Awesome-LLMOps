@@ -289,6 +289,13 @@ categories:
       homepage_url: https://higress.ai/en/
       logo: higress.avif
       repo_url: https://github.com/alibaba/higress
+    - name: Janus Edge
+      description: Self-hosted AI gateway (Elastic License 2.0, source-available) with
+        an OpenAI-compatible API, OIDC SSO, per-model grants, per-person cost metering,
+        quotas and guardrails.
+      homepage_url: https://janusedge.com
+      logo: janus-edge.png
+      repo_url: https://github.com/Torvanis/janus
     - name: Kaeso
       description: Self-hosted AI gateway in Rust with OpenAI- and Anthropic-compatible
         APIs, SSO, budgets and request logs.
