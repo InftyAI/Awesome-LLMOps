@@ -842,6 +842,12 @@ categories:
       repo_url: https://github.com/stakpak/agent
   - name: AI Agent
     items:
+    - name: 5dive
+      description: Self-hosted AI team. Claude Code, Codex and other CLI agents run
+        as Linux services, share tasks and check each other's work.
+      homepage_url: https://5dive.ai
+      logo: 5dive.png
+      repo_url: https://github.com/5dive-ai/5dive
     - name: Agent QA
       description: Open-source self-improving QA agent for software teams. A test
         harness with memory. Write tests in natural language for web and mobile. agent-qa
