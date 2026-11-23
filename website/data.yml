@@ -381,7 +381,9 @@ categories:
       logo: vllm.png
       repo_url: https://github.com/vllm-project/semantic-router
     - name: Weave Router
-      description: "Open-source model router for coding agents and LLM apps. Picks a model for each request across Anthropic, OpenAI and Gemini APIs, with streaming, tool calls and vision; hosted or self-hosted."
+      description: Open-source model router for coding agents and LLM apps. Picks
+        a model for each request across Anthropic, OpenAI and Gemini APIs, with streaming,
+        tool calls and vision; hosted or self-hosted.
       homepage_url: https://weaveos.com/products/router
       logo: weave-router.svg
       repo_url: https://github.com/weave-os/router
@@ -443,6 +445,12 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: multi-lora-bench
+      description: 'How many LoRA adapters can one 24 GB GPU serve? 39 Qwen3-8B adapters
+        on an A30 with vLLM: scripts, flags and raw results.'
+      homepage_url: https://github.com/gydeai/multi-lora-bench
+      logo: default.png
+      repo_url: https://github.com/gydeai/multi-lora-bench
     - name: skill-optimizer
       description: Benchmark and self-optimize SDK/CLI/MCP guidance so every agent
         model can use your tool reliably.
@@ -969,7 +977,9 @@ categories:
       logo: browser-use.svg
       repo_url: https://github.com/browser-use/browser-use
     - name: CloudGPU MCP
-      description: MCP server for quoting, renting and shutting down pay-as-you-go cloud GPUs with source-specific billing, running bounded jobs, and listing models on an OpenAI-compatible API.
+      description: MCP server for quoting, renting and shutting down pay-as-you-go
+        cloud GPUs with source-specific billing, running bounded jobs, and listing
+        models on an OpenAI-compatible API.
       homepage_url: https://cloudgpu.app/docs/mcp
       logo: default.png
       repo_url: https://github.com/cloudgpu-app/cloudgpu-mcp
@@ -995,10 +1005,10 @@ categories:
       logo: sidclaw.png
       repo_url: https://github.com/sidclawhq/platform
     - name: Switch
-      description: Self-hosted server and desktop console that run coding agents
-        such as Claude Code, Codex, Cursor and OpenCode as members of Slack, Microsoft
-        Teams, Discord, Telegram and Mattermost channels, where people and agents share
-        one room.
+      description: Self-hosted server and desktop console that run coding agents such
+        as Claude Code, Codex, Cursor and OpenCode as members of Slack, Microsoft
+        Teams, Discord, Telegram and Mattermost channels, where people and agents
+        share one room.
       homepage_url: https://www.switchagents.ai
       logo: default.png
       repo_url: https://github.com/sandbox-quantum/switch
