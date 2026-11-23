@@ -1151,6 +1151,14 @@ categories:
       homepage_url: https://weaviate.io/developers/weaviate/
       logo: weaviate.png
       repo_url: https://github.com/weaviate/weaviate
+    - name: ZizkaDB
+      description: Audit trail database for AI agents. Tamper-evident, checksum-backed
+        decision logs with session replay and time-travel debugging to support EU
+        AI Act Article 12 record-keeping. Drift detection, MCP, Python & TypeScript
+        SDKs. Self-host or cloud.
+      homepage_url: https://db.zizka.ai
+      logo: zizkadb.png
+      repo_url: https://github.com/ZIZKA-AI-SL/ZizkaDB
   - name: Sandbox
     items:
     - name: BoxLite
