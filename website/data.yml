@@ -1019,6 +1019,12 @@ categories:
       homepage_url: https://docs.vulnify.io
       logo: vulnify-mcp.png
       repo_url: https://github.com/vulnify/vulnify-mcp
+    - name: Wiro MCP
+      description: Official MCP server for Wiro AI. Search, price and run image, video,
+        audio and LLM models from Cursor, Claude Code, Windsurf and other MCP clients.
+      homepage_url: https://wiro.ai/docs/wiro-mcp-server
+      logo: wiro-mcp.png
+      repo_url: https://github.com/wiroai/Wiro-MCP
     - name: WritBase
       description: MCP-native task management for AI agent fleets
       homepage_url: https://github.com/Writbase/writbase
