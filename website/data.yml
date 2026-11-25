@@ -908,6 +908,12 @@ categories:
       homepage_url: https://docs.continue.dev/
       logo: continue.png
       repo_url: https://github.com/continuedev/continue
+    - name: OMK
+      description: 'Open-source multi-agent coding CLI for the terminal (TypeScript,
+        MIT). Switch models mid-session; finish goals only when your test passes.'
+      homepage_url: https://github.com/dmae97/omk
+      logo: default.png
+      repo_url: https://github.com/dmae97/omk
     - name: Open SWE
       description: An Open-Source Asynchronous Coding Agent.
       homepage_url: https://swe.langchain.com/
