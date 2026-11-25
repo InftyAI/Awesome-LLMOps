@@ -1227,6 +1227,11 @@ categories:
       homepage_url: https://befailproof.ai
       logo: default.png
       repo_url: https://github.com/FailproofAI/failproofai
+    - name: Farna Control
+      description: Self-hosted, air-gap capable Delivery Governance Platform
+      homepage_url: https://farna.dev/control
+      logo: default.png
+      repo_url: https://github.com/farnalabs/farna-control
     - name: Latitude
       description: Latitude is the open-source ai monitoring platform.
       homepage_url: https://latitude.so
