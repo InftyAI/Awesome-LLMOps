@@ -864,6 +864,12 @@ categories:
       homepage_url: https://vostride.com/docs/agent-qa
       logo: agent-qa.svg
       repo_url: https://github.com/vostride/agent-qa
+    - name: AlphaSift
+      description: 'AI 量化选股系统：A股/美股/港股等7市场每日自动选股、公告排雷与公开胜率验证，零成本运行 | AI stock screener
+        (7 markets): red-flag filter, live T+N track record & free daily runs'
+      homepage_url: https://alphasift.zhulinsen.tech/
+      logo: default.png
+      repo_url: https://github.com/ZhuLinsen/alphasift
     - name: goose
       description: an open source, extensible AI agent that goes beyond code suggestions
         - install, execute, edit, and test with any LLM
