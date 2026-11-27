@@ -1167,6 +1167,12 @@ categories:
       homepage_url: https://boxlite.ai
       logo: boxlite.png
       repo_url: https://github.com/boxlite-ai/boxlite
+    - name: Buddy Sandboxes
+      description: TypeScript SDK for managing Buddy sandboxes - isolated Ubuntu environments
+        for running commands
+      homepage_url: https://buddy.works/docs/sandboxes/sdk
+      logo: buddy-sandboxes
+      repo_url: https://github.com/buddy/sandbox-sdk
     - name: CubeSandbox
       description: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
       homepage_url: https://cubesandbox.com
