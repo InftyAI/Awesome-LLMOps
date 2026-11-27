@@ -1205,6 +1205,11 @@ categories:
       homepage_url: https://open-sandbox.ai
       logo: opensandbox.png
       repo_url: https://github.com/opensandbox-group/OpenSandbox
+    - name: Sandscale
+      description: 'TypeScript SDK for Sandscale: sandboxes, workspaces and webhooks'
+      homepage_url: https://sandscale.dev
+      logo: sandscale
+      repo_url: https://github.com/sandscale/sandscale-js
     - name: SPACE
       description: 'Sandboxed Platform for Agentic Code Execution: pluggable-runtime
         sandboxes for running agent and user code in isolation.'
