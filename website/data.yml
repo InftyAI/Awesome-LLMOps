@@ -957,7 +957,7 @@ categories:
       logo: graphiti.png
       repo_url: https://github.com/getzep/graphiti
     - name: Lantern Works
-      description: Read-only MCP for GPU rental price comparison across tracked
+      description: MCP for GPU rental price comparison (local uvx package read-only; hosted endpoint adds optional price watches and alerts) across tracked
         providers, with cited rates, each price's age, and job-cost estimates.
       homepage_url: https://thelanternworks.com/for-agents/?ref=gh-inftyllmops
       logo: default.png
