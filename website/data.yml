@@ -842,6 +842,12 @@ categories:
       homepage_url: https://opencode.ai/
       logo: opencode
       repo_url: https://github.com/sst/opencode
+    - name: Open Max
+      description: A high-performance, self-extensible terminal coding agent harness
+        in Rust, optimized for prompt caching.
+      homepage_url: https://useopenmax.dev
+      logo: open-max.svg
+      repo_url: https://github.com/Max17190/open-max
     - name: Stakpak
       description: DevOps agent that won't accidentally tweet your AWS credentials
         🦀
