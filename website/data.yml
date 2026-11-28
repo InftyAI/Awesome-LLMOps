@@ -445,6 +445,12 @@ categories:
       homepage_url: https://github.com/kubernetes-sigs/inference-perf
       logo: k8s.png
       repo_url: https://github.com/kubernetes-sigs/inference-perf
+    - name: modelseed-bench
+      description: Zero-dependency CLI to benchmark streaming TTFT, tokens/sec, strict-JSON
+        pass rate & cost across any OpenAI-compatible AI API
+      homepage_url: https://en.modelseed.dev/status/
+      logo: modelseed-bench.png
+      repo_url: https://github.com/uniteonline/modelseed-bench
     - name: multi-lora-bench
       description: 'How many LoRA adapters can one 24 GB GPU serve? 39 Qwen3-8B adapters
         on an A30 with vLLM: scripts, flags and raw results.'
